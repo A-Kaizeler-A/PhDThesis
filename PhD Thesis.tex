@@ -7,11 +7,11 @@
 
 %\usepackage[parfill]{parskip}    % Begin paragraphs with empty line instead of indent
 \usepackage{graphicx}             % Use pdf, png, jpg or eps with pdflatex (eps in DVI mode)
-                                  % TeX automatically converts eps --> pdf in pdflatex
+% TeX automatically converts eps --> pdf in pdflatex
 \usepackage{overpic}
 \usepackage{wrapfig}
 \usepackage{subcaption}
-
+\usepackage{textcomp}
 \usepackage{epigraph}
 \usepackage{cite}
 
@@ -22,132 +22,171 @@
 \setlength{\parskip}{0cm}
 \usepackage{nameref}
 
-\usepackage{lipsum}  
+\usepackage{lipsum}   
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\usepackage{alphabeta} 
+
+
+% Silence harmless warnings
+\usepackage{silence}
+\WarningFilter{tracklang}{No `datatool' support for dialect `portuguese'}
+
+
+\lstdefinestyle{dirstyle}{
+	basicstyle=\ttfamily\small,
+	frame=single,
+	backgroundcolor=\color[gray]{0.97},
+	breaklines=true,
+	showstringspaces=false,
+	keywordstyle=\color{blue!70!black},
+	commentstyle=\color{gray},
+	xleftmargin=0.5cm,
+	columns=fullflexible,
+}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{ifthen}
+
+% Custom inline comment with small font and light blue background
+\newcommand{\comment}[1]{%
+	\todo[inline, backgroundcolor=yellow!15!white, bordercolor=blue!50!black]{\smaller #1}%
+}
+
+
+\usepackage{float}
+
+
+
+
+
 
 % hyphenation for custom words
 \PassOptionsToPackage{hyphens}{url}\usepackage[hidelinks]{hyperref}
 \hyphenation{
-anony-mous
-anony-mous-ly
-ac-ces-si-ble
-ap-pli-ca-tion
-tem-po-rari-ly
-tem-po-rary
-al-lowing
-ani-mate
-ani-mating
-ani-ma-tion
-al-ter-na-tive
-editing
-con-figu-ra-tion
-al-ter-na-tive-ly
-an-no-tate
-ana-lyse
-analy-ses
-analy-sis
-ar-ti-cle
-ar-ti-cles
-au-to-mati-cal-ly
-available
-breaking
-can-di-date
-cate-gori-cal
-cen-tro-some
-charac-te-ris-tics
-clini-cal
-col-labo-rating
-com-bi-na-tions
-com-para-tive
-com-pari-son
-com-puting
-con-sis-tent
-con-taining
-cor-re-la-tion
-cor-re-la-tions
-de-velop-ment
-de-veloping
-de-pen-den-cy
-di-rec-to-ry
-dif-feren-tial
-dif-ferent
-Dockerfile
-Dockerfiles
-en-vi-ron-ment
-epi-the-li-al-mesen-chy-mal
-evalu-ate
-evalu-ated
-ex-panding
-ex-peri-men-tal
-ex-peri-ment
-ex-peri-ments
-figure
-flexi-bili-ty
-generate
-generated
-ge-nome
-ge-no-mics
-he-redi-tary
-however
-hy-bridi-sa-tion
-image
-images
-in-cluding
-in-creasing
-in-forming
-in-te-gra-ted
-in-ter-pre-ta-tion
-in-terac-tive
-in-va-sive
-in-ves-ti-ga-tion
-lym-pho-ma
-making
-matching
-medi-cal
-mini-mise
-mini-mised
-mini-mises
-modern
-mo-lecu-lar
-mole-cule
-more-over
-nema-tode
-nor-mali-sa-tion
-nor-mali-sed
-opera-ting
-opera-tive
-op-por-tu-ni-ty
-or-ganism
-package
-packages
-paral-lel
-per-taining
-per-tur-ba-tion
-per-tur-ba-tions
-pheo-chromo-cyto-ma
-pro-gramme
-psichomics
-quan-ti-fi-ca-tion
-ranking
-re-posi-to-ries
-re-posi-to-ry
-se-quencing
-sen-si-tivi-ty
-splicing
-squa-mous
-sta-tis-tics
-stra-tum
-TCGASpliceSeq
-tracking
-transcrip-tome
-transcrip-tomic
-transcrip-tomics
-transcript
-transcripts
-using
-value
-values
-visu-alisation
-working
+	anony-mous
+	anony-mous-ly
+	ac-ces-si-ble
+	ap-pli-ca-tion
+	tem-po-rari-ly
+	tem-po-rary
+	al-lowing
+	ani-mate
+	ani-mating
+	ani-ma-tion
+	al-ter-na-tive
+	editing
+	con-figu-ra-tion
+	al-ter-na-tive-ly
+	an-no-tate
+	ana-lyse
+	analy-ses
+	analy-sis
+	ar-ti-cle
+	ar-ti-cles
+	au-to-mati-cal-ly
+	available
+	breaking
+	can-di-date
+	cate-gori-cal
+	cen-tro-some
+	charac-te-ris-tics
+	clini-cal
+	col-labo-rating
+	com-bi-na-tions
+	com-para-tive
+	com-pari-son
+	com-puting
+	con-sis-tent
+	con-taining
+	cor-re-la-tion
+	cor-re-la-tions
+	de-velop-ment
+	de-veloping
+	de-pen-den-cy
+	di-rec-to-ry
+	dif-feren-tial
+	dif-ferent
+	Dockerfile
+	Dockerfiles
+	en-vi-ron-ment
+	epi-the-li-al-mesen-chy-mal
+	evalu-ate
+	evalu-ated
+	ex-panding
+	ex-peri-men-tal
+	ex-peri-ment
+	ex-peri-ments
+	figure
+	flexi-bili-ty
+	generate
+	generated
+	ge-nome
+	ge-no-mics
+	he-redi-tary
+	however
+	hy-bridi-sa-tion
+	image
+	images
+	in-cluding
+	in-creasing
+	in-forming
+	in-te-gra-ted
+	in-ter-pre-ta-tion
+	in-terac-tive
+	in-va-sive
+	in-ves-ti-ga-tion
+	lym-pho-ma
+	making
+	matching
+	medi-cal
+	mini-mise
+	mini-mised
+	mini-mises
+	modern
+	mo-lecu-lar
+	mole-cule
+	more-over
+	nema-tode
+	nor-mali-sa-tion
+	nor-mali-sed
+	opera-ting
+	opera-tive
+	op-por-tu-ni-ty
+	or-ganism
+	package
+	packages
+	paral-lel
+	per-taining
+	per-tur-ba-tion
+	per-tur-ba-tions
+	pheo-chromo-cyto-ma
+	pro-gramme
+	psichomics
+	quan-ti-fi-ca-tion
+	ranking
+	re-posi-to-ries
+	re-posi-to-ry
+	se-quencing
+	sen-si-tivi-ty
+	splicing
+	squa-mous
+	sta-tis-tics
+	stra-tum
+	TCGASpliceSeq
+	tracking
+	transcrip-tome
+	transcrip-tomic
+	transcrip-tomics
+	transcript
+	transcripts
+	using
+	value
+	values
+	visu-alisation
+	working
 }
 
 
@@ -171,6 +210,25 @@ working
 
 \usepackage{fontawesome}
 
+
+% make a robust text/maths symbol usable in moving arguments
+\newcommand{\betasym}{\ensuremath{\beta}}
+\DeclareRobustCommand{\RBeta}{\betasym} % extra safety
+\newcommand{\alphasym}{\ensuremath{\alpha}}
+\DeclareRobustCommand{\RAlpha}{\alphasym} % extra safety
+
+\usepackage[toc, acronym]{glossaries}
+\makenoidxglossaries
+\input{acronyms}
+
+
+
+
+\usepackage{wrapfig}
+\usepackage{graphicx}
+
+\usepackage{wrapfig}
+
 % FUNCTIONS --------------------------------------------------------
 
 % Formatted link, e.g. \link{https://github.com/nuno-agostinho/psichomics}{psichomics}
@@ -178,53 +236,60 @@ working
 
 % Small formatted link (only use in "normal" text)
 %\newcommand*{\slink}[2]{\small{\link{#1}{#2}}
-
-% Automatic link: formatted link without displaying https://, e.g.
-%   \alink{docker.com} -> displays "docker.com" with a link to https://docker.com
-\newcommand*{\alink}[1]{\link{https://#1}{#1}}
- 
-
-% Fully reference a \label{}, e.g. with a previous \label{chap:methods} for Chapter 3:
-%   \fullref{chap:methods} -> \textbf{chapter 3: Materials and methods}
-%\newcommand*{\fullref}[2][]{\hyperref[{#2}]{\autoref*{#2}#1: \textbf{\nameref*{#2}}}}
-\newcommand*{\fullref}[2][]{\shortref[#1: \textbf{\nameref*{#2}}]{#2}}
-
-\newcommand*{\shortref}[2][]{\hyperref[{#2}]{\autoref*{#2}#1}}
-
-\newcommand*{\shorterref}[2][]{\hyperref[{#2}]{\ref*{#2}#1}}
-
-% CODE STYLING -----------------------------------------------------
-
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,
-    breaklines=true,
-    keepspaces=true,
-    numbers=left,
-    numbersep=5pt,
-    showspaces=false,
-    showstringspaces=false,
-    showtabs=false
-}
-
-\lstset{style=mystyle}
-
-%\usepackage{fancyhdr}
-%\pagestyle{fancy}
-\setlength{\headheight}{14.49998pt}
-
-% ------------------------------------------------------------------
-
+	
+	% Automatic link: formatted link without displaying https://, e.g.
+	%   \alink{docker.com} -> displays "docker.com" with a link to https://docker.com
+	\newcommand*{\alink}[1]{\link{https://#1}{#1}}
+	
+	
+	% Fully reference a \label{}, e.g. with a previous \label{chap:methods} for Chapter 3:
+	%   \fullref{chap:methods} -> \textbf{chapter 3: Materials and methods}
+	%\newcommand*{\fullref}[2][]{\hyperref[{#2}]{\autoref*{#2}#1: \textbf{\nameref*{#2}}}}
+	\newcommand*{\fullref}[2][]{\shortref[#1: \textbf{\nameref*{#2}}]{#2}}
+	
+	\newcommand*{\shortref}[2][]{\hyperref[{#2}]{\autoref*{#2}#1}}
+	
+	\newcommand*{\shorterref}[2][]{\hyperref[{#2}]{\ref*{#2}#1}}
+	
+	
+	% TO NOT PUT REFERENCES OF FIGURES FIRST THAN TEXT
+	%\usepackage[numbers]{natbib}
+	%\usepackage{notoccite}
+	
+	
+	% CODE STYLING -----------------------------------------------------
+	
+	\definecolor{codegreen}{rgb}{0,0.6,0}
+	\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+	\definecolor{codepurple}{rgb}{0.58,0,0.82}
+	\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+	
+	\lstdefinestyle{mystyle}{
+		backgroundcolor=\color{backcolour},
+		commentstyle=\color{codegreen},
+		keywordstyle=\color{magenta},
+		numberstyle=\tiny\color{codegray},
+		stringstyle=\color{codepurple},
+		basicstyle=\ttfamily\footnotesize,
+		breakatwhitespace=false,
+		breaklines=true,
+		keepspaces=true,
+		numbers=left,
+		numbersep=5pt,
+		showspaces=false,
+		showstringspaces=false,
+		showtabs=false
+	}
+	
+	\lstset{style=mystyle}
+	
+	%\usepackage{fancyhdr}
+	%\pagestyle{fancy}
+	\setlength{\headheight}{14.49998pt}
+	
+	
+	
+	% ------------------------------------------------------------------
 \begin{document}
 
 \begin{titlepage}
@@ -237,29 +302,29 @@ working
         \includegraphics[width=0.25\textwidth]{images/logo/ulisboa-only}
         
         \vspace{1.8cm}
-        TITLE
+        Uncovering the Stressome: A Computational Approach to Define a Stress Granule 
+        Signature and its Implication in Cancer
 
         \vspace{1.1cm}        
-%        \vspace{0.5cm}
-%        Thesis Subtitle
+ %       \vspace{0.5cm}
+% subtitle
             
         \vspace{0.9cm}            
-        Your Name
+        Alexandre Miguel Kaizeler Guedes da Silva Afonso
     \end{center}
 
     \vspace{0.9cm}
     \begin{tabbing}
-        Orientadores: \= Prof. Doutor XXXXX \\
-                      \> Prof. Doutor YYYYY \\
+        Orientador: \= Prof. Doutor Nuno Luís Barbosa-Morais \\
     \end{tabbing}
     
     \vspace{1.8cm}
     \begin{center}        
         Tese especialmente elaborada para obtenção do grau de Doutor em\\
-        Ciências Biomédicas, Ramo da ZZZZZ
+        Ciências Biomédicas, Ramo de Biologia Computacional
             
         \vfill
-        202Y
+        2026
         \vspace{.7cm}
     \end{center}
 \end{titlepage}
@@ -273,20 +338,20 @@ working
         
         \includegraphics[width=0.25\textwidth]{images/logo/ulisboa-only}
 
-        TITLE
-            
-        YOUR NAME
+        Uncovering the Stressome: A Computational Approach to Define a Stress Granule 
+		Signature and its Implication in Cancer 
+
+        Alexandre Miguel Kaizeler Guedes da Silva Afonso
         
     \end{center}
 
     \begin{tabbing}
-        Orientadores: \= Prof. Doutor XXXX \\
-                      \> Prof. Doutor YYYY
+        Orientador: \= Prof. Doutor Nuno Luís Barbosa-Morais \\
     \end{tabbing}
     
     \begin{center}
         Tese especialmente elaborada para obtenção do grau de Doutor em\\
-        Ciências Biomédicas, Ramo da ZZZZZ
+        Ciências Biomédicas, Ramo de Biologia Computacional
     \end{center}
 
     \noindent\begin{tabular}{@{} l p{13.1cm} }
@@ -308,9 +373,9 @@ working
 
     \begin{center}
         Instituição Financiadora:
-        Fundação para a Ciência e Tecnologia (FELLOWSHIP ID)
+        Fundação para a Ciência e Tecnologia (UI/BD/153363/2022)
         
-        202X
+        2026
     \end{center}
 \end{titlepage}
 
@@ -353,6 +418,10 @@ working
 
 \listoftables
 \addcontentsline{toc}{chapter}{List of Tables}
+\printglossary
+\renewcommand*{\acronymname}{Abbreviations, acronyms and symbols}
+\printnoidxglossary[type=\acronymtype, nonumberlist=true] 
+\printacronyms
 
 \input{chapters/preface}
 \input{chapters/introduction}

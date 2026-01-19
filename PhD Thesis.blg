@@ -1,0 +1,503 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: PhD Thesis.aux
+The style file: plos2015.bst
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "gould2010panda"
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+`journal' is a missing field, not a string, for entry shin_liquid_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in shin_liquid_2017
+Warning--empty year in shin_liquid_2017
+`journal' is a missing field, not a string, for entry anderson_stress_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in anderson_stress_2015
+Warning--empty year in anderson_stress_2015
+`journal' is a missing field, not a string, for entry anderson_stress_2009
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in anderson_stress_2009
+Warning--empty year in anderson_stress_2009
+`journal' is a missing field, not a string, for entry mccormick_translation_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mccormick_translation_2017
+Warning--empty year in mccormick_translation_2017
+`journal' is a missing field, not a string, for entry wallace_reversible_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wallace_reversible_2015
+Warning--empty year in wallace_reversible_2015
+`journal' is a missing field, not a string, for entry curdy_proteome_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in curdy_proteome_2023
+Warning--empty year in curdy_proteome_2023
+`journal' is a missing field, not a string, for entry paget_stress_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in paget_stress_2023
+Warning--empty year in paget_stress_2023
+`journal' is a missing field, not a string, for entry nunes_msgp_2019
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nunes_msgp_2019
+Warning--empty year in nunes_msgp_2019
+`journal' is a missing field, not a string, for entry hofmann_translation_2012
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in hofmann_translation_2012
+Warning--empty year in hofmann_translation_2012
+`journal' is a missing field, not a string, for entry ivanov_stress_2019
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in ivanov_stress_2019
+Warning--empty year in ivanov_stress_2019
+`journal' is a missing field, not a string, for entry nover_formation_1983
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nover_formation_1983
+Warning--empty year in nover_formation_1983
+`journal' is a missing field, not a string, for entry weber_plant_2008
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in weber_plant_2008
+Warning--empty year in weber_plant_2008
+`journal' is a missing field, not a string, for entry collier_dynamic_1986
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in collier_dynamic_1986
+Warning--empty year in collier_dynamic_1986
+`journal' is a missing field, not a string, for entry hu_ssd1_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in hu_ssd1_2018
+Warning--empty year in hu_ssd1_2018
+`journal' is a missing field, not a string, for entry zhang_fission_2025
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in zhang_fission_2025
+Warning--empty year in zhang_fission_2025
+`journal' is a missing field, not a string, for entry van_leeuwen_identification_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in van_leeuwen_identification_2022
+Warning--empty year in van_leeuwen_identification_2022
+`journal' is a missing field, not a string, for entry vidya_edc-3_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in vidya_edc-3_2024
+Warning--empty year in vidya_edc-3_2024
+`journal' is a missing field, not a string, for entry chantarachot_dhh1ddx6-like_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in chantarachot_dhh1ddx6-like_2020
+Warning--empty year in chantarachot_dhh1ddx6-like_2020
+`journal' is a missing field, not a string, for entry zeng_viral_2025
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in zeng_viral_2025
+Warning--empty year in zeng_viral_2025
+`journal' is a missing field, not a string, for entry namkoong_systematic_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in namkoong_systematic_2018
+Warning--empty year in namkoong_systematic_2018
+`journal' is a missing field, not a string, for entry somasekharan_g3bp1-linked_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in somasekharan_g3bp1-linked_2020
+Warning--empty year in somasekharan_g3bp1-linked_2020
+`journal' is a missing field, not a string, for entry bejder_limbs_2002
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bejder_limbs_2002
+Warning--empty year in bejder_limbs_2002
+`journal' is a missing field, not a string, for entry won_vomeronasal_2000
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in won_vomeronasal_2000
+Warning--empty year in won_vomeronasal_2000
+`journal' is a missing field, not a string, for entry nishikimi_cloning_1994
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nishikimi_cloning_1994
+Warning--empty year in nishikimi_cloning_1994
+`journal' is a missing field, not a string, for entry cook_peppered_2013
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in cook_peppered_2013
+Warning--empty year in cook_peppered_2013
+`journal' is a missing field, not a string, for entry williams_identification_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in williams_identification_2016
+Warning--empty year in williams_identification_2016
+`journal' is a missing field, not a string, for entry marshall_forty_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in marshall_forty_2023
+Warning--empty year in marshall_forty_2023
+`journal' is a missing field, not a string, for entry anderson_visibly_2002
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in anderson_visibly_2002
+Warning--empty year in anderson_visibly_2002
+`journal' is a missing field, not a string, for entry kedersha_rna-binding_1999
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kedersha_rna-binding_1999
+Warning--empty year in kedersha_rna-binding_1999
+`journal' is a missing field, not a string, for entry donnelly_eif2_2013
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in donnelly_eif2_2013
+Warning--empty year in donnelly_eif2_2013
+`journal' is a missing field, not a string, for entry aulas_stress-specific_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in aulas_stress-specific_2017
+Warning--empty year in aulas_stress-specific_2017
+`journal' is a missing field, not a string, for entry wek_role_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wek_role_2018
+Warning--empty year in wek_role_2018
+`journal' is a missing field, not a string, for entry mcewen_heme-regulated_2005
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mcewen_heme-regulated_2005
+Warning--empty year in mcewen_heme-regulated_2005
+`journal' is a missing field, not a string, for entry wek_histidyl-trna_1995
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wek_histidyl-trna_1995
+Warning--empty year in wek_histidyl-trna_1995
+`journal' is a missing field, not a string, for entry harding_perk_2000
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in harding_perk_2000
+Warning--empty year in harding_perk_2000
+`journal' is a missing field, not a string, for entry srivastava_phosphorylation_1998
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in srivastava_phosphorylation_1998
+Warning--empty year in srivastava_phosphorylation_1998
+`journal' is a missing field, not a string, for entry sidrauski_small_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in sidrauski_small_2015
+Warning--empty year in sidrauski_small_2015
+`journal' is a missing field, not a string, for entry kedersha_dynamic_2000
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kedersha_dynamic_2000
+Warning--empty year in kedersha_dynamic_2000
+`journal' is a missing field, not a string, for entry mazroui_inhibition_2006
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mazroui_inhibition_2006
+Warning--empty year in mazroui_inhibition_2006
+`journal' is a missing field, not a string, for entry kedersha_g3bpcaprin1usp10_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kedersha_g3bpcaprin1usp10_2016
+Warning--empty year in kedersha_g3bpcaprin1usp10_2016
+`journal' is a missing field, not a string, for entry bounedjah_macromolecular_2012
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bounedjah_macromolecular_2012
+Warning--empty year in bounedjah_macromolecular_2012
+Warning--there's a month but no year in kedersha_mammalian_2007
+`journal' is a missing field, not a string, for entry thomas_staufen_2005
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in thomas_staufen_2005
+Warning--empty year in thomas_staufen_2005
+`journal' is a missing field, not a string, for entry hofmann_molecular_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in hofmann_molecular_2021
+Warning--empty year in hofmann_molecular_2021
+`journal' is a missing field, not a string, for entry wheeler_distinct_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wheeler_distinct_2016
+Warning--empty year in wheeler_distinct_2016
+`journal' is a missing field, not a string, for entry ganassi_surveillance_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in ganassi_surveillance_2016
+Warning--empty year in ganassi_surveillance_2016
+`journal' is a missing field, not a string, for entry marcelo_stress_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in marcelo_stress_2021
+Warning--empty year in marcelo_stress_2021
+`journal' is a missing field, not a string, for entry storti_translational_1980
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in storti_translational_1980
+Warning--empty year in storti_translational_1980
+`journal' is a missing field, not a string, for entry didomenico_heat_1982
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in didomenico_heat_1982
+Warning--empty year in didomenico_heat_1982
+`journal' is a missing field, not a string, for entry duncan_protein_1989
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in duncan_protein_1989
+Warning--empty year in duncan_protein_1989
+`journal' is a missing field, not a string, for entry mokas_uncoupling_2009
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mokas_uncoupling_2009
+Warning--empty year in mokas_uncoupling_2009
+`journal' is a missing field, not a string, for entry mateju_single-molecule_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mateju_single-molecule_2020
+Warning--empty year in mateju_single-molecule_2020
+`journal' is a missing field, not a string, for entry mateju_stress_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mateju_stress_2022
+Warning--empty year in mateju_stress_2022
+`journal' is a missing field, not a string, for entry arimoto_formation_2008
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in arimoto_formation_2008
+Warning--empty year in arimoto_formation_2008
+`journal' is a missing field, not a string, for entry tsai_rhoarock1_2010
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in tsai_rhoarock1_2010
+Warning--empty year in tsai_rhoarock1_2010
+`journal' is a missing field, not a string, for entry fujikawa_stress_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in fujikawa_stress_2023
+Warning--empty year in fujikawa_stress_2023
+`journal' is a missing field, not a string, for entry omer_stress_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in omer_stress_2018
+Warning--empty year in omer_stress_2018
+`journal' is a missing field, not a string, for entry park_stress_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in park_stress_2017
+Warning--empty year in park_stress_2017
+`journal' is a missing field, not a string, for entry matheny_rna_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in matheny_rna_2021
+Warning--empty year in matheny_rna_2021
+`journal' is a missing field, not a string, for entry matheny_corrigendum_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in matheny_corrigendum_2023
+Warning--empty year in matheny_corrigendum_2023
+`journal' is a missing field, not a string, for entry khong_stress_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in khong_stress_2017
+Warning--empty year in khong_stress_2017
+`journal' is a missing field, not a string, for entry matheny_transcriptome-wide_2019
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in matheny_transcriptome-wide_2019
+Warning--empty year in matheny_transcriptome-wide_2019
+Warning--there's a month but no year in glauninger_transcriptome-wide_2024
+`journal' is a missing field, not a string, for entry glauninger_stressful_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in glauninger_stressful_2022
+Warning--empty year in glauninger_stressful_2022
+`journal' is a missing field, not a string, for entry wear_proteins_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wear_proteins_2015
+Warning--empty year in wear_proteins_2015
+`journal' is a missing field, not a string, for entry bevivino_expanded_2001
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bevivino_expanded_2001
+Warning--empty year in bevivino_expanded_2001
+`journal' is a missing field, not a string, for entry elden_ataxin-2_2010
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in elden_ataxin-2_2010
+Warning--empty year in elden_ataxin-2_2010
+`journal' is a missing field, not a string, for entry mackenzie_tia1_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in mackenzie_tia1_2017
+Warning--empty year in mackenzie_tia1_2017
+`journal' is a missing field, not a string, for entry dobra_relation_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in dobra_relation_2018
+Warning--empty year in dobra_relation_2018
+`journal' is a missing field, not a string, for entry wolozin_stress_2019
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wolozin_stress_2019
+Warning--empty year in wolozin_stress_2019
+`journal' is a missing field, not a string, for entry wang_targeting_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wang_targeting_2020
+Warning--empty year in wang_targeting_2020
+`journal' is a missing field, not a string, for entry guan_multiple_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in guan_multiple_2023
+Warning--empty year in guan_multiple_2023
+`journal' is a missing field, not a string, for entry lindquist_activation_2011
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in lindquist_activation_2011
+Warning--empty year in lindquist_activation_2011
+`journal' is a missing field, not a string, for entry choi_polyhexamethylene_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in choi_polyhexamethylene_2022
+Warning--empty year in choi_polyhexamethylene_2022
+`journal' is a missing field, not a string, for entry zhou_porcine_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in zhou_porcine_2017
+Warning--empty year in zhou_porcine_2017
+`journal' is a missing field, not a string, for entry albornoz_stress_2014
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in albornoz_stress_2014
+Warning--empty year in albornoz_stress_2014
+`journal' is a missing field, not a string, for entry sun_newcastle_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in sun_newcastle_2017
+Warning--empty year in sun_newcastle_2017
+`journal' is a missing field, not a string, for entry nakagawa_inhibition_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nakagawa_inhibition_2018
+Warning--empty year in nakagawa_inhibition_2018
+`journal' is a missing field, not a string, for entry nabeel-shah_sars-cov-2_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nabeel-shah_sars-cov-2_2022
+Warning--empty year in nabeel-shah_sars-cov-2_2022
+`journal' is a missing field, not a string, for entry bonenfant_zika_2019
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bonenfant_zika_2019
+Warning--empty year in bonenfant_zika_2019
+`journal' is a missing field, not a string, for entry khaperskyy_influenza_2014
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in khaperskyy_influenza_2014
+Warning--empty year in khaperskyy_influenza_2014
+`journal' is a missing field, not a string, for entry xu_pseudorabies_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in xu_pseudorabies_2020
+Warning--empty year in xu_pseudorabies_2020
+`journal' is a missing field, not a string, for entry sharma_kshv_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in sharma_kshv_2017
+Warning--empty year in sharma_kshv_2017
+`journal' is a missing field, not a string, for entry abrahamyan_novel_2010
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in abrahamyan_novel_2010
+Warning--empty year in abrahamyan_novel_2010
+`journal' is a missing field, not a string, for entry emara_interaction_2007
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in emara_interaction_2007
+Warning--empty year in emara_interaction_2007
+`journal' is a missing field, not a string, for entry koonin_origins_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in koonin_origins_2015
+Warning--empty year in koonin_origins_2015
+Warning--there's a month but no year in martins-silva_exploring_2025
+`journal' is a missing field, not a string, for entry omer_g3bp1_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in omer_g3bp1_2020
+Warning--empty year in omer_g3bp1_2020
+`journal' is a missing field, not a string, for entry moujaber_dissecting_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in moujaber_dissecting_2017
+Warning--empty year in moujaber_dissecting_2017
+`journal' is a missing field, not a string, for entry corley_how_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in corley_how_2020
+Warning--empty year in corley_how_2020
+`journal' is a missing field, not a string, for entry kerner_evolution_2011
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kerner_evolution_2011
+Warning--empty year in kerner_evolution_2011
+`journal' is a missing field, not a string, for entry farias_rnp-world_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in farias_rnp-world_2022
+Warning--empty year in farias_rnp-world_2022
+`journal' is a missing field, not a string, for entry gerstberger_census_2014
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in gerstberger_census_2014
+Warning--empty year in gerstberger_census_2014
+`journal' is a missing field, not a string, for entry hentze_brave_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in hentze_brave_2018
+Warning--empty year in hentze_brave_2018
+`journal' is a missing field, not a string, for entry holmqvist_rna-binding_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in holmqvist_rna-binding_2018
+Warning--empty year in holmqvist_rna-binding_2018
+`journal' is a missing field, not a string, for entry kelaini_rna-binding_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kelaini_rna-binding_2021
+Warning--empty year in kelaini_rna-binding_2021
+`journal' is a missing field, not a string, for entry van_nostrand_large-scale_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in van_nostrand_large-scale_2020
+Warning--empty year in van_nostrand_large-scale_2020
+`journal' is a missing field, not a string, for entry redding_stress_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in redding_stress_2023
+Warning--empty year in redding_stress_2023
+`journal' is a missing field, not a string, for entry babitzke_regulation_2009
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in babitzke_regulation_2009
+Warning--empty year in babitzke_regulation_2009
+`journal' is a missing field, not a string, for entry harvey_trans-acting_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in harvey_trans-acting_2018
+Warning--empty year in harvey_trans-acting_2018
+`journal' is a missing field, not a string, for entry burrows_rna_2010
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in burrows_rna_2010
+Warning--empty year in burrows_rna_2010
+`journal' is a missing field, not a string, for entry fonseca_-related_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in fonseca_-related_2015
+Warning--empty year in fonseca_-related_2015
+`journal' is a missing field, not a string, for entry savva_adar_2012
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in savva_adar_2012
+Warning--empty year in savva_adar_2012
+`journal' is a missing field, not a string, for entry liu_non-canonical_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in liu_non-canonical_2024
+Warning--empty year in liu_non-canonical_2024
+`journal' is a missing field, not a string, for entry liang_rna_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in liang_rna_2023
+Warning--empty year in liang_rna_2023
+`journal' is a missing field, not a string, for entry aibara_principal_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in aibara_principal_2015
+Warning--empty year in aibara_principal_2015
+`journal' is a missing field, not a string, for entry chow_amazing_1977
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in chow_amazing_1977
+Warning--empty year in chow_amazing_1977
+`journal' is a missing field, not a string, for entry berget_spliced_1977
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in berget_spliced_1977
+Warning--empty year in berget_spliced_1977
+`journal' is a missing field, not a string, for entry marasco_physiology_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in marasco_physiology_2023
+Warning--empty year in marasco_physiology_2023
+`journal' is a missing field, not a string, for entry tapial_atlas_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in tapial_atlas_2017
+Warning--empty year in tapial_atlas_2017
+`journal' is a missing field, not a string, for entry guo_nuclear-import_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in guo_nuclear-import_2018
+Warning--empty year in guo_nuclear-import_2018
+`journal' is a missing field, not a string, for entry the_encode_project_consortium_integrated_2012
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in the_encode_project_consortium_integrated_2012
+Warning--empty year in the_encode_project_consortium_integrated_2012
+`journal' is a missing field, not a string, for entry luo_new_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in luo_new_2020
+Warning--empty year in luo_new_2020
+`journal' is a missing field, not a string, for entry georgilis_ptbp1-mediated_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in georgilis_ptbp1-mediated_2018
+Warning--empty year in georgilis_ptbp1-mediated_2018
+`journal' is a missing field, not a string, for entry rogalska_regulation_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in rogalska_regulation_2023
+Warning--empty year in rogalska_regulation_2023
+You've used 115 entries,
+            3058 wiz_defined-function locations,
+            1377 strings with 42473 characters,
+and the built_in function-call counts, 256329 in all, are:
+= -- 29973
+> -- 2168
+< -- 2
++ -- 1331
+- -- 542
+* -- 24194
+:= -- 28185
+add.period$ -- 343
+call.type$ -- 115
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 342
+duplicate$ -- 14004
+empty$ -- 25404
+format.name$ -- 654
+if$ -- 57969
+int.to.chr$ -- 0
+int.to.str$ -- 115
+missing$ -- 1228
+newline$ -- 575
+num.names$ -- 115
+pop$ -- 2025
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1894
+stack$ -- 0
+substring$ -- 59498
+swap$ -- 2962
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 227
+while$ -- 1190
+width$ -- 118
+write$ -- 1151
+(There were 112 error messages)

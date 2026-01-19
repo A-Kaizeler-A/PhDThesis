@@ -1,19 +1,31 @@
 \babel@toc {british}{}\relax 
 \babel@toc {portuguese}{}\relax 
-\contentsline {chapter}{Resumo}{ii}{chapter*.2}%
+\contentsline {chapter}{Resumo}{iii}{chapter*.2}%
 \babel@toc {british}{}\relax 
-\contentsline {chapter}{Summary}{iii}{chapter*.3}%
-\contentsline {chapter}{Acknowledgements}{iv}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{v}{chapter*.5}%
-\contentsline {chapter}{List of Tables}{vi}{chapter*.6}%
-\contentsline {chapter}{Preface}{vii}{chapter*.7}%
+\contentsline {chapter}{Summary}{vi}{chapter*.3}%
+\contentsline {chapter}{Acknowledgements}{viii}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{ix}{chapter*.5}%
+\contentsline {chapter}{List of Tables}{x}{chapter*.6}%
+\contentsline {chapter}{Abbreviations, acronyms and symbols}{xi}{section*.7}%
+\contentsline {chapter}{Preface}{xv}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Subtitle}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Objectives}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Materials and Methods}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Section}{5}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Subsection}{5}{subsection.3.1.1}%
-\contentsline {chapter}{\numberline {4}Name Chapter I}{6}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Name Chapter II}{7}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Name Chapter III}{8}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Discussion}{9}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Stress Granules}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}What are Stress Granules?}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}A brief history of Stress Granules}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Stress Granule Assembly and Disassembly}{3}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Functions of Stress Granules}{5}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Stress Granules in Disease}{7}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}RNA-Binding Proteins}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}What are RNA-Binding Proteins?}{10}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Functions of RNA-Binding Proteins}{11}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}RBPs and Splicing}{12}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Mitochondria}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}What is a Mitochondrion?}{15}{subsection.1.3.1}%
+\contentsline {chapter}{\numberline {2}Objectives}{19}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Materials and Methods}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Section}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Subsection}{20}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Name Chapter I}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Name Chapter II}{22}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Name Chapter III}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Discussion}{24}{chapter.7}%

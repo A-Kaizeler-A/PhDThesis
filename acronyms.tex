@@ -1,0 +1,122 @@
+% acronyms.tex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  GLOSSARIES & ACRONYMS CHEAT SHEET
+% ----------------------------------------------------------
+% Define acronyms using:
+%   \newacronym{label}{SHORT}{Long form}
+%
+% Example:
+%   \newacronym{rna}{RNA}{Ribonucleic acid}
+%
+%  Use the following commands in the text:
+%
+% \gls{rna}       → First use: "Ribonucleic acid (RNA)"
+%                    Later uses: "RNA"
+%                    Recommended for most cases (auto-expands & hyperlinks)
+%
+% \Gls{rna}       → Same as \gls but with capitalised first letter.
+%                    Use at sentence start.
+%
+% \glspl{rna}     → Plural form: "Ribonucleic acids (RNAs)" / "RNAs"
+% \Glspl{rna}     → Plural + capitalised
+%
+% ----------------------------------------------------------
+%  Fixed forms (do NOT change after first use)
+%
+% \acrshort{rna}  → Always "RNA"
+% \acrlong{rna}   → Always "Ribonucleic acid"
+% \acrfull{rna}   → Always "Ribonucleic acid (RNA)"
+%
+% \acrshortpl{rna} → Always "RNAs"
+% \acrlongpl{rna}  → Always "Ribonucleic acids"
+% \acrfullpl{rna}  → Always "Ribonucleic acids (RNAs)"
+%
+% ----------------------------------------------------------
+%  Linking behaviour
+%
+% - \gls, \Gls, \glspl, \Glspl → automatically link to glossary
+% - \acr... commands → static text (no hyperlink)
+%
+% ----------------------------------------------------------
+%  Organisation tip:
+% - Keep all acronym definitions in a separate file (e.g., acronyms.tex)
+%   and include it with:
+%       \input{acronyms}
+%
+% - To force all acronyms to appear in the list (even if unused):
+%       \glsaddall
+%
+% - To print the glossary at the end:
+%       \printglossary[type=\acronymtype, title=List of Acronyms]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newacronym{degree}{°C}{Degree Celsius}
+\newacronym{perc}{\%}{Percentage}
+\newacronym{sg}{SG}{stress granule} 
+\newacronym{rna}{RNA}{ribonucleic acid}
+\newacronym{mrna}{mRNA}{messenger RNA} 
+\newacronym{rbp}{RBP}{RNA-binding protein}
+\newacronym{dna}{DNA}{deoxyribonucleic acid}
+\newacronym{eif2a}{eIF2\RAlpha}{Eukaryotic Translation Initiation Factor 2 \RAlpha}
+\newacronym{isr}{ISR}{integrated stress response}
+\newacronym{gcn2}{GCN2}{General Control Nonderepressible 2}
+\newacronym{perk}{PERK}{Protein Kinase R-Like Endoplasmic Reticulum Kinase}
+\newacronym{pkr}{PKR}{Protein Kinase R}
+\newacronym{hri}{HRI}{Heme-Regulated Inhibitor}
+\newacronym{eif2b}{eIF2\RBeta}{Eukaryotic Translation Initiation Factor 2 \RBeta}
+\newacronym{g3bp1}{G3PB1}{Ras GTPase-Activating Protein-Binding Protein 1}
+\newacronym{g3bp2}{G3PB2}{Ras GTPase-Activating Protein-Binding Protein 2}
+\newacronym{tia1}{TIA1}{T-Cell-Restricted Intracellular Antigen-1}
+\newacronym{tiar}{TIAR}{T-Cell-Restricted Intracellular Antigen-1 Related}
+\newacronym{eif4a}{eIF4A}{Eukaryotic Initiation Factor 4A}
+\newacronym{atp}{ATP}{Adenosine Triphosphate}
+\newacronym{5utr}{5' UTR}{5' Untranslated Region}
+\newacronym{3utr}{3' UTR}{3' Untranslated Region}
+\newacronym{pai1}{PAI-1}{Plasminogen Activator Inhibitor-1}
+\newacronym{rb1}{RB1}{Retinoblastoma Transcriptional Corepressor 1}
+\newacronym{rbfox2}{RBFOX2}{RNA-Binding Protein Fox-1 Homolog 2}
+\newacronym{idd}{IDD}{intrinsically disordered domains}
+\newacronym{atxn}{ATXN}{ataxin}
+\newacronym{sca}{SCA}{spinocerebellar ataxia}
+\newacronym{merscov}{MERS-CoV}{Middle East respiratory syndrome–related coronavirus}
+\newacronym{sarscov2}{SARS-CoV-2}{severe acute respiratory syndrome coronavirus 2}
+\newacronym{ssrna}{ssRNA}{single-stranded RNA}
+\newacronym{dsrna}{dsRNA}{double-stranded RNA}
+\newacronym{dsdna}{dsDNA}{double-stranded DNA}
+\newacronym{hiv1}{HIV-1}{human immunodeficiency virus 1}
+\newacronym{sasp}{SASP}{senescence-associated secretory phenotype}
+\newacronym{sp1}{SP1}{specificity protein 1}
+\newacronym{rrm}{RRM}{RNA Recognition domain}
+\newacronym{kh}{KH}{K Homology domain}
+\newacronym{zf}{ZF}{Zinc Fingers domain}
+\newacronym{pb}{PB}{Processing Bodies}
+\newacronym{rnp}{RBP}{ribonucleoprotein}
+\newacronym{rrna}{rRNA}{ribosomal RNA}
+\newacronym{trna}{tRNA}{transfer RNA}
+\newacronym{lncrna}{lncRNA}{long non-coding RNA}
+\newacronym{nelfe}{NELFE}{negative elongation factor complex member E}
+\newacronym{myc}{MYC}{Myc proto-oncogene}
+\newacronym{hurelav}{HuR/ELAVL1}{Hu antigen R/embryonic lethal, abnormal vision-like RNA binding protein 1}
+\newacronym{are}{ARE}{adenylate–uridylate-rich element}
+\newacronym{ttp}{TTP}{tristetraprolin}
+\newacronym{pabp}{PABP}{Poly(A)-binding protein}
+\newacronym{cpeb}{CPEB}{cytoplasmic polyadenylation element–binding protein}
+\newacronym{larp1}{LARP1}{La ribonucleoprotein 1, translational regulator}
+\newacronym{adar}{ADAR}{adenosine deaminase acting on RNA}
+\newacronym{cpsf30}{CPSF30}{cleavage and polyadenylation specificity factor 30}
+\newacronym{wdr33}{WDR33}{WD repeat-containing protein 33}
+\newacronym{rngtt}{RNGTT}{RNA guanylyltransferase and 5'-phosphatase}
+\newacronym{rnmt}{RNMT}{RNA Guanine-7 methyltransferase}
+\newacronym{tapnxfw}{TAP/NXF1}{transport associated protein/nuclear RNA export factor 1}
+\newacronym{p15nxt1}{p15/NXT1}{Nuclear transport factor 2 like export factor 1}
+\newacronym{shrna}{shRNA}{short hairpin RNA}
+\newacronym{encode}{ENCODE}{Encyclopedia of DNA Elements}
+\newacronym{fdr}{FDR}{false discovery rate}
+\newacronym{nt}{nt}{nucleotide}
+\newacronym{clip}{CLIP}{Cross-linking and immunoprecipitation}
+\newacronym{rnaseq}{RNA-Seq}{RNA sequencing}
+\newacronym{qki}{QKI}{Quaking}
+\newacronym{ptbp1}{PTBP1}{polypyrimidine tract binding protein 1}
+\newacronym{prpf8}{PRPF8}{pre-mRNA processing factor 8}
+\newacronym{aa}{AA}{amino-acid}
