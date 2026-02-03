@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  19 JAN 2026 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  20 JAN 2026 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1986,7 +1986,7 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [12]
-<../../../Desktop/Paper Images/RBFOX2.png, id=1144, 592.395pt x 459.9pt>
+<../../../Desktop/Paper Images/RBFOX2.png, id=1145, 592.395pt x 459.9pt>
 File: ../../../Desktop/Paper Images/RBFOX2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/RBFOX2.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/RBFOX2.png  used on inpu
@@ -3340,7 +3340,7 @@ Package rerunfilecheck Info: File `"PhD Thesis".out' has not changed.
 Here is how much of TeX's memory you used:
  42735 strings out of 467577
  803860 string characters out of 5424718
- 1472646 words of memory out of 5000000
+ 1471646 words of memory out of 5000000
  70538 multiletter control sequences out of 15000+600000
  639546 words of font info for 85 fonts, out of 8000000 for 9000
  1261 hyphenation exceptions out of 8191
@@ -3354,7 +3354,7 @@ ic/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:
 /texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "PhD Thesis.pdf" (50 pages, 938307 bytes).
+Output written on "PhD Thesis.pdf" (50 pages, 938291 bytes).
 PDF statistics:
  1443 PDF objects out of 1728 (max. 8388607)
  1294 compressed objects within 13 object streams
