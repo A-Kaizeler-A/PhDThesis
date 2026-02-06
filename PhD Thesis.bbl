@@ -175,7 +175,7 @@ Kedersha NL, Gupta M, Li W, Miller I, Anderson P.
 
 \bibitem{donnelly_eif2_2013}
 Donnelly N, Gorman AM, Gupta S, Samali A.
-\newblock The {eIF}2$\alpha$ kinases: their structures and
+\newblock The {eIF}2α kinases: their structures and
   functions;70(19):3493--3511.
 \newblock doi:{10.1007/s00018-012-1252-6}.
 
@@ -187,7 +187,7 @@ Aulas A, Fay MM, Lyons SM, Achorn CA, Kedersha N, Anderson P, et~al.
 
 \bibitem{wek_role_2018}
 Wek RC.
-\newblock Role of {eIF}2$\alpha$ Kinases in Translational Control and Adaptation to
+\newblock Role of {eIF}2α Kinases in Translational Control and Adaptation to
   Cellular Stress;10(7):a032870.
 \newblock doi:{10.1101/cshperspect.a032870}.
 
@@ -201,7 +201,7 @@ Wek RC.
 
 \bibitem{wek_histidyl-trna_1995}
 Wek SA, Zhu S, Wek RC.
-\newblock The Histidyl-{tRNA} Synthetase-Related Sequence in the {eIF}-2$\alpha$
+\newblock The Histidyl-{tRNA} Synthetase-Related Sequence in the {eIF}-2α
   Protein Kinase {GCN}2 Interacts with {tRNA} and Is Required for Activation in
   Response to Starvation for Different Amino Acids;15(8):4497--4506.
 \newblock doi:{10.1128/MCB.15.8.4497}.
@@ -221,7 +221,7 @@ Srivastava SP, Kumar KU, Kaufman RJ.
 
 \bibitem{sidrauski_small_2015}
 Sidrauski C, {McGeachy} AM, Ingolia NT, Walter P.
-\newblock The small molecule {ISRIB} reverses the effects of {eIF}2$\alpha$
+\newblock The small molecule {ISRIB} reverses the effects of {eIF}2α
   phosphorylation on translation and stress granule assembly;4:e05033.
 \newblock doi:{10.7554/eLife.05033}.
 
@@ -234,7 +234,7 @@ Kedersha N, Cho MR, Li W, Yacono PW, Chen S, Gilks N, et~al.
 \bibitem{mazroui_inhibition_2006}
 Mazroui R, Sukarieh R, Bordeleau ME, Kaufman RJ, Northcote P, Tanaka J, et~al.
 \newblock Inhibition of Ribosome Recruitment Induces Stress Granule Formation
-  Independently of Eukaryotic Initiation Factor 2$\alpha$
+  Independently of Eukaryotic Initiation Factor 2α
   Phosphorylation;17(10):4212--4219.
 \newblock doi:{10.1091/mbc.e06-04-0318}.
 
@@ -399,7 +399,7 @@ Wear MP, Kryndushkin D, O’Meally R, Sonnenberg JL, Cole RN, Shewmaker FP.
 \bibitem{bevivino_expanded_2001}
 Bevivino AE, Loll PJ.
 \newblock An expanded glutamine repeat destabilizes native ataxin-3 structure
-  and mediates formation of parallel $\beta$-fibrils;98(21):11955--11960.
+  and mediates formation of parallel β-fibrils;98(21):11955--11960.
 \newblock doi:{10.1073/pnas.211305198}.
 
 \bibitem{elden_ataxin-2_2010}
@@ -501,7 +501,7 @@ Khaperskyy DA, Emara MM, Johnston BP, Anderson P, Hatchette TF, {McCormick} C.
 \bibitem{xu_pseudorabies_2020}
 Xu S, Chen D, Chen D, Hu Q, Zhou L, Ge X, et~al.
 \newblock Pseudorabies virus infection inhibits stress granules formation via
-  dephosphorylating {eIF}2$\alpha$;247:108786.
+  dephosphorylating {eIF}2α;247:108786.
 \newblock doi:{10.1016/j.vetmic.2020.108786}.
 
 \bibitem{sharma_kshv_2017}
@@ -703,5 +703,183 @@ Rogalska ME, Vivori C, Valcárcel J.
 \newblock Regulation of pre-{mRNA} splicing: roles in physiology and disease,
   and therapeutic prospects;24(4):251--269.
 \newblock doi:{10.1038/s41576-022-00556-8}.
+
+\bibitem{casanova_mitochondria_2023}
+Casanova A, Wevers A, Navarro-Ledesma S, Pruimboom L.
+\newblock Mitochondria: It is all about energy;14:1114231.
+\newblock doi:{10.3389/fphys.2023.1114231}.
+
+\bibitem{zachar_endosymbiosis_2020}
+Zachar I, Boza G.
+\newblock Endosymbiosis before eukaryotes: mitochondrial establishment in
+  protoeukaryotes;77(18):3503--3523.
+\newblock doi:{10.1007/s00018-020-03462-6}.
+
+\bibitem{segar_diversity_2025}
+Segar ST, Boutsi S, Souto-Vilarós D, Volf M, Dunn DW, Cruaud A, et~al.
+\newblock The diversity of \textit{Ficus}; p. mcaf280.
+\newblock doi:{10.1093/aob/mcaf280}.
+
+\bibitem{karnkowska_eukaryote_2016}
+Karnkowska A, Vacek V, Zubáčová Z, Treitli SC, Petrželková R, Eme L,
+  et~al.
+\newblock A Eukaryote without a Mitochondrial Organelle;26(10):1274--1284.
+\newblock doi:{10.1016/j.cub.2016.03.053}.
+
+\bibitem{stephens_characterization_2020}
+Stephens OR, Grant D, Frimel M, Wanner N, Yin M, Willard B, et~al.
+\newblock Characterization and origins of cell-free mitochondria in healthy
+  murine and human blood;54:102--112.
+\newblock doi:{10.1016/j.mito.2020.08.002}.
+
+\bibitem{andrieux_mitochondria_2021}
+Andrieux P, Chevillard C, Cunha-Neto E, Nunes JPS.
+\newblock Mitochondria as a Cellular Hub in Infection and
+  Inflammation;22(21):11338.
+\newblock doi:{10.3390/ijms222111338}.
+
+\bibitem{harrington_mitochondria_2023}
+Harrington JS, Ryter SW, Plataki M, Price DR, Choi AMK.
+\newblock Mitochondria in health, disease, and aging;103(4):2349--2422.
+\newblock doi:{10.1152/physrev.00058.2021}.
+
+\bibitem{siekevitz_powerhouse_1957}
+Siekevitz P.
+\newblock Powerhouse of the Cell;197(1):131--144.
+\newblock doi:{10.1038/scientificamerican0757-131}.
+
+\bibitem{kraus_function_2021}
+Kraus F, Roy K, Pucadyil TJ, Ryan MT.
+\newblock Function and regulation of the divisome for mitochondrial
+  fission;590(7844):57--66.
+\newblock doi:{10.1038/s41586-021-03214-x}.
+
+\bibitem{takeda_oligomer-based_2025}
+Takeda H, Shinoda S, Goto C, Tsutsumi A, Sakaue H, Zhang C, et~al.
+\newblock Oligomer-based functions of mitochondrial porin;16(1):6854.
+\newblock doi:{10.1038/s41467-025-62021-4}.
+
+\bibitem{geiger_multiple_2023}
+Geiger O, Sanchez-Flores A, Padilla-Gomez J, Degli~Esposti M.
+\newblock Multiple approaches of cellular metabolism define the bacterial
+  ancestry of mitochondria;9(32):eadh0066.
+\newblock doi:{10.1126/sciadv.adh0066}.
+
+\bibitem{seely_mechanisms_2022}
+Seely SM, Gagnon MG.
+\newblock Mechanisms of ribosome recycling in bacteria and mitochondria: a
+  structural perspective;19(1):662--677.
+\newblock doi:{10.1080/15476286.2022.2067712}.
+
+\bibitem{stampar_linear_2019}
+Stampar SN, Broe MB, Macrander J, Reitzel AM, Brugler MR, Daly M.
+\newblock Linear Mitochondrial Genome in Anthozoa (Cnidaria): A Case Study in
+  Ceriantharia;9(1):6094.
+\newblock doi:{10.1038/s41598-019-42621-z}.
+
+\bibitem{habbane_human_2021}
+Habbane M, Montoya J, Rhouda T, Sbaoui Y, Radallah D, Emperador S.
+\newblock Human Mitochondrial {DNA}: Particularities and Diseases;9(10):1364.
+\newblock doi:{10.3390/biomedicines9101364}.
+
+\bibitem{wei_inheritance_2020}
+Wei W, Chinnery PF.
+\newblock Inheritance of mitochondrial {DNA} in humans: implications for rare
+  and common diseases;287(6):634--644.
+\newblock doi:{10.1111/joim.13047}.
+
+\bibitem{lawless_rise_2020}
+Lawless C, Greaves L, Reeve AK, Turnbull DM, Vincent AE.
+\newblock The rise and rise of mitochondrial {DNA} mutations;10(5):200061.
+\newblock doi:{10.1098/rsob.200061}.
+
+\bibitem{desalle_mtdna_2017}
+Desalle R.
+\newblock {MtDNA} The small workhorse of evolutionary studies;22(5):873--887.
+\newblock doi:{10.2741/4522}.
+
+\bibitem{gill_identification_1994}
+Gill P, Ivanov PL, Kimpton C, Piercy R, Benson N, Tully G, et~al.
+\newblock Identification of the remains of the Romanov family by {DNA}
+  analysis;6(2):130--135.
+\newblock doi:{10.1038/ng0294-130}.
+
+\bibitem{dsouza_mitochondrial_2018}
+D'Souza AR, Minczuk M.
+\newblock Mitochondrial transcription and translation: overview;62(3):309--320.
+\newblock doi:{10.1042/EBC20170102}.
+
+\bibitem{lopez-polo_release_2024}
+López-Polo V, Maus M, Zacharioudakis E, Lafarga M, Attolini CSO, Marques FDM,
+  et~al.
+\newblock Release of mitochondrial {dsRNA} into the cytosol is a key driver of
+  the inflammatory phenotype of senescent cells;15(1):7378.
+\newblock doi:{10.1038/s41467-024-51363-0}.
+
+\bibitem{bird_highly_2018}
+Bird JG, Basu U, Kuster D, Ramachandran A, Grudzien-Nogalska E, Towheed A,
+  et~al.
+\newblock Highly efficient 5' capping of mitochondrial {RNA} with {NAD}+ and
+  {NADH} by yeast and human mitochondrial {RNA} polymerase;7:e42179.
+\newblock doi:{10.7554/eLife.42179}.
+
+\bibitem{brooks_tracing_2022}
+Brooks GA, Curl CC, Leija RG, Osmond AD, Duong JJ, Arevalo JA.
+\newblock Tracing the lactate shuttle to the mitochondrial
+  reticulum;54(9):1332--1347.
+\newblock doi:{10.1038/s12276-022-00802-3}.
+
+\bibitem{payen_monocarboxylate_2020}
+Payen VL, Mina E, Van~Hée VF, Porporato PE, Sonveaux P.
+\newblock Monocarboxylate transporters in cancer;33:48--66.
+\newblock doi:{10.1016/j.molmet.2019.07.006}.
+
+\bibitem{walker_nuclear-mitochondrial_2022}
+Walker BR, Moraes CT.
+\newblock Nuclear-Mitochondrial Interactions;12(3):427.
+\newblock doi:{10.3390/biom12030427}.
+
+\bibitem{pak_ultrasensitive_2020}
+Pak VV, Ezeriņa D, Lyublinskaya OG, Pedre B, Tyurin-Kuzmin PA, Mishina NM,
+  et~al.
+\newblock Ultrasensitive Genetically Encoded Indicator for Hydrogen Peroxide
+  Identifies Roles for the Oxidant in Cell Migration and Mitochondrial
+  Function;31(3):642--653.e6.
+\newblock doi:{10.1016/j.cmet.2020.02.003}.
+
+\bibitem{dietz_down_2021}
+Dietz JV, Fox JL, Khalimonchuk O.
+\newblock Down the Iron Path: Mitochondrial Iron Homeostasis and
+  Beyond;10(9):2198.
+\newblock doi:{10.3390/cells10092198}.
+
+\bibitem{skok_mitochondrial_2022}
+Skok M.
+\newblock Mitochondrial nicotinic acetylcholine receptors: Mechanisms of
+  functioning and biological significance;143:106138.
+\newblock doi:{10.1016/j.biocel.2021.106138}.
+
+\bibitem{scalise_glutamine_2017}
+Scalise M, Pochini L, Galluccio M, Console L, Indiveri C.
+\newblock Glutamine Transport and Mitochondrial Metabolism in Cancer Cell
+  Growth;7:306.
+\newblock doi:{10.3389/fonc.2017.00306}.
+
+\bibitem{li_pattern_2021}
+Li D, Wu M.
+\newblock Pattern recognition receptors in health and diseases;6(1):291.
+\newblock doi:{10.1038/s41392-021-00687-0}.
+
+\bibitem{tal_absence_2009}
+Tal MC, Sasai M, Lee HK, Yordy B, Shadel GS, Iwasaki A.
+\newblock Absence of autophagy results in reactive oxygen species-dependent
+  amplification of {RLR} signaling;106(8):2770--2775.
+\newblock doi:{10.1073/pnas.0807694106}.
+
+\bibitem{nakahira_roles_2015}
+Nakahira K, Hisata S, Choi AMK.
+\newblock The Roles of Mitochondrial Damage-Associated Molecular Patterns in
+  Diseases;23(17):1329--1350.
+\newblock doi:{10.1089/ars.2015.6407}.
 
 \end{thebibliography}

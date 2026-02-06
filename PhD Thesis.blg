@@ -459,45 +459,169 @@ Warning--empty year in georgilis_ptbp1-mediated_2018
 while executing---line 3749 of file plos2015.bst
 Warning--empty journal in rogalska_regulation_2023
 Warning--empty year in rogalska_regulation_2023
-You've used 115 entries,
+`journal' is a missing field, not a string, for entry casanova_mitochondria_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in casanova_mitochondria_2023
+Warning--empty year in casanova_mitochondria_2023
+`journal' is a missing field, not a string, for entry zachar_endosymbiosis_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in zachar_endosymbiosis_2020
+Warning--empty year in zachar_endosymbiosis_2020
+`journal' is a missing field, not a string, for entry segar_diversity_2025
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in segar_diversity_2025
+Warning--empty year in segar_diversity_2025
+`journal' is a missing field, not a string, for entry karnkowska_eukaryote_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in karnkowska_eukaryote_2016
+Warning--empty year in karnkowska_eukaryote_2016
+`journal' is a missing field, not a string, for entry stephens_characterization_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in stephens_characterization_2020
+Warning--empty year in stephens_characterization_2020
+`journal' is a missing field, not a string, for entry andrieux_mitochondria_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in andrieux_mitochondria_2021
+Warning--empty year in andrieux_mitochondria_2021
+`journal' is a missing field, not a string, for entry harrington_mitochondria_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in harrington_mitochondria_2023
+Warning--empty year in harrington_mitochondria_2023
+`journal' is a missing field, not a string, for entry siekevitz_powerhouse_1957
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in siekevitz_powerhouse_1957
+Warning--empty year in siekevitz_powerhouse_1957
+`journal' is a missing field, not a string, for entry kraus_function_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kraus_function_2021
+Warning--empty year in kraus_function_2021
+`journal' is a missing field, not a string, for entry takeda_oligomer-based_2025
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in takeda_oligomer-based_2025
+Warning--empty year in takeda_oligomer-based_2025
+`journal' is a missing field, not a string, for entry geiger_multiple_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in geiger_multiple_2023
+Warning--empty year in geiger_multiple_2023
+`journal' is a missing field, not a string, for entry seely_mechanisms_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in seely_mechanisms_2022
+Warning--empty year in seely_mechanisms_2022
+`journal' is a missing field, not a string, for entry stampar_linear_2019
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in stampar_linear_2019
+Warning--empty year in stampar_linear_2019
+`journal' is a missing field, not a string, for entry habbane_human_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in habbane_human_2021
+Warning--empty year in habbane_human_2021
+`journal' is a missing field, not a string, for entry wei_inheritance_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in wei_inheritance_2020
+Warning--empty year in wei_inheritance_2020
+`journal' is a missing field, not a string, for entry lawless_rise_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in lawless_rise_2020
+Warning--empty year in lawless_rise_2020
+`journal' is a missing field, not a string, for entry desalle_mtdna_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in desalle_mtdna_2017
+Warning--empty year in desalle_mtdna_2017
+`journal' is a missing field, not a string, for entry gill_identification_1994
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in gill_identification_1994
+Warning--empty year in gill_identification_1994
+`journal' is a missing field, not a string, for entry dsouza_mitochondrial_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in dsouza_mitochondrial_2018
+Warning--empty year in dsouza_mitochondrial_2018
+`journal' is a missing field, not a string, for entry lopez-polo_release_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in lopez-polo_release_2024
+Warning--empty year in lopez-polo_release_2024
+`journal' is a missing field, not a string, for entry bird_highly_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bird_highly_2018
+Warning--empty year in bird_highly_2018
+`journal' is a missing field, not a string, for entry brooks_tracing_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in brooks_tracing_2022
+Warning--empty year in brooks_tracing_2022
+`journal' is a missing field, not a string, for entry payen_monocarboxylate_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in payen_monocarboxylate_2020
+Warning--empty year in payen_monocarboxylate_2020
+`journal' is a missing field, not a string, for entry walker_nuclear-mitochondrial_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in walker_nuclear-mitochondrial_2022
+Warning--empty year in walker_nuclear-mitochondrial_2022
+`journal' is a missing field, not a string, for entry pak_ultrasensitive_2020
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in pak_ultrasensitive_2020
+Warning--empty year in pak_ultrasensitive_2020
+`journal' is a missing field, not a string, for entry dietz_down_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in dietz_down_2021
+Warning--empty year in dietz_down_2021
+`journal' is a missing field, not a string, for entry skok_mitochondrial_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in skok_mitochondrial_2022
+Warning--empty year in skok_mitochondrial_2022
+`journal' is a missing field, not a string, for entry scalise_glutamine_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in scalise_glutamine_2017
+Warning--empty year in scalise_glutamine_2017
+`journal' is a missing field, not a string, for entry li_pattern_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in li_pattern_2021
+Warning--empty year in li_pattern_2021
+`journal' is a missing field, not a string, for entry tal_absence_2009
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in tal_absence_2009
+Warning--empty year in tal_absence_2009
+`journal' is a missing field, not a string, for entry nakahira_roles_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nakahira_roles_2015
+Warning--empty year in nakahira_roles_2015
+You've used 146 entries,
             3058 wiz_defined-function locations,
-            1377 strings with 42473 characters,
-and the built_in function-call counts, 256329 in all, are:
-= -- 29973
-> -- 2168
-< -- 2
-+ -- 1331
-- -- 542
-* -- 24194
-:= -- 28185
-add.period$ -- 343
-call.type$ -- 115
+            1561 strings with 51168 characters,
+and the built_in function-call counts, 321083 in all, are:
+= -- 37573
+> -- 2716
+< -- 3
++ -- 1668
+- -- 679
+* -- 30243
+:= -- 35293
+add.period$ -- 436
+call.type$ -- 146
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 342
-duplicate$ -- 14004
-empty$ -- 25404
-format.name$ -- 654
-if$ -- 57969
+cite$ -- 435
+duplicate$ -- 17740
+empty$ -- 31788
+format.name$ -- 819
+if$ -- 72641
 int.to.chr$ -- 0
-int.to.str$ -- 115
-missing$ -- 1228
-newline$ -- 575
-num.names$ -- 115
-pop$ -- 2025
+int.to.str$ -- 146
+missing$ -- 1550
+newline$ -- 730
+num.names$ -- 146
+pop$ -- 2568
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1894
+skip$ -- 2402
 stack$ -- 0
-substring$ -- 59498
-swap$ -- 2962
-text.length$ -- 2
+substring$ -- 74210
+swap$ -- 3748
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 227
-while$ -- 1190
-width$ -- 118
-write$ -- 1151
-(There were 112 error messages)
+warning$ -- 289
+while$ -- 1498
+width$ -- 149
+write$ -- 1461
+(There were 143 error messages)
