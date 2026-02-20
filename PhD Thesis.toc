@@ -13,22 +13,26 @@
 \contentsline {subsection}{\numberline {1.1.1}What are Stress Granules?}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}A brief history of Stress Granules}{1}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Stress Granule Assembly and Disassembly}{3}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Functions of Stress Granules}{5}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Stress Granules in Disease}{7}{subsection.1.1.5}%
-\contentsline {section}{\numberline {1.2}RNA-Binding Proteins}{10}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}What are RNA-Binding Proteins?}{10}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Functions of RNA-Binding Proteins}{11}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}RBPs and Splicing}{12}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Mitochondria}{15}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}What is a Mitochondrion?}{15}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}The Mitochondrial Genome}{16}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Functions of the Mitochondrion}{17}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}The Mitochondrion and Inflammation}{19}{subsection.1.3.4}%
-\contentsline {chapter}{\numberline {2}Objectives}{26}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Materials and Methods}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Section}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Subsection}{27}{subsection.3.1.1}%
-\contentsline {chapter}{\numberline {4}Name Chapter I}{28}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Name Chapter II}{29}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Name Chapter III}{30}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Discussion}{31}{chapter.7}%
+\contentsline {subsection}{\numberline {1.1.4}Functions of Stress Granules}{6}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Stress Granules in Disease}{8}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}RNA-Binding Proteins}{11}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}What are RNA-Binding Proteins?}{11}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Functions of RNA-Binding Proteins}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}RBPs and Splicing}{13}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Mitochondria}{16}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}What is a Mitochondrion?}{16}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}The Mitochondrial Genome}{17}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Functions of the Mitochondrion}{19}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}The Mitochondrion and Inflammation}{20}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Transcriptomics}{24}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}What is Transcriptomics?}{24}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Why Transcriptomics?}{25}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}A Brief Introduction to RNA-Sequencing}{27}{subsection.1.4.3}%
+\contentsline {chapter}{\numberline {2}Objectives}{31}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Materials and Methods}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Section}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Subsection}{32}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Name Chapter I}{33}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Name Chapter II}{34}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Name Chapter III}{35}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Discussion}{36}{chapter.7}%

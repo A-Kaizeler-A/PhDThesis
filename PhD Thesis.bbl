@@ -882,4 +882,117 @@ Nakahira K, Hisata S, Choi AMK.
   Diseases;23(17):1329--1350.
 \newblock doi:{10.1089/ars.2015.6407}.
 
+\bibitem{yamada_interpretation_2021}
+Yamada R, Okada D, Wang J, Basak T, Koyama S.
+\newblock Interpretation of omics data analyses;66(1):93--102.
+\newblock doi:{10.1038/s10038-020-0763-5}.
+
+\bibitem{lowe_transcriptomics_2017}
+Lowe R, Shirley N, Bleackley M, Dolan S, Shafee T.
+\newblock Transcriptomics technologies;13(5):e1005457.
+\newblock doi:{10.1371/journal.pcbi.1005457}.
+
+\bibitem{branson_high-throughput_2009}
+Branson K, Robie AA, Bender J, Perona P, Dickinson MH.
+\newblock High-throughput ethomics in large groups of Drosophila;6(6):451--457.
+\newblock doi:{10.1038/nmeth.1328}.
+
+\bibitem{chu_rna_2012}
+Chu Y, Corey DR.
+\newblock {RNA} sequencing: platform selection, experimental design, and data
+  interpretation;22(4):271--274.
+\newblock doi:{10.1089/nat.2012.0367}.
+
+\bibitem{schooler_bridging_2015}
+Schooler J.
+\newblock Bridging the Objective/Subjective {DivideBridging} the
+  Objective/Subjective Divide: Towards a Meta-Perspective of Science and
+  Experience: Towards a Meta-Perspective of Science and
+  Experience;doi:{10.15502/9783958570405}.
+
+\bibitem{fernandez_pinto_methodological_2023}
+Fernández~Pinto M.
+\newblock Methodological and Cognitive Biases in Science: Issues for Current
+  Research and Ways to Counteract Them;31(5):535--554.
+doi:{10.1162/posc\_a\_00589}.
+
+\bibitem{adams_complementary_1991}
+Adams MD, Kelley JM, Gocayne JD, Dubnick M, Polymeropoulos MH, Xiao H, et~al.
+\newblock Complementary {DNA} Sequencing: Expressed Sequence Tags and Human
+  Genome Project;252(5013):1651--1656.
+\newblock doi:{10.1126/science.2047873}.
+
+\bibitem{begum_western_2022}
+Begum H, Murugesan P, Tangutur AD.
+\newblock Western Blotting: A Powerful Staple In Scientific and Biomedical
+  Research;73(1):58--69.
+\newblock doi:{10.2144/btn-2022-0003}.
+
+\bibitem{edfors_gene-specific_2016}
+Edfors F, Danielsson F, Hallström BM, Käll L, Lundberg E, Pontén F, et~al.
+\newblock Gene-specific correlation of {RNA} and protein levels in human cells
+  and tissues;12(10):883.
+\newblock doi:{10.15252/msb.20167144}.
+
+\bibitem{koussounadis_relationship_2015}
+Koussounadis A, Langdon SP, Um IH, Harrison DJ, Smith VA.
+\newblock Relationship between differentially expressed {mRNA} and
+  {mRNA}-protein correlations in a xenograft model system;5(1):10775.
+\newblock doi:{10.1038/srep10775}.
+
+\bibitem{bong_brief_2024}
+Bong D, Sohn J, Lee SJV.
+\newblock Brief guide to {RT}-{qPCR};47(12):100141.
+\newblock doi:{10.1016/j.mocell.2024.100141}.
+
+\bibitem{biddle_improving_2024}
+Biddle M, Stylianou P, Rekas M, Wright A, Sousa J, Ruddy D, et~al.
+\newblock Improving the integrity and reproducibility of research that uses
+  antibodies: a technical, data sharing, behavioral and policy
+  challenge;16(1):2323706.
+\newblock doi:{10.1080/19420862.2024.2323706}.
+
+\bibitem{goodman_antibody_2018}
+Goodman SL.
+\newblock The antibody horror show: an introductory guide for the
+  perplexed;45:9--13.
+\newblock doi:{10.1016/j.nbt.2018.01.006}.
+
+\bibitem{baker_reproducibility_2015}
+Baker M.
+\newblock Reproducibility crisis: Blame it on the
+  antibodies;521(7552):274--276.
+\newblock doi:{10.1038/521274a}.
+
+\bibitem{kolodziejczyk_technology_2015}
+Kolodziejczyk A, Kim JK, Svensson V, Marioni J, Teichmann S.
+\newblock The Technology and Biology of Single-Cell {RNA}
+  Sequencing;58(4):610--620.
+\newblock doi:{10.1016/j.molcel.2015.04.005}.
+
+\bibitem{newman_robust_2015}
+Newman AM, Liu CL, Green MR, Gentles AJ, Feng W, Xu Y, et~al.
+\newblock Robust enumeration of cell subsets from tissue expression
+  profiles;12(5):453--457.
+\newblock doi:{10.1038/nmeth.3337}.
+
+\bibitem{schneider_voyager_2024}
+Schneider AL, Martins-Silva R, Kaizeler A, Saraiva-Agostinho N, Barbosa-Morais
+  NL.
+\newblock {voyAGEr}, a free web interface for the analysis of age-related gene
+  expression alterations in human tissues;12:RP88623.
+\newblock doi:{10.7554/eLife.88623}.
+
+\bibitem{phipson_gene_2017}
+Phipson B, Zappia L, Oshlack A.
+\newblock Gene length and detection bias in single cell {RNA} sequencing
+  protocols;6:595.
+\newblock doi:{10.12688/f1000research.11290.1}.
+
+\bibitem{nakazato_experimental_2013}
+Nakazato T, Ohta T, Bono H.
+\newblock Experimental design-based functional mining and characterization of
+  high-throughput sequencing data in the sequence read archive;8(10):e77910.
+\newblock doi:{10.1371/journal.pone.0077910}.
+
 \end{thebibliography}

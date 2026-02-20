@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: PhD Thesis.aux
 The style file: plos2015.bst
+Reallocated field_info (elt_size=4) to 10644 items from 5000.
 Database file #1: refs.bib
 Warning--I didn't find a database entry for "gould2010panda"
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -583,45 +584,121 @@ Warning--empty year in tal_absence_2009
 while executing---line 3749 of file plos2015.bst
 Warning--empty journal in nakahira_roles_2015
 Warning--empty year in nakahira_roles_2015
-You've used 146 entries,
+`journal' is a missing field, not a string, for entry yamada_interpretation_2021
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in yamada_interpretation_2021
+Warning--empty year in yamada_interpretation_2021
+`journal' is a missing field, not a string, for entry lowe_transcriptomics_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in lowe_transcriptomics_2017
+Warning--empty year in lowe_transcriptomics_2017
+`journal' is a missing field, not a string, for entry branson_high-throughput_2009
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in branson_high-throughput_2009
+Warning--empty year in branson_high-throughput_2009
+`journal' is a missing field, not a string, for entry chu_rna_2012
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in chu_rna_2012
+Warning--empty year in chu_rna_2012
+`journal' is a missing field, not a string, for entry schooler_bridging_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in schooler_bridging_2015
+Warning--empty year in schooler_bridging_2015
+`journal' is a missing field, not a string, for entry fernandez_pinto_methodological_2023
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in fernandez_pinto_methodological_2023
+Warning--empty year in fernandez_pinto_methodological_2023
+`journal' is a missing field, not a string, for entry adams_complementary_1991
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in adams_complementary_1991
+Warning--empty year in adams_complementary_1991
+`journal' is a missing field, not a string, for entry begum_western_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in begum_western_2022
+Warning--empty year in begum_western_2022
+`journal' is a missing field, not a string, for entry edfors_gene-specific_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in edfors_gene-specific_2016
+Warning--empty year in edfors_gene-specific_2016
+`journal' is a missing field, not a string, for entry koussounadis_relationship_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in koussounadis_relationship_2015
+Warning--empty year in koussounadis_relationship_2015
+`journal' is a missing field, not a string, for entry bong_brief_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bong_brief_2024
+Warning--empty year in bong_brief_2024
+`journal' is a missing field, not a string, for entry biddle_improving_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in biddle_improving_2024
+Warning--empty year in biddle_improving_2024
+`journal' is a missing field, not a string, for entry goodman_antibody_2018
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in goodman_antibody_2018
+Warning--empty year in goodman_antibody_2018
+`journal' is a missing field, not a string, for entry baker_reproducibility_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in baker_reproducibility_2015
+Warning--empty year in baker_reproducibility_2015
+`journal' is a missing field, not a string, for entry kolodziejczyk_technology_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in kolodziejczyk_technology_2015
+Warning--empty year in kolodziejczyk_technology_2015
+`journal' is a missing field, not a string, for entry newman_robust_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in newman_robust_2015
+Warning--empty year in newman_robust_2015
+`journal' is a missing field, not a string, for entry schneider_voyager_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in schneider_voyager_2024
+Warning--empty year in schneider_voyager_2024
+`journal' is a missing field, not a string, for entry phipson_gene_2017
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in phipson_gene_2017
+Warning--empty year in phipson_gene_2017
+`journal' is a missing field, not a string, for entry nakazato_experimental_2013
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in nakazato_experimental_2013
+Warning--empty year in nakazato_experimental_2013
+You've used 165 entries,
             3058 wiz_defined-function locations,
-            1561 strings with 51168 characters,
-and the built_in function-call counts, 321083 in all, are:
-= -- 37573
-> -- 2716
+            1674 strings with 56122 characters,
+and the built_in function-call counts, 353847 in all, are:
+= -- 41425
+> -- 3020
 < -- 3
-+ -- 1668
-- -- 679
-* -- 30243
-:= -- 35293
-add.period$ -- 436
-call.type$ -- 146
++ -- 1861
+- -- 755
+* -- 33234
+:= -- 38908
+add.period$ -- 492
+call.type$ -- 165
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 435
-duplicate$ -- 17740
-empty$ -- 31788
-format.name$ -- 819
-if$ -- 72641
+cite$ -- 492
+duplicate$ -- 19837
+empty$ -- 34980
+format.name$ -- 910
+if$ -- 80062
 int.to.chr$ -- 0
-int.to.str$ -- 146
-missing$ -- 1550
-newline$ -- 730
-num.names$ -- 146
-pop$ -- 2568
+int.to.str$ -- 165
+missing$ -- 1738
+newline$ -- 824
+num.names$ -- 165
+pop$ -- 2887
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2402
+skip$ -- 2689
 stack$ -- 0
-substring$ -- 74210
-swap$ -- 3748
+substring$ -- 81206
+swap$ -- 4201
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 289
-while$ -- 1498
-width$ -- 149
-write$ -- 1461
-(There were 143 error messages)
+warning$ -- 327
+while$ -- 1678
+width$ -- 168
+write$ -- 1649
+(There were 162 error messages)
