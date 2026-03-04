@@ -650,13 +650,13 @@ Aibara S, Katahira J, Valkov E, Stewart M.
 
 \bibitem{chow_amazing_1977}
 Chow LT, Gelinas RE, Broker TR, Roberts RJ.
-\newblock An amazing sequence arrangement at the 5' ends of adenovirus 2
+\newblock An amazing sequence arrangement at the 5′ ends of adenovirus 2
   messenger {RNA};12(1):1--8.
 \newblock doi:{10.1016/0092-8674(77)90180-5}.
 
 \bibitem{berget_spliced_1977}
 Berget SM, Moore C, Sharp PA.
-\newblock Spliced segments at the 5' terminus of adenovirus 2 late
+\newblock Spliced segments at the 5′ terminus of adenovirus 2 late
   {mRNA};74(8):3171--3175.
 \newblock doi:{10.1073/pnas.74.8.3171}.
 
@@ -914,7 +914,7 @@ Schooler J.
 Fernández~Pinto M.
 \newblock Methodological and Cognitive Biases in Science: Issues for Current
   Research and Ways to Counteract Them;31(5):535--554.
-doi:{10.1162/posc\_a\_00589}.
+\newblock doi:{10.1162/posc_a_00589}.
 
 \bibitem{adams_complementary_1991}
 Adams MD, Kelley JM, Gocayne JD, Dubnick M, Polymeropoulos MH, Xiao H, et~al.
@@ -994,5 +994,63 @@ Nakazato T, Ohta T, Bono H.
 \newblock Experimental design-based functional mining and characterization of
   high-throughput sequencing data in the sequence read archive;8(10):e77910.
 \newblock doi:{10.1371/journal.pone.0077910}.
+
+\bibitem{bray_global_2024}
+Bray F, Laversanne M, Sung H, Ferlay J, Siegel RL, Soerjomataram I, et~al.
+\newblock Global cancer statistics 2022: {GLOBOCAN} estimates of incidence and
+  mortality worldwide for 36 cancers in 185 countries;74(3):229--263.
+\newblock doi:{10.3322/caac.21834}.
+
+\bibitem{weiss_towards_2022}
+Weiss F, Lauffenburger D, Friedl P.
+\newblock Towards targeting of shared mechanisms of cancer metastasis and
+  therapy resistance;22(3):157--173.
+\newblock doi:{10.1038/s41568-021-00427-0}.
+
+\bibitem{ramos_mechanism-based_2015}
+Ramos P, Bentires-Alj M.
+\newblock Mechanism-based cancer therapy: resistance to therapy, therapy for
+  resistance;34(28):3617--3626.
+\newblock doi:{10.1038/onc.2014.314}.
+
+\bibitem{lee_stress_2022}
+Lee JI, Namkoong S.
+\newblock Stress granules dynamics: benefits in cancer;55(12):577--586.
+\newblock doi:{10.5483/BMBRep.2022.55.12.141}.
+
+\bibitem{fanelli_negative_2012}
+Fanelli D.
+\newblock Negative results are disappearing from most disciplines and
+  countries;90(3):891--904.
+\newblock doi:{10.1007/s11192-011-0494-7}.
+
+\bibitem{fonteneau_stress_2022}
+Fonteneau G, Redding A, Hoag-Lee H, Sim ES, Heinrich S, Gaida MM, et~al.
+\newblock Stress Granules Determine the Development of Obesity-Associated
+  Pancreatic Cancer;12(8):1984--2005.
+\newblock doi:{10.1158/2159-8290.CD-21-1672}.
+
+\bibitem{somasekharan_yb-1_2015}
+Somasekharan SP, El-Naggar A, Leprivier G, Cheng H, Hajee S, Grunewald TGP,
+  et~al.
+\newblock {YB}-1 regulates stress granule formation and tumor progression by
+  translationally activating G3BP1;208(7):913--929.
+\newblock doi:{10.1083/jcb.201411047}.
+
+\bibitem{thedieck_inhibition_2013}
+Thedieck K, Holzwarth B, Prentzell M, Boehlke C, Kläsener K, Ruf S, et~al.
+\newblock Inhibition of {mTORC}1 by Astrin and Stress Granules Prevents
+  Apoptosis in Cancer Cells;154(4):859--874.
+\newblock doi:{10.1016/j.cell.2013.07.031}.
+
+\bibitem{grabocka_mutant_2016}
+Grabocka E, Bar-Sagi D.
+\newblock Mutant {KRAS} Enhances Tumor Cell Fitness by Upregulating Stress
+  Granules;167(7):1803--1813.e12.
+\newblock doi:{10.1016/j.cell.2016.11.035}.
+
+\bibitem{tcga_research_network_cancer_nodate}
+Network TR. The Cancer Genome Atlas;.
+\newblock Available from: \url{https://www.cancer.gov/tcga}.
 
 \end{thebibliography}

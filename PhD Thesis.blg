@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: PhD Thesis.aux
 The style file: plos2015.bst
-Reallocated field_info (elt_size=4) to 10644 items from 5000.
+Reallocated field_info (elt_size=4) to 10984 items from 5000.
 Database file #1: refs.bib
 Warning--I didn't find a database entry for "gould2010panda"
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -660,45 +660,82 @@ Warning--empty year in phipson_gene_2017
 while executing---line 3749 of file plos2015.bst
 Warning--empty journal in nakazato_experimental_2013
 Warning--empty year in nakazato_experimental_2013
-You've used 165 entries,
+`journal' is a missing field, not a string, for entry bray_global_2024
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in bray_global_2024
+Warning--empty year in bray_global_2024
+`journal' is a missing field, not a string, for entry weiss_towards_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in weiss_towards_2022
+Warning--empty year in weiss_towards_2022
+`journal' is a missing field, not a string, for entry ramos_mechanism-based_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in ramos_mechanism-based_2015
+Warning--empty year in ramos_mechanism-based_2015
+`journal' is a missing field, not a string, for entry lee_stress_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in lee_stress_2022
+Warning--empty year in lee_stress_2022
+`journal' is a missing field, not a string, for entry fanelli_negative_2012
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in fanelli_negative_2012
+Warning--empty year in fanelli_negative_2012
+`journal' is a missing field, not a string, for entry fonteneau_stress_2022
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in fonteneau_stress_2022
+Warning--empty year in fonteneau_stress_2022
+`journal' is a missing field, not a string, for entry somasekharan_yb-1_2015
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in somasekharan_yb-1_2015
+Warning--empty year in somasekharan_yb-1_2015
+`journal' is a missing field, not a string, for entry thedieck_inhibition_2013
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in thedieck_inhibition_2013
+Warning--empty year in thedieck_inhibition_2013
+`journal' is a missing field, not a string, for entry grabocka_mutant_2016
+while executing---line 3749 of file plos2015.bst
+Warning--empty journal in grabocka_mutant_2016
+Warning--empty year in grabocka_mutant_2016
+Warning--there's a month but no year in tcga_research_network_cancer_nodate
+You've used 175 entries,
             3058 wiz_defined-function locations,
-            1674 strings with 56122 characters,
-and the built_in function-call counts, 353847 in all, are:
-= -- 41425
-> -- 3020
+            1736 strings with 59107 characters,
+and the built_in function-call counts, 373162 in all, are:
+= -- 43700
+> -- 3176
 < -- 3
-+ -- 1861
-- -- 755
-* -- 33234
-:= -- 38908
-add.period$ -- 492
-call.type$ -- 165
++ -- 1949
+- -- 794
+* -- 35035
+:= -- 41041
+add.period$ -- 521
+call.type$ -- 175
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 492
-duplicate$ -- 19837
-empty$ -- 34980
-format.name$ -- 910
-if$ -- 80062
+cite$ -- 521
+duplicate$ -- 20939
+empty$ -- 36888
+format.name$ -- 957
+if$ -- 84431
 int.to.chr$ -- 0
-int.to.str$ -- 165
-missing$ -- 1738
-newline$ -- 824
-num.names$ -- 165
-pop$ -- 2887
+int.to.str$ -- 175
+missing$ -- 1835
+newline$ -- 873
+num.names$ -- 175
+pop$ -- 3038
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2689
+skip$ -- 2850
 stack$ -- 0
-substring$ -- 81206
-swap$ -- 4201
+substring$ -- 85597
+swap$ -- 4437
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 327
-while$ -- 1678
-width$ -- 168
-write$ -- 1649
-(There were 162 error messages)
+warning$ -- 346
+while$ -- 1774
+width$ -- 178
+write$ -- 1748
+(There were 171 error messages)

@@ -5,6 +5,9 @@
 \usepackage[portuguese,british]{babel}
 \usepackage{CJKutf8}
 
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+
 %\usepackage[parfill]{parskip}    % Begin paragraphs with empty line instead of indent
 \usepackage{graphicx}             % Use pdf, png, jpg or eps with pdflatex (eps in DVI mode)
 % TeX automatically converts eps --> pdf in pdflatex
@@ -421,7 +424,7 @@
 \listoftables
 \addcontentsline{toc}{chapter}{List of Tables}
 \printglossary
-\renewcommand*{\acronymname}{Abbreviations, acronyms and symbols}
+\renewcommand*{\acronymname}{Abbreviations, acronyms, innitialisms, and symbols}
 \printnoidxglossary[type=\acronymtype, nonumberlist=true] 
 \printacronyms
 
@@ -443,7 +446,7 @@
 \bibliographystyle{plos2015}
 \twocolumn
 {\footnotesize
-\bibliography{refs}}
+%\bibliography{refs}}
 \onecolumn
 
 %\appendix

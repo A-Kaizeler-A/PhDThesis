@@ -1,6 +1,44 @@
 % !TEX root = ../PhD Thesis.tex
 \chapter{Objectives}
 
-Some objectives here... \\
+\subsection{SGs as Novel Targets in Cancer}
 
-\lipsum[2]
+Cancer remains one of the leading causes of morbidity and mortality worldwide\cite{bray_global_2024}. Despite major therapeutic advances, its overall burden remains substantial\cite{bray_global_2024}. Two central challenges limit durable treatment success: metastasis and therapeutic resistance\cite{weiss_towards_2022}.
+\\
+Metastasis involves the dissemination of tumour cells from the primary site to distant organs, where they establish secondary lesions that compromise organ function\cite{weiss_towards_2022}. Metastases often differ substantially from the primary tumor in their molecular characteristics, therapeutic vulnerabilities, and resistance mechanisms\cite{weiss_towards_2022}. This heterogeneity complicates treatment and contributes to poor clinical outcomes\cite{weiss_towards_2022}.
+\\
+Therapeutic resistance represents a second major obstacle. Many treatments initially induce tumour regression, but eventually, resistance frequently emerges, leading to disease progression\cite{weiss_towards_2022}. In some cases, tumours become clinically undetectable but recur due to small populations of residual cells that evade therapy and later reinitiate tumor growth, often in a more aggressive form\cite{ramos_mechanism-based_2015}. Although cancer cells can acquire resistance through adaptive mechanisms\cite{ramos_mechanism-based_2015}, it more commonly arises from pre-existing intratumoral heterogeneity generated during tumour neutral evolution\cite{ramos_mechanism-based_2015, williams_identification_2016}. Under therapeutic pressure, particularly with targeted therapies, clonal selection favors cells lacking the drug target or harbouring resistant alterations, ultimately driving relapse\cite{ramos_mechanism-based_2015, williams_identification_2016}. Consequently, identifying mechanisms broadly shared across cancer cells remains a priority for developing more durable treatment strategies\cite{ramos_mechanism-based_2015}.
+\\
+\glspl{sg} represent one such potentially targetable mechanism. Cancer cells are exposed to chronic stress conditions, including hypoxia, nutrient deprivation, oxidative stress, and \gls{dna} damage\cite{redding_stress_2023}. Several chemotherapeutic agents have also been shown to induce \gls{sg} formation\cite{lee_stress_2022}, and they have been detected in multiple cancer types\footnote{\textit{Pro-\gls{sg}} authors commonly defend that, if properly tested, more cancer types would exhibit \gls{sg} prevalence. Yet, given the current scientific climate, where negative results are seldom published\cite{fanelli_negative_2012}, it could also be that they were indeed probed for such, but were not detected.}, such as pancreatic adenocarcinoma\cite{fonteneau_stress_2022} and osteosarcoma\cite{somasekharan_yb-1_2015}. Functionally, \glspl{sg} have been implicated in suppressing apoptosis\cite{arimoto_formation_2008, thedieck_inhibition_2013}, promoting tumour growth\cite{fonteneau_stress_2022}, and facilitating metastatic progression\cite{somasekharan_yb-1_2015}. Because metastasis imposes additional cellular stress, it is biologically plausible that \gls{sg} formation provides a survival advantage during this process\cite{somasekharan_yb-1_2015}. In a murine sarcoma model, abrogation of \gls{sg} assembly completely prevented metastatic lesion development\cite{somasekharan_yb-1_2015}.
+\\
+\glspl{sg} also appear to contribute to chemoresistance. They have been associated with resistance to agents such as etoposide\cite{arimoto_formation_2008} and oxaliplatin\cite{grabocka_mutant_2016}. As a striking example, cells with mutant \gls{kras} exhibit elevated \gls{sg} formation and intrinsic resistance to oxaliplatin, whereas \gls{kras} wild-type cells are comparatively sensitive\cite{grabocka_mutant_2016}. Notably, in mixed populations of \gls{kras}-mutant and wild-type cells treated with oxaliplatin, both populations survive\cite{grabocka_mutant_2016}. \gls{kras}-mutant cells secrete \gls{pgj2}, which induces \gls{sg} formation in neighboring wild-type cells, thereby conferring resistance through a paracrine mechanism\cite{grabocka_mutant_2016}. Importantly, inhibition of \gls{sg} formation restores/enhances oxaliplatin sensitivity in both populations, suggesting that \gls{sg} targeting may upturn the efficacy of broadly administered chemotherapies\cite{grabocka_mutant_2016}.
+\\
+Despite their therapeutic relevance, \glspl{sg} remain technically challenging to study. Their detection typically relies on immunofluorescence-based microscopy using specific protein markers\cite{glauninger_stressful_2022}, and large-scale public imaging datasets are scarce. In contrast, transcriptomic datasets are abundant and widely accessible\cite{tcga_research_network_cancer_nodate, schneider_voyager_2024}. This disparity complicates systematic investigation of \gls{sg} biology in cancer. Nevertheless, accumulating evidence suggests that \glspl{sg} represent a multifaceted therapeutic target, with potential to limit tumour progression, suppress metastasis, and overcome or prevent therapy resistance.
+
+\subsection{Aims}
+
+Given the emerging evidence supporting \glspl{sg} as potential therapeutic targets in cancer, this \gls{phd} project was designed around four principal objectives:
+
+\begin{enumerate}
+	\item To define the \gls{sg}-associated transcriptome through meta-analysis, identifying transcripts preferentially sequestered within \glspl{sg} that may contribute to cancer aggressiveness;
+	\item To characterise the transcriptomic landscape of \gls{sg}-harbouring cells, in order to determine which cellular pathways are altered upon \gls{sg} assembly and may underlie enhanced tumour fitness;
+	\item To derive a robust \gls{sg} transcriptomic signature that can serve as a proxy for \gls{sg} presence, thereby circumventing the need for microscopy-based detection;
+	\item To apply the defined \gls{sg} transcriptomic signature to large-scale cancer cohorts, such as \gls{tcga}, in order to evaluate its prognostic value and association with patient survival.
+\end{enumerate}
+
+Collectively, these aims sought to determine whether \glspl{sg} play a functional role in cancer progression and patient outcome. By establishing a transcriptomic signature of \gls{sg} activity, this work also aimed to provide a scalable tool to facilitate \gls{sg} detection in publicly available datasets and enable future efforts to therapeutically modulate \gls{sg} dynamics, an avenue that lies beyond the scope of this thesis.
+
+\subsection{Thesis Outline}
+
+This thesis follows a coherent narrative centred on \gls{sg} biology. Chapters explicitly labelled as simply "Chapter" constitute the core components of the \gls{sg}-focused research project.
+\\
+Chapter 1 (Introduction) and Chapter 2 (Objectives) provide the conceptual framework for the thesis. These chapters introduce the four principal biological themes addressed in this work: stress granules, RNA-binding proteins in splicing, mitochondrial function in inflammation, and transcriptomics as the primary methodological backbone of the project. They further outline the rationale linking \gls{sg} biology to cancer and establish the motivation underlying the central research questions.
+\\
+Chapters 3 through 8 address the specific aims described above and comprise the main body of the \gls{sg}-centred research. Each chapter contains an independent Methods section detailing the experimental and computational approaches relevant and contained to that section. Chapter III includes an in-depth analysis of a representative \gls{sg}-transcriptome dataset, serving as a methodological reference framework for subsequent analyses performed across additional datasets.
+\\
+Chapter 9 summarises collaborative projects conducted in parallel with the primary thesis work, reflecting the integrative and interdisciplinary nature of contemporary biomedical research.
+\\
+Chapter 10 provides a synthesis of the principal findings, discusses key limitations, and situates the results within the broader context of the \gls{sg} field, including ongoing debates and conceptual challenges. This chapter also includes critical self-reflection on the implications of the work and potential future directions.
+\\
+Interspersed throughout the thesis are additional sections that, while not directly part of the \gls{sg}-centred project, contributed essential technical and analytical expertise that strengthened the overall research project and are therefore presented as integral components of the doctoral training process.
+
