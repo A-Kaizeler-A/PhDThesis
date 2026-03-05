@@ -1,10 +1,137 @@
 % !TEX root = ../PhD Thesis.tex
-\chapter{Side Chapter A}
+\chapter{Cell Competition and the Importance of Critical Thinking}
 
-\section{Section}
+Prior to this PhD project, my experience in bioinformatics and computational biology was effectively nonexistent. To acquire proficiency across these diverse methodologies, many of which rest on engineering or quantitative foundations unfamiliar to a wet-lab biologist, I chose a safe approach.
+\\
+Mistakes were inevitable. That, in itself, was not the concern. The real danger lay in making errors without recognising them, which I considered a plausible risk given the superficiality of my initial understanding. To mitigate this, I deliberately worked with data unrelated to my PhD project. This allowed me to learn in a low-stakes, low-pressure environment, where missteps would not compromise the integrity of my central research.
+\\
+This training dataset originated from my \gls{msc} degree project conducted at \gls{fmul}, available at the university thesis repository under the name "Gene Expression and Phenotypical Analysis of Winner and Loser Cells Engaged in Cell Competition".
 
-\lipsum[3]
+\section{Brief Introduction to Cell Competition}
 
-\subsection{Subsection}
+\Gls{cc} is a biological phenomenon in which cells with comparatively higher fitness, termed \textit{winners}, outcompete neighboring less fit cells, known as \textit{losers}, ultimately leading to their elimination\cite{morata_cell_2021}. The concept was first described in the 1975 in studies of the Minute mutation in \textit{Drosophila}\cite{morata_minutes_1975}. Cells heterozygous for Minute mutations exhibit haploinsufficiency of ribosomal proteins, resulting in reduced proliferation rates while remaining viable\cite{morata_minutes_1975}.
+\\
+However, when these heterozygous cells are surrounded by \gls{wt} cells, they are rapidly eliminated from the tissue\cite{morata_minutes_1975}. Subsequent investigations demonstrated that this elimination occurs via apoptosis, but crucially, only in the presence of more competitive neighbouring cells\cite{morata_cell_2021, morata_minutes_1975}. Thus, the fate of the \textit{loser} cells is not intrinsic, but context-dependent\cite{morata_cell_2021, morata_minutes_1975}.
+\\
+Since these initial observations, multiple genes and pathways have been implicated in mediating \gls{cc}\cite{morata_cell_2021}. Nevertheless, the precise molecular effectors, particularly in human systems, remain incompletely characterised\cite{morata_cell_2021}. Given that \gls{cc} has also been implicated in oncogenesis, where it may facilitate the expansion of more aggressive cellular clones\cite{morata_cell_2021}, we performed a transcriptomic analysis of two distinct colorectal cancer cell lines, LoVo and LS174T, engaged in \gls{cc}.
+
+\section{Materials and Methods}
+
+\subsection{Non \textit{In Silico} Methods}
  
-\lipsum[4]
+The methods underlying this part of the project are described in detail in the publicly available \gls{msc} thesis document. Reproducing them here in full would be redundant. Therefore, only a brief and simplified overview of the steps prior to \textit{in silico} analyses is provided below.
+\\
+LoVo (RRID:CVCL\_0399) and LS174T (RRID:CVCL\_1384) cells were differentially fluorescently labelled and cultured either in monoculture or in co-culture at a 1:1 ratio. Apoptosis was assessed by flow cytometry using Annexin V (RRID:AB\_1279046) staining, enabling cell line–specific quantification of apoptotic events.
+\\
+The differential labelling also permitted \gls{facs}, allowing separation of the co-cultured populations into their respective cell lines, after which \gls{rna} was extracted and underwent \gls{rnaseq}. For control purposes, monocultured cells were subjected to the same sorting procedures, using the same \gls{bd} \gls{facs}Aria Fusion system. In total, 6 samples in total were sorted, resulting in 8 sequenced samples.
+
+\subsection{Dataset Pre-Processing and Alignment}
+
+Raw reads (in FASTQ format) were trimmed using Trimmomatic (v0.39)\cite{bolger_trimmomatic_2014} operating in \gls{pe} mode, with appropriate adapter sequences and parameters. Trimmed reads were then aligned to the \gls{hg38} reference using \gls{bwa} (v0.7.17-r1188)\cite{li_fast_2009} with the default parameters.
+\\
+Aligned reads (\gls{bam} files) were subsequently annotated using the GENCODE v42 primary assembly\cite{frankish_gencode_2021} and quantified with featureCounts (v2.0.3)\cite{liao_featurecounts_2014}. 
+
+\subsection{Variant Calling}
+
+Aligned reads (\gls{bam} files) were compared to the \gls{hg38} reference for purposes of variant calling using Mutect2\cite{benjamin_calling_2019} from \gls{gatk}\cite{van_der_auwera_genomics_2020} (v4.3.0.0), in tumour-only mode with default parameters.
+\\
+To identify cell line–specific mutations in LoVo and LS174T, only samples derived from monocultures were initially considered. For simplicity, the analysis was restricted to homozygous single-nucleotide variants (hereafter simply called homozygous mutation). A homozygous mutation was defined as a nucleotide alteration relative to the reference genome covered by at least 10 sequencing reads and an \gls{af} greater than 0.9, indicating that the vast majority of reads carried the altered nucleotide.
+\\
+The set of homozygous mutations identified in LoVo cells was then compared to those detected in LS174T cells. Only mutations unique to one cell line (mutations present in one line and absent in the other) were retained as cell line–specific markers.
+\\
+Following this definition, the four co-culture samples (two LoVo and two LS174T, after sorting) were analysed considering only these cell line–specific mutations. 
+\\
+For validation purposes, reads were visually inspected through \gls{igv}\cite{robinson_variant_2017} (v2.11.2)
+
+\subsection{Read count data pre-processing}
+
+Raw read counts were first filtered to remove lowly expressed genes. Filtered read counts were then used to calculate library size scaling factors using the \gls{tmm}\cite{robinson_scaling_2010} through the calcNormFactors function from \gls{edger}\cite{robinson_edger_2010} (v3.36.0)). These were subsequently normalised and log2-transformed using the \gls{voom}\cite{law_voom_2014} function from \gls{limma}\cite{ritchie_limma_2015} (v.3.50.3). 
+\\
+\\
+These different steps, will be explored in more depth in Chapter 4.
+
+\subsection{Differential expression analysis }
+
+To model expression changes between conditions, we directly compared co-culture separated samples with their monoculture counterparts. For simplification purposes, only the LS174T co-culture \gls{vs} LS174T monoculture is shown in this thesis.
+\\
+Standard errors were then moderated using empirical Bayes shrinkage, and top differentially expressed genes were defined as indicated on the volcano plots.
+
+\subsection{\textit{In Silico} Resources}
+
+All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
+Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run BWA, GATK Mutect2, and IGV visualisation. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717).
+
+\section{Results and Discussion}
+
+\subsection{A Surprising Result}
+
+The primary objective of this analysis was to identify genes activated during cell competition in both winner and loser populations. In this \gls{phd} thesis, however, the analyses presented focus on the winner population\footnote{Attentive readers may notice that the methodology used in this chapter differs slightly from that employed elsewhere in this thesis (e.g., the use of adjusted p-values instead of B-statistics to define differential expression, the absence of violin plots, among other differences). As this chapter concerns the dataset used during my initial training in bioinformatics, I chose to preserve the analyses exactly as they were performed during the first year of my PhD. In this sense, the chapter also serves as a small “before and after” record illustrating how my approach has evolved over time as I gained more experience as a dry-lab biologist.}.
+\\
+Flow cytometry analysis of the co-culture experiments revealed that apoptosis levels in LS174T cells were not significantly different from those observed in monoculture. In contrast, LoVo cells displayed significantly increased apoptosis under co-culture conditions, consistent with previous reports\cite{di_giacomo_human_2017}. This increase in apoptosis was abolished when the co-cultures were treated with emricasan, a pan-caspase inhibitor, further corroborating earlier findings\cite{di_giacomo_human_2017} and aligning with the canonical features of cell competition (see the aforementioned \gls{msc} thesis for the corresponding plots).
+\\
+Taken together, these results indicate that, in this experimental context, LS174T cells behave as winners, whereas LoVo cells act as losers. Consequently, following \gls{facs} and \gls{rna}, we performed a \gls{dgea} between LS174T cells isolated from co-culture with LS174T cells maintained in monoculture (Figure 3.1).
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.1"}
+	\caption[\gls{dgea} between LS174T cells in coculture with mono-culture]{\textbf{\gls{dgea} between LS174T cells in coculture with mono-culture.} Volcano plot of differential expression (X-Axis – Log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic (Bayesian log-odds of differential expression)) in LS174T cells in coculture compared to mono-culture; genes as circles; potentially differentially expressed genes are coloured blue if upregulated (log2FC$>$1.75 and adjusted p-value$<$0.05) in coculture condition.}
+	\label{fig:cc_winvulcan}
+\end{figure}
+
+\noindent
+Among the genes classified as “potentially differentially expressed,” two located on the Y-chromosome, \textit{RPS4Y1} and \textit{DDX3Y}, stood out. This observation was intriguing, as Y-chromosome genes rarely play prominent roles in most cellular processes\cite{quintana-murci_human_2001}.
+\\
+Even more puzzling was the origin of the LS174T cell line. These cells were derived from a female patient and are described as having a 46,XX karyotype\footnote{Biological sex, of course, is not as simple as to be reduced to chromosomal composition alone. Individuals may present discordance between chromosomal, gonadal, and phenotypic sex. As an example, individuals with Swyer Syndrome present as female, despite their 46,YX karyotype\cite{bannour_swyer_2025}.}\cite{bairoch_cellosaurus_2018}.  Thus, the presence of Y-linked transcripts in a cell line expected to lack a Y-chromosome was unexpected.
+\\
+Several speculative explanations could be considered. One possibility would be some form of chromosomal acquisition or rearrangement during long-term cell culture, given the well-documented genomic instability of cancer cell lines\cite{linnekamp_consensus_2018}. More exotically, one might wonder whether a phenomenon like \gls{cc} could accelerate genomic divergence to the point of producing unusual chromosomal configurations. Another, considerably more scientifically sound, possibility is microchimerism, where during pregnancy, cells from the mother can travel to the progeny and vice-versa\cite{shrivastava_microchimerism_2019}. In the case of an embryo with a Y-chromosome, this could result in the detection of Y-chromosome genes in the mother\cite{shrivastava_microchimerism_2019}.
+\\
+However, even if such mechanisms explained the presence of these transcripts, they would not necessarily clarify why these genes would appear to be involved in cell competition. An additional point of interest is that the LoVo cell line originates from a male patient\cite{bairoch_cellosaurus_2018}. With these observations in mind, we examined the expression of several of these potential \glspl{deg} in greater detail (Figure 3.2).
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.2"}
+	\caption[Expression of potential \glspl{deg} in winner cells engaged in \gls{cc}]{\textbf{Expression of potential \glspl{deg} in winner cells engaged in \gls{cc}.} Dot plots of expression (Y-Axis – Log2 \gls{cpm}) in winner and loser cells, ordered by percentage of LS174T cells in the mix, as given by CYBERSORTx\cite{chen_profiling_2018} (X-Axis – LS174T percentage); samples as circles, coloured green if from a winner cell sample, or red if from a loser cell sample, with darker shades corresponding to mono-culture. Acronyms stand for \gls{lmc}, \gls{lcc}, \gls{lsmc}, and \gls{lscc}}
+	\label{fig:cc_expgraph1}
+\end{figure}
+
+\noindent
+From this analysis, we observed that most genes, including the two Y-chromosome genes, showed substantially higher expression in the loser cell line than in the winner cell line, with the expression levels of winner cells in co-culture generally falling between those of the two monocultures. This pattern was unexpected and prompted a closer examination of the technical aspects of the methodology.
+\\
+In particular, we noted that the FACS system used for cell sorting, according to its manufacturer’s specifications\cite{bd_biosciences_bd_nodate}, achieves a typical purity of approximately 98\%. Using the monoculture transcriptomes as reference signatures, deconvolution with CIBERSORTx\cite{chen_profiling_2018} estimated that the sorted co-culture samples contained approximately 3\% of cells from the opposite cell line.
+\\
+This observation provided a straightforward explanation for the apparent upregulation of Y-chromosome transcripts and several other genes: these reads most likely originated from the small fraction of contaminating cells from the opposite cell line present after sorting.
+
+\subsection{Biological Knowledge Driving Methodological Choices}
+
+This contamination presented a clear analytical challenge: how could we distinguish genes that were genuinely upregulated from those whose apparent upregulation was simply driven by contaminating cells?
+\\
+Both cell lines used in this study are colorectal cancer lines. More specifically, they exhibit \gls{msi}\cite{linnekamp_consensus_2018}, a condition associated with elevated mutational rates similar to those observed in Lynch syndrome\cite{hao_distinct_2016}. We therefore considered whether the increased mutational burden in these cell lines could generate sufficient genetic fingerprints to allow the origin of individual sequencing reads to be distinguished.
+\\
+Based on this idea, we performed a variant-calling analysis and successfully identified several variants that could differentiate reads originating from each cell line. Although the elevated mutational burden initially motivated this approach, naturally occurring \glspl{snp} can also serve as informative markers for distinguishing between the two cell lines (Figure 3.3).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.3"}
+	\caption[Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture]{\textbf{Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture.} Dot plots of expression (Y-Axis – t-statistic) in winner cells, ordered by \gls{af}, compared to reference genome (X-Axis – Allelic Frequency); genes as circles, coloured orange if distinguishing mutation originates from LoVo, or cyan if from LS174T. Two genes with exclusive mutations are highlighted on the plot.}
+	\label{fig:cc_afplot}
+\end{figure}
+
+\noindent
+As a validation of this approach, we visually inspected sequencing reads using the two genes with the highest \gls{af} distinguishing LoVo and LS174T cells, \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}}, using \gls{igv}.
+\\
+This inspection confirmed the expected pattern of contamination. For \textit{\gls{wnt5a}}, most reads in the winner-cell co-culture sample carried the loser-cell variant, indicating that these reads likely originated from contaminating loser cells. In contrast, for \textit{\gls{sipa1l2}}, although a minority of reads displayed the loser-cell variant, the majority carried the winner-cell mutation (Figure 3.4). 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.4"}
+	\caption[Mutations in \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}} allow for distinguishing read origin in winner cells in co-culture]{\textbf{Mutations in \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}} allow for distinguishing read origin in winner cells in co-culture.} Screenshots in \gls{igv} from cell line specific mutations in \textit{\gls{wnt5a}} (Top) and in \textit{\gls{sipa1l2}} (Bottom). The specific mutation of interest in each case is presented in the center of each track. Rows are identified, in order, as \gls{lmc} in red, and as \gls{lsmc} and \gls{lscc} in green.}
+	\label{fig:cc_igv}
+\end{figure}
+
+\noindent
+Thus, while the increased read counts for \textit{\gls{wnt5a}} represented a false positive driven by contamination, the signal observed for \textit{\gls{sipa1l2}} reflected a genuine contribution from winner cells. Nevertheless, under the log\gls{fc} thresholds used in this analysis, neither gene met the criteria to be classified as differentially expressed.
+\\
+Overall, this variant-informed approach enabled a more reliable identification of genuinely upregulated genes. Among these was \textit{\gls{aqp3}}, whose upregulation was previously shown in my \gls{msc} thesis to be necessary for triggering cell death in the loser cells.
+

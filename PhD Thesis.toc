@@ -7,7 +7,7 @@
 \contentsline {chapter}{List of Figures}{x}{chapter*.5}%
 \contentsline {chapter}{List of Tables}{xi}{chapter*.6}%
 \contentsline {chapter}{Abbreviations, acronyms, innitialisms, and symbols}{xii}{section*.7}%
-\contentsline {chapter}{Preface}{xvii}{chapter*.9}%
+\contentsline {chapter}{Preface}{xix}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Stress Granules}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}What are Stress Granules?}{1}{subsection.1.1.1}%
@@ -29,13 +29,22 @@
 \contentsline {subsection}{\numberline {1.4.2}Why Transcriptomics?}{25}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}A Brief Introduction to RNA-Sequencing}{27}{subsection.1.4.3}%
 \contentsline {chapter}{\numberline {2}Objectives}{31}{chapter.2}%
-\contentsline {subsection}{\numberline {2.0.1}SGs as Novel Targets in Cancer}{31}{subsection.2.0.1}%
-\contentsline {subsection}{\numberline {2.0.2}Aims}{32}{subsection.2.0.2}%
-\contentsline {subsection}{\numberline {2.0.3}Thesis Outline}{33}{subsection.2.0.3}%
-\contentsline {chapter}{\numberline {3}Side Chapter A}{34}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Section}{34}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Subsection}{34}{subsection.3.1.1}%
-\contentsline {chapter}{\numberline {4}Name Chapter I}{35}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Name Chapter II}{36}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Name Chapter III}{37}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Discussion}{38}{chapter.7}%
+\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{31}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Aims}{32}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Thesis Outline}{33}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Cell Competition and the Importance of Critical Thinking}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Brief Introduction to Cell Competition}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Materials and Methods}{36}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Non \textit {In Silico} Methods}{36}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Dataset Pre-Processing and Alignment}{36}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Variant Calling}{37}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Read count data pre-processing}{37}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Differential expression analysis }{37}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}\textit {In Silico} Resources}{38}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Results and Discussion}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}A Surprising Result}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Biological Knowledge Driving Methodological Choices}{41}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Name Chapter I}{44}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Name Chapter II}{45}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Name Chapter III}{46}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Discussion}{47}{chapter.7}%
