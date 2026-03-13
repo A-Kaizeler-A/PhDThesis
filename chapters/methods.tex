@@ -48,13 +48,13 @@ For validation purposes, reads were visually inspected through \gls{igv}\cite{ro
 Raw read counts were first filtered to remove lowly expressed genes. Filtered read counts were then used to calculate library size scaling factors using the \gls{tmm}\cite{robinson_scaling_2010} through the calcNormFactors function from \gls{edger}\cite{robinson_edger_2010} (v3.36.0)). These were subsequently normalised and log2-transformed using the \gls{voom}\cite{law_voom_2014} function from \gls{limma}\cite{ritchie_limma_2015} (v.3.50.3). 
 \\
 \\
-These different steps, will be explored in more depth in Chapter 4.
+These different steps, will be explored in more depth in Chapter 4, but these same packages and references were the ones used throughout the entire thesis work.
 
 \subsection{Differential expression analysis }
 
 To model expression changes between conditions, we directly compared co-culture separated samples with their monoculture counterparts. For simplification purposes, only the LS174T co-culture \gls{vs} LS174T monoculture is shown in this thesis.
 \\
-Standard errors were then moderated using empirical Bayes shrinkage, and top differentially expressed genes were defined as indicated on the volcano plots.
+Standard errors were then moderated using empirical Bayes shrinkage\cite{smyth_linear_nodate}, and top differentially expressed genes were defined as indicated on the volcano plots.
 
 \subsection{\textit{In Silico} Resources}
 
@@ -117,7 +117,6 @@ Based on this idea, we performed a variant-calling analysis and successfully ide
 	\caption[Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture]{\textbf{Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture.} Dot plots of expression (Y-Axis – t-statistic) in winner cells, ordered by \gls{af}, compared to reference genome (X-Axis – Allelic Frequency); genes as circles, coloured orange if distinguishing mutation originates from LoVo, or cyan if from LS174T. Two genes with exclusive mutations are highlighted on the plot.}
 	\label{fig:cc_afplot}
 \end{figure}
-
 \noindent
 As a validation of this approach, we visually inspected sequencing reads using the two genes with the highest \gls{af} distinguishing LoVo and LS174T cells, \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}}, using \gls{igv}.
 \\

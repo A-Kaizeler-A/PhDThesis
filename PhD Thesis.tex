@@ -5,6 +5,14 @@
 \usepackage[portuguese,british]{babel}
 \usepackage{CJKutf8}
 
+\usepackage{tocloft}
+\newcommand{\listequationsname}{List of Equations}
+\newlistof{myequations}{equ}{\listequationsname}
+
+\newcommand{\eqcaption}[1]{%
+	\addcontentsline{equ}{myequations}{Equation \theequation: #1}
+}
+
 \usepackage{chngcntr}
 \counterwithout{footnote}{chapter}
 
@@ -20,6 +28,9 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 %\usepackage{ebgaramond}
+
+\usepackage{pdflscape} % in preamble
+\usepackage{calc} % in preamble
 
 \usepackage[onehalfspacing]{setspace}
 \setlength{\parskip}{0cm}
@@ -423,6 +434,10 @@
 
 \listoftables
 \addcontentsline{toc}{chapter}{List of Tables}
+
+\listofmyequations
+\addcontentsline{toc}{chapter}{List of Equations}
+
 \printglossary
 \renewcommand*{\acronymname}{Abbreviations, acronyms, innitialisms, and symbols}
 \printnoidxglossary[type=\acronymtype, nonumberlist=true] 

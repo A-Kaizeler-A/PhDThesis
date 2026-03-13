@@ -110,7 +110,7 @@ As outlined above, \glspl{rbp} act as master regulators of \gls{rna} biology, ex
 \gls{nelfe} binds to transcripts of the proto-oncogene \textit{\gls{myc}}, stabilising the \gls{mrna} and promoting its translation, thereby contributing to tumour progression\cite{kelaini_rna-binding_2021}. \gls{hurelav} interacts with \glspl{are} within the \gls{3utr} of target \gls{mrna}, leading to their stabilisation, particularly for transcripts involved in inflammatory responses\cite{kelaini_rna-binding_2021}. In contrast, \gls{ttp} recognises similar \gls{are} on overlapping sets of transcripts but promotes their deadenylation and degradation instead\cite{kelaini_rna-binding_2021}.
 Beyond their direct effects on \gls{rna} stability, these examples illustrate how \glspl{rbp} constitute an additional regulatory layer within signalling pathways, fine-tuning gene expression outcomes by selectively stabilising or destabilising specific \gls{rna} populations.
 \\
-Another clear example of this functional dichotomy is found in the role of RNA-binding proteins in translational control. \glspl{pabp} enhance cap-dependent translation by stabilising pre-initiation complexes\cite{harvey_trans-acting_2018}. In contrast, \glspl{cpeb} generally function as translational repressors, although their activity can be modulated in response to specific cellular cues\cite{harvey_trans-acting_2018}. \gls{larp1} exemplifies the context-dependent nature of \gls{rbp} function, as it has been shown to both repress and promote translation depending on cellular conditions and signalling status\cite{harvey_trans-acting_2018, burrows_rna_2010, fonseca_-related_2015}.
+Another clear example of this functional dichotomy is found in the role of RNA-binding proteins in translational control. \glspl{pabpc1} enhance cap-dependent translation by stabilising pre-initiation complexes\cite{harvey_trans-acting_2018}. In contrast, \glspl{cpeb} generally function as translational repressors, although their activity can be modulated in response to specific cellular cues\cite{harvey_trans-acting_2018}. \gls{larp1} exemplifies the context-dependent nature of \gls{rbp} function, as it has been shown to both repress and promote translation depending on cellular conditions and signalling status\cite{harvey_trans-acting_2018, burrows_rna_2010, fonseca_-related_2015}.
 \\
 \glspl{rbp} also play central roles in \gls{rna} editing. The most prominent example is the \gls{adar} family of enzymes, which bind \gls{dsrna} and catalyse the deamination of adenosine to inosine\cite{savva_adar_2012}. This form of \gls{rna} editing is particularly prevalent in the nervous system, where it is essential for proper neuronal development and function\cite{savva_adar_2012}.
 \\
@@ -274,100 +274,3 @@ Following extraction, \gls{rna} selection or depletion is typically performed. P
 In widely used short-read platforms such as Illumina sequencing (the primary technology used in this thesis), \gls{rna} is reverse-transcribed into \gls{cdna}, ligated to sequencing adapters, and immobilised on a flow cell, where fragments are clonally amplified prior to sequencing\cite{chu_rna_2012}. Reads may be generated in single-end or paired-end mode. Paired-end sequencing improves alignment accuracy and detection of structural features, whereas single-end sequencing is often more cost-efficient and may yield higher read counts per sample\cite{nakazato_experimental_2013}. Read length is also an important parameter, as longer reads generally improve mapping confidence\cite{phipson_gene_2017}.
 \\
 Sequencing produces large datasets, typically stored in FASTQ format, that require computational processing and analysis\cite{chu_rna_2012, nakazato_experimental_2013}. These procedures are described in the Methods section “Quality Control and Alignment”, while downstream analytical results are presented in the Results section.
-
-% ---------------------
-% 1. Basic Figure
-% ---------------------
-
-% You can also drag the figures to this section and it will automatically include them
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\textwidth]{images/logo/ulisboa-only.pdf}
-  \caption{This is a basic figure.}
-  \label{fig:basic}
-\end{figure}
- 
-
-% ---------------------
-% 2. Figure with Specific Height and Width
-% ---------------------
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=5cm]{images/logo/ulisboa-only.pdf}
-  \caption{Figure with custom dimensions.}
-  \label{fig:customsize}
-\end{figure}
-
-% ---------------------
-% 3. Side-by-Side Figures (Subfigures)
-% ---------------------
-\begin{figure}[htbp]
-  \centering
-  \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{images/logo/ulisboa-only.pdf}
-    \caption{First image}
-    \label{fig:sub1}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{images/logo/ulisboa-only.pdf}
-    \caption{Second image}
-    \label{fig:sub2}
-  \end{subfigure}
-  \caption{Two images side by side}
-  \label{fig:sidebyside}
-\end{figure}
-
-% ---------------------
-% 4. Basic Table
-% ---------------------
-\begin{table}[htbp]
-  \centering
-  \begin{tabular}{|c|c|c|}
-    \hline
-    A & B & C \\
-    \hline
-    1 & 2 & 3 \\
-    4 & 5 & 6 \\
-    \hline
-  \end{tabular}
-  \caption{Basic table}
-  \label{tab:basic}
-\end{table}
-
-% ---------------------
-% 5. Table with Multi-Column Header
-% ---------------------
-\begin{table}[htbp]
-  \centering
-  \begin{tabular}{|c|c|c|}
-    \hline
-    \multicolumn{2}{|c|}{Group 1} & Group 2 \\
-    \hline
-    X & Y & Z \\
-    \hline
-    1 & 2 & 3 \\
-    \hline
-  \end{tabular}
-  \caption{Table with merged header}
-  \label{tab:mergeheader}
-\end{table}
-
-% ---------------------
-% 6. Table with Fixed Width Columns
-% ---------------------
-\begin{table}[htbp]
-  \centering
-  \begin{tabular}{|>{\raggedright\arraybackslash}p{3cm}|p{5cm}|}
-    \hline
-    Column A & Column B \\
-    \hline
-    Text with wrapped lines & Another wrapped cell with long content to demonstrate the fixed column widths. \\
-    \hline
-  \end{tabular}
-  \caption{Table with fixed width columns}
-  \label{tab:fixedwidth}
-\end{table}
-
-

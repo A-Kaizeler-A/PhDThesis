@@ -1,13 +1,14 @@
 \babel@toc {british}{}\relax 
 \babel@toc {portuguese}{}\relax 
-\contentsline {chapter}{Resumo}{iii}{chapter*.2}%
+\contentsline {chapter}{Resumo}{iv}{chapter*.1}%
 \babel@toc {british}{}\relax 
-\contentsline {chapter}{Summary}{vi}{chapter*.3}%
-\contentsline {chapter}{Acknowledgements}{viii}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{x}{chapter*.5}%
-\contentsline {chapter}{List of Tables}{xi}{chapter*.6}%
-\contentsline {chapter}{Abbreviations, acronyms, innitialisms, and symbols}{xii}{section*.7}%
-\contentsline {chapter}{Preface}{xix}{chapter*.9}%
+\contentsline {chapter}{Summary}{vii}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{ix}{chapter*.3}%
+\contentsline {chapter}{List of Figures}{xii}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{xii}{chapter*.3}%
+\contentsline {chapter}{List of Equations}{xii}{chapter*.3}%
+\contentsline {chapter}{Abbreviations, acronyms, innitialisms, and symbols}{xiii}{section*.4}%
+\contentsline {chapter}{Preface}{xxii}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Stress Granules}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}What are Stress Granules?}{1}{subsection.1.1.1}%
@@ -28,23 +29,43 @@
 \contentsline {subsection}{\numberline {1.4.1}What is Transcriptomics?}{24}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Why Transcriptomics?}{25}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}A Brief Introduction to RNA-Sequencing}{27}{subsection.1.4.3}%
-\contentsline {chapter}{\numberline {2}Objectives}{31}{chapter.2}%
-\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{31}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Aims}{32}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Thesis Outline}{33}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Cell Competition and the Importance of Critical Thinking}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Brief Introduction to Cell Competition}{35}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Materials and Methods}{36}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Non \textit {In Silico} Methods}{36}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Dataset Pre-Processing and Alignment}{36}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Variant Calling}{37}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Read count data pre-processing}{37}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Differential expression analysis }{37}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}\textit {In Silico} Resources}{38}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Results and Discussion}{38}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}A Surprising Result}{38}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Biological Knowledge Driving Methodological Choices}{41}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Name Chapter I}{44}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Name Chapter II}{45}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Name Chapter III}{46}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Discussion}{47}{chapter.7}%
+\contentsline {chapter}{\numberline {2}Objectives}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{29}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Aims}{30}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Thesis Outline}{31}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Cell Competition and the Importance of Critical Thinking}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Brief Introduction to Cell Competition}{33}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Materials and Methods}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Non \textit {In Silico} Methods}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Dataset Pre-Processing and Alignment}{34}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Variant Calling}{35}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Read count data pre-processing}{35}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Differential expression analysis }{35}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}\textit {In Silico} Resources}{36}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Results and Discussion}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}A Surprising Result}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Biological Knowledge Driving Methodological Choices}{39}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}The SG Transcriptome}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Materials and Methods}{43}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Dataset Procurement and List}{43}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Correlations}{44}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Sampling bias simulations (Mimi-Seq)}{44}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Centrifugation Simulation (Spin-Sim)}{44}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}\textit {In Silico} Resources}{46}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Standard Bioinformatics Analytical Pipeline}{46}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Quality Control: Dataset Pre-processing}{46}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Quality Control: Coverage and Complexity}{49}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Processing Steps: Filtering and Normalisation}{50}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Exploratory Analysis: PCA}{53}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Differential Expression Analysis – Linear Modelling}{55}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Differential Expression Analysis – Volcano Plots and GSEA}{57}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Results and Discussion}{59}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Different SG purification techniques yield different SG transcriptomes}{59}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Sampling bias does not explain the RNA length bias in DC-derived SGs}{64}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Simulation of the centrifugation process yields RNA length bias compatible with that observed in DC-isolated SGs}{68}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Centrifugation simulation with added weight from RNA modifications recapitulate their effect in DC-isolated SGs}{72}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Differential centrifugation yields similar transcriptomes for stress granules and other RNP granules}{74}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Revisiting Stress Granule Transcriptomes Reveals Mitochondrial RNA Enrichment Despite Methodological Bias}{77}{subsection.4.3.6}%
+\contentsline {chapter}{\numberline {5}Name Chapter II}{87}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Name Chapter III}{88}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Discussion}{89}{chapter.7}%

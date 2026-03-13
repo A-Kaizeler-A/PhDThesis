@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  5 MAR 2026 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  13 MAR 2026 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,6 +188,54 @@ Now handling font encoding C62 ...
 (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ))
+(c:/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip51
+\cftbeforetoctitleskip=\skip52
+\cftaftertoctitleskip=\skip53
+\cftbeforepartskip=\skip54
+\cftpartnumwidth=\skip55
+\cftpartindent=\skip56
+\cftbeforechapskip=\skip57
+\cftchapindent=\skip58
+\cftchapnumwidth=\skip59
+\cftbeforesecskip=\skip60
+\cftsecindent=\skip61
+\cftsecnumwidth=\skip62
+\cftbeforesubsecskip=\skip63
+\cftsubsecindent=\skip64
+\cftsubsecnumwidth=\skip65
+\cftbeforesubsubsecskip=\skip66
+\cftsubsubsecindent=\skip67
+\cftsubsubsecnumwidth=\skip68
+\cftbeforeparaskip=\skip69
+\cftparaindent=\skip70
+\cftparanumwidth=\skip71
+\cftbeforesubparaskip=\skip72
+\cftsubparaindent=\skip73
+\cftsubparanumwidth=\skip74
+\cftbeforeloftitleskip=\skip75
+\cftafterloftitleskip=\skip76
+\cftbeforefigskip=\skip77
+\cftfigindent=\skip78
+\cftfignumwidth=\skip79
+\c@lofdepth=\count289
+\c@lotdepth=\count290
+\cftbeforelottitleskip=\skip80
+\cftafterlottitleskip=\skip81
+\cftbeforetabskip=\skip82
+\cfttabindent=\skip83
+\cfttabnumwidth=\skip84
+)
+\c@myequations=\count291
+\cftbeforemyequationsskip=\skip85
+\cftmyequationsindent=\skip86
+\cftmyequationsnumwidth=\skip87
+\c@equdepth=\count292
+\cftbeforeequtitleskip=\skip88
+\cftafterequtitleskip=\skip89
+
 (c:/texlive/2025/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
@@ -218,28 +266,28 @@ Package: overpic 2024/01/06 2.1 picture overlays (RN)
 
 (c:/texlive/2025/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count289
-\d@lta=\count290
+\@@multicnt=\count293
+\d@lta=\count294
 \@delta=\dimen160
 \@@delta=\dimen161
-\@gridcnt=\count291
-\@joinkind=\count292
+\@gridcnt=\count295
+\@joinkind=\count296
 \@dotgap=\dimen162
 \@ddotgap=\dimen163
-\@x@diff=\count293
-\@y@diff=\count294
+\@x@diff=\count297
+\@y@diff=\count298
 \x@diff=\dimen164
 \y@diff=\dimen165
 \@dotbox=\box54
-\num@segments=\count295
-\num@segmentsi=\count296
+\num@segments=\count299
+\num@segmentsi=\count300
 \@datafile=\read3
 )
 \OVP@box=\box55
 ) (c:/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen166
 \WF@size=\dimen167
-\c@WF@wrappedlines=\count297
+\c@WF@wrappedlines=\count301
 \WF@box=\box56
 \WF@everypar=\toks21
 Package: wrapfig 2003/01/31  v 3.6
@@ -262,14 +310,14 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen175
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count298
-\c@continuedfloat=\count299
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count300
+\c@subfigure=\count304
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count301
+\c@subtable=\count305
 )
 (c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
@@ -280,10 +328,10 @@ Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
 (c:/texlive/2025/texmf-dist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-\beforeepigraphskip=\skip51
-\afterepigraphskip=\skip52
-\epigraphwidth=\skip53
-\epigraphrule=\skip54
+\beforeepigraphskip=\skip90
+\afterepigraphskip=\skip91
+\epigraphwidth=\skip92
+\epigraphrule=\skip93
 )
 (c:/texlive/2025/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
@@ -292,7 +340,7 @@ Package: cite 2015/02/27  v 5.5
 )
 (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip55
+\@mathmargin=\skip94
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -310,14 +358,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count302
+\inf@bad=\count306
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count303
-\leftroot@=\count304
+\uproot@=\count307
+\leftroot@=\count308
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count305
-\DOTSCASE@=\count306
+\classnum@=\count309
+\DOTSCASE@=\count310
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -330,20 +378,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count307
+\macc@depth=\count311
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count308
+\c@MaxMatrixCols=\count312
 \dotsspace@=\muskip17
-\c@parentequation=\count309
-\dspbrk@lvl=\count310
+\c@parentequation=\count313
+\dspbrk@lvl=\count314
 \tag@help=\toks23
-\row@=\count311
-\column@=\count312
-\maxfields@=\count313
+\row@=\count315
+\column@=\count316
+\maxfields@=\count317
 \andhelp@=\toks24
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
@@ -352,8 +400,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen183
 \lineht@=\dimen184
 \@envbody=\toks25
-\multlinegap=\skip56
-\multlinetaggap=\skip57
+\multlinegap=\skip95
+\multlinetaggap=\skip96
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
@@ -369,6 +417,31 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
+
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PD
+F (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count318
+\calc@Bcount=\count319
+\calc@Adimen=\dimen185
+\calc@Bdimen=\dimen186
+\calc@Askip=\skip97
+\calc@Bskip=\skip98
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count320
+\calc@Cskip=\skip99
+)
 (c:/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
@@ -393,7 +466,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 (c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
-\c@section@level=\count314
+\c@section@level=\count321
 )
 (c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty
 (c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -402,37 +475,37 @@ Package: expl3 2025-10-24 L3 programming layer (loader)
 
 (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
+\l__color_backend_stack_int=\count322
 ))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count316
-\l__lipsum_a_int=\count317
-\l__lipsum_b_int=\count318
+\g__lipsum_par_int=\count323
+\l__lipsum_a_int=\count324
+\l__lipsum_b_int=\count325
 
 (c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count319
+\lst@mode=\count326
 \lst@gtempboxa=\box59
 \lst@token=\toks27
-\lst@length=\count320
-\lst@currlwidth=\dimen185
-\lst@column=\count321
-\lst@pos=\count322
-\lst@lostspace=\dimen186
-\lst@width=\dimen187
-\lst@newlines=\count323
-\lst@lineno=\count324
-\lst@maxwidth=\dimen188
+\lst@length=\count327
+\lst@currlwidth=\dimen187
+\lst@column=\count328
+\lst@pos=\count329
+\lst@lostspace=\dimen188
+\lst@width=\dimen189
+\lst@newlines=\count330
+\lst@lineno=\count331
+\lst@maxwidth=\dimen190
 
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count325
-\lst@skipnumbers=\count326
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
 \lst@framebox=\box60
 )
 (c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
@@ -838,23 +911,23 @@ line 388.
 (c:/texlive/2025/texmf-dist/tex/latex/silence/silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
 sages
-\sl@Save=\count327
-\sl@StateNumber=\count328
-\sl@MessageCount=\count329
-\sl@Casualties=\count330
+\sl@Save=\count334
+\sl@StateNumber=\count335
+\sl@MessageCount=\count336
+\sl@Casualties=\count337
 \sl@Filter=\toks28
 \sl@Message=\toks29
 \sl@UnexpandedMessage=\toks30
 \sl@Mess@ge=\toks31
-\sl@WarningCount=\count331
-\sl@WarningNumber=\count332
-\sl@WarningCasualties=\count333
+\sl@WarningCount=\count338
+\sl@WarningNumber=\count339
+\sl@WarningCasualties=\count340
 \sl@TempBOW=\toks32
 \sl@BankOfWarnings=\toks33
 LaTeX Info: Redefining \GenericWarning on input line 433.
-\sl@ErrorCount=\count334
-\sl@ErrorNumber=\count335
-\sl@ErrorCasualties=\count336
+\sl@ErrorCount=\count341
+\sl@ErrorNumber=\count342
+\sl@ErrorCasualties=\count343
 \sl@TempBOE=\toks34
 \sl@BankOfErrors=\toks35
 LaTeX Info: Redefining \GenericError on input line 601.
@@ -874,7 +947,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 )
-\XKV@depth=\count337
+\XKV@depth=\count344
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -882,8 +955,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks38
-\pgfutil@tempdima=\dimen189
-\pgfutil@tempdimb=\dimen190
+\pgfutil@tempdima=\dimen191
+\pgfutil@tempdimb=\dimen192
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box61
@@ -907,26 +980,26 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 de.tex
 \pgfkeys@tmptoks=\toks41
 ))
-\pgf@x=\dimen191
-\pgf@y=\dimen192
-\pgf@xa=\dimen193
-\pgf@ya=\dimen194
-\pgf@xb=\dimen195
-\pgf@yb=\dimen196
-\pgf@xc=\dimen197
-\pgf@yc=\dimen198
-\pgf@xd=\dimen199
-\pgf@yd=\dimen256
+\pgf@x=\dimen193
+\pgf@y=\dimen194
+\pgf@xa=\dimen195
+\pgf@ya=\dimen196
+\pgf@xb=\dimen197
+\pgf@yb=\dimen198
+\pgf@xc=\dimen199
+\pgf@yc=\dimen256
+\pgf@xd=\dimen257
+\pgf@yd=\dimen258
 \w@pgf@writea=\write3
 \r@pgf@reada=\read4
-\c@pgf@counta=\count338
-\c@pgf@countb=\count339
-\c@pgf@countc=\count340
-\c@pgf@countd=\count341
+\c@pgf@counta=\count345
+\c@pgf@countb=\count346
+\c@pgf@countc=\count347
+\c@pgf@countd=\count348
 \t@pgf@toka=\toks42
 \t@pgf@tokb=\toks43
 \t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count342
+\pgf@sys@id@count=\count349
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -940,8 +1013,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count343
-\pgfsyssoftpath@bigbuffer@items=\count344
+\pgfsyssoftpath@smallbuffer@items=\count350
+\pgfsyssoftpath@bigbuffer@items=\count351
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -951,8 +1024,8 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen257
-\pgfmath@count=\count345
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count352
 \pgfmath@box=\box62
 \pgfmath@toks=\toks45
 \pgfmath@stack@operand=\toks46
@@ -977,56 +1050,56 @@ x)
 etics.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count346
+\c@pgfmathroundto@lastzeros=\count353
 ))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen258
-\pgf@picmaxx=\dimen259
-\pgf@picminy=\dimen260
-\pgf@picmaxy=\dimen261
-\pgf@pathminx=\dimen262
-\pgf@pathmaxx=\dimen263
-\pgf@pathminy=\dimen264
-\pgf@pathmaxy=\dimen265
-\pgf@xx=\dimen266
-\pgf@xy=\dimen267
-\pgf@yx=\dimen268
-\pgf@yy=\dimen269
-\pgf@zx=\dimen270
-\pgf@zy=\dimen271
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen272
-\pgf@path@lasty=\dimen273
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen274
-\pgf@shorten@start@additional=\dimen275
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box63
 \pgf@hbox=\box64
 \pgf@layerbox@main=\box65
-\pgf@picture@serial@count=\count347
+\pgf@picture@serial@count=\count354
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen276
+\pgflinewidth=\dimen278
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen277
-\pgf@pt@y=\dimen278
-\pgf@pt@temp=\dimen279
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1040,13 +1113,13 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen280
+\pgfarrowsep=\dimen282
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen281
-\pgf@sys@shading@range@num=\count348
-\pgf@shadingcount=\count349
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count355
+\pgf@shadingcount=\count356
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1076,8 +1149,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen282
-\pgf@nodesepend=\dimen283
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
 )
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -1089,8 +1162,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen284
-\pgffor@skip=\dimen285
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
@@ -1100,33 +1173,33 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count350
-\pgfplotmarksize=\dimen286
+\pgf@plot@mark@count=\count357
+\pgfplotmarksize=\dimen288
 )
-\tikz@lastx=\dimen287
-\tikz@lasty=\dimen288
-\tikz@lastxsaved=\dimen289
-\tikz@lastysaved=\dimen290
-\tikz@lastmovetox=\dimen291
-\tikz@lastmovetoy=\dimen292
-\tikzleveldistance=\dimen293
-\tikzsiblingdistance=\dimen294
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
 \tikz@figbox=\box68
 \tikz@figbox@bg=\box69
 \tikz@tempbox=\box70
 \tikz@tempbox@bg=\box71
-\tikztreelevel=\count351
-\tikznumberofchildren=\count352
-\tikznumberofcurrentchild=\count353
-\tikz@fig@count=\count354
+\tikztreelevel=\count358
+\tikznumberofchildren=\count359
+\tikznumberofcurrentchild=\count360
+\tikz@fig@count=\count361
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count355
-\pgfmatrixcurrentcolumn=\count356
-\pgf@matrix@numberofcolumns=\count357
+\pgfmatrixcurrentrow=\count362
+\pgfmatrixcurrentcolumn=\count363
+\pgf@matrix@numberofcolumns=\count364
 )
-\tikz@expandcount=\count358
+\tikz@expandcount=\count365
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -1135,23 +1208,12 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count359
-\calc@Bcount=\count360
-\calc@Adimen=\dimen295
-\calc@Bdimen=\dimen296
-\calc@Askip=\skip58
-\calc@Bskip=\skip59
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count361
-\calc@Cskip=\skip60
 )
-\c@@todonotes@numberoftodonotes=\count362
-) (c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+\c@@todonotes@numberoftodonotes=\count366
+)
+(c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count363
+\c@float@type=\count367
 \float@exts=\toks50
 \float@box=\box72
 \@float@everytoks=\toks51
@@ -1178,15 +1240,15 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count364
+\etb@tempcnta=\count368
 )
 (c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen297
-\Hy@linkcounter=\count365
-\Hy@pagecounter=\count366
+\Hy@linkcounter=\count369
+\Hy@pagecounter=\count370
 
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
@@ -1196,7 +1258,7 @@ Now handling font encoding PD1 ...
 (c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count367
+\Hy@SavedSpaceFactor=\count371
 
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -1222,7 +1284,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count368
+\c@Hy@tempcnt=\count372
 
 (c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
@@ -1238,7 +1300,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count369
+\Fld@menulength=\count373
 \Field@Width=\dimen299
 \Fld@charsize=\dimen300
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -1248,16 +1310,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count370
-\c@Item=\count371
-\c@Hfootnote=\count372
+\Hy@abspage=\count374
+\c@Item=\count375
+\c@Hfootnote=\count376
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count373
-\c@bookmark@seq@number=\count374
+\Fld@listcount=\count377
+\c@bookmark@seq@number=\count378
 
 (c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -1268,7 +1330,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip100
 )
 (c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -1282,12 +1344,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen308
 \cmidrulekern=\dimen309
 \defaultaddspace=\dimen310
-\@cmidla=\count375
-\@cmidlb=\count376
+\@cmidla=\count379
+\@cmidlb=\count380
 \@aboverulesep=\dimen311
 \@belowrulesep=\dimen312
-\@thisruleclass=\count377
-\@lastruleclass=\count378
+\@thisruleclass=\count381
+\@lastruleclass=\count382
 \@thisrulewidth=\dimen313
 )
 (c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
@@ -1299,8 +1361,8 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \ar@mcellbox=\box74
 \extrarowheight=\dimen315
 \NC@list=\toks52
-\extratabsurround=\skip62
-\backup@length=\skip63
+\extratabsurround=\skip101
+\backup@length=\skip102
 \ar@cellbox=\box75
 )
 \TX@col@width=\dimen316
@@ -1308,34 +1370,34 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@old@col=\dimen318
 \TX@target=\dimen319
 \TX@delta=\dimen320
-\TX@cols=\count379
+\TX@cols=\count383
 \TX@ftn=\toks53
 )
 (c:/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks54
-\minrowclearance=\skip64
-\rownum=\count380
+\minrowclearance=\skip103
+\rownum=\count384
 )
 (c:/texlive/2025/texmf-dist/tex/latex/parnotes/parnotes.sty
 Package: parnotes 2024/06/12 rev. 3c Notes after every paragraph, or elsewhere
-\c@parnotemark=\count381
+\c@parnotemark=\count385
 )
 (c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip65
-\multirow@cntb=\count382
-\multirow@dima=\skip66
+\multirow@colwidth=\skip104
+\multirow@cntb=\count386
+\multirow@dima=\skip105
 \bigstrutjot=\dimen321
 )
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count383
-\csq@gtype=\count384
-\csq@glevel=\count385
-\csq@qlevel=\count386
-\csq@maxlvl=\count387
-\csq@tshold=\count388
+\csq@reset=\count387
+\csq@gtype=\count388
+\csq@glevel=\count389
+\csq@qlevel=\count390
+\csq@maxlvl=\count391
+\csq@tshold=\count392
 \csq@ltx@everypar=\toks55
 
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1349,20 +1411,20 @@ File: csquotes.cfg
 ))
 (c:/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count389
+\c@tracingmulticols=\count393
 \mult@box=\box76
 \multicol@leftmargin=\dimen322
-\c@unbalance=\count390
-\c@collectmore=\count391
-\doublecol@number=\count392
-\multicoltolerance=\count393
-\multicolpretolerance=\count394
+\c@unbalance=\count394
+\c@collectmore=\count395
+\doublecol@number=\count396
+\multicoltolerance=\count397
+\multicolpretolerance=\count398
 \full@width=\dimen323
 \page@free=\dimen324
 \premulticols=\dimen325
 \postmulticols=\dimen326
-\multicolsep=\skip67
-\multicolbaselineskip=\skip68
+\multicolsep=\skip106
+\multicolbaselineskip=\skip107
 \partial@page=\box77
 \last@line=\box78
 \mc@boxedresult=\box79
@@ -1407,16 +1469,16 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box117
 \@tempa=\box118
 \@tempa=\box119
-\c@minrows=\count395
-\c@columnbadness=\count396
-\c@finalcolumnbadness=\count397
+\c@minrows=\count399
+\c@columnbadness=\count400
+\c@finalcolumnbadness=\count401
 \last@try=\dimen328
 \multicolovershoot=\dimen329
 \multicolundershoot=\dimen330
 \mult@nat@firstbox=\box120
 \colbreak@box=\box121
-\mc@col@check@num=\count398
-\g__mc_curr_col_int=\count399
+\mc@col@check@num=\count402
+\g__mc_curr_col_int=\count403
 )
 (c:/texlive/2025/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -1475,37 +1537,37 @@ Package: datatool-base 2025/04/25 v3.4.1 (NLCT)
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
 \@dtl@toks=\toks58
-\@dtl@tmpcount=\count400
-\dtl@tmplength=\skip69
+\@dtl@tmpcount=\count404
+\dtl@tmplength=\skip108
 \l__datatool_measure_box=\box122
-\dtl@sortresult=\count401
+\dtl@sortresult=\count405
 
 (c:/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@datatype=\count402
-\l__datatool_tmpa_int=\count403
-\l__datatool_tmpb_int=\count404
-\l__datatool_tmpc_int=\count405
-\l__datatool_tmpd_int=\count406
-\l__datatool_count_int=\count407
-\l__datatool_tmp_datatype_int=\count408
+\@dtl@datatype=\count406
+\l__datatool_tmpa_int=\count407
+\l__datatool_tmpb_int=\count408
+\l__datatool_tmpc_int=\count409
+\l__datatool_tmpd_int=\count410
+\l__datatool_count_int=\count411
+\l__datatool_tmp_datatype_int=\count412
 \l__datatool_tmpa_dim=\dimen331
 \l__datatool_tmpb_dim=\dimen332
-\c_datatool_unknown_int=\count409
-\l__datatool_year_int=\count410
-\l__datatool_month_int=\count411
-\l__datatool_day_int=\count412
-\l__datatool_hour_int=\count413
-\l__datatool_minute_int=\count414
-\l__datatool_second_int=\count415
-\l__datatool_tzhour_int=\count416
-\l__datatool_tzminute_int=\count417
-\l__datatool_julian_int=\count418
-\l__datatool_local_julian_int=\count419
-\l__datatool_prefix_int=\count420
-\l__datatool_suffix_int=\count421
-\@dtl@foreach@level=\count422
+\c_datatool_unknown_int=\count413
+\l__datatool_year_int=\count414
+\l__datatool_month_int=\count415
+\l__datatool_day_int=\count416
+\l__datatool_hour_int=\count417
+\l__datatool_minute_int=\count418
+\l__datatool_second_int=\count419
+\l__datatool_tzhour_int=\count420
+\l__datatool_tzminute_int=\count421
+\l__datatool_julian_int=\count422
+\l__datatool_local_julian_int=\count423
+\l__datatool_prefix_int=\count424
+\l__datatool_suffix_int=\count425
+\@dtl@foreach@level=\count426
 
 (c:/texlive/2025/texmf-dist/tex/latex/datatool-regions/datatool-GB.ldf
 File: datatool-GB.ldf 2025/03/01 v1.0
@@ -1517,12 +1579,12 @@ File: datatool-english.ldf 2025/03/12 v1.1 (NLCT)
 f
 File: datatool-english-utf8.ldf 2025/03/12 v1.1 (NLCT)
 ))
-\dtl@codeA=\count423
-\dtl@codeB=\count424
+\dtl@codeA=\count427
+\dtl@codeB=\count428
 )
-\gls@level=\count425
+\gls@level=\count429
 \@gls@tmpb=\toks59
-\gls@tmplen=\skip70
+\gls@tmplen=\skip109
 \l__glossaries_tmpa_dim=\dimen333
 \l__glossaries_tmpb_dim=\dimen334
 \glskeylisttok=\toks60
@@ -1535,43 +1597,43 @@ Package: glossary-hypernav 2025/08/11 v4.8 (NLCT)
 )
 (c:/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2025/08/11 v4.8 (NLCT)
-\glslistdottedwidth=\skip71
+\glslistdottedwidth=\skip110
 )
 (c:/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2025/08/11 v4.8 (NLCT)
 
 (c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip72
-\LTright=\skip73
-\LTpre=\skip74
-\LTpost=\skip75
-\LTchunksize=\count426
+\LTleft=\skip111
+\LTright=\skip112
+\LTpre=\skip113
+\LTpost=\skip114
+\LTchunksize=\count430
 \LTcapwidth=\dimen335
 \LT@head=\box123
 \LT@firsthead=\box124
 \LT@foot=\box125
 \LT@lastfoot=\box126
 \LT@gbox=\box127
-\LT@cols=\count427
-\LT@rows=\count428
-\c@LT@tables=\count429
-\c@LT@chunks=\count430
+\LT@cols=\count431
+\LT@rows=\count432
+\c@LT@tables=\count433
+\c@LT@chunks=\count434
 \LT@p@ftn=\toks64
 )
-\glsdescwidth=\skip76
-\glspagelistwidth=\skip77
+\glsdescwidth=\skip115
+\glspagelistwidth=\skip116
 )
 (c:/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2025/08/11 v4.8 (NLCT)
 
 (c:/texlive/2025/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count431
+\c@tracingst=\count435
 \ST@wd=\dimen336
-\ST@rightskip=\skip78
-\ST@leftskip=\skip79
-\ST@parfillskip=\skip80
+\ST@rightskip=\skip117
+\ST@leftskip=\skip118
+\ST@parfillskip=\skip119
 \ST@pageleft=\dimen337
 \ST@headht=\dimen338
 \ST@tailht=\dimen339
@@ -1585,7 +1647,7 @@ Package: supertabular 2024/07/20 v4.2c the supertabular environment
 ))
 (c:/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2025/08/11 v4.8 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count432
+\l__glossaries_tree_max_known_level_int=\count436
 \l__glossaries_tree_offset_dim=\dimen346
 \l__glossaries_tree_namewidth_dim=\dimen347
 \l__glossaries_tree_symbolwidth_dim=\dimen348
@@ -1595,8 +1657,8 @@ Package: glossary-tree 2025/08/11 v4.8 (NLCT)
 \l__glossaries_tree_symbolwidth_padding_dim=\dimen352
 \l__glossaries_tree_namesymbolwidth_dim=\dimen353
 \l__glossaries_tree_namesymbolwidth_padding_dim=\dimen354
-\l__glossaries_tree_level_int=\count433
-\glstreeindent=\skip81
+\l__glossaries_tree_level_int=\count437
+\glstreeindent=\skip120
 ))
 (./acronyms.tex)
 Package csquotes Info: Checking for multilingual support...
@@ -1606,100 +1668,100 @@ Package csquotes Info: Redefining alias 'default' -> 'british'.
  (./PhD Thesis.aux
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
 (babel)             Reported on input line 13.
-\g__glossaries_gls_ref_acronym_int=\count434
+\g__glossaries_gls_ref_acronym_int=\count438
 )
 \openout1 = `"PhD Thesis.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 298.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 2
-98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 309.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
+09.
 
 (c:/texlive/2025/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 298.
-LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 309.
+LaTeX Font Info:    ... okay on input line 309.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1737,16 +1799,16 @@ LaTeX Font Info:    ... okay on input line 298.
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
+\scratchcounter=\count439
 \scratchdimen=\dimen355
 \scratchbox=\box129
-\nofMPsegments=\count436
-\nofMParguments=\count437
+\nofMPsegments=\count440
+\nofMParguments=\count441
 \everyMPshowfont=\toks65
-\MPscratchCnt=\count438
+\MPscratchCnt=\count442
 \MPscratchDim=\dimen356
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
+\MPnumerator=\count443
+\makeMPintoPDFobject=\count444
 \everyMPtoPDFconversion=\toks66
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1768,16 +1830,16 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count441
-LaTeX Info: Redefining \Upsilon on input line 298.
-LaTeX Info: Redefining \Omega on input line 298.
-LaTeX Info: Redefining \alpha on input line 298.
-LaTeX Info: Redefining \epsilon on input line 298.
-LaTeX Info: Redefining \eta on input line 298.
-LaTeX Info: Redefining \iota on input line 298.
-LaTeX Info: Redefining \rho on input line 298.
-LaTeX Info: Redefining \upsilon on input line 298.
-LaTeX Info: Redefining \omega on input line 298.
+\c@lstlisting=\count445
+LaTeX Info: Redefining \Upsilon on input line 309.
+LaTeX Info: Redefining \Omega on input line 309.
+LaTeX Info: Redefining \alpha on input line 309.
+LaTeX Info: Redefining \epsilon on input line 309.
+LaTeX Info: Redefining \eta on input line 309.
+LaTeX Info: Redefining \iota on input line 309.
+LaTeX Info: Redefining \rho on input line 309.
+LaTeX Info: Redefining \upsilon on input line 309.
+LaTeX Info: Redefining \omega on input line 309.
    defining Unicode char U+0393 (decimal 915)
    defining Unicode char U+0394 (decimal 916)
    defining Unicode char U+0398 (decimal 920)
@@ -1819,15 +1881,15 @@ LaTeX Info: Redefining \omega on input line 298.
    defining Unicode char U+03DD (decimal 989)
    defining Unicode char U+03F1 (decimal 1009)
    defining Unicode char U+03F5 (decimal 1013)
-Package hyperref Info: Link coloring OFF on input line 298.
+Package hyperref Info: Link coloring OFF on input line 309.
  (./PhD Thesis.out) (./PhD Thesis.out)
 \@outlinefile=\write4
 \openout4 = `"PhD Thesis.out"'.
 
-<images/logo/ulisboa-only.pdf, id=195, 168.63pt x 283.0575pt>
+<images/logo/ulisboa-only.pdf, id=277, 168.63pt x 283.0575pt>
 File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
 <use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 307.
+Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 318.
 (pdftex.def)             Requested size: 110.25443pt x 185.0736pt.
  [1
 
@@ -1835,21 +1897,21 @@ Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 307.
 lisboa-only.pdf>]
 File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
 <use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 344.
+Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 355.
 (pdftex.def)             Requested size: 110.25443pt x 185.0736pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 362
+LaTeX Font Info:    Trying to load font information for U+msa on input line 373
 .
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 362
+LaTeX Font Info:    Trying to load font information for U+msb on input line 373
 .
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (6.40462pt too wide) in paragraph at lines 362--378
+Overfull \hbox (6.40462pt too wide) in paragraph at lines 373--389
 [] 
  []
 
@@ -1858,36 +1920,34 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.385 \end{titlepage}
+l.396 \end{titlepage}
                       [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 \end{titlepage}
-                      [1] (./PhD Thesis.toc [1
-
-])
+l.411 \end{titlepage}
+                      [1] (./PhD Thesis.toc [1] [2])
 \tf@toc=\write5
 \openout5 = `"PhD Thesis.toc"'.
 
  (./chapters/resumo.tex
-[2]
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
+ [4
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4])
-(./chapters/summary.tex [5]
+ [5])
+(./chapters/summary.tex [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6
+ [7
 
 ])
-(./chapters/acknowledgements.tex [7]
+(./chapters/acknowledgements.tex [8]
 Underfull \hbox (badness 10000) in paragraph at lines 6--30
 
  []
@@ -1895,34 +1955,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--30
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8
+ [9
 
 ])
-[9] (./PhD Thesis.lof)
+(./PhD Thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Overfull \hbox (23.36513pt too wide) in paragraph at lines 24--24
+ [][] [][]\OT1/cmr/m/n/12 Transcriptomes of DC-isolated SGs show no evid-ence f
+or RNA fragmentation- 
+ []
+
+[11])
 \tf@lof=\write6
 \openout6 = `"PhD Thesis.lof"'.
 
- [10
-
-] (./PhD Thesis.lot)
+ (./PhD Thesis.lot)
 \tf@lot=\write7
 \openout7 = `"PhD Thesis.lot"'.
+
+ (./PhD Thesis.equ)
+\tf@equ=\write8
+\openout8 = `"PhD Thesis.equ"'.
 
 
 No file "PhD Thesis".gls.
 
 Package glossaries Info: Preparing to sort glossary `acronym' (total number of
-(glossaries)             referenced entries: 149)
+(glossaries)             referenced entries: 202)
 
-[11
-
-] [12
+[12] [13
 
 
-] [13] [14] [15] [16] [17]
+] [14] [15] [16] [17] [18] [19] [20]
 No file "PhD Thesis".acr.
-(./chapters/preface.tex [18{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super
-/cm-super-ts1.enc}]) (./chapters/introduction.tex [19
+(./chapters/preface.tex [21{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super
+/cm-super-ts1.enc}]) (./chapters/introduction.tex [22
 
 ]
 Chapter 1.
@@ -2202,7 +2271,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<../../../Desktop/Paper Images/TESE_Figu1.png, id=616, 542.025pt x 536.331pt>
+<../../../Desktop/Paper Images/TESE_Figu1.png, id=834, 542.025pt x 536.331pt>
 File: ../../../Desktop/Paper Images/TESE_Figu1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Figu1.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Figu1.png  used on 
@@ -3173,7 +3242,7 @@ LaTeX Warning: Citation `van_nostrand_large-scale_2020' on page 13 undefined on
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [13]
-<../../../Desktop/Paper Images/RBFOX2.png, id=993, 592.395pt x 459.9pt>
+<../../../Desktop/Paper Images/RBFOX2.png, id=1210, 592.395pt x 459.9pt>
 File: ../../../Desktop/Paper Images/RBFOX2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/RBFOX2.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/RBFOX2.png  used on inpu
@@ -3722,7 +3791,7 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<../../../Desktop/Paper Images/TESE_Figu3.png, id=1218, 1878.26718pt x 2725.934
+<../../../Desktop/Paper Images/TESE_Figu3.png, id=1434, 1878.26718pt x 2725.934
 07pt>
 File: ../../../Desktop/Paper Images/TESE_Figu3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Figu3.png>
@@ -3868,7 +3937,7 @@ Underfull \vbox (badness 1509) has occurred while \output is active []
  [24
 
 ]
-<../../../Desktop/Paper Images/Fig1.4.png, id=1303, 542.025pt x 265.428pt>
+<../../../Desktop/Paper Images/Fig1.4.png, id=1520, 542.025pt x 265.428pt>
 File: ../../../Desktop/Paper Images/Fig1.4.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Fig1.4.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Fig1.4.png  used on inpu
@@ -4087,260 +4156,243 @@ LaTeX Warning: Citation `chu_rna_2012' on page 27 undefined on input line 276.
 LaTeX Warning: Citation `nakazato_experimental_2013' on page 27 undefined on in
 put line 276.
 
-
+)
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [27]
-File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
-<use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 286.
-(pdftex.def)             Requested size: 352.81552pt x 592.23984pt.
-File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
-<use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 297.
-(pdftex.def)             Requested size: 142.26378pt x 238.80325pt.
-File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
-<use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 308.
-(pdftex.def)             Requested size: 198.45662pt x 333.13248pt.
-File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
-<use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 314.
-(pdftex.def)             Requested size: 198.45662pt x 333.13248pt.
-)
-(./chapters/objectives.tex [28] [29] [30]
+(./chapters/objectives.tex [28]
 Chapter 2.
 
-LaTeX Warning: Citation `bray_global_2024' on page 31 undefined on input line 6
+LaTeX Warning: Citation `bray_global_2024' on page 29 undefined on input line 6
 .
 
 
-LaTeX Warning: Citation `bray_global_2024' on page 31 undefined on input line 6
+LaTeX Warning: Citation `bray_global_2024' on page 29 undefined on input line 6
 .
 
 
-LaTeX Warning: Citation `weiss_towards_2022' on page 31 undefined on input line
+LaTeX Warning: Citation `weiss_towards_2022' on page 29 undefined on input line
  6.
 
 
-LaTeX Warning: Citation `weiss_towards_2022' on page 31 undefined on input line
+LaTeX Warning: Citation `weiss_towards_2022' on page 29 undefined on input line
  8.
 
 
-LaTeX Warning: Citation `weiss_towards_2022' on page 31 undefined on input line
+LaTeX Warning: Citation `weiss_towards_2022' on page 29 undefined on input line
  8.
 
 
-LaTeX Warning: Citation `weiss_towards_2022' on page 31 undefined on input line
+LaTeX Warning: Citation `weiss_towards_2022' on page 29 undefined on input line
  8.
 
 
-LaTeX Warning: Citation `weiss_towards_2022' on page 31 undefined on input line
+LaTeX Warning: Citation `weiss_towards_2022' on page 29 undefined on input line
  10.
 
 
-LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 31 undefined on in
+LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 29 undefined on in
 put line 10.
 
 
-LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 31 undefined on in
+LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 29 undefined on in
 put line 10.
 
 
-LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 31 undefined on in
+LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 29 undefined on in
 put line 10.
 
 
-LaTeX Warning: Citation `williams_identification_2016' on page 31 undefined on 
+LaTeX Warning: Citation `williams_identification_2016' on page 29 undefined on 
 input line 10.
 
 
-LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 31 undefined on in
+LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 29 undefined on in
 put line 10.
 
 
-LaTeX Warning: Citation `williams_identification_2016' on page 31 undefined on 
+LaTeX Warning: Citation `williams_identification_2016' on page 29 undefined on 
 input line 10.
 
 
-LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 31 undefined on in
+LaTeX Warning: Citation `ramos_mechanism-based_2015' on page 29 undefined on in
 put line 10.
 
 
-LaTeX Warning: Citation `redding_stress_2023' on page 31 undefined on input lin
+LaTeX Warning: Citation `redding_stress_2023' on page 29 undefined on input lin
 e 12.
 
 
-LaTeX Warning: Citation `lee_stress_2022' on page 31 undefined on input line 12
+LaTeX Warning: Citation `lee_stress_2022' on page 29 undefined on input line 12
 .
 
 
-LaTeX Warning: Citation `fanelli_negative_2012' on page 31 undefined on input l
+LaTeX Warning: Citation `fanelli_negative_2012' on page 29 undefined on input l
 ine 12.
 
 
-LaTeX Warning: Citation `fonteneau_stress_2022' on page 31 undefined on input l
+LaTeX Warning: Citation `fonteneau_stress_2022' on page 29 undefined on input l
 ine 12.
 
 
-LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 31 undefined on input 
+LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 29 undefined on input 
 line 12.
 
 
-LaTeX Warning: Citation `arimoto_formation_2008' on page 31 undefined on input 
+LaTeX Warning: Citation `arimoto_formation_2008' on page 29 undefined on input 
 line 12.
 
 
-LaTeX Warning: Citation `thedieck_inhibition_2013' on page 31 undefined on inpu
+LaTeX Warning: Citation `thedieck_inhibition_2013' on page 29 undefined on inpu
 t line 12.
 
 
-LaTeX Warning: Citation `fonteneau_stress_2022' on page 31 undefined on input l
+LaTeX Warning: Citation `fonteneau_stress_2022' on page 29 undefined on input l
 ine 12.
 
 
-LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 31 undefined on input 
+LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 29 undefined on input 
 line 12.
 
 
-LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 31 undefined on input 
+LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 29 undefined on input 
 line 12.
 
 
-LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 31 undefined on input 
+LaTeX Warning: Citation `somasekharan_yb-1_2015' on page 29 undefined on input 
 line 12.
 
 
-LaTeX Warning: Citation `arimoto_formation_2008' on page 31 undefined on input 
+LaTeX Warning: Citation `arimoto_formation_2008' on page 29 undefined on input 
 line 14.
 
 
-LaTeX Warning: Citation `grabocka_mutant_2016' on page 31 undefined on input li
+LaTeX Warning: Citation `grabocka_mutant_2016' on page 29 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Citation `grabocka_mutant_2016' on page 31 undefined on input li
+LaTeX Warning: Citation `grabocka_mutant_2016' on page 29 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Citation `grabocka_mutant_2016' on page 31 undefined on input li
+LaTeX Warning: Citation `grabocka_mutant_2016' on page 29 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Citation `grabocka_mutant_2016' on page 31 undefined on input li
+LaTeX Warning: Citation `grabocka_mutant_2016' on page 29 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Citation `grabocka_mutant_2016' on page 31 undefined on input li
+LaTeX Warning: Citation `grabocka_mutant_2016' on page 29 undefined on input li
 ne 14.
 
 
-LaTeX Warning: Citation `glauninger_stressful_2022' on page 31 undefined on inp
+LaTeX Warning: Citation `glauninger_stressful_2022' on page 29 undefined on inp
 ut line 16.
 
 
-LaTeX Warning: Citation `tcga_research_network_cancer_nodate' on page 31 undefi
+LaTeX Warning: Citation `tcga_research_network_cancer_nodate' on page 29 undefi
 ned on input line 16.
 
 
-LaTeX Warning: Citation `schneider_voyager_2024' on page 31 undefined on input 
+LaTeX Warning: Citation `schneider_voyager_2024' on page 29 undefined on input 
 line 16.
 
-[31
+[29
 
-] [32]) (./chapters/methods.tex [33] [34]
+] [30]) (./chapters/methods.tex [31] [32]
 Chapter 3.
 
-LaTeX Warning: Citation `morata_cell_2021' on page 35 undefined on input line 1
+LaTeX Warning: Citation `morata_cell_2021' on page 33 undefined on input line 1
 2.
 
 
-LaTeX Warning: Citation `morata_minutes_1975' on page 35 undefined on input lin
+LaTeX Warning: Citation `morata_minutes_1975' on page 33 undefined on input lin
 e 12.
 
 
-LaTeX Warning: Citation `morata_minutes_1975' on page 35 undefined on input lin
+LaTeX Warning: Citation `morata_minutes_1975' on page 33 undefined on input lin
 e 12.
 
 
-LaTeX Warning: Citation `morata_minutes_1975' on page 35 undefined on input lin
+LaTeX Warning: Citation `morata_minutes_1975' on page 33 undefined on input lin
 e 14.
 
 
-LaTeX Warning: Citation `morata_cell_2021' on page 35 undefined on input line 1
+LaTeX Warning: Citation `morata_cell_2021' on page 33 undefined on input line 1
 4.
 
 
-LaTeX Warning: Citation `morata_minutes_1975' on page 35 undefined on input lin
+LaTeX Warning: Citation `morata_minutes_1975' on page 33 undefined on input lin
 e 14.
 
 
-LaTeX Warning: Citation `morata_cell_2021' on page 35 undefined on input line 1
+LaTeX Warning: Citation `morata_cell_2021' on page 33 undefined on input line 1
 4.
 
 
-LaTeX Warning: Citation `morata_minutes_1975' on page 35 undefined on input lin
+LaTeX Warning: Citation `morata_minutes_1975' on page 33 undefined on input lin
 e 14.
 
 
-LaTeX Warning: Citation `morata_cell_2021' on page 35 undefined on input line 1
+LaTeX Warning: Citation `morata_cell_2021' on page 33 undefined on input line 1
 6.
 
 
-LaTeX Warning: Citation `morata_cell_2021' on page 35 undefined on input line 1
+LaTeX Warning: Citation `morata_cell_2021' on page 33 undefined on input line 1
 6.
 
 
-LaTeX Warning: Citation `morata_cell_2021' on page 35 undefined on input line 1
+LaTeX Warning: Citation `morata_cell_2021' on page 33 undefined on input line 1
 6.
 
 
 Underfull \vbox (badness 1694) has occurred while \output is active []
 
- [35
+ [33
 
 ]
 
-LaTeX Warning: Citation `bolger_trimmomatic_2014' on page 36 undefined on input
+LaTeX Warning: Citation `bolger_trimmomatic_2014' on page 34 undefined on input
  line 30.
 
 
-LaTeX Warning: Citation `li_fast_2009' on page 36 undefined on input line 30.
+LaTeX Warning: Citation `li_fast_2009' on page 34 undefined on input line 30.
 
 
-LaTeX Warning: Citation `frankish_gencode_2021' on page 36 undefined on input l
+LaTeX Warning: Citation `frankish_gencode_2021' on page 34 undefined on input l
 ine 32.
 
 
-LaTeX Warning: Citation `liao_featurecounts_2014' on page 36 undefined on input
+LaTeX Warning: Citation `liao_featurecounts_2014' on page 34 undefined on input
  line 32.
 
 
-LaTeX Warning: Citation `benjamin_calling_2019' on page 36 undefined on input l
+LaTeX Warning: Citation `benjamin_calling_2019' on page 34 undefined on input l
 ine 36.
 
 
-LaTeX Warning: Citation `van_der_auwera_genomics_2020' on page 36 undefined on 
+LaTeX Warning: Citation `van_der_auwera_genomics_2020' on page 34 undefined on 
 input line 36.
 
 
-LaTeX Warning: Citation `robinson_variant_2017' on page 36 undefined on input l
+LaTeX Warning: Citation `robinson_variant_2017' on page 34 undefined on input l
 ine 44.
 
-[36]
+[34]
 
-LaTeX Warning: Citation `robinson_scaling_2010' on page 37 undefined on input l
+LaTeX Warning: Citation `robinson_scaling_2010' on page 35 undefined on input l
 ine 48.
 
 
-LaTeX Warning: Citation `robinson_edger_2010' on page 37 undefined on input lin
+LaTeX Warning: Citation `robinson_edger_2010' on page 35 undefined on input lin
 e 48.
 
 
-LaTeX Warning: Citation `law_voom_2014' on page 37 undefined on input line 48.
+LaTeX Warning: Citation `law_voom_2014' on page 35 undefined on input line 48.
 
 
-LaTeX Warning: Citation `ritchie_limma_2015' on page 37 undefined on input line
+LaTeX Warning: Citation `ritchie_limma_2015' on page 35 undefined on input line
  48.
 
 
@@ -4349,18 +4401,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--52
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `smyth_linear_nodate' on page 35 undefined on input lin
+e 57.
 
- [37]
 
-LaTeX Warning: Citation `di_giacomo_human_2017' on page 38 undefined on input l
+Underfull \vbox (badness 4981) has occurred while \output is active []
+
+ [35]
+
+LaTeX Warning: Citation `di_giacomo_human_2017' on page 36 undefined on input l
 ine 70.
 
 
-LaTeX Warning: Citation `di_giacomo_human_2017' on page 38 undefined on input l
+LaTeX Warning: Citation `di_giacomo_human_2017' on page 36 undefined on input l
 ine 70.
 
-<../../../Desktop/Paper Images/TESE_Fig3.1.png, id=1504, 496.254pt x 324.339pt>
+<../../../Desktop/Paper Images/TESE_Fig3.1.png, id=1711, 496.254pt x 324.339pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.1.png>
@@ -4370,37 +4426,37 @@ Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.1.png  used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [36]
 
-LaTeX Warning: Citation `quintana-murci_human_2001' on page 39 undefined on inp
+LaTeX Warning: Citation `quintana-murci_human_2001' on page 37 undefined on inp
 ut line 83.
 
 
-LaTeX Warning: Citation `bannour_swyer_2025' on page 39 undefined on input line
+LaTeX Warning: Citation `bannour_swyer_2025' on page 37 undefined on input line
  85.
 
 
-LaTeX Warning: Citation `bairoch_cellosaurus_2018' on page 39 undefined on inpu
+LaTeX Warning: Citation `bairoch_cellosaurus_2018' on page 37 undefined on inpu
 t line 85.
 
 
-LaTeX Warning: Citation `linnekamp_consensus_2018' on page 39 undefined on inpu
+LaTeX Warning: Citation `linnekamp_consensus_2018' on page 37 undefined on inpu
 t line 87.
 
 
-LaTeX Warning: Citation `shrivastava_microchimerism_2019' on page 39 undefined 
+LaTeX Warning: Citation `shrivastava_microchimerism_2019' on page 37 undefined 
 on input line 87.
 
 
-LaTeX Warning: Citation `shrivastava_microchimerism_2019' on page 39 undefined 
+LaTeX Warning: Citation `shrivastava_microchimerism_2019' on page 37 undefined 
 on input line 87.
 
 
-LaTeX Warning: Citation `bairoch_cellosaurus_2018' on page 39 undefined on inpu
+LaTeX Warning: Citation `bairoch_cellosaurus_2018' on page 37 undefined on inpu
 t line 89.
 
-[39 <../../../Desktop/Paper Images/TESE_Fig3.1.png>]
-<../../../Desktop/Paper Images/TESE_Fig3.2.png, id=1526, 541.368pt x 346.458pt>
+[37 <../../../Desktop/Paper Images/TESE_Fig3.1.png>]
+<../../../Desktop/Paper Images/TESE_Fig3.2.png, id=1734, 541.368pt x 346.458pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.2.png>
@@ -4409,31 +4465,31 @@ Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.2.png  used on
 (pdftex.def)             Requested size: 441.01773pt x 282.2471pt.
 
 
-LaTeX Warning: Citation `chen_profiling_2018' on page 40 undefined on input lin
+LaTeX Warning: Citation `chen_profiling_2018' on page 38 undefined on input lin
 e 95.
 
 
-LaTeX Warning: Citation `chen_profiling_2018' on page 40 undefined on input lin
+LaTeX Warning: Citation `chen_profiling_2018' on page 38 undefined on input lin
 e 95.
 
 
-LaTeX Warning: Citation `bd_biosciences_bd_nodate' on page 40 undefined on inpu
+LaTeX Warning: Citation `bd_biosciences_bd_nodate' on page 38 undefined on inpu
 t line 102.
 
 
-LaTeX Warning: Citation `chen_profiling_2018' on page 40 undefined on input lin
+LaTeX Warning: Citation `chen_profiling_2018' on page 38 undefined on input lin
 e 102.
 
-[40 <../../../Desktop/Paper Images/TESE_Fig3.2.png>]
+[38 <../../../Desktop/Paper Images/TESE_Fig3.2.png>]
 
-LaTeX Warning: Citation `linnekamp_consensus_2018' on page 41 undefined on inpu
+LaTeX Warning: Citation `linnekamp_consensus_2018' on page 39 undefined on inpu
 t line 110.
 
 
-LaTeX Warning: Citation `hao_distinct_2016' on page 41 undefined on input line 
+LaTeX Warning: Citation `hao_distinct_2016' on page 39 undefined on input line 
 110.
 
-<../../../Desktop/Paper Images/TESE_Fig3.3.png, id=1548, 542.025pt x 372.081pt>
+<../../../Desktop/Paper Images/TESE_Fig3.3.png, id=1756, 542.025pt x 372.081pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.3.png>
@@ -4443,34 +4499,1709 @@ Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.3.png  used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-<../../../Desktop/Paper Images/TESE_Fig3.4.png, id=1561, 542.025pt x 541.149pt>
+ [39]
+<../../../Desktop/Paper Images/TESE_Fig3.4.png, id=1769, 542.025pt x 541.149pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.4.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.4.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.4.png  used on
- input line 128.
+ input line 127.
 (pdftex.def)             Requested size: 441.01773pt x 440.31828pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <../../../Desktop/Paper Images/TESE_Fig3.3.png>]) (./chapters/ChapterI_NAM
+ [40 <../../../Desktop/Paper Images/TESE_Fig3.3.png>]) (./chapters/ChapterI_NAM
 E.tex
-[43 <../../../Desktop/Paper Images/TESE_Fig3.4.png>]
+[41 <../../../Desktop/Paper Images/TESE_Fig3.4.png>]
 Chapter 4.
-) (./chapters/ChapterII_NAME.tex [44
+
+LaTeX Warning: Citation `khong_stress_2017' on page 42 undefined on input line 
+7.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 42 undefined on input l
+ine 7.
+
+
+LaTeX Warning: Citation `glauninger_stressful_2022' on page 42 undefined on inp
+ut line 7.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 42 undefined on input line 
+9.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 42 undefined on input l
+ine 9.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 42 undefined o
+n input line 9.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 42 undefined on input line 
+9.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 42 undefined o
+n input line 9.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 42 undefined on input line 
+11.
+
+
+LaTeX Warning: Citation `glauninger_stressful_2022' on page 42 undefined on inp
+ut line 11.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 42 undefined on input lin
+e 11.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 42 undefined on
+ input line 11.
+
+
+LaTeX Warning: Citation `khong_limited_2022' on page 42 undefined on input line
+ 11.
+
+
+LaTeX Warning: Citation `honda_high-depth_2021' on page 42 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Citation `xiao_profiling_2024' on page 42 undefined on input lin
+e 13.
+
+
+LaTeX Warning: Citation `sato_stress_2023' on page 42 undefined on input line 1
+3.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 42 undefined on input line 13.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 42 undefined on
+ input line 13.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42
 
 ]
+
+LaTeX Warning: Citation `yi_mapping_2024' on page 43 undefined on input line 19
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 43 undefined on input line 
+24.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 43 undefined 
+on input line 24.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 43 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 43 undefined o
+n input line 24.
+
+
+LaTeX Warning: Citation `matheny_rna_2021' on page 43 undefined on input line 2
+4.
+
+
+LaTeX Warning: Citation `matheny_corrigendum_2023' on page 43 undefined on inpu
+t line 24.
+
+
+LaTeX Warning: Citation `honda_high-depth_2021' on page 43 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 43 undefined on input line
+ 24.
+
+
+LaTeX Warning: Citation `sato_stress_2023' on page 43 undefined on input line 2
+4.
+
+
+LaTeX Warning: Citation `iadevaia_novel_2022' on page 43 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation `curdy_proteome_2023' on page 43 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation `ren_profiling_2023' on page 43 undefined on input line
+ 24.
+
+
+LaTeX Warning: Citation `xiao_profiling_2024' on page 43 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 43 undefined on input line 24.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 43 undefined on
+ input line 24.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 43 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 43 undefined on
+ input line 24.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 43 undefined 
+on input line 25.
+
+
+LaTeX Warning: Citation `kodali_rna_2022' on page 43 undefined on input line 25
+.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 43 undefin
+ed on input line 26.
+
+
+LaTeX Warning: Citation `cunningham_ensembl_2022' on page 43 undefined on input
+ line 27.
+
+
+LaTeX Warning: Citation `arango_direct_2022' on page 43 undefined on input line
+ 28.
+
+
+LaTeX Warning: Citation `cunningham_ensembl_2022' on page 43 undefined on input
+ line 34.
+
+[43]
+
+LaTeX Warning: Citation `khong_stress_2017' on page 44 undefined on input line 
+38.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 44 undefin
+ed on input line 51.
+
+
+LaTeX Warning: Citation `cunningham_ensembl_2022' on page 44 undefined on input
+ line 52.
+
+
+LaTeX Warning: Citation `thermo_fisher_dna_nodate' on page 44 undefined on inpu
+t line 52.
+
+
+LaTeX Warning: Citation `noauthor_nomenclature_1985' on page 44 undefined on in
+put line 52.
+
+[44]
+
+LaTeX Warning: Citation `national_center_for_biotechnology_information_pubchem_
+2025' on page 45 undefined on input line 59.
+
+
+LaTeX Warning: Citation `national_center_for_biotechnology_information_pubchem_
+2025-1' on page 45 undefined on input line 59.
+
+
+LaTeX Warning: Citation `svedberg_ultracentrifuge_1940' on page 45 undefined on
+ input line 63.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--64
+
+ []
+
+
+LaTeX Warning: Citation `balch_effects_2015' on page 45 undefined on input line
+ 72.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 45 undefined on input line 
+78.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 45 undefin
+ed on input line 91.
+
+
+LaTeX Warning: Citation `garg_elucidation_2020' on page 45 undefined on input l
+ine 91.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--92
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+
+LaTeX Warning: Citation `andrews_fastqc_2010' on page 46 undefined on input lin
+e 110.
+
+
+LaTeX Warning: Citation `ewels_multiqc_2016' on page 46 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `dobin_star_2013' on page 46 undefined on input line 11
+0.
+
+
+LaTeX Warning: Citation `liao_featurecounts_2014' on page 46 undefined on input
+ line 110.
+
+
+LaTeX Warning: Citation `andrews_fastqc_2010' on page 46 undefined on input lin
+e 120.
+
+
+LaTeX Warning: Citation `ewels_multiqc_2016' on page 46 undefined on input line
+ 120.
+
+
+LaTeX Warning: Citation `andrews_fastqc_2010' on page 46 undefined on input lin
+e 122.
+
+
+LaTeX Warning: Citation `andrews_fastqc_2010' on page 46 undefined on input lin
+e 124.
+
+
+LaTeX Warning: Citation `peter_fitzgerald_introduction_2024' on page 46 undefin
+ed on input line 126.
+
+[46]
+<../../../Desktop/Paper Images/TESE_Fig4.1.png, id=1937, 549.909pt x 516.84pt>
+File: ../../../Desktop/Paper Images/TESE_Fig4.1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.1.png  used on
+ input line 130.
+(pdftex.def)             Requested size: 441.01773pt x 414.49777pt.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 47 undefined on input line 
+131.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 47 undefined o
+n input line 131.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 47 undefined on input l
+ine 131.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 47 undefined on input l
+ine 131.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 47 undefined on input l
+ine 131.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 47 undefined on input line 
+131.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 47 undefined o
+n input line 131.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 47 undefined on input l
+ine 131.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 47 undefined on input l
+ine 131.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 47 undefined on input l
+ine 131.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+
+LaTeX Warning: Citation `bolger_trimmomatic_2014' on page 48 undefined on input
+ line 135.
+
+
+LaTeX Warning: Citation `dobin_star_2013' on page 48 undefined on input line 13
+5.
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 48 undefined on input l
+ine 135.
+
+[48 <../../../Desktop/Paper Images/TESE_Fig4.1.png>]
+
+LaTeX Warning: Citation `frankish_gencode_2021' on page 49 undefined on input l
+ine 149.
+
+
+LaTeX Warning: Citation `liao_featurecounts_2014' on page 49 undefined on input
+ line 149.
+
+[49]
+<../../../Desktop/Paper Images/TESE_Fig4.2.png, id=1985, 549.033pt x 184.398pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.2.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.2.png  used on
+ input line 163.
+(pdftex.def)             Requested size: 441.01773pt x 148.1179pt.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 50 undefined on input line 
+164.
+
+
+LaTeX Warning: Citation `honda_high-depth_2021' on page 50 undefined on input l
+ine 164.
+
+
+LaTeX Warning: Citation `honda_high-depth_2021' on page 50 undefined on input l
+ine 164.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 50 undefined on input line 
+164.
+
+
+LaTeX Warning: Citation `honda_high-depth_2021' on page 50 undefined on input l
+ine 164.
+
+
+LaTeX Warning: Citation `honda_high-depth_2021' on page 50 undefined on input l
+ine 164.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--175
+
+ []
+
+
+LaTeX Warning: Citation `padron_proximity_2019' on page 50 undefined on input l
+ine 179.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--188
+
+ []
+
+[50 <../../../Desktop/Paper Images/TESE_Fig4.2.png>]
+
+LaTeX Warning: Citation `robinson_scaling_2010' on page 51 undefined on input l
+ine 194.
+
+
+LaTeX Warning: Citation `robinson_edger_2010' on page 51 undefined on input lin
+e 194.
+
+
+LaTeX Warning: Citation `robinson_scaling_2010' on page 51 undefined on input l
+ine 194.
+
+
+LaTeX Warning: Citation `robinson_scaling_2010' on page 51 undefined on input l
+ine 194.
+
+
+LaTeX Warning: Citation `robinson_edger_2010' on page 51 undefined on input lin
+e 194.
+
+
+LaTeX Warning: Citation `robinson_scaling_2010' on page 51 undefined on input l
+ine 194.
+
+
+LaTeX Warning: Citation `robinson_edger_2010' on page 51 undefined on input lin
+e 194.
+
+
+LaTeX Warning: Citation `law_voom_2014' on page 51 undefined on input line 194.
+
+
+
+LaTeX Warning: Citation `ritchie_limma_2015' on page 51 undefined on input line
+ 194.
+
+[51]
+<../../../Desktop/Paper Images/TESE_Fig4.3.png, id=2014, 548.157pt x 519.249pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.3.png  used on
+ input line 198.
+(pdftex.def)             Requested size: 441.01773pt x 417.77667pt.
+
+
+LaTeX Warning: Citation `sato_stress_2023' on page 52 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 52 undefined on input line
+ 199.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 52 undefined on input line
+ 199.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 52 undefined on
+ input line 199.
+
+
+LaTeX Warning: Citation `sato_stress_2023' on page 52 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 52 undefined on input line
+ 199.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 52 undefined on input line
+ 199.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 52 undefined on
+ input line 199.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 52 undefined on input lin
+e 215.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 52 undefined on input line 
+215.
+
+
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [52 <../../../Desktop/Paper Images/TESE_Fig4.3.png>]
+<../../../Desktop/Paper Images/TESE_Fig4.4.png, id=2037, 548.157pt x 548.376pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.4.png  used on
+ input line 219.
+(pdftex.def)             Requested size: 441.01773pt x 441.21165pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+[54 <../../../Desktop/Paper Images/TESE_Fig4.4.png>]
+
+LaTeX Warning: Citation `khong_stress_2017' on page 55 undefined on input line 
+229.
+
+
+LaTeX Warning: Citation `matheny_rna_2021' on page 55 undefined on input line 2
+29.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 55 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 55 undefined o
+n input line 229.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 55 undefined on input lin
+e 229.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 55 undefined on input line 
+229.
+
+
+LaTeX Warning: Citation `matheny_rna_2021' on page 55 undefined on input line 2
+29.
+
+
+LaTeX Warning: Citation `shen_sexually_2022' on page 55 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 55 undefined o
+n input line 229.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 55 undefined on input lin
+e 229.
+
+
+LaTeX Warning: Citation `matheny_corrigendum_2023' on page 55 undefined on inpu
+t line 232.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 55 undefined on input lin
+e 236.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--243
+
+ []
+
+[55
+
+]
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 56 undefined on input lin
+e 247.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 56 undefined o
+n input line 253.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--258
+
+ []
+
+
+LaTeX Warning: Citation `smyth_linear_nodate' on page 56 undefined on input lin
+e 268.
+
+
+LaTeX Warning: Citation `ritchie_limma_2015' on page 56 undefined on input line
+ 268.
+
+
+LaTeX Warning: Citation `smyth_linear_nodate' on page 56 undefined on input lin
+e 268.
+
+
+LaTeX Warning: Citation `smyth_linear_nodate' on page 56 undefined on input lin
+e 268.
+
+
+LaTeX Warning: Citation `benjamini_controlling_1995' on page 56 undefined on in
+put line 274.
+
+
+LaTeX Warning: Citation `benjamini_controlling_1995' on page 56 undefined on in
+put line 274.
+
+
+Overfull \hbox (5.59802pt too wide) in paragraph at lines 262--275
+\OT1/cmr/m/n/12 which in-cludes [][]SG[]-associated [][]RNAs[]. However, stress
+ it-self in-duces wide-spread transcrip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--275
+
+ []
+
+[56]
+
+LaTeX Warning: Citation `subramanian_gene_2005' on page 57 undefined on input l
+ine 282.
+
+
+LaTeX Warning: Citation `korotkevich_fast_2016' on page 57 undefined on input l
+ine 282.
+
+
+LaTeX Warning: Citation `liberzon_molecular_2015' on page 57 undefined on input
+ line 284.
+
+
+LaTeX Warning: Citation `kanehisa_kegg_2000' on page 57 undefined on input line
+ 286.
+
+
+LaTeX Warning: Citation `croft_reactome_2011' on page 57 undefined on input lin
+e 286.
+
+
+LaTeX Warning: Citation `ashburner_gene_2000' on page 57 undefined on input lin
+e 286.
+
+[57]
+<../../../Desktop/Paper Images/TESE_Fig4.5.png, id=2129, 548.157pt x 430.773pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.5.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.5.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.5.png  used on
+ input line 292.
+(pdftex.def)             Requested size: 441.01773pt x 346.59076pt.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 58 undefined on input lin
+e 293.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 58 undefined on input lin
+e 293.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+\tablewidth=\skip121
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/8 Heat-shock
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+\OT1/cmr/m/n/8 and Hip-
+ []
+
+
+Overfull \hbox (2.25551pt too wide) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/8 HEK293T| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]|\OT1/cmr/m/n/8 Somasekharan
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 323--323
+[]|\OT1/cmr/m/n/8 Oxidative and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]|\OT1/cmr/m/n/8 PABPC1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+\OT1/cmr/m/n/8 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]|\OT1/cmr/m/n/8 Wild-Type,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 323--323
+\OT1/cmr/m/n/8 G3BP-GFP and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]|\OT1/cmr/m/n/8 DDX3X
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/8 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]|\OT1/cmr/m/n/8 APEX2-DDX3X
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/8 and APEX2-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]|\OT1/cmr/m/n/8 DC and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\OT1/cmr/m/n/8 eCLIP-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]|\OT1/cmr/m/n/8 SH-SY-
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 333--333
+[]|\OT1/cmr/m/n/8 T-Cell Ac-tiv-a-
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 335--335
+[]|\OT1/cmr/m/n/8 Oxidative and
+ []
+
+
+Overfull \hbox (2.25551pt too wide) in paragraph at lines 335--335
+[]|\OT1/cmr/m/n/8 HEK293T
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 335--335
+\OT1/cmr/m/n/8 and U2-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]|\OT1/cmr/m/n/8 ARTR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+[]|\OT1/cmr/m/n/8 Oxidative,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+\OT1/cmr/m/n/8 Hyper-os-motic,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+\OT1/cmr/m/n/8 Heat-shock
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]|\OT1/cmr/m/n/8 Wild-Type and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/8 Di Timoteo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/8 Wild-Type,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+\OT1/cmr/m/n/8 METTL3 KD,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\OT1/cmr/m/n/8 Rajachandran
+ []
+
+
+Overfull \hbox (2.49162pt too wide) in paragraph at lines 345--345
+[]|\OT1/cmr/m/n/8 PHOTON| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\OT1/cmr/m/n/8 Wild-Type and
+ []
+
+
+Overfull \hbox (2.26927pt too wide) in paragraph at lines 345--346
+[]|\OT1/cmr/m/n/8 PRJNA1152621| 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59 <../../../Desktop/Paper Images/TESE_Fig4.5.png>]
+
+LaTeX Warning: Citation `khong_stress_2017' on page 60 undefined on input line 
+353.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 60 undefined o
+n input line 355.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--360
+
+ []
+
+[60]
+<../../../Desktop/Paper Images/Figure1.png, id=2203, 546.186pt x 690.726pt>
+File: ../../../Desktop/Paper Images/Figure1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure1.png  used on inp
+ut line 364.
+(pdftex.def)             Requested size: 441.01773pt x 557.74597pt.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 61 undefined on input line 
+365.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 61 undefined o
+n input line 365.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 61 undefined on input line 
+365.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 61 undefined o
+n input line 365.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 61 undefined on input line 
+365.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 61 undefined o
+n input line 365.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 61 undefined on input line 
+365.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 61 undefined o
+n input line 365.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+Overfull \vbox (28.16295pt too high) has occurred while \output is active []
+
+
+[62 <../../../Desktop/Paper Images/Figure1.png>]
+<../../../Desktop/Paper Images/SupFigure1_comp.png, id=2255, 542.901pt x 505.01
+4pt>
+File: ../../../Desktop/Paper Images/SupFigure1_comp.png Graphic file (type png)
+
+<use ../../../Desktop/Paper Images/SupFigure1_comp.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/SupFigure1_comp.png  use
+d on input line 377.
+(pdftex.def)             Requested size: 441.01773pt x 410.25351pt.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 63 undefined o
+n input line 378.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 63 undefined on input line 
+378.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 63 undefined o
+n input line 378.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 63 undefined on input line 
+378.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 63 undefined on input line 
+378.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 63 undefined o
+n input line 378.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 63 undefined o
+n input line 378.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 63 undefined on input line 
+378.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 63 undefined o
+n input line 378.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 63 undefined on input line 
+378.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 63 undefined on input line 
+378.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 63 undefined o
+n input line 378.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+
+LaTeX Warning: Citation `khong_stress_2017' on page 64 undefined on input line 
+386.
+
+<../../../Desktop/Paper Images/TESE_Fig4.8.png, id=2292, 552.975pt x 355.437pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.8.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.8.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.8.png  used on
+ input line 392.
+(pdftex.def)             Requested size: 441.01773pt x 283.47136pt.
+
+LaTeX Warning: Citation `khong_stress_2017' on page 64 undefined on input line 
+393.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 64 undefined on input line 
+393.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--395
+
+ []
+
+[64 <../../../Desktop/Paper Images/SupFigure1_comp.png>]
+
+LaTeX Warning: Citation `zhao_tpm_2021' on page 65 undefined on input line 397.
+
+
+
+LaTeX Warning: Citation `mandelboum_recurrent_2019' on page 65 undefined on inp
+ut line 397.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+399.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+401.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+403.
+
+<../../../Desktop/Paper Images/TESE_Fig4.9.png, id=2318, 546.624pt x 659.19pt>
+File: ../../../Desktop/Paper Images/TESE_Fig4.9.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.9.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.9.png  used on
+ input line 407.
+(pdftex.def)             Requested size: 441.01773pt x 531.85889pt.
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+408.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+408.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+408.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+408.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+408.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
+408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--410
+
+ []
+
+[65 <../../../Desktop/Paper Images/TESE_Fig4.8.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Overfull \vbox (15.87587pt too high) has occurred while \output is active []
+
+
+[67 <../../../Desktop/Paper Images/TESE_Fig4.9.png>]
+Overfull \hbox (3.14339pt too wide) in paragraph at lines 414--414
+\OT1/cmr/bx/n/14.4 length bias com-pat-ible with that ob-served in DC-isolated
+ []
+
+
+LaTeX Warning: Citation `glauninger_stressful_2022' on page 68 undefined on inp
+ut line 416.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 68 undefin
+ed on input line 416.
+
+
+LaTeX Warning: Citation `van_treeck_rna_2018' on page 68 undefined on input lin
+e 416.
+
+
+LaTeX Warning: Citation `van_treeck_rna_2018' on page 68 undefined on input lin
+e 416.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 68 undefined on input line 
+416.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--420
+
+ []
+
+<../../../Desktop/Paper Images/Figure3.png, id=2401, 542.025pt x 697.734pt>
+File: ../../../Desktop/Paper Images/Figure3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure3.png  used on inp
+ut line 423.
+(pdftex.def)             Requested size: 441.01773pt x 567.72726pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+[69 <../../../Desktop/Paper Images/FIgure3.png>]
+
+LaTeX Warning: Citation `khong_stress_2017' on page 70 undefined on input line 
+434.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 70 undefined on input line 
+434.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 70 undefined 
+on input line 441.
+
+<../../../Desktop/Paper Images/Sup3.png, id=2502, 521.001pt x 355.437pt>
+File: ../../../Desktop/Paper Images/Sup3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Sup3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Sup3.png  used on input 
+line 447.
+(pdftex.def)             Requested size: 441.01773pt x 300.88629pt.
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 70 undefined 
+on input line 448.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 70 undefined 
+on input line 448.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--450
+
+ []
+
+
+Underfull \vbox (badness 3302) has occurred while \output is active []
+
+ [70
+
+]
+Overfull \hbox (4.68509pt too wide) in paragraph at lines 454--454
+\OT1/cmr/bx/n/14.4 modi-fic-a-tions re-capit-u-late their ef-fect in DC-isolate
+d SGs 
+ []
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 71 undefined on input line 
+456.
+
+
+LaTeX Warning: Citation `fu_m6a-binding_2020' on page 71 undefined on input lin
+e 456.
+
+
+LaTeX Warning: Citation `ries_m6a_2023' on page 71 undefined on input line 456.
+
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 71 undefined on
+ input line 456.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 71 undefined on input lin
+e 456.
+
+
+LaTeX Warning: Citation `national_center_for_biotechnology_information_pubchem_
+2025' on page 71 undefined on input line 456.
+
+
+LaTeX Warning: Citation `national_center_for_biotechnology_information_pubchem_
+2025-1' on page 71 undefined on input line 456.
+
+
+Underfull \vbox (badness 3657) has occurred while \output is active []
+
+ [71 <../../../Desktop/Paper Images/Sup3.png>]
+<../../../Desktop/Paper Images/Figure4.png, id=2550, 545.748pt x 784.239pt>
+File: ../../../Desktop/Paper Images/Figure4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure4.png  used on inp
+ut line 467.
+(pdftex.def)             Requested size: 441.01773pt x 633.7702pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+[73 <../../../Desktop/Paper Images/FIgure4.png>]
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 74 undefined on
+ input line 482.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 74 undefined on input lin
+e 482.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 74 undefined on
+ input line 482.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 74 undefined on input lin
+e 482.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 74 undefined on
+ input line 482.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 74 undefined on input lin
+e 482.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 74 undefined on
+ input line 482.
+
+
+LaTeX Warning: Citation `di_timoteo_m6a_2024' on page 74 undefined on input lin
+e 482.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 74 undefined 
+on input line 490.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 74 undefined on input line 
+490.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 74 undefined 
+on input line 490.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 74 undefined 
+on input line 492.
+
+
+LaTeX Warning: Citation `hubstenberger_p-body_2017' on page 74 undefined on inp
+ut line 492.
+
+
+LaTeX Warning: Citation `kodali_rna_2024' on page 74 undefined on input line 49
+2.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 74 undefined on input line 494.
+
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 74 undefined 
+on input line 496.
+
+
+Overfull \hbox (21.81917pt too wide) in paragraph at lines 488--498
+[][]\OT1/cmr/m/n/12 DC[]-isolated stressed [][]PBs[] showed lower sim-il-ar-ity
+ to un-stressed [][]PBs[] isol-ated by [][]fluorescence-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--498
+
+ []
+
+
+Underfull \vbox (badness 6691) has occurred while \output is active []
+
+ [74
+
+]
+<../../../Desktop/Paper Images/Figure5.png, id=2685, 547.938pt x 407.559pt>
+File: ../../../Desktop/Paper Images/Figure5.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure5.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure5.png  used on inp
+ut line 501.
+(pdftex.def)             Requested size: 441.01773pt x 328.0439pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+[76 <../../../Desktop/Paper Images/FIgure5.png>]
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `kodali_rna_2024' on page 77 undefined on input line 51
+3.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+513.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 77 undefined on input line 513.
+
+
+
+LaTeX Warning: Citation `kodali_rna_2024' on page 77 undefined on input line 51
+3.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 77 undefined on input line 513.
+
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `kodali_rna_2024' on page 77 undefined on input line 51
+3.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 77 undefined 
+on input line 513.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+513.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 77 undefined on input line 513.
+
+
+
+LaTeX Warning: Citation `kodali_rna_2024' on page 77 undefined on input line 51
+3.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 77 undefined on input line 513.
+
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 77 undefin
+ed on input line 522.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+524.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+528.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 77 undefined on input line 
+528.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--530
+
+ []
+
+[77
+
+]
+<../../../Desktop/Paper Images/TESE_Fig4.14.png, id=2817, 544.434pt x 731.241pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.14.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.14.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.14.png  used o
+n input line 533.
+(pdftex.def)             Requested size: 441.01773pt x 592.3689pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+[79 <../../../Desktop/Paper Images/TESE_Fig4.14.png>]
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `glauninger_transcriptome-wide_2025' on page 80 undefin
+ed on input line 545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+545.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 80 undefined 
+on input line 548.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 80 undefined on input line 
+548.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 80 undefined 
+on input line 548.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 80 undefined o
+n input line 550.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--552
+
+ []
+
+[80
+
+]
+<../../../Desktop/Paper Images/TESE_Fig4.15.png, id=2938, 542.025pt x 486.618pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.15.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.15.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.15.png  used o
+n input line 556.
+(pdftex.def)             Requested size: 441.01773pt x 395.94789pt.
+ [81 <../../../Desktop/Paper Images/TESE_Fig4.15.png>]
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 82 undefined 
+on input line 566.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 82 undefined on input line 
+566.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 82 undefined 
+on input line 566.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 82 undefined o
+n input line 566.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 82 undefined o
+n input line 566.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 82 undefined 
+on input line 566.
+
+
+LaTeX Warning: Citation `khong_stress_2017' on page 82 undefined on input line 
+566.
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 82 undefined 
+on input line 566.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 82 undefined o
+n input line 566.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 82 undefined o
+n input line 566.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 82 undefined o
+n input line 571.
+
+
+LaTeX Warning: Citation `ren_profiling_2023' on page 82 undefined on input line
+ 571.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 82 undefined on
+ input line 571.
+
+
+LaTeX Warning: Citation `zhou_rna_2024' on page 82 undefined on input line 571.
+
+
+<../../../Desktop/Paper Images/TESE_Fig4.16.png, id=2996, 542.025pt x 498.225pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.16.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.16.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.16.png  used o
+n input line 575.
+(pdftex.def)             Requested size: 441.01773pt x 405.3922pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--578
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82
+
+]
+
+LaTeX Warning: Citation `cunningham_ensembl_2022' on page 83 undefined on input
+ line 584.
+
+
+LaTeX Warning: Citation `wu_rnalocate_2025' on page 83 undefined on input line 
+584.
+
+
+LaTeX Warning: Citation `ren_profiling_2023' on page 83 undefined on input line
+ 586.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 83 undefined on
+ input line 586.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 83 undefined on
+ input line 586.
+
+
+LaTeX Warning: Citation `sun_chac1_2024' on page 83 undefined on input line 588
+.
+
+
+LaTeX Warning: Citation `garaeva_mitochondrial_2016' on page 83 undefined on in
+put line 588.
+
+
+LaTeX Warning: Citation `krall_asparagine_2021' on page 83 undefined on input l
+ine 588.
+
+
+LaTeX Warning: Citation `sano_er_2013' on page 83 undefined on input line 588.
+
+
+LaTeX Warning: Citation `sun_chac1_2024' on page 83 undefined on input line 588
+.
+
+
+LaTeX Warning: Citation `garaeva_mitochondrial_2016' on page 83 undefined on in
+put line 588.
+
+
+LaTeX Warning: Citation `krall_asparagine_2021' on page 83 undefined on input l
+ine 588.
+
+
+Overfull \hbox (1.0863pt too wide) in paragraph at lines 579--591
+\OT1/cmr/m/it/12 glutamylcyclotransferase 1 (CHAC1)[]\OT1/cmr/m/n/12 , [][]\OT1
+/cmr/m/it/12 Ses-trin 2 (SESN2)[]\OT1/cmr/m/n/12 , [][]\OT1/cmr/m/it/12 ac-tiv-
+at-ing tran-scrip-tion factor
+ []
+
+[83 <../../../Desktop/Paper Images/TESE_Fig4.16.png>]
+<../../../Desktop/Paper Images/TESE_Fig4.17.png, id=3034, 542.463pt x 742.848pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.17.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.17.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.17.png  used o
+n input line 595.
+(pdftex.def)             Requested size: 441.01773pt x 603.9479pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+[85 <../../../Desktop/Paper Images/TESE_Fig4.17.png>]
+
+LaTeX Warning: Citation `murtagh_wards_2014' on page 86 undefined on input line
+ 605.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 86 undefined o
+n input line 605.
+
+
+LaTeX Warning: Citation `ren_profiling_2023' on page 86 undefined on input line
+ 605.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 86 undefined on
+ input line 605.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 86 undefined on
+ input line 605.
+
+
+LaTeX Warning: Citation `murtagh_wards_2014' on page 86 undefined on input line
+ 605.
+
+
+LaTeX Warning: Citation `somasekharan_g3bp1-linked_2020' on page 86 undefined o
+n input line 605.
+
+
+LaTeX Warning: Citation `ren_profiling_2023' on page 86 undefined on input line
+ 605.
+
+
+LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 86 undefined on
+ input line 605.
+
+
+LaTeX Warning: Citation `kudrin_n4-acetylcytidine_2024' on page 86 undefined on
+ input line 605.
+
+) (./chapters/ChapterII_NAME.tex [86]
 Chapter 5.
-) (./chapters/ChapterIII_NAME.tex [45
+) (./chapters/ChapterIII_NAME.tex [87
+
 
 ]
 Chapter 6.
-) (./chapters/discussion.tex [46
+) (./chapters/discussion.tex [88
 
 ]
 Chapter 7.
-) [47
+) [89
 
 ] (./PhD Thesis.aux)
  ***********
@@ -4482,39 +6213,45 @@ L3 programming layer <2025-10-24>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"PhD Thesis".out' has not changed.
-(rerunfilecheck)             Checksum: 4FAFAF0D4D11ADECD8D41D413FCDF670;8341.
+(rerunfilecheck)             Checksum: C88F0B4474A0A63BD2886C50AF254764;15271.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 448 ({)
+### simple group (level 1) entered at line 463 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 45771 strings out of 467577
- 852710 string characters out of 5424718
- 1503527 words of memory out of 5000000
- 73549 multiletter control sequences out of 15000+600000
- 642872 words of font info for 91 fonts, out of 8000000 for 9000
+ 49293 strings out of 467577
+ 913601 string characters out of 5424718
+ 1560066 words of memory out of 5000000
+ 76891 multiletter control sequences out of 15000+600000
+ 643877 words of font info for 95 fonts, out of 8000000 for 9000
  1261 hyphenation exceptions out of 8191
- 197i,11n,292p,2500b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 197i,12n,292p,2526b,1249s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
-:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texli
-ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texl
-ive/2025/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb><c:/texlive/2025/te
-xmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb><c:/texlive/2025/texmf-dist/fo
-nts/type1/public/cbfonts/grxn1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/p
-ublic/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1200.pfb>
-Output written on "PhD Thesis.pdf" (69 pages, 6999541 bytes).
+:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/
+2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2025/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texli
+ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb><c:/tex
+live/2025/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb><c:/texlive/2025/t
+exmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb><c:/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1200.pfb>
+Output written on "PhD Thesis.pdf" (114 pages, 25650291 bytes).
 PDF statistics:
- 1746 PDF objects out of 2073 (max. 8388607)
- 1518 compressed objects within 16 object streams
- 290 named destinations out of 1000 (max. 500000)
- 434 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3292 PDF objects out of 3580 (max. 8388607)
+ 2704 compressed objects within 28 object streams
+ 450 named destinations out of 1000 (max. 500000)
+ 687 words of extra memory for PDF output out of 10000 (max. 10000000)
 

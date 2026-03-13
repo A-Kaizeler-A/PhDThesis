@@ -1,6 +1,607 @@
 % !TEX root = ../PhD Thesis.tex
-\chapter{Name Chapter I}
+\chapter{The SG Transcriptome}
 \label{chap:ChapterI}
  
-\lipsum[3]
+\glspl{sg} continue to garner significant attention in various physiological and pathological contexts, owing to their supposed role in selective \gls{mrna} and protein sequestration, hypothesised to contribute to the downregulation of specific pathways in numerous diseases.
+\\
+Two main methodologies have emerged for elucidating their \gls{rna} content: \gls{dc}, which in Khong \gls{etal} 2017 provided the first isolated \gls{sg} transcriptome\cite{khong_stress_2017}, and \gls{pl} via \gls{apexseq}\cite{padron_proximity_2019}, both relying on core \gls{sg} proteins (usually \gls{g3bp1}). Regardless, even when the same \gls{sg} core protein and stress induction are used, notable disparities between transcriptomes isolated with the different techniques are observed\cite{glauninger_stressful_2022}. 
+\\
+While \gls{dc} highlights \gls{rna} length as a significant predictor of \gls{sg} enrichment\cite{khong_stress_2017}, this effect is absent with some \gls{pl} studies\cite{padron_proximity_2019,somasekharan_g3bp1-linked_2020}. The enrichment in longer \glspl{rna} has been hypothesised to play a functional role, as \glspl{sg} are formed by aggregation, longer transcripts equate to more potential binding sites for \glspl{rbp}, their main protein constituents \cite{khong_stress_2017}. Moreover, it is plausible that \gls{pl} also captures \gls{g3bp1} that does not localise to \glspl{sg}, and that therefore part of the obtained enrichment is not \gls{sg}-specific\cite{somasekharan_g3bp1-linked_2020}. 
+\\
+In addition to transcript length, several other features have been proposed to influence \gls{sg} enrichment. These include translation efficiency and the number of binding sites for \gls{sg}-associated \glspl{rbp}\cite{khong_stress_2017}. However, since both features are themselves correlated with transcript length, such associations were expected\cite{glauninger_stressful_2022}. \gls{rna} modifications such as \gls{m6a}\cite{di_timoteo_m6a_2024} and \gls{ac4c}\cite{kudrin_n4-acetylcytidine_2024} have also been linked to \gls{sg} localisation. Yet, because the number of these modification sites also scales with transcript length, it remains controversial whether their enrichment persists after proper length normalization\cite{khong_limited_2022}.
+\\
+To address these discrepancies in \gls{sg} characterisation and to identify genuine transcript features associated with \gls{sg} enrichment, we performed an unbiased meta-analysis of publicly available human \gls{sg} transcriptomic datasets. These datasets span multiple cell lines, purification strategies, and stress conditions, and include studies employing \gls{dc}, \gls{pl}, as well as additional approaches such as \gls{pic}\cite{honda_high-depth_2021}, \gls{artrseq}\cite{xiao_profiling_2024}, \gls{eclipseq}\cite{sato_stress_2023}, \gls{fanci}\cite{zhou_rna_2024}, and \gls{photon}\cite{rajachandran_subcellular_2025}.
+
+\section{Materials and Methods}
  
+\subsection{Dataset Procurement and List}
+
+For dataset procurement, we searched \gls{geo} Datasets using the term "stress granule", filtering for expression profiling by high-throughput sequencing and restricting to human samples. All publicly available studies up to September 1, 2024, were included. The study Yi \gls{etal} 2024\cite{yi_mapping_2024} was initially considered; however, because its \gls{coclip} method required peak-based analyses across conditions, more analogous to \gls{clip} than standard differential expression, it was ultimately excluded. Part of the study Sato \gls{etal} 2023 also featured samples more akin to \gls{clip}, but as we found that those could be analysed as regular \gls{rnaseq} samples, they were maintained.
+\\
+\linebreak
+The following datasets identified by their \gls{gseid}, divided by their usage, were used throughout this work:
+\begin{itemize}
+	\item For the \gls{sg} transcriptomes: GSE99304\cite{khong_stress_2017}; GSE138988\cite{matheny_transcriptome-wide_2019}; GSE121575\cite{padron_proximity_2019}; GSE138058\cite{somasekharan_g3bp1-linked_2020}; GSE119977\cite{matheny_rna_2021, matheny_corrigendum_2023}; GSE143413\cite{honda_high-depth_2021}; GSE171792\cite{shen_sexually_2022}; GSE188397\cite{sato_stress_2023}; GSE171655\cite{iadevaia_novel_2022}; GSE197001\cite{curdy_proteome_2023}; GSE223295\cite{ren_profiling_2023}; GSE226161\cite{xiao_profiling_2024}; GSE218180\cite{zhou_rna_2024}; GSE212380\cite{kudrin_n4-acetylcytidine_2024}; GSE242766\cite{di_timoteo_m6a_2024}; PRJNA115262153\cite{rajachandran_subcellular_2025}.
+	\item For the \gls{pb} transcriptomes: GSE13898834\cite{matheny_transcriptome-wide_2019}; GSE224858/GSE224752\cite{kodali_rna_2022}.
+	\item For yeast centrifugation modulation: GSE265963\cite{glauninger_transcriptome-wide_2025}.
+	\item Canonical transcript lengths were obtained from ENSEMBL\cite{cunningham_ensembl_2022}.
+	\item \gls{ac4c} \gls{rna} modification information was obtained from Arango \gls{etal} 2022\cite{arango_direct_2022}'s Supplementary Table 2, from the "ac4C\_gene\_summary" sheet.
+	\item \gls{m6a} \gls{rna} modification information was obtained from Khong \gls{etal} 2022's Supplementary Data 1.
+\end{itemize}
+
+\subsection{Correlations}
+ 
+Unless otherwise indicated, correlations shown in scatter plots and heatmaps were calculated using the t-statistic from differential expression, with Spearman’s correlation coefficient $\rho$ and the associated test’s p-value. For correlations involving gene length, the canonical transcript length (in number of nucleotides), obtained from ENSEMBL\cite{cunningham_ensembl_2022} was used, with the longest transcript chosen in cases of ambiguity. 
+
+\subsection{Sampling bias simulations (Mimi-Seq)}
+
+To assess potential sampling bias, we simulated \gls{rnaseq} fragmentation using expression and fragment length distributions derived from GSE99304\cite{khong_stress_2017} \gls{wc} and \gls{sg} samples. For each sample, paired-end alignments were used to extract two metrics from \gls{bam} files: 
+\begin{enumerate}
+	\item the observed \gls{tlen} field, which reports the observed fragment size
+	\item the median fragment position, calculated for each read pair as
+	\begin{equation}
+		\frac{\text{start}(\text{read}_1) + \text{start}(\text{read}_2) + \text{read length}}{2}
+	\end{equation}
+	\eqcaption{Median fragment position}
+\end{enumerate}
+For this dataset, read length was 152 \gls{nt}. Fragment length distributions were stored as probability tables representing the frequency of each observed size. Transcript expression values were normalised to \gls{tpm}, scaled to reflect the sequencing depth of \gls{wc} (1,000,000) or \gls{sg} (100,000) libraries, and used to determine the number of fragmentation events per transcript. For each event, fragment lengths were randomly drawn from the relevant empirical size distribution, and the transcript was iteratively fragmented until no fragment length could be accommodated by the remaining sequence. This procedure preserved both the transcript origin and fragment size of each simulated read. Simulated \gls{tpm} were then converted back to read counts, maintaining total read depth equivalent to empirical \gls{sg} datasets. 
+
+\subsection{Centrifugation Simulation (Spin-Sim)}
+
+In this section, \gls{rna} refers to the average enrichment/sedimentation across all condensates containing a given \gls{rna} transcript, as individual \glspl{rna} do not readily precipitate individually \cite{glauninger_transcriptome-wide_2025}.
+Read counts were first normalised to \gls{tpm}. Canonical nucleotide sequences for each transcript were retrieved from ENSEMBL\cite{cunningham_ensembl_2022} to determine nucleotide composition and calculate the \gls{mw} of each \gls{rna} using\cite{thermo_fisher_dna_nodate}, as per IUPAC nomenclature\cite{noauthor_nomenclature_1985}:
+
+\begin{equation}
+	MW = (A \times 329.2) + (U \times 306.2) + (C \times 305.2) + (G \times 345.2) + 159 \;\text{g mol}^{-1}
+\end{equation}
+\eqcaption{RNA Molecular Weight}
+\\
+For \gls{rna} modification experiments, transcript \gls{mw} was adjusted by $+14\,\mathrm{g\,mol^{-1}}$ for each m6A site\cite{national_center_for_biotechnology_information_pubchem_2025} and $+42\,\mathrm{g\,mol^{-1}}$ for each ac4C site\cite{national_center_for_biotechnology_information_pubchem_2025-1}.
+\\
+\linebreak
+\noindent
+To simulate RNA sedimentation during centrifugation, we applied a simplified particle sedimentation model\cite{svedberg_ultracentrifuge_1940}: 
+\begin{equation}
+	\text{Distance} =
+	\text{Sedimentation coefficient} \times
+	\text{Acceleration} \times
+	\text{Time}
+\end{equation}
+\eqcaption{RNA Sedimentation Distance}
+\\
+Since precise sedimentation coefficients depend on transcript-specific features (e.g., shape, folding, and hydration), we used a heuristic approximation\cite{balch_effects_2015} assuming spherical \gls{rna} behaviour and sedimentation coefficients proportional to the cube root of \gls{mw}: 
+\begin{equation}
+	\text{Distance} = \sqrt[3]{\text{MW}} \times \text{Acceleration} \times \text{Time}
+\end{equation}
+\eqcaption{RNA Sedimentation Heuristic Distance}
+\\
+The centrifugation process was modelled after Khong \gls{etal} 2017\cite{khong_stress_2017}, assuming initiation from the 1 mL mark in standard 2 mL microcentrifuge tubes (distance from bottom ~2 cm). Each transcript’s sedimentation distance was scaled proportionally to estimate the fraction of each RNA that would sediment. These sedimented proportions were converted back to read counts using:
+\begin{equation}
+	\text{Counts} =
+	\left(
+	\frac{\mathrm{TPM} \times \text{Transcript Length}}{10^{6}}
+	\right)
+	\times \text{Original Read Depth}
+\end{equation}
+\eqcaption{TPMs to Counts Conversion}
+where Original Read Depth corresponds to the total number of reads in the associated \gls{sg} sample, ensuring consistency between original and simulated datasets.
+\\
+\linebreak
+\noindent
+Additional simulations used empirical data from Glauninger \gls{etal} 2025\cite{glauninger_transcriptome-wide_2025}, which measured \gls{rna} sedimentation in centrifuged yeast samples. From these dataset’s azide stressed samples, which we considered was the most similar to the commonly used arsenite, as they both cause oxidative stress\cite{garg_elucidation_2020}, we derived a linear model relating \gls{rna} length to sedimentation coefficients, which showed slightly stronger correlation than \gls{mw}. After testing different models, we used the cube root of RNA length to fit the final model:
+\begin{equation}
+	\text{Sedimentation Coefficient} =
+	6.09 \times 10^{-11}\sqrt[3]{\text{RNA Length}} + 3.88 \times 10^{-10}
+\end{equation}
+\eqcaption{Empirical Derived RNA Sedimentation Coefficients}
+\\
+Mitochondrial \glspl{rna} exhibited disproportionately high sedimentation relative to size, so we derived a separate equation for them using a linear model relating \gls{rna} length to sedimentation coefficient, considering only mitochondrial encoded \glspl{rna}:
+\begin{equation}
+	\text{MT Sedimentation Coefficient} =
+	3.23 \times 10^{-11} \sqrt[3]{\text{RNA Length}} + 1.17 \times 10^{-9}
+\end{equation}
+\eqcaption{Empirical Derived Mitochondrial RNA Sedimentation Coefficients}
+\\
+As before, sedimented \gls{rna} abundances were converted back to read counts using the same formula. 
+
+\subsection{\textit{In Silico} Resources}
+
+All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
+Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, featureCounts\cite{liao_featurecounts_2014}, and IGV visualisation. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). Mimi-Seq and SpinSim simulations were conducted in Python 3 (v3.10.11). Images were assembled using Microsoft PowerPoint (v16.0.1).
+
+
+\section{Standard Bioinformatics Analytical Pipeline}
+
+To illustrate the standard analyses that were almost universally applied in all datasets, the following section presents these steps along with example results from the datasets we examined. The aim is to demonstrate the importance of each analysis in context. This section is intended as a guide, showing the methods I applied across all datasets in this thesis, typically highlighting both a "good" and a "less ideal" example for each type of analysis\footnote{Although some of these analyses were already introduced in the previous chapter, presenting them here offers a clearer perspective. The abundance of examples from diverse datasets makes it easier to appreciate the rationale behind each analytical step and the value it provides.}.
+
+
+\subsection{Quality Control: Dataset Pre-processing}
+
+Before conducting downstream analyses, it is essential to evaluate the quality of the sequencing data, as technical issues can strongly influence the results. Tools such as FastQC\cite{andrews_fastqc_2010} and MultiQC\cite{ewels_multiqc_2016} allow inspection of the raw FASTQ files and provide several metrics related to read quality and sequence composition (Figure 4.1). 
+\\
+For example, FastQC reports base quality scores across reads, which can reveal degradation patterns\cite{andrews_fastqc_2010}. In \gls{rnaseq} data, degradation often appears as reduced quality toward the 3' end of reads. In \gls{pe} sequencing, the second read of the pair typically exhibits slightly lower quality because it is sequenced after the first read and therefore accumulates more "degradation" (Figure 4.1A). 
+\\
+FastQC also identifies overrepresented sequences, which may indicate technical artefacts\cite{andrews_fastqc_2010} (Figure 4.1B). These sequences can correspond to sequencing adapters if adapter trimming was not performed, or to \gls{rrna} fragments if ribosomal depletion during library preparation was inefficient. 
+\\
+Alignment or read summarisation statistics provide an additional layer of quality assessment (Figure 4.1C). In general, a uniquely mapped read percentage above ~70\% is considered acceptable for \gls{rnaseq} experiments\cite{peter_fitzgerald_introduction_2024}. Lower mapping rates may indicate degraded \gls{rna}, contamination from another organism, or an excess of repetitive sequences such as \gls{rrna} resulting from incomplete ribosomal depletion. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.1"}
+	\caption[Different types of information provided by FASTQC]{\textbf{Different types of information provided by FASTQC.} (A) Per base sequence quality in paired-end reads, in first (Left) and in second (Right) pair members, from sample SRR5605168 (GSE99304\cite{khong_stress_2017}). Note the lower scores on the second member of the read pair. Image is a screenshot from FASTQC's resulting \gls{html} files. (B) Overrepresented sequences in FASTQ files, prior to adapter trimming in (Left) SRR10191283\_1 (GSE138058\cite{somasekharan_g3bp1-linked_2020}) and in (Right) SRR8083956 (GSE121575\cite{padron_proximity_2019}). Sequences from Left represent a higher total percentage of reads, individually, and originate from \gls{rnaseq} adapters. Sequences from Right represent a lower total percentage of reads, individually, and originate from rRNAs, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}. Image is a screenshot from FASTQC's resulting \gls{html} files. (C) featureCounts summary of assigned and unassigned reads, from the same files represented in B, after adapter trimming. In Left, a suitable number of reads were uniquely mapped. In Right, a very small percentage of reads was uniquely mapped, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}.}
+	\label{fig:fastqc}
+\end{figure}
+\noindent
+Throughout this thesis, downloaded raw reads (in FASTQ format) were trimmed using Trimmomatic (v0.39)\cite{bolger_trimmomatic_2014} operating in either \gls{se} or \gls{pe} mode, depending on the original study design, with appropriate adapter sequences and parameters. Trimmed reads were then aligned to the \gls{hg38} reference genome using \gls{star} (v2.7.9a)\cite{dobin_star_2013} with custom parameters, which aimed to focus only on high-confidence reads, thus increasing specificity at the cost of sensitivity\footnote{Even though sparser parameters would lead to increased read attribution in GSE121575\cite{padron_proximity_2019}, in which ribosomal depletion was intentionally not performed, as the aim of this \gls{phd} project was to purify the \gls{sg} transcriptome, we opted to minimise ambiguous read assignment.}. To maintain consistency among datasets, these parameters were always used:
+
+\begin{lstlisting}
+	--outFilterType BySJout
+	--alignSJoverhangMin 8
+	--alignSJDBoverhangMin 1
+	--alignIntronMin 20
+	--alignIntronMax 1000000
+	--alignMatesGapMax 1000000
+	--outFilterMultimapNmax 1
+	--outFilterMismatchNmax 999
+	--outFilterMismatchNoverLmax 0.04
+\end{lstlisting}
+\noindent
+Aligned reads (\gls{bam} files) were subsequently annotated using the GENCODE v42 primary assembly\cite{frankish_gencode_2021} and quantified with featureCounts (v2.0.3)\cite{liao_featurecounts_2014}.
+
+\subsection{Quality Control: Coverage and Complexity}
+
+After these initial quality control steps and read counting, two additional parameters are important to assess at the count matrix level: sample coverage and sample complexity. 
+\\
+\textbf{Sample coverage} (Figure 4.2A) refers to the total number of sequencing reads assigned to genes in a given sample. In cumulative coverage plots, the curve typically begins to plateau after approximately 10,000 genes, indicating that additional reads primarily accumulate in genes with very low expression levels rather than increasing the number of detected genes. 
+\\
+\textbf{Sample complexity} (Figure 4.2B), in contrast, reflects how evenly reads are distributed across genes. It can be estimated by determining how many genes account for 50\% of the total reads. Low complexity indicates that a small number of highly expressed genes dominate the library, which can occur when overall mapping rates are low or when specific transcripts are disproportionately abundant. 
+\\
+These two metrics are notably useful for identifying problematic or outlier samples. In some cases, the deviation is sufficiently severe that the sample is clearly compromised and may need to be excluded from further analyses. More commonly, however, samples may simply exhibit somewhat lower coverage or complexity, issues that can often be mitigated during the normalisation process. Nevertheless, exploratory analyses such as \gls{pca} can reveal samples that behave anomalously. When such samples also display markedly different coverage or complexity, these technical characteristics may provide an explanation for their atypical behaviour, warranting their exclusion from the analyses.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.2"}
+	\caption[Sample Coverage and Complexity]{\textbf{Sample Coverage and Complexity.} (A) Cumulative read coverage plot showing the distribution of sequencing reads across genes for each sample (\gls{ie}, how many reads are assigned to how many genes). The data correspond to samples from GSE99304\cite{khong_stress_2017}. In this example, differences in coverage appear to be sample-type specific, as \gls{sg} samples consistently exhibit higher coverage than their \gls{wc} counterparts.(B) Sample complexity plot showing the number of genes required to account for 50\% of the total reads (indicated by the dashed horizontal line). The data correspond to samples from GSE143413\cite{honda_high-depth_2021}. In this case, two samples display markedly lower complexity. As these represent technical control samples in the original study\cite{honda_high-depth_2021}, this pattern is expected. However, it is important to note that direct comparisons involving these samples will inevitably yield numerous apparent differences due solely to their lower complexity.}
+	\label{fig:CovandComp}
+\end{figure}
+
+\subsection{Processing Steps: Filtering and Normalisation}
+
+Following the initial quality control procedures, the next step in the analysis pipeline is gene \textbf{filtering}. Although this step is sometimes overlooked, it is essential for improving the reliability of downstream analyses. Filtering removes genes with extremely low expression levels, retaining only those that are likely to provide meaningful biological information. Low-count genes contribute little statistical power in differential expression analyses and can inflate variance estimates, thereby reducing the sensitivity of statistical tests.
+\\
+\linebreak
+\noindent
+To illustrate why filtering is important, consider the following simplified example:
+\begin{verbatim}
+Gene A: 1000 reads in condition X and 2000 reads in condition Y
+Gene B: 2 reads in condition X and 10 reads in condition Y
+\end{verbatim}
+Gene B displays a larger fold change (five-fold) than Gene A (two-fold). However, the biological relevance of Gene B’s change is questionable. A difference of only eight reads may simply reflect stochastic sampling noise rather than a meaningful biological signal. In contrast, the increase of one thousand reads observed for Gene A represents a substantial change in transcriptional activity and is therefore far more likely to reflect a genuine biological effect. Filtering helps prevent low-count genes such as Gene B from disproportionately influencing the statistical analysis\footnote{This issue appears to occur in GSE121575\cite{padron_proximity_2019}. Several genes reported as differentially expressed with logFC $>$ 10 correspond to changes from 0 to approximately 10 reads, suggesting that insufficient filtering of low-count genes may have inflated the apparent fold changes. A similar issue is observed in the proteomic section of the same study, where one of the proteins reported as enriched in \glspl{sg} is \gls{ddx3y}, a Y-chromosome–encoded protein. All experiments in that study were performed in \gls{hek293t} cells, a cell line derived from a biological female with a 46,XX karyotype, making the presence of a Y-linked protein highly unlikely and thus indicative of technical or analytical artifacts.}.
+\\
+Filtering thresholds are typically determined by visualising the distribution of read counts across genes (Figure 4.3A). In many \gls{rnaseq} datasets, this distribution appears bimodal, with one peak corresponding to genes with extremely low counts and another representing genuinely expressed genes. The low-count peak often arises from background noise, sequencing artifacts, or sporadic transcriptional events. By selecting a threshold between these two modes, genes with negligible expression can be removed from the analysis, which otherwise could lead to misleading interpretation (Figure 4.3B). In this thesis, these were defined not as hard thresholds, but on a dataset-by-dataset basis.
+\\
+After filtering, the next critical step is \textbf{normalisation}. Normalisation corrects for differences in sequencing depth (sample coverage) and, to some extent, library composition between samples. Without normalisation, comparisons of gene expression across samples may be misleading.
+\\
+\linebreak
+\noindent
+Consider the following simplified example:
+\begin{verbatim}
+Gene C: 1000 reads in Condition 1 and 1000 reads in Condition 2
+Gene D: 500 reads in Condition 1 and 500 reads in Condition 2
+\end{verbatim}
+At first glance, the expression levels appear identical between conditions. However, suppose the total sequencing coverage differs substantially: Condition 1 contains 5 million total reads, whereas Condition 2 contains 20 million total reads. In this scenario, the same raw read counts represent a much larger fraction of the transcriptome in Condition 1 than in Condition 2. Normalisation adjusts the counts to account for these differences, enabling expression levels to be compared on a common scale.
+\\
+In this work, normalisation factors were determined using the \gls{tmm} method\cite{robinson_scaling_2010} implemented in \gls{edger}\cite{robinson_edger_2010}. Unlike simple library-size scaling, \gls{tmm} corrects not only for differences in sequencing depth but also for composition biases, which occur when a small number of highly expressed genes dominate the sequencing library\cite{robinson_scaling_2010}. The method estimates scaling factors between samples while excluding genes with extreme expression values, ensuring that the majority of relatively stable genes determine the normalisation factors\cite{robinson_scaling_2010,robinson_edger_2010}. This approach provides robust correction for \gls{rnaseq} datasets and improves the reliability of downstream differential expression analyses\cite{robinson_scaling_2010,robinson_edger_2010} (Figure 4.3C). The filtered read counts were then normalised using these factors and log2-transformed using the \gls{voom}\cite{law_voom_2014} function from \gls{limma}\cite{ritchie_limma_2015}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.3"}
+	\caption[Filtering and Normalisation]{\textbf{Filtering and Normalisation.} (A) Density plot showing the distribution of summed reads per gene (log10 scale) before (left) and after (right) filtering, in samples from GSE188397\cite{sato_stress_2023}. In this example, the filtering threshold was set at log10 = 3.25, corresponding to the boundary between the low-count and expressed-gene populations. (B) Scatter plot comparing two replicates from the same sample type in GSE171792\cite{shen_sexually_2022}; genes as circles, axes given in \gls{cpm}, Spearman’s correlation coefficient $\rho$ and associated test’s p-value on top left corner. After filtering (right), the samples appear less similar than before filtering (left). This occurs because many genes with zero or near-zero counts artificially inflate correlation estimates when retained. Even after filtering, the similarity between replicates remains somewhat lower than reported in the original study\cite{shen_sexually_2022}, possibly due to differences in normalisation methods. (C) Box plots showing the distribution of read counts across samples from PRJNA115262153\cite{rajachandran_subcellular_2025} before (left) and after (right) normalisation. Prior to normalisation, noticeable differences between samples are present, reflecting variation in sequencing depth and library composition. These discrepancies are largely resolved after the normalisation step. Colours correspond to sample types, although this distinction is not relevant for the purpose of this example.}
+	\label{fig:FiltandNorm}
+\end{figure}
+
+\subsection{Exploratory Analysis: PCA}
+
+A common first step in transcriptomic data exploration is \gls{pca}. \gls{pca} is a dimensionality reduction technique that summarises large datasets by identifying the main sources of variation across samples. Rather than examining thousands of genes individually, \gls{pca} reduces the data into a small number of \glspl{pc} that capture the largest patterns of variability within the dataset. In this case, \gls{pca} was performed on normalised, log-transformed expression values in order to stabilise variance across genes.
+\\
+In well-defined biological scenarios, samples often cluster according to experimental conditions in \gls{pca} space. Such separation indicates that the biological phenotype under investigation is a major contributor to transcriptomic variation (Figure 4.4A).
+\\
+Because \gls{pca} plots typically display only \gls{pc}1 versus \gls{pc}2, additional principal components may still capture relevant sources of variation. To evaluate this possibility, it is useful to generate a scree plot (Figure 4.4B), which shows the proportion of variance explained by each principal component. This allows one to assess whether other components should also be explored visually, for example by plotting \gls{pc}2 versus \gls{pc}3.
+\\
+\Gls{pca} plots can also reveal issues with specific samples, including underlying technical problems such as differences in sample complexity or coverage, as well as sample label misattribution (Figure 4.4C) or poorly behaving replicates (Figure 4.4D).
+\\
+The absence of clear clustering in \gls{pca} space, or in sections of it, may suggest that the experimental conditions do not produce large-scale transcriptomic shifts across the dataset (Figure 4.4E). Importantly, this does not imply that biologically meaningful differences are absent. Rather, it indicates that any transcriptional changes are likely subtle, affecting a relatively small subset of genes rather than driving global transcriptomic variation.
+\\
+As an additional layer of interpretation, principal components can be “deconstructed” to identify the genes that contribute most strongly to each component. In other words, one can determine which genes are the primary drivers of the observed variance. In the example from GSE242766\cite{di_timoteo_m6a_2024} (Figure 4.4F), many of the genes contributing most strongly to \gls{pc}1, and to a lesser extent \gls{pc}2, correspond to transcripts at the extremes of gene length, either very short or very long. This is consistent with the observation that sample type appears to explain these components and with the proposed role of gene length in SG enrichment\cite{khong_stress_2017}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.4"}
+	\caption[PCA as an Exploratory Tool]{}
+	\label{fig:PCAExamples}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{PCA as an Exploratory Tool.} (A) \gls{pca} plot of GSE99304\cite{khong_stress_2017}. Apparent distances in \gls{pca} space can sometimes be misleading. Although a few samples appear separated, this separation occurs along \gls{pc}2, which explains only 2.94\% of the variance. In contrast, most of the variance in this dataset is explained by \gls{pc}1 (95.27\%), which corresponds to sample type. (B) Scree plot corresponding to panel A. In this case, the "scree" occurs immediately after \gls{pc}1, indicating that the vast majority of the dataset’s variance is captured by this component. (C) PCA plot of GSE119977\cite{matheny_rna_2021}. Samples not relevant to this example are coloured grey for clarity. Red and green samples differ only by a single metadata variable: G3BP1/2 \gls{wt} (green) or \gls{ko} (red). However, a pair of G3BP1/2 \gls{ko} samples cluster with their \gls{wt} counterparts in either \gls{wc} (lighter shades) or \gls{sg} (darker shades), suggesting possible sample mislabelling\protect\footnotemark. (D) PCA plot of GSE171792\cite{shen_sexually_2022}. Samples not relevant to this example are coloured grey for clarity. In this case, the bright green samples do not cluster together and instead explain a substantial fraction of the variance in the dataset. These are the same samples shown in Figure 4.3B, supporting the observation that they are less similar than initially expected. (E) PCA plot of GSE138058\cite{somasekharan_g3bp1-linked_2020}. Samples not relevant to this example are coloured grey for clarity. Dark red and dark blue samples appear intermingled. In this case, however, this pattern is not due to sample mislabelling but rather to another strong transcriptomic effect (visible in the grey samples on the right side of the plot), which dominates the variance and partially masks the differences between these groups. (F) PCA plot of GSE242766\cite{di_timoteo_m6a_2024}. Samples as circles, with the corresponding legend on the plot. Two major axes of variance are apparent, forming four well-defined quadrants. These axes correspond to sample type (SG vs WC; darker vs lighter shades) and m6A status (WT vs KO; blue vs magenta).}
+\end{figure}
+
+\footnotetext{In this case, the discrepancy was indeed caused by sample mislabelling. Visual inspection of the genomic knockout region using \gls{igv}, similar to the approach described in Chapter 3, revealed the presence of reads within a region that should have been deleted in the \gls{ko} samples. This analysis was communicated to the original authors, who subsequently released a corrigendum\cite{matheny_corrigendum_2023}, although unfortunately without acknowledging this contribution.}
+
+\subsection{Differential Expression Analysis – Linear Modelling}
+
+To formally evaluate gene expression differences between conditions, linear models must be defined to describe how experimental variables influence gene expression levels. Consider the example of GSE242766\cite{di_timoteo_m6a_2024} (Figure 4.4F). In this dataset, two main variables are present, which also correspond to the axes of variance observed in the PCA: Sample Type (\gls{wc} or \gls{sg}) and \gls{m6a} state (\gls{wt} or \gls{ko}). A third variable, the presence of an \gls{als}-related mutation, also exists but will be ignored here for simplicity.
+\\
+A direct comparison between two groups, for example SG m6A KO samples and WC m6A WT samples, would confound these variables. Any observed gene expression differences could therefore arise from sample type, \gls{m6a} status, or a combination of both. Linear modelling allows these effects to be partitioned, enabling the contribution of each factor to be estimated independently.
+\\
+\linebreak
+\noindent
+To achieve this, gene expression was modeled using a design matrix of the form:
+\begin{verbatim}
+	model.matrix(~0 + SampleType + m6AState)
+\end{verbatim}
+
+In this formulation, gene expression is explained by the effects of \textit{SampleType} and \textit{m6AState}, allowing their contributions to be estimated separately. This distinction is important for correct biological interpretation. In this dataset, a direct comparison between SG m6A KO and SG m6A WT samples reveals reduced enrichment of longer transcripts in the \gls{ko} samples, as described by the original authors\cite{di_timoteo_m6a_2024}. At first glance, this might suggest that m6A status, rather than gene length, drives \gls{sg} enrichment. However, performing the same comparison in whole-cell samples (WC m6A KO vs WC m6A WT) reveals the same trend. Thus, the \gls{m6a} perturbation consistently produces a transcriptome enriched for shorter \glspl{rna} regardless of sample type. In this context, the \gls{sg} transcriptome likely reflects the underlying \gls{wc} transcriptome, meaning that the apparent reduction in length bias within \glspl{sg} may simply mirror the cellular background (Figure 4.5). This example is not meant to criticise the original study but to illustrate common analytical pitfalls that can arise even in well-designed experiments.
+\\
+\linebreak
+\noindent
+Linear models can also include interaction terms, which test whether the effect of one variable depends on the state of another. In other words, interactions capture deviations from purely additive effects.
+\\
+As an example, consider GSE138058\cite{somasekharan_g3bp1-linked_2020}. This study uses proximity labelling to identify \glspl{rna} associated with stress granules by targeting \gls{g3bp1} under both stressed and unstressed conditions. Additional targets representing polysomes, cytoplasm, and an empty vector are also included, each measured in both stress states. Although many sample types are present, the study is well structured because each target has appropriate controls.
+\\
+\linebreak
+\noindent
+For the analysis of this dataset, we used the following linear model:
+\begin{verbatim}
+model.matrix(~0 + Target * StressState)
+\end{verbatim}
+
+Here, \textit{Target} represents the proximity-labelling bait (\gls{eg}, \gls{g3bp1}, polysome, cytoplasm, or control), and \textit{StressState} indicates whether cells were stressed or unstressed. Targeting \gls{g3bp1} in unstressed cells captures the baseline \gls{g3bp1} interactome, whereas targeting \gls{g3bp1} during stress captures the stressed interactome, which includes \gls{sg}-associated \glspl{rna}. However, stress itself induces widespread transcriptomic changes. As a result, a simple comparison between stressed and unstressed \gls{g3bp1} samples would capture both \gls{sg}-specific interactions and general stress responses. By modelling the interaction between \gls{g3bp1} targeting and stress, transcripts specifically enriched in the \gls{g3bp1} interactome during stress can be isolated, providing a more precise estimate of the \gls{sg}-associated transcriptome.
+\\
+In some situations it is also useful to apply variable centering. Centering involves subtracting the mean of a variable from each observation so that the variable is expressed relative to its average value. While this does not change the fitted model, it improves interpretability and reduces collinearity between model terms, particularly when interactions are included. As such, whenever a linear model with interaction was used, variable centering was performed.
+\\
+\linebreak
+\noindent
+Following model fitting, empirical Bayes moderation\cite{smyth_linear_nodate} was applied using the eBayes function from limma\cite{ritchie_limma_2015}. This procedure stabilises gene-wise variance estimates by borrowing information across all genes, producing moderated statistics that are more reliable when the number of replicates is limited\cite{smyth_linear_nodate}. In addition, the empirical Bayes step computes the B-statistic, representing the log-odds that a gene is truly differentially expressed given the observed data and fitted model\cite{smyth_linear_nodate}.
+\\
+\linebreak
+\noindent
+Finally, multiple testing correction must be applied. In transcriptomic analyses, thousands of genes are tested simultaneously for differential expression, meaning that a substantial number of false positives would arise by chance if standard significance thresholds were used.
+\\
+To control for this issue, the \gls{bh} was used to adjust p-values\cite{benjamini_controlling_1995}. The \gls{bh} controls the \gls{fdr}, the expected proportion of false positives among the results declared significant\cite{benjamini_controlling_1995}. This approach is widely used in \gls{rnaseq} analysis because it balances statistical rigor with sufficient sensitivity to detect biologically meaningful changes in gene expression. We also did ebayes treatment
+
+\subsection{Differential Expression Analysis – Volcano Plots and GSEA}
+
+Volcano plots provide an intuitive representation of \gls{dgea} because they simultaneously display effect size and statistical evidence. The horizontal axis reflects the magnitude and direction of expression change, typically log \gls{fc}, while the vertical axis represents the statistical support for that change. This allows genes with both substantial expression shifts and strong statistical evidence to be readily identified.
+\\
+In this analysis, statistical evidence is represented using the B-statistic, which corresponds to the log-odds that a gene is truly differentially expressed given the observed data and the fitted model. Genes appearing toward the upper extremes of the plot therefore represent those with the strongest support for differential expression (Figure 4.5A).
+\\
+To complement gene-level differential expression analysis, we also performed \gls{gsea}\cite{subramanian_gene_2005}, using the fgsea (v1.20.0)\cite{korotkevich_fast_2016} R package (Figure 4.5B). This method evaluates whether groups of biologically related genes exhibit coordinated expression changes, even when individual genes do not reach conventional significance thresholds.
+\\
+For this analysis, genes were ranked according to their t-statistics obtained from the differential expression model, which balance effect size and statistical significance. The ranked gene list was then tested against the Hallmark gene sets, a curated collection designed to reduce redundancy and improve biological interpretability by consolidating overlapping pathways into coherent transcriptional signatures\cite{liberzon_molecular_2015}.
+\\
+This contrasts with pathway collections such as \gls{kegg}\cite{kanehisa_kegg_2000}, Reactome\cite{croft_reactome_2011}, or Gene Ontology Biological Process\cite{ashburner_gene_2000}, which are typically based on known biochemical or signalling pathway components. While valuable for functional annotation, these pathways may include genes that participate mechanistically in a pathway but are not necessarily transcriptionally regulated when that pathway is activated.
+\\
+The enrichment analysis produces a \gls{nes}, which quantifies the extent to which genes belonging to a pathway are concentrated near the extremes of the ranked gene list. Positive \gls{nes} values indicate enrichment among upregulated genes, whereas negative \gls{nes} values indicate enrichment among downregulated genes. By analysing coordinated shifts across gene sets rather than individual genes alone, \gls{gsea} can reveal biologically meaningful patterns that may not be apparent from single-gene differential expression analyses.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.5"}
+	\caption[DGEA and GSEA]{\textbf{DGEA and GSEA.} (A) Volcano plots showing \gls{dgea} in GSE242766\cite{di_timoteo_m6a_2024} comparing \gls{sg} samples with their \gls{wc} counterparts in \gls{m6a} \gls{wt} (left) and \gls{m6a} \gls{ko} (right) conditions. Genes are represented as circles. Upregulated transcripts (logFC $>$ 2.5 and B-statistic $>$ 10) are highlighted in red, whereas downregulated transcripts (logFC $<$ -4 and B-statistic $>$ 10) are shown in blue. Using these thresholds, the same set of genes is highlighted in both conditions. (B) Heatmap showing \gls{nes} for Hallmark gene sets comparing \gls{sg} and \gls{wc} samples in \gls{m6a} \gls{wt} (left) and \gls{m6a} \gls{ko} (right) conditions. Under these parameters, the same pathways appear enriched or depleted in both comparisons. Together, panels A and B indicate that the two contrasts produce highly similar results, supporting the conclusion that \gls{m6a} modification does not play a major role in stress granule transcript sequestration.}
+	\label{fig:DGEA_GSEA}
+\end{figure}
+
+\section{Results and Discussion}
+
+\subsection{Different SG purification techniques yield different SG transcriptomes}
+
+As abovementioned, we first compiled publicly available transcriptomic datasets of human \gls{sg} isolated through various methods (Table 1).
+
+\begin{table}[H]
+	\centering
+	\caption[GEO datasets used for SG transcriptome analyses]{\textbf{\gls{geo} datasets used for SG transcriptome analyses}. For each study, the table lists the \gls{gseid}, \gls{sg} isolation method, stress stimulus, target used for \gls{sg} isolation, cell types involved, and associated transcriptome alterations (including transient changes). G3BP refers to G3BP1 alone or both G3BP1 and G3BP2. In the PIC, PHOTON, and FANCI methods, "target" refers to the antibody used to mark SGs via immunofluorescence, enabling photo-based or fluorescence-activated isolation. DC* – Differential centrifugation without immunoprecipitation; PL** – Proximity labelling-derived technique.}
+	\scriptsize 
+% inside your table environment, before \begin{tabular}:
+	\newlength{\tablewidth}
+	\setlength{\tablewidth}{\textwidth - 14\tabcolsep - 8\arrayrulewidth}
+	
+	\begin{tabular}{|p{0.16\tablewidth}|p{0.10\tablewidth}|p{0.16\tablewidth}|p{0.10\tablewidth}|p{0.10\tablewidth}|p{0.18\tablewidth}|p{0.16\tablewidth}|}
+			\hline
+			\textbf{Study} & \textbf{Method} & \textbf{Stress} & \textbf{Target} & \textbf{Cell} & \textbf{Transcriptome} & \textbf{GSEID} \\
+			\hline
+			Khong 2017 & DC & Oxidative & G3BP & U2-OS & G3BP-GFP & GSE99304 \\
+			\hline
+			Matheny 2019 & DC* & Oxidative & None & U2-OS & Wild-Type & GSE138988 \\
+			\hline
+			Padrón 2019 & PL & Heat-shock and Hippuristanol & eIF4A & HEK293T & APEX2-eIF4A & GSE121575 \\
+			\hline
+			Somasekharan 2020 & PL & Oxidative & G3BP & PC-3 & APEX2-G3BP & GSE138058 \\
+			\hline
+			Matheny 2021 & DC & Oxidative and Hyperosmotic & PABPC1 and G3BP & U2-OS & Wild-Type, G3BP-GFP and G3BP KO & GSE119977 \\
+			\hline
+			Honda 2021 & PIC & Oxidative & G3BP & HeLa & Wild-Type & GSE143413 \\
+			\hline
+			Shen 2022 & PL & Oxidative & DDX3X and DDX3Y & HeLa & APEX2-DDX3X and APEX2-DDX3Y & GSE171792 \\
+			\hline
+			Iadevaia 2022 & DC & Viral Infection & G3BP & U2-OS & G3BP-GFP & GSE171655 \\
+			\hline
+			Sato 2023 & DC and eCLIP-Seq & Oxidative & G3BP & SH-SY-5Y & Wild-Type & GSE188397 \\
+			\hline
+			Curdy 2023 & DC & T-Cell Activation & G3BP & Donor T-Cells & Wild-Type & GSE197001 \\
+			\hline
+			Ren 2023 & PL** & Oxidative and Hyperosmotic & G3BP & HEK293T and U2-OS & G3BP-miniSOG & GSE223295 \\
+			\hline
+			Xiao 2024 & ARTR-Seq & Oxidative & G3BP & HeLa & Wild-Type & GSE226161 \\
+			\hline
+			Zhou 2024 & FANCI & Oxidative, Hyperosmotic, Heat-shock and UV Irradiation & G3BP & HeLa & DHX9-eGFP and G3BP-mCherry & GSE218180 \\
+			\hline
+			Kudrin 2024 & DC & Oxidative & G3BP & HeLa & Wild-Type and NAT10 KO & GSE212380 \\
+			\hline
+			Di Timoteo 2024 & DC & Oxidative & G3BP & SK-N-BE & Wild-Type, METTL3 KD, and FUS-P525L & GSE242766 \\
+			\hline
+			Rajachandran 2024 & PHOTON & Oxidative & eIF3eta & HeLa & Wild-Type and METTL3 KO & PRJNA1152621 \\
+			\hline
+    \end{tabular}
+\label{tab:datasets}
+\end{table}
+
+
+\noindent
+For each dataset, we compared transcript expression between \gls{sg} and the corresponding whole-cell or cytoplasmic fraction (here collectively referred to as \gls{wc}). \glspl{sg} isolated by \gls{dc} consistently contained longer transcripts on average (Figure 4.6A, left; Khong 2017\cite{khong_stress_2017} study shown as example), regardless of stress stimuli or cell type (Figure 1B). Gene expression profiles of \gls{dc}-purified \glspl{sg} also exhibited consistently high correlation with each other (Figure 4.6B).
+\\
+In contrast, \gls{pl}-based datasets showed no marked \gls{rna} length bias in \glspl{sg} (Figure 1A, right; Somasekharan 2020\cite{somasekharan_g3bp1-linked_2020} study shown as example) and exhibited minimal correlation between \gls{sg} gene expression profiles, even under the same stress stimulus (Figure 4.6B).
+\\
+To examine functional enrichment, we performed \gls{gsea} in \glspl{sg} induced by oxidative stress in the \gls{dc} and \gls{pl} example datasets, compared with their respective \gls{wc} fractions (Figure~4.6A,B). In \gls{dc}-purified transcriptomes, gene set enrichment in \glspl{sg} was strongly confounded by transcript length (Fisher's $p < 1.5 \times 10^{-5}$, Odds Ratio $= 23.77$), with several enriched and depleted Hallmarks associated with long (e.g., mitotic spindle) and short (e.g., oxidative phosphorylation) transcripts, respectively (Figure~4.6C). In PL-purified transcriptomes, the observed enrichment of short transcripts in SGs (Figure~4.6A, right) was similarly reflected in Hallmark enrichment analysis (Figure~4.6C; Fisher's $p < 0.0001$, Odds Ratio $= 0.06$).
+\\
+\noindent
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure1"}
+	\caption[SGs purified by different methods have distinct trancriptomes]{\textbf{SGs purified by different methods have distinct trancriptomes.} (A) Scatter plots of t-statistics between SGs and WCs (Y-Axis) versus length of gene’s representative \gls{rna} transcript in log10 \gls{nt} (X-Axis), for \gls{sg} purification by DC\cite{khong_stress_2017} (left) and PL\cite{somasekharan_g3bp1-linked_2020} (right); genes as circles, density contour lines in dark red, Spearman's correlation coefficient$\rho$ and associated test's p-value on top left corner. (B) Heatmap of Spearman's correlations between t-statistics of DGEA between SGs and WCs, from different studies, and \gls{rna} length in log10 \gls{nt} (label in red). Stress stimulus, cell type, and \gls{sg} purification method of each study are given below the heatmap. G3BP refers to \gls{g3bp1} alone or both \gls{g3bp1} and \gls{g3bp2}. \gls{mettl3} knockdown and knockout are marked with the same colour. (C) Scatter plot of \gls{gsea} \gls{nes} of Hallmarks between \glspl{sg} and \glspl{wc}, ranked by t-statistic, for \gls{sg} purification by DC\cite{khong_stress_2017} or PL\cite{somasekharan_g3bp1-linked_2020} (Y-Axis) versus genes ranked by number of \gls{nt} (X-Axis).}
+	\label{fig:Figure1}
+\end{figure}
+
+\noindent
+Notably, these datasets differ in cell lines and arsenite concentrations, factors previously suggested to influence \gls{sg} transcript composition. To evaluate whether these biological variables could explain the observed differences, we examined \glspl{wc} from the corresponding cell lines under oxidative stress. These samples showed a correlated transcriptomic stress response (Figure 4.7A-Left), indicating that cell line alone is unlikely to account for the differences observed in SG transcriptomes.
+\\
+\noindent
+Consistent with this, arsenite-treated U2-OS and PC-3 cell lines share highly upregulated genes, including \textit{\gls{mt1x}} and\textit{ \gls{mt2a}} (metallothioneins protective against oxidative stress), \textit{\gls{dusp1}} (upregulated during oxidative stress), and \textit{\gls{dnajb1}} (mitigates oxidative stress-induced cytotoxicity). Furthermore, \gls{gsea} on \glspl{dgea} between stressed and unstressed states in both cell lines revealed similar Hallmark enrichment (Figure~4.7A-Right; Fisher's $p < 3.5 \times 10^{-4}$, Odds Ratio $= 21.66$). Together, these results suggest that the observed variation in these \gls{sg} transcriptomes is most likely driven by differences in isolation method rather than underlying biological differences between cell lines or stress conditions. While the conserved nature of \glspl{sg} suggests that some degree of consistency across stressors and cell types should be expected, we sought to verify this assumption and to explore alternative explanations that might account for the observed patterns.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/SupFigure1_comp"}
+	\caption[U2-OS and PC-3 cells have a similar stress response]{\textbf{U2-OS and PC-3 cells have a similar stress responses.} (A) (left) Scatter plot of t-statistics between \glspl{sg} and \glspl{wc} in PC-3\cite{somasekharan_g3bp1-linked_2020} (Y-Axis) and U2-OS\cite{khong_stress_2017} (X-Axis) cell lines exposed to oxidative stress through arsenite;  genes as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner; strongly upregulated genes in both cell lines (t-statistic $>$ 25) are labelled and highlighted in dark red. (right) Scatter plot of GSEA NES of Hallmarks, ranked by t-statistic, in PC-3\cite{somasekharan_g3bp1-linked_2020} (Y-axis)  versus U2-OS\cite{khong_stress_2017}  (X-axis) cell lines, exposed to oxidative stress through arsenite. (B) Scatter plots of gene expression (in log2 \gls{cpm}) in \glspl{sg} (Y-Axis) versus \glspl{wc} (X-Axis), for \gls{sg} purification by DC\cite{khong_stress_2017}  (left) and PL\cite{somasekharan_g3bp1-linked_2020} (right); genes as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner.}
+	\label{fig:Figure2}
+\end{figure}
+
+\subsection{Sampling bias does not explain the RNA length bias in DC-derived SGs}
+
+\gls{sg} assembly is driven by molecular aggregation, suggesting that longer \glspl{rna}, which provide greater potential for multivalent interactions, may be preferentially enriched. However, the strong correlation observed between \gls{sg} and \gls{wc} transcriptomes, irrespective of isolation method, (Figure 4.7B) supports the alternative hypothesis that the \gls{sg} transcriptome largely reflects a subset of the cellular transcriptome. This raises the possibility that the \gls{rna} length bias observed in \gls{dc}-purified \glspl{sg} may not be biological, but instead a technical artefact.
+\\
+In particular, since \glspl{sg} contain only about 10\% of total cellular \gls{mrna}\cite{khong_stress_2017}, the \glspl{rna} detected in \glspl{sg} may represent only a partial sampling of the whole-cell transcriptome. In such smaller populations, random fluctuations can exaggerate the representation of certain transcript features, such as \gls{rna} length, a phenomenon conceptually related to sampling bias.
+\\
+To evaluate whether technical or sampling effects could account for the observed length bias, we performed \textit{in silico} \gls{rnaseq} simulations using empirical \gls{rna} expression levels and fragment size distributions from the original \gls{sg} and \gls{wc} samples (schematic shown in Figure 4.8; see section 4.1.3). These simulations allowed us to test whether sampling or \gls{rnaseq} processes alone could reproduce the observed enrichment patterns.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.8"}
+	\caption[Mimi-Seq Simulation Pipeline]{\textbf{Mimi-Seq Simulation Pipeline.} (A) Schematic of methods used in this section. The diagram depicts the experimental workflow from the original study for obtaining WC and SG samples\cite{khong_stress_2017} (steps in grey) and the additional \textit{in silico} steps performed in our analyses (steps in black). }
+	\label{fig:Figure4.8}
+\end{figure}
+\noindent
+Two potential sources of bias were considered. First, small \gls{rna} populations can be subject to sampling bias, where random over- or under-representation of transcripts can distort apparent transcript distributions. Second, \gls{rnaseq} library preparation involves fragmentation, which generates more fragments, and therefore more reads, for longer transcripts, an effect that standard normalisation methods that account for transcript length do not fully correct\cite{zhao_tpm_2021, mandelboum_recurrent_2019}.
+\\
+As control, we simulated \gls{rnaseq} using \gls{wc} and \gls{wc} expression data with their respective fragmentation profiles (\gls{ie} how specific transcripts fragment in each sample type), reproducing empirical fragment length distributions\cite{khong_stress_2017} (Figure 4.9A). Additional simulations in which expression data from one population were paired with the alternate fragmentation profile demonstrated that fragmentation patterns depended only on the input expression, confirming equivalence of \gls{sg} and \gls{wc} fragmentation profiles (Figure 4.9B).
+\\
+Finally, we simulated \gls{wc} and \gls{sg} samples by drawing reads from the full \gls{wc} transcriptome, with \gls{sg} samples representing a 10\% subset of that expression. These simulated \gls{sg} transcriptomes exhibited a negative length bias, in contrast to the positive bias in \gls{dc}-purified \gls{sg} transcriptomes (Figure 4.9C). This reversal is most likely due to the high abundance of short RN7SL1–3 \glspl{rna} in the original \gls{wc} transcriptome, which constitute approximately 50\% of total reads\cite{khong_stress_2017}, and outweigh contributions from longer transcripts in the simulation.
+\\
+Even in this simplified scenario, designed to maximise technical enrichment of longer \glspl{rna}, the positive length bias in \glspl{sg} was not reproduced. In fact, sequencing depth and coverage of \glspl{sg} (as explained in section 4.2.2) in the original study\cite{khong_stress_2017} appear sufficient to prevent this phenomenon (Figure 4.9D).
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.9"}
+	\caption[Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias]{\textbf{Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias.} (A) Relative distribution of fragment length (\gls{nt}) in original samples\cite{khong_stress_2017} \gls{rnaseq} (left) and simulated samples (right). (B) Relative distribution of representative \gls{rna} fragment length (\gls{nt}) in simulated samples, using \gls{wc} (left) or \gls{sg} (right) expression as basis, and \gls{wc} or \gls{sg} fragmentation distributions as basis. (C) Scatter plot of t-statistics of \gls{dgea} between \gls{sg} and \gls{wc} simulated samples (Y-Axis) and representative \gls{rna} transcript length (\gls{nt}) (X-Axis); genes as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value are also shown. The original WC expression\cite{khong_stress_2017} was used as the basis for both simulated \gls{wc} and \gls{sg} samples, with their respective fragment size distribution as the basis. (D) Cumulative distribution of the percentage of \gls{rnaseq} reads mapping to the increasing number of genes, ordered by decreasing read coverage, in the original dataset\cite{khong_stress_2017}.  More genes account for 50\% of the reads in \gls{sg} samples than their \gls{wc} counterparts, suggesting greater \gls{rna} library complexity.}
+	\label{fig:Figure4.9}
+\end{figure}
+\noindent
+Collectively, these results suggest that the positive length bias in \gls{dc}-purified \gls{sg} transcriptomes is unlikely to arise from either chance sampling or \gls{rnaseq} technical effects owing to the lower number of \gls{rna} molecules on \gls{sg}, when compared to the remainder of the cell.
+
+\subsection{Simulation of the centrifugation process yields RNA length bias compatible with that observed in DC-isolated SGs}
+
+\glspl{rna} can naturally form condensates in the cell independently of their localisation to \glspl{sg}\cite{glauninger_stressful_2022, glauninger_transcriptome-wide_2025, van_treeck_rna_2018}\footnote{Perhaps the strongest support for this idea comes from experiments by the same research group that first isolated stress granules, in which cell-free RNA was shown to spontaneously assemble into \gls{sg}-like condensates that share a similar transcriptomic composition\cite{van_treeck_rna_2018}. These observations were largely interpreted as evidence that the properties governing \gls{sg} assembly are "encoded" at the \gls{rna} level. However, an alternative interpretation is also possible: that the intrinsic propensity of \glspl{rna} to self-assemble may generate condensates with \gls{sg}-like transcriptomes even outside physiological stress conditions. Because these assemblies occur in cell-free, stress-free environments (albeit under molecular crowding conditions) it is conceivable that similar \gls{rna} self-assembly could also occur during differential centrifugation. In this scenario, the observed transcript composition would not necessarily reflect \gls{sg}-specific sequestration but rather the intrinsic aggregation properties of \gls{rna} molecules themselves.}. Thus, \gls{dc}, which isolates condensate-rich fractions prior to immunoprecipitation, may capture \gls{rna} condensates other than \glspl{sg}. To investigate this possibility, we simulated centrifugation in silico using \gls{wc} expression data\cite{khong_stress_2017}, modelling \gls{rna} precipitation as primarily dependent on transcript molecular weight under the assumption of uniform condensate shape (Figure 4.10A). Although \glspl{rna} sediment as part of condensates, we modelled each transcript as sedimenting independently, using molecular weight as a proxy for condensate behaviour (see section 4.1.4). This approach generates a gene expression profile attributable solely to the technical effects of centrifugation, which we interpret as putative \glspl{sg}.
+\\
+The simulated \glspl{sg} displayed a positive \gls{rna} length bias relative to \gls{wc} samples, closely matching that observed in the original \gls{dc} data (Figure~4.10B). \gls{gsea} was similarly confounded by transcript length (Figure~4.10C; $p$-value $< 1 \times 10^{-9}$, Odds Ratio $= 44.18$), consistent with earlier observations (Figure~4.7A-Right).
+\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure3"}
+	\caption[Length bias in DC-isolated SGs is compatible with inherent RNA condensation]{}
+	\label{fig:Figure4.10}
+\end{figure}
+
+\clearpage
+
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{Length bias in DC-isolated SGs is compatible with inherent RNA condensation.} (A) Schematic representation of standard \gls{dc} protocol alongside our \textit{in silico} pipeline for simulating the centrifugation process. d = distance travelled by each RNA during centrifugation; Mw = Molecular weight of each \gls{rna} transcript, in g/mol; g = centrifugation acceleration, in g; t = time of centrifugation, in seconds.  (B) Scatter plot of t-statistics of \gls{dgea} between simulated \glspl{sg}, and \glspl{wc} (Y-Axis) versus length of gene's representative \gls{rna} transcript (\gls{nt}) (X-Axis). (C) Scatter plot of \gls{gsea} \gls{nes} of Hallmark gene sets between simulated \gls{sg}, vs \gls{wc} samples, ranked by t-statistic (Y-Axis) versus genes ranked by length (\gls{nt}) (X-Axis). (D) Scatter plots of t-statistics of \gls{dgea} in simulated \glspl{sg} (Y-Axis) and \gls{dc}-purified \glspl{sg} (X-Axis), relative to \gls{wc} samples; genes as circles colored by RNA length in log10 \gls{nt}; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (E) Scatter plots of t-statistics of \gls{dgea} in \gls{dc}-purified \glspl{sg} versus simulated \glspl{sg} (Y-Axis) versus length of gene's representative \gls{rna} transcript (\gls{nt}) (X-Axis); transcripts as circles; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (F) Scatter plots of t-statistics of \gls{dgea} between stressed vs unstressed \gls{rnp} samples (Y-Axis) and between stressed vs unstressed \gls{wc} samples (X-Axis). Genes as circles; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner (B,D,E,F). The original \gls{wc} expression from GSE99304\cite{khong_stress_2017} was used as basis for simulated \gls{sg} samples.}
+\end{figure}
+\noindent
+To assess the similarity between simulated and \gls{dc}-purified \glspl{sg}, we compared their differentially expressed genes relative to \gls{wc} samples and observed a strong correlation (Figure 4.10D). Because the simulated \glspl{sg} were generated solely from \gls{wc} expression data and lack any \gls{sg}-specific biological signal, they represent the centrifugation-derived component of the \gls{dc} method. Comparing these simulated \glspl{sg} with the original ones allows identification of transcripts enriched beyond what would be expected from molecular weight alone. After this correction, the resulting \gls{sg} transcriptomes showed no detectable RNA length bias (Figure 4.10E). This suggests that the length bias reported in previous studies likely arises from centrifugation-related artefacts during \gls{sg} purification.
+\\
+It is important to acknowledge that this centrifugation simulation relies on coarse approximations and may not fully capture the true behaviour of \gls{rna} during centrifugation. This limitation may explain why the transcripts identified as differentially enriched often correspond to extreme transcript lengths, either very short or very long (Figure 4.10E, top left and bottom right).
+\\
+If the \gls{sg} signal is indeed confounded by natural \gls{rna} condensation, a more appropriate control for \gls{dc}-purified \glspl{sg} requires samples processed identically but lacking \glspl{sg}. In the Matheny 2019 dataset\cite{matheny_transcriptome-wide_2019}, \gls{wc} and \gls{rnp} granule fractions were collected under both stressed and unstressed conditions using \gls{dc}, but without immunopurification. In this dataset, stressed \gls{rnp} fractions contain \glspl{sg} together with other \gls{rna} granules such as \glspl{bp}, which are also present in unstressed cells and are associated with \gls{rna} degradation. In contrast, unstressed \gls{rnp} fractions lack \glspl{sg}.
+\\
+If \gls{sg}-specific \gls{rna} sequestration occurs beyond the effects of stress and centrifugation, transcriptomic changes between stressed and unstressed \gls{rnp} fractions would be expected to deviate from those observed in the corresponding \gls{wc} comparisons. However, the two comparisons are strongly correlated (Spearman's correlation coefficient $\rho$ = 0.71; Figure 4.10F), indicating that the \gls{sg} transcriptome largely mirrors the cellular transcriptome under both stressed and unstressed conditions, with minimal transcript-specific sequestration. Variance analysis further supports this interpretation, showing that \gls{sg}-specific effects are smaller than those attributable to stress and centrifugation (Figure 4.11).
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Sup3"}
+	\caption[Stress Granules Presence Contibution to Variance in RNP Granules]{\textbf{Stress Granules Presence Contibution to Variance in RNP Granules.} Relative contributions of different sources to gene expression variance in the GSE138988\cite{matheny_transcriptome-wide_2019} dataset. \gls{sg} contribute less to gene expression variance than the stress itself or the centrifugation effect.}
+	\label{fig:Figure4.11}
+\end{figure}
+\noindent
+Notably, this study did not include immunopurification of a core \gls{sg} protein, which may dilute \gls{sg}-specific signals among other \gls{rna} condensates and contribute to the lack of clear \gls{sg}-specific enrichment. In addition, this protocol includes one fewer centrifugation step than other \gls{dc}-based methods, which may explain the weaker correlation with \gls{rna} length observed in this dataset compared to other \gls{dc} studies using the same cell types and stress conditions (Figure 4.6B).
+
+\subsection{Centrifugation simulation with added weight from RNA modifications recapitulate their effect in DC-isolated SGs}
+
+Beyond \gls{rna} length and translation efficiency\cite{khong_stress_2017}, \gls{rna} modifications such as \gls{m6a} and \gls{ac4c} have also been associated with \gls{sg} enrichment in datasets obtained through differential centrifugation\cite{fu_m6a-binding_2020, ries_m6a_2023, kudrin_n4-acetylcytidine_2024, di_timoteo_m6a_2024}. Because these modifications increase the molecular mass of \gls{rna} (14 g/mol for m6A\cite{national_center_for_biotechnology_information_pubchem_2025} and 42 g/mol for ac4C\cite{national_center_for_biotechnology_information_pubchem_2025-1}, respectively), we hypothesised that their apparent enrichment in \glspl{sg} could partly arise from the additional mass they confer, which may influence \gls{rna} sedimentation during centrifugation.
+\\
+To evaluate this possibility, we compared differential gene expression between \gls{sg} and \gls{wc} fractions in \gls{ac4c}- and \gls{m6a}-knockout cells relative to their wild-type counterparts. These comparisons revealed minimal differences overall, particularly for \gls{m6a} (Figure 4.12A). Assuming that the remaining differences are attributable to the corresponding \gls{rna} modifications, the residuals from a linear model predicting transcript sequestration within \glspl{sg} provide a measure of the extent to which these modifications influence sequestration.\footnote{It is worth noting that in the original studies, the reported effects of \gls{rna} modifications were likely driven in part by differences already present in \gls{wc} samples, arising from direct comparisons between different sample types. An example illustrating this analytical pitfall is shown in Section 4.2.6.}
+\\
+After excluding transcripts with fewer than four or five modifications (for \gls{m6a} and \gls{ac4c}, respectively), the magnitude of \gls{sg} sequestration changes correlates with the number of modifications, particularly for \gls{ac4c} (Figure 4.12B).
+\\
+Simulations incorporating the additional molecular mass introduced by these modifications reproduced this pattern, showing a similar correlation for transcripts containing more than five or six modifications (for \gls{m6a} and \gls{ac4c}, respectively) (Figure 4.12C). These results suggest that measurable shifts in \gls{sg} enrichment occur mainly when multiple modifications substantially increase the molecular weight of the transcript. The effect is more pronounced for \gls{ac4c}, likely due to its larger mass relative to \gls{m6a}.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure4"}
+	\caption[DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases]{}
+	\label{fig:Figure4.12}
+\end{figure}
+
+\clearpage
+
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases.}
+	(A) Scatter plots of t-statistics of \gls{dgea} in \gls{wt} \glspl{sg} versus \glspl{wc} (Y-axis) and in \glspl{sg} versus \glspl{wc} in cells without \gls{rna} modifications (X-axis) -- \gls{ac4c} KO\cite{kudrin_n4-acetylcytidine_2024} (left) and \gls{m6a} KO\cite{di_timoteo_m6a_2024} cells (right); transcripts as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's $p$-value on the top left corner.
+	(B) Violin plots of residuals (the difference between the actual value and the value predicted by the linear model applied for any given transcript) as a function of the number of \gls{ac4c} (left) or \gls{m6a} (right) modifications; Spearman's correlation coefficient $\rho$ and associated test's $p$-value, for transcripts with at least 5 \gls{ac4c} modifications (NAC) (left) or at least 4 \gls{m6a} modifications (NM) (right), shown on the top left corner.
+	(C) Scatter plot of residuals from simulated \gls{wt} \gls{sg} vs simulated \gls{sg} \gls{ko} for \gls{ac4c} (left) or \gls{m6a} (right) (Y-axis) versus residuals from original \gls{wt} \gls{sg} vs original \gls{sg} \gls{ko} for \gls{ac4c} (left) or \gls{m6a} (right) (X-axis); transcripts as circles, with transcripts with at least 6 \gls{ac4c} modifications (NAC) (left) or at least 5 \gls{m6a} modifications (NM) (right) coloured cyan; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's $p$-value for transcripts with at least 5 \gls{ac4c} modifications (NAC) (left) or at least 4 \gls{m6a} modifications (NM) (right), shown on the top left corner.
+	For all \gls{ac4c} plots, the GSE212380 dataset was used\cite{kudrin_n4-acetylcytidine_2024}. For all \gls{m6a} plots, only the FUS-P525L group from the GSE242766 dataset was used\cite{di_timoteo_m6a_2024}, as this group exhibited a lower Spearman's correlation coefficient $\rho$ between the corresponding comparison in (A-left), and thus a larger impact of \gls{m6a} on sequestration was expected.}
+\end{figure}
+\noindent
+
+\subsection{Differential centrifugation yields similar transcriptomes for stress granules and other RNP granules}
+
+Based on the preceding results, we hypothesise that the \gls{sg} transcriptome isolated by \gls{dc} is substantially confounded by the centrifugation process itself rather than reflecting exclusive biological sequestration (hereafter referred to as the centrifugation hypothesis). If this is correct, other \gls{rna} granules isolated using similar \gls{dc} protocols, regardless of their biological identity, should display comparable transcriptomic profiles, specifically enrichment for longer \glspl{rna}.
+\\
+In the GSE138988\cite{matheny_transcriptome-wide_2019} dataset, stressed \glspl{pb} and bulk \gls{rnp} granules were purified by \gls{dc}, with \glspl{pb} further distinguished by an additional immunoprecipitation step using \gls{edc3}. The original GSE99304\cite{khong_stress_2017} dataset used a similar three-round \gls{dc} protocol to isolate \glspl{sg}, employing G3BP for immunoprecipitation. Despite representing distinct cytoplasmic granules, \gls{dc}-purified \glspl{sg} and \glspl{pb} displayed similar transcriptomes (Figure 4.13A), as also noted by the authors\cite{matheny_transcriptome-wide_2019}. Moreover, both \glspl{sg} and \glspl{pb} were more similar to each other than to bulk \gls{rnp} granules purified using only two rounds of centrifugation (Figure 4.13B–C). It is unclear whether this pattern reflects the presence of multiple condensate types within the bulk \gls{rnp} preparations or, alternatively, the effect of the additional centrifugation step shared by the \gls{sg} and \gls{pb} protocols.
+\\
+Further support for the centrifugation hypothesis comes from comparisons with datasets generated using non-centrifugation-based isolation methods. In GSE138988\cite{matheny_transcriptome-wide_2019}, \gls{dc}-isolated stressed \glspl{pb} showed lower similarity to unstressed \glspl{pb} isolated by \gls{faps} in Hubstenberger 2017\cite{hubstenberger_p-body_2017} than to \gls{dc}-isolated \glspl{sg}. We confirmed this observation using an independent \gls{faps} dataset, Kodali 2024\cite{kodali_rna_2024}. Although these \gls{pb} datasets remain correlated, stressed \glspl{pb} isolated by \gls{dc} still show higher similarity to \gls{dc}-isolated \glspl{sg} or \gls{rnp} fractions than to \glspl{pb} isolated by \gls{faps} (Figure 4.13A–D).
+\\
+In Zhou 2024 (GSE218180)\cite{zhou_rna_2024}, stress granules were isolated using \gls{fanci}, a flow cytometry–based approach conceptually similar to \gls{faps}. Even after batch correction for cell type and stress, \gls{fanci}-isolated \glspl{sg} remained less similar to \gls{dc}-isolated \glspl{sg} than the latter were to \gls{dc}-isolated \glspl{pb}, despite \glspl{sg} and \glspl{bp} being biologically distinct structures (Figure 4.13E).
+\\
+The authors of the GSE138988\cite{matheny_transcriptome-wide_2019} study proposed that cellular stress increases the pool of non-translating \glspl{mrna}, thereby shifting the \gls{pb} transcriptome toward a more \gls{sg}-like composition. However, our reanalysis does not fully support this explanation. To further investigate this possibility, we integrated the Zhou 2024 and Kodali 2024 datasets, both generated using flow cytometry–based isolation methods in \gls{hela} cells. Because both studies include unstressed WC controls, batch correction for stress could be applied. After this adjustment, similarities between \glspl{sg} and \glspl{pb} isolated by FAPS/FANCI remained detectable but were substantially weaker than those observed in \gls{dc}-based datasets (Figure 4.13F).
+\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure5"}
+	\caption[Samples isolated through DC are highly correlated]{}
+	\label{fig:Figure4.13}
+\end{figure}
+
+\clearpage
+
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{Samples isolated through DC are highly correlated.}
+		(A) Scatter plot of t-statistics of \gls{dgea} in \glspl{sg} versus \glspl{wc}\cite{khong_stress_2017} (Y-Axis) and in \glspl{pb} versus \glspl{wc}\cite{matheny_transcriptome-wide_2019} (X-Axis); genes as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (B) Scatter plot of t-statistics of \gls{dgea} in \glspl{sg} versus \glspl{wc}\cite{matheny_transcriptome-wide_2019} (Y-Axis) and in \gls{rnp} granules versus \glspl{wc}\cite{matheny_transcriptome-wide_2019} (X-Axis); genes as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (C) Scatter plot of t-statistics of \gls{dgea} in \glspl{pb} versus \glspl{wc}\cite{matheny_transcriptome-wide_2019} (Y-Axis) and in \gls{rnp} granules versus \glspl{wc}\cite{matheny_transcriptome-wide_2019} (X-Axis); genes as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (D) Scatter plot of t-statistics of \gls{dgea} in \glspl{pb} purified by FAPS\cite{kodali_rna_2024} (Y-Axis) and by \gls{dc}\cite{matheny_transcriptome-wide_2019}, compared to \glspl{wc} (X-Axis); genes as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner (E) Scatter plot of t-statistics of \gls{dgea} in \glspl{sg} purified by \gls{dc}\cite{khong_stress_2017} (Y-Axis) and by FAPS/FANCI\cite{zhou_rna_2024} (X-Axis), comparing to \glspl{wc}, after batch correction for cell type and stress; genes as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (F) Scatter plot of t-statistics of \gls{dgea} in \gls{sg} (Y-Axis) and \gls{pb} (X-Axis) purified by FAPS/FANCI\cite{kodali_rna_2024, zhou_rna_2024} comparing to \glspl{wc}, after batch correction for stress; genes as circles coloured by\gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner.}
+\end{figure}
+\noindent
+It is important to note that this batch correction approach assumes that stress affects \glspl{sg} and \glspl{pb} in comparable ways, which may not fully capture more complex biological interactions. Nevertheless, because stressed \gls{pb} datasets isolated by \gls{faps} are currently unavailable, it remains unclear whether the divergence between \gls{dc} and flow cytometry–based datasets reflects genuine stress-induced remodeling of \glspl{pb} or, alternatively, technical artefacts introduced by centrifugation, such as length-dependent \gls{rna} bias.
+\\
+These batch correction methods are explained in more detail in their own chapter.
+
+\subsection{Revisiting Stress Granule Transcriptomes Reveals Mitochondrial RNA Enrichment Despite Methodological Bias}
+
+To further evaluate the centrifugation hypothesis, we analysed publicly available Sed-seq data, which measures \gls{rna} sedimentation by sequencing pelleted and unpelleted fractions from stressed and unstressed yeast cells\cite{glauninger_transcriptome-wide_2025}. These data allowed us to derive transcript-specific \gls{s} (see section 4.1.4), providing a more accurate estimate of \gls{rna} sedimentation behaviour than our initial approximations based solely on \gls{mw}. Interestingly, mitochondrially encoded transcripts displayed higher sedimentation coefficients than expected based on their length alone (Figure 4.14A).
+\\
+Applying these experimentally derived coefficients to simulate \gls{sg} transcript sequestration relative to whole-cell samples in an independent yeast dataset\cite{khong_stress_2017} produced a strong correlation with the observed \gls{sg} transcriptome (Figure 4.14B). These results support the centrifugation hypothesis in an experimental system, although in a different organism.
+\\
+We next extended this framework to human cells by deriving empirical formulas linking \gls{s} to \gls{rna} length. Separate equations were used for nuclear and mitochondrial transcripts, since mitochondrial \glspl{rna} consistently displayed higher sedimentation coefficients than nuclear transcripts of comparable length (Figure 4.14A), possibly reflecting their polycistronic organisation. These formulas enabled estimation of theoretical \gls{s} for human transcripts and simulation of their expected sedimentation behaviour, producing an \textit{in silico} model of putative \gls{sg} fractions.
+\\
+Simulations based on \gls{s} more closely matched empirical \gls{sg} data than our earlier weight-based model (Figure 4.14C vs Figure 4.10D). Comparing observed \gls{sg} enrichment with these simulations allowed identification of transcripts enriched or depleted beyond what would be expected from centrifugation alone, thereby defining a corrected \gls{sg} signal that reflects sequestration independent of sedimentation effects. As a proof of concept, this approach recovered known \gls{sg} markers such as \textit{\gls{norad}} as enriched and \textit{\gls{gapdh}} as depleted, consistent with previous \gls{rna}-\gls{fish} validation\cite{khong_stress_2017} (Figure 4.14D). The corrected \gls{sg} signal showed only a modest correlation with \gls{rna} length (Figure 4.14E), substantially weaker than reported in the original study\cite{khong_stress_2017}. \gls{gsea} of the corrected \gls{sg} profile revealed enrichment of mitotic spindle–related transcripts (Figure 4.14F), consistent with the possibility that \glspl{sg} selectively sequester cell-cycle–associated \glspl{rna} during stress. However, the presence of additional signatures, including downregulation of \gls{tnfa} signalling via \gls{nfkb} and upregulation of metabolic pathways, complicates this interpretation and leaves the functional implications of \gls{sg} sequestration unresolved.
+\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.14"}
+	\caption[Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 1)]{}
+	\label{fig:Figure4.14}
+\end{figure}
+
+\clearpage
+
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 1).}
+		(A) Scatter plot of yeast \gls{s} values obtained from Sed-seq data\cite{glauninger_transcriptome-wide_2025} (Y-Axis) and cubic root of yeast \gls{rna} length (log10 \gls{nt}) (Y-Axis); Each circle denotes a transcript, with mitochondrially encoded transcripts coloured in cyan; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (B) Scatter plot of t-statistics of \gls{dgea} of simulated yeast \gls{sg} versus \gls{wc}, with \gls{s} estimations based on Sed-seq data\cite{glauninger_transcriptome-wide_2025} (Y-Axis), and t-statistics of \gls{dgea} in yeast \glspl{sg} purified by \gls{dc}\cite{khong_stress_2017} (X-Axis); transcripts as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (C) . Scatter plot of t-statistics of \gls{dgea} of simulated \glspl{sg} versus \glspl{wc}, with \gls{s} estimations based on Sed-seq data\cite{glauninger_transcriptome-wide_2025} (Y-Axis) and \gls{dgea} of \gls{dc}-purified \glspl{sg} versus \glspl{wc}\cite{khong_stress_2017} (X-Axis); transcripts as circles coloured by \gls{rna} length (log10 \gls{nt}); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (D) Volcano plot of significance (Y-Axis – B-Statistic) and corresponding effect size (X-Axis - Log2 Fold-Change) between original \glspl{sg}\cite{khong_stress_2017} and simulated \glspl{sg}, based on Sed-Seq data\cite{glauninger_transcriptome-wide_2025}; transcripts as circles, with commonly used \gls{rna}-\gls{fish} controls\cite{khong_stress_2017} in red. Vertical dashed lines correspond to -0.75 and 0.75 log2 \gls{fc}. Horizontal dashed line corresponds to B-statistic = 0. (E) Scatter plot of \gls{rna} length (log10 \gls{nt}) (Y-Axis) and  t-statistics of \gls{dgea} of Simulated \glspl{sg} versus \gls{dc}-Purified \glspl{sg}\cite{khong_stress_2017}, thus what we considered “Centrifugation Corrected \glspl{sg}) (X-Axis); transcripts as circles; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (F) \gls{gsea} \gls{nes} of Hallmark gene sets, ranked by t-statistic, in Simulated \glspl{sg} versus \gls{dc}-Purified \glspl{sg}\cite{khong_stress_2017}.}
+\end{figure}
+\noindent
+To further refine \gls{sg} composition in human cells, we applied a correction strategy accounting for both centrifugation and stress effects using the          GSE138988\cite{matheny_transcriptome-wide_2019} dataset. This dataset includes stressed and unstressed \glspl{rnp} and \gls{wc} samples generated using differential centrifugation, allowing the centrifugation component of the protocol to be controlled. However, direct comparison between stressed and unstressed \gls{rnp} fractions is expected to reflect global stress responses rather than \gls{sg}-specific sequestration. To disentangle these effects, we applied linear models accounting for both stress and centrifugation (see section 4.2.5). This analysis produced a refined \gls{sg} profile in which \textit{\gls{norad}} was enriched and \textit{\gls{gapdh}} and \textit{\gls{actb}} were depleted, again consistent with \gls{rna}-\gls{fish} validation\cite{khong_stress_2017} (Figure 4.15A). The resulting \gls{sg} signal showed a positive but substantially weaker correlation with \gls{rna} length than previously reported\cite{matheny_transcriptome-wide_2019} (Figure 4.15B).
+\\
+\gls{pl} approaches do not rely on centrifugation and therefore avoid sedimentation biases. However, they introduce other potential confounding factors. For example, \gls{g3bp1} does not localise exclusively to \glspl{sg}, meaning that \gls{pl} approaches may capture \glspl{rna} outside bona fide \glspl{sg}. Although this limitation cannot be directly controlled, we applied linear modelling strategies to account for additional confounding variables (see section 4.2.5). In some \gls{pl}-purified \gls{sg} datasets\cite{somasekharan_g3bp1-linked_2020}, the resulting \gls{sg}-specific signal displayed a negative correlation with \gls{rna} length (Figure 4.15C), and gene set enrichment analysis revealed enrichment of metabolic and stress-response pathways (Figure 4.15D), consistent with selective transcript sequestration (see section 1.1.4).
+\\
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.15"}
+	\caption[Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 2)]{}
+	\label{fig:Figure4.15}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 2).} (A) Volcano plot of significance (Y-Axis – B-Statistic) and corresponding effect size (X-Axis - Log2 Fold-Change) between linear modelled \gls{dc}-isolated \gls{rnp} granule stress-specific sequestration\cite{matheny_transcriptome-wide_2019}; transcripts as circles, with commonly used \gls{rna}-\gls{fish} controls\cite{khong_stress_2017} in red. Vertical dashed lines correspond to -1 and 1 log2 \gls{fc}. Horizontal dashed line corresponds to B-statistic = 0. (B) Scatter plot of t-statistics of \gls{dgea} in linear modelled \gls{dc}-isolated \gls{rnp} granules stress-specific sequestration\cite{matheny_transcriptome-wide_2019} (X-Axis) and \gls{rna} length (log10 \gls{nt}) (Y-Axis); transcripts as circles; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (C) Scatter plot of t-statistics of \gls{dgea} expression in linear modelled \gls{pl}-isolated \glspl{sg}\cite{somasekharan_g3bp1-linked_2020} (X-Axis) and \gls{rna} length (log10 \gls{nt}) (Y-Axis); transcripts as circles; density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (D) \gls{gsea} \gls{nes} of Hallmark gene sets, ranked by t-statistic, in linear modelled \gls{pl}-isolated \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}.}
+\end{figure}
+\noindent
+Given the divergent results across \gls{sg} purification strategies, we applied our correction approaches to all remaining datasets that met quality criteria\footnote{Studies were maintained for this analysis if they had at least 3 consistent "SG" replicates.} and compared their transcriptomic profiles. Despite these corrections, substantial discrepancies remained across datasets, independent of purification method (Figure 4.16). The main exception was the set of \gls{dc}-purified \gls{sg} datasets corrected for centrifugation effects, which showed internal consistency. This observation suggests that transcript-specific sequestration may be minimal or below the detection limits of transcriptome analyses. Alternatively, each purification method may introduce biases that shape the apparent \gls{sg} transcriptome.
+\\
+\gls{rna} length further complicates interpretation. In \gls{dc}-purified \gls{sg} datasets, correction for centrifugation largely removed the previously reported length bias. In contrast, \gls{pl} datasets showed conflicting patterns: the Somasekharan 2020 study\cite{somasekharan_g3bp1-linked_2020} shows enrichment of short transcripts, whereas the Ren 2023 study\cite{ren_profiling_2023} shows enrichment of longer transcripts despite targeting the same \gls{sg} marker protein. Other methods showed additional biases. \gls{photon}\cite{rajachandran_subcellular_2025} and \gls{fanci}\cite{zhou_rna_2024} isolation approaches preferentially captured longer transcripts, with \gls{fanci} showing the strongest effect. These inconsistencies highlight the persistent technical challenges involved in reliably isolating \gls{sg} transcriptomes.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.16"}
+	\caption[Meta-analysis of SG transcriptomes]{\textbf{Meta-analysis of SG transcriptomes.} Heatmap of Spearman's correlations between transcriptomic profiles of corrected/controlled \glspl{sg} from different studies and \gls{rna} length (log10 \gls{nt}). \gls{sg} purification method of each study is given below the heatmap.}
+	\label{fig:Figure4.16}
+\end{figure}
+\noindent
+Although individual gene enrichment varied substantially across studies, we used gene set enrichment analysis to identify broader regulatory trends. No pathways were consistently enriched or depleted across all \gls{sg} datasets (Figure 4.17A).
+\\
+Nevertheless, some consistent signals emerged. During our individual analysis of each dataset, some exhibited mitochondrial encoded genes enrichment in the putative \gls{sg}. Because fewer than forty such genes exist in the human genome, the probability of observing this pattern by chance is low, making this signal particularly noteworthy.
+\\
+To investigate this further, we performed \gls{gsea} across all datasets using a gene set containing the thirty-six mitochondrially encoded transcripts obtained from Ensembl\cite{cunningham_ensembl_2022}. As a control, we analysed nuclear-encoded transcripts localised to mitochondria, selecting top-scoring genes from the RNALocate database\cite{wu_rnalocate_2025}(Figure 4.17B). Among \gls{sg} datasets, two studies showed strong depletion of mitochondrial transcripts, whereas four displayed strong enrichment. No enrichment was observed for nuclear-encoded mitochondrial genes.
+\\
+This pattern was unexpected. Mitochondrial transcripts are generally short, yet datasets such as Ren 2023\cite{ren_profiling_2023} and Rajachandran 2025\cite{rajachandran_subcellular_2025}, which already showed a strong bias toward longer RNAs, also displayed enrichment of these short mitochondrial transcripts. Moreover, the Kudrin 2024 dataset\cite{kudrin_n4-acetylcytidine_2024}, which employed a centrifugation-corrected method, also showed mitochondrial enrichment. Although several other \gls{dc} datasets showed similar enrichment prior to correction, this signal disappeared after centrifugation correction. We therefore focused on the four datasets in which mitochondrial enrichment persisted.
+\\
+To derive a consensus \gls{sg} enrichment signal, we averaged t-statistics across these four datasets. Among the strongest enriched transcripts, excluding mitochondrially encoded \glspl{rna} which dominated the signal, were \textit{\gls{chac1}}, \textit{\gls{sesn2}}, \textit{\gls{atf4}}, \textit{\gls{asns}}, and \textit{\gls{ppp1r15a}}. These genes are all stress-response regulators and transcriptional targets of \gls{atf4}\cite{sun_chac1_2024, garaeva_mitochondrial_2016, krall_asparagine_2021, sano_er_2013}. Their sequestration within \glspl{sg} could contribute to suppression of inflammatory pathways by limiting their cytoplasmic availability. Notably, several of these transcripts also possess mitochondrial functions\cite{sun_chac1_2024, garaeva_mitochondrial_2016, krall_asparagine_2021}.
+\\
+\gls{gsea} of this consensus \gls{sg} signal revealed enrichment (Figure 4.17C) of \gls{mtorc1} signalling and cholesterol homeostasis pathways, together with depletion of mitotic spindle transcripts, highlighting biological processes potentially associated with \gls{sg}-mediated transcript sequestration.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.17"}
+	\caption[Mitochondrial RNA Enrichment Across SG Transcriptomes]{}
+	\label{fig:Figure4.17}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{Mitochondrial RNA Enrichment Across SG Transcriptomes.} (A) \gls{nes} from \gls{gsea} using Hallmark gene sets, based on genes ranked by t-statistic from \gls{dgea} between corrected/controlled \glspl{sg} and \glspl{wc} across multiple studies. Both studies and gene sets were subjected to hierarchical clustering using Euclidean distance and the Ward.D2 method\cite{murtagh_wards_2014}. (B) \gls{gsea} \gls{nes} of mitochondrial encoded or nuclear encoded genes, across the transcriptomic profiles of corrected/controlled \glspl{sg} from different studies. \gls{sg} purification method of each study is given below the heatmap; (C) \gls{gsea} \gls{nes} of Hallmark gene sets in \gls{dgea}, ranked by average of t-statistics, in \gls{sg}-isolated datasets enriched in mitochondrially encoded \glspl{rna}\cite{somasekharan_g3bp1-linked_2020, ren_profiling_2023, rajachandran_subcellular_2025, kudrin_n4-acetylcytidine_2024}.}
+\end{figure}
+\noindent
