@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  23 MAR 2026 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  25 MAR 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1886,7 +1886,7 @@ Package hyperref Info: Link coloring OFF on input line 309.
 \@outlinefile=\write4
 \openout4 = `"PhD Thesis.out"'.
 
-<images/logo/ulisboa-only.pdf, id=365, 168.63pt x 283.0575pt>
+<images/logo/ulisboa-only.pdf, id=518, 168.63pt x 283.0575pt>
 File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
 <use images/logo/ulisboa-only.pdf>
 Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 318.
@@ -1927,27 +1927,26 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.411 \end{titlepage}
-                      [1] (./PhD Thesis.toc [1] [2])
+                      [1] (./PhD Thesis.toc [1] [2] [3])
 \tf@toc=\write5
 \openout5 = `"PhD Thesis.toc"'.
 
- (./chapters/resumo.tex
-[3]
+ (./chapters/resumo.tex [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4
+ [5
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-(./chapters/summary.tex [6]
+ [6])
+(./chapters/summary.tex [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [8
 
 ])
-(./chapters/acknowledgements.tex [8])
+(./chapters/acknowledgements.tex [9])
 Underfull \hbox (badness 10000) in paragraph at lines 6--424
 
  []
@@ -1955,28 +1954,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--424
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [10
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-(./PhD Thesis.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
+(./PhD Thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
 Overfull \hbox (23.36513pt too wide) in paragraph at lines 24--24
  [][] [][]\OT1/cmr/m/n/12 Transcriptomes of DC-isolated SGs show no evid-ence f
 or RNA fragmentation- 
  []
 
-[14]
+[15]
 Overfull \hbox (3.82082pt too wide) in paragraph at lines 41--41
  [][] [][]\OT1/cmr/m/n/12 CHARM's Ex-pres-sion Tab in Ex-plore Mode, Gene and G
 ene Set Centered 
@@ -1990,7 +1989,7 @@ ene Set Centered
 \tf@lot=\write7
 \openout7 = `"PhD Thesis.lot"'.
 
- (./PhD Thesis.equ [15])
+ (./PhD Thesis.equ [16])
 \tf@equ=\write8
 \openout8 = `"PhD Thesis.equ"'.
 
@@ -1998,15 +1997,15 @@ ene Set Centered
 No file "PhD Thesis".gls.
 
 Package glossaries Info: Preparing to sort glossary `acronym' (total number of
-(glossaries)             referenced entries: 229)
+(glossaries)             referenced entries: 231)
 
-[16] [17
+[17] [18
 
 
-] [18] [19] [20] [21] [22] [23] [24] [25]
+] [19] [20] [21] [22] [23] [24] [25] [26]
 No file "PhD Thesis".acr.
-(./chapters/preface.tex [26{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super
-/cm-super-ts1.enc}]) (./chapters/introduction.tex [27
+(./chapters/preface.tex [27{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super
+/cm-super-ts1.enc}]) (./chapters/introduction.tex [28
 
 ]
 Chapter 1.
@@ -2286,7 +2285,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<../../../Desktop/Paper Images/TESE_Figu1.png, id=1028, 542.025pt x 536.331pt>
+<../../../Desktop/Paper Images/TESE_Figu1.png, id=1226, 542.025pt x 536.331pt>
 File: ../../../Desktop/Paper Images/TESE_Figu1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Figu1.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Figu1.png  used on 
@@ -3257,7 +3256,7 @@ LaTeX Warning: Citation `van_nostrand_large-scale_2020' on page 13 undefined on
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [13]
-<../../../Desktop/Paper Images/RBFOX2.png, id=1404, 592.395pt x 459.9pt>
+<../../../Desktop/Paper Images/RBFOX2.png, id=1602, 592.395pt x 459.9pt>
 File: ../../../Desktop/Paper Images/RBFOX2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/RBFOX2.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/RBFOX2.png  used on inpu
@@ -3806,7 +3805,7 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<../../../Desktop/Paper Images/TESE_Figu3.png, id=1628, 1878.26718pt x 2725.934
+<../../../Desktop/Paper Images/TESE_Figu3.png, id=1827, 1878.26718pt x 2725.934
 07pt>
 File: ../../../Desktop/Paper Images/TESE_Figu3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Figu3.png>
@@ -3952,7 +3951,7 @@ Underfull \vbox (badness 1509) has occurred while \output is active []
  [24
 
 ]
-<../../../Desktop/Paper Images/Fig1.4.png, id=1713, 542.025pt x 265.428pt>
+<../../../Desktop/Paper Images/Fig1.4.png, id=1912, 542.025pt x 265.428pt>
 File: ../../../Desktop/Paper Images/Fig1.4.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Fig1.4.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Fig1.4.png  used on inpu
@@ -4431,7 +4430,7 @@ ine 70.
 LaTeX Warning: Citation `di_giacomo_human_2017' on page 36 undefined on input l
 ine 70.
 
-<../../../Desktop/Paper Images/TESE_Fig3.1.png, id=1906, 496.254pt x 324.339pt>
+<../../../Desktop/Paper Images/TESE_Fig3.1.png, id=2104, 496.254pt x 324.339pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.1.png>
@@ -4471,7 +4470,7 @@ LaTeX Warning: Citation `bairoch_cellosaurus_2018' on page 37 undefined on inpu
 t line 89.
 
 [37 <../../../Desktop/Paper Images/TESE_Fig3.1.png>]
-<../../../Desktop/Paper Images/TESE_Fig3.2.png, id=1928, 541.368pt x 346.458pt>
+<../../../Desktop/Paper Images/TESE_Fig3.2.png, id=2126, 541.368pt x 346.458pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.2.png>
@@ -4504,7 +4503,7 @@ t line 110.
 LaTeX Warning: Citation `hao_distinct_2016' on page 39 undefined on input line 
 110.
 
-<../../../Desktop/Paper Images/TESE_Fig3.3.png, id=1950, 542.025pt x 372.081pt>
+<../../../Desktop/Paper Images/TESE_Fig3.3.png, id=2148, 542.025pt x 372.081pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.3.png>
@@ -4515,7 +4514,7 @@ Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.3.png  used on
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<../../../Desktop/Paper Images/TESE_Fig3.4.png, id=1963, 542.025pt x 541.149pt>
+<../../../Desktop/Paper Images/TESE_Fig3.4.png, id=2161, 542.025pt x 541.149pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig3.4.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig3.4.png>
@@ -4807,7 +4806,7 @@ LaTeX Warning: Citation `peter_fitzgerald_introduction_2024' on page 46 undefin
 ed on input line 126.
 
 [46]
-<../../../Desktop/Paper Images/TESE_Fig4.1.png, id=2132, 549.909pt x 516.84pt>
+<../../../Desktop/Paper Images/TESE_Fig4.1.png, id=2330, 549.909pt x 516.84pt>
 File: ../../../Desktop/Paper Images/TESE_Fig4.1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.1.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.1.png  used on
@@ -4880,7 +4879,7 @@ LaTeX Warning: Citation `liao_featurecounts_2014' on page 49 undefined on input
  line 149.
 
 [49]
-<../../../Desktop/Paper Images/TESE_Fig4.2.png, id=2179, 549.033pt x 184.398pt>
+<../../../Desktop/Paper Images/TESE_Fig4.2.png, id=2377, 549.033pt x 184.398pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig4.2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.2.png>
@@ -4964,7 +4963,7 @@ LaTeX Warning: Citation `ritchie_limma_2015' on page 51 undefined on input line
  194.
 
 [51]
-<../../../Desktop/Paper Images/TESE_Fig4.3.png, id=2208, 548.157pt x 519.249pt>
+<../../../Desktop/Paper Images/TESE_Fig4.3.png, id=2407, 548.157pt x 519.249pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig4.3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.3.png>
@@ -5016,7 +5015,7 @@ LaTeX Warning: Citation `khong_stress_2017' on page 52 undefined on input line
 Underfull \vbox (badness 1297) has occurred while \output is active []
 
  [52 <../../../Desktop/Paper Images/TESE_Fig4.3.png>]
-<../../../Desktop/Paper Images/TESE_Fig4.4.png, id=2231, 548.157pt x 548.376pt>
+<../../../Desktop/Paper Images/TESE_Fig4.4.png, id=2430, 548.157pt x 548.376pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig4.4.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.4.png>
@@ -5168,7 +5167,7 @@ LaTeX Warning: Citation `ashburner_gene_2000' on page 57 undefined on input lin
 e 286.
 
 [57]
-<../../../Desktop/Paper Images/TESE_Fig4.5.png, id=2323, 548.157pt x 430.773pt>
+<../../../Desktop/Paper Images/TESE_Fig4.5.png, id=2522, 548.157pt x 430.773pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig4.5.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.5.png>
@@ -5367,7 +5366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--360
  []
 
 [60]
-<../../../Desktop/Paper Images/Figure1.png, id=2396, 546.186pt x 690.726pt>
+<../../../Desktop/Paper Images/Figure1.png, id=2595, 546.186pt x 690.726pt>
 File: ../../../Desktop/Paper Images/Figure1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Figure1.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Figure1.png  used on inp
@@ -5414,7 +5413,7 @@ Overfull \vbox (28.16295pt too high) has occurred while \output is active []
 
 
 [62 <../../../Desktop/Paper Images/Figure1.png>]
-<../../../Desktop/Paper Images/SupFigure1_comp.png, id=2449, 542.901pt x 505.01
+<../../../Desktop/Paper Images/SupFigure1_comp.png, id=2647, 542.901pt x 505.01
 4pt>
 File: ../../../Desktop/Paper Images/SupFigure1_comp.png Graphic file (type png)
 
@@ -5479,7 +5478,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Citation `khong_stress_2017' on page 64 undefined on input line 
 386.
 
-<../../../Desktop/Paper Images/TESE_Fig4.8.png, id=2486, 552.975pt x 355.437pt>
+<../../../Desktop/Paper Images/TESE_Fig4.8.png, id=2684, 552.975pt x 355.437pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig4.8.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.8.png>
@@ -5520,7 +5519,7 @@ LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line
 LaTeX Warning: Citation `khong_stress_2017' on page 65 undefined on input line 
 403.
 
-<../../../Desktop/Paper Images/TESE_Fig4.9.png, id=2512, 546.624pt x 659.19pt>
+<../../../Desktop/Paper Images/TESE_Fig4.9.png, id=2711, 546.624pt x 659.19pt>
 File: ../../../Desktop/Paper Images/TESE_Fig4.9.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.9.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.9.png  used on
@@ -5592,7 +5591,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 416--420
 
  []
 
-<../../../Desktop/Paper Images/Figure3.png, id=2595, 542.025pt x 697.734pt>
+<../../../Desktop/Paper Images/Figure3.png, id=2793, 542.025pt x 697.734pt>
 File: ../../../Desktop/Paper Images/Figure3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Figure3.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Figure3.png  used on inp
@@ -5615,7 +5614,7 @@ LaTeX Warning: Citation `khong_stress_2017' on page 70 undefined on input line
 LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 70 undefined 
 on input line 441.
 
-<../../../Desktop/Paper Images/Sup3.png, id=2697, 521.001pt x 355.437pt>
+<../../../Desktop/Paper Images/Sup3.png, id=2896, 521.001pt x 355.437pt>
 File: ../../../Desktop/Paper Images/Sup3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Sup3.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Sup3.png  used on input 
@@ -5670,7 +5669,7 @@ LaTeX Warning: Citation `national_center_for_biotechnology_information_pubchem_
 LaTeX Warning: Citation `national_center_for_biotechnology_information_pubchem_
 2025-1' on page 72 undefined on input line 456.
 
-<../../../Desktop/Paper Images/Figure4.png, id=2746, 545.748pt x 784.239pt>
+<../../../Desktop/Paper Images/Figure4.png, id=2944, 545.748pt x 784.239pt>
 File: ../../../Desktop/Paper Images/Figure4.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Figure4.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Figure4.png  used on inp
@@ -5762,7 +5761,7 @@ Underfull \vbox (badness 6691) has occurred while \output is active []
  [74
 
 ]
-<../../../Desktop/Paper Images/Figure5.png, id=2881, 547.938pt x 407.559pt>
+<../../../Desktop/Paper Images/Figure5.png, id=3079, 547.938pt x 407.559pt>
 File: ../../../Desktop/Paper Images/Figure5.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Figure5.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Figure5.png  used on inp
@@ -5893,7 +5892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 522--530
 [77
 
 ]
-<../../../Desktop/Paper Images/TESE_Fig4.14.png, id=3013, 544.434pt x 731.241pt
+<../../../Desktop/Paper Images/TESE_Fig4.14.png, id=3211, 544.434pt x 731.241pt
 >
 File: ../../../Desktop/Paper Images/TESE_Fig4.14.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.14.png>
@@ -6009,7 +6008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--552
 [80
 
 ]
-<../../../Desktop/Paper Images/TESE_Fig4.15.png, id=3134, 542.025pt x 486.618pt
+<../../../Desktop/Paper Images/TESE_Fig4.15.png, id=3332, 542.025pt x 486.618pt
 >
 File: ../../../Desktop/Paper Images/TESE_Fig4.15.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.15.png>
@@ -6073,7 +6072,7 @@ LaTeX Warning: Citation `rajachandran_subcellular_2025' on page 82 undefined on
 LaTeX Warning: Citation `zhou_rna_2024' on page 82 undefined on input line 571.
 
 
-<../../../Desktop/Paper Images/TESE_Fig4.16.png, id=3192, 542.025pt x 498.225pt
+<../../../Desktop/Paper Images/TESE_Fig4.16.png, id=3390, 542.025pt x 498.225pt
 >
 File: ../../../Desktop/Paper Images/TESE_Fig4.16.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.16.png>
@@ -6146,7 +6145,7 @@ at-ing tran-scrip-tion factor
  []
 
 [83 <../../../Desktop/Paper Images/TESE_Fig4.16.png>]
-<../../../Desktop/Paper Images/TESE_Fig4.17.png, id=3231, 542.463pt x 742.848pt
+<../../../Desktop/Paper Images/TESE_Fig4.17.png, id=3429, 542.463pt x 742.848pt
 >
 File: ../../../Desktop/Paper Images/TESE_Fig4.17.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig4.17.png>
@@ -6305,7 +6304,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--63
  []
 
 [89]
-<../../../Desktop/Paper Images/TESE_Fig5.1.png, id=3357, 542.025pt x 280.101pt>
+<../../../Desktop/Paper Images/TESE_Fig5.1.png, id=3555, 542.025pt x 280.101pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig5.1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig5.1.png>
@@ -6337,7 +6336,7 @@ LaTeX Warning: Citation `nunes_msgp_2019' on page 91 undefined on input line 83
 LaTeX Warning: Citation `millar_new_2023' on page 91 undefined on input line 83
 .
 
-<../../../Desktop/Paper Images/Figure9.png, id=3397, 542.025pt x 745.914pt>
+<../../../Desktop/Paper Images/Figure9.png, id=3596, 542.025pt x 745.914pt>
 File: ../../../Desktop/Paper Images/Figure9.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/Figure9.png>
 Package pdftex.def Info: ../../../Desktop/Paper Images/Figure9.png  used on inp
@@ -6407,7 +6406,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [93
 
 ]
-<../../../Desktop/Paper Images/TESE_Fig5.3.png, id=3463, 542.025pt x 513.117pt>
+<../../../Desktop/Paper Images/TESE_Fig5.3.png, id=3661, 542.025pt x 513.117pt>
 
 File: ../../../Desktop/Paper Images/TESE_Fig5.3.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/TESE_Fig5.3.png>
@@ -6496,7 +6495,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<../../../Desktop/Paper Images/eCLIPSE_FILT.png, id=3501, 1011.78pt x 433.62pt>
+<../../../Desktop/Paper Images/eCLIPSE_FILT.png, id=3700, 1011.78pt x 433.62pt>
 
 File: ../../../Desktop/Paper Images/eCLIPSE_FILT.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/eCLIPSE_FILT.png>
@@ -6596,7 +6595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--137
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [101]
-<../../../Desktop/Paper Images/CHARM_Home.png, id=3576, 1146.08176pt x 570.3307
+<../../../Desktop/Paper Images/CHARM_Home.png, id=3774, 1146.08176pt x 570.3307
 5pt>
 File: ../../../Desktop/Paper Images/CHARM_Home.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/CHARM_Home.png>
@@ -6609,7 +6608,7 @@ LaTeX Warning: Citation `liberzon_molecular_2015' on page 102 undefined on inpu
 t line 158.
 
 [102 <../../../Desktop/Paper Images/CHARM_Home.PNG>]
-<../../../Desktop/Paper Images/CHARM_Expression1.png, id=3591, 1425.07407pt x 7
+<../../../Desktop/Paper Images/CHARM_Expression1.png, id=3790, 1425.07407pt x 7
 14.41907pt>
 File: ../../../Desktop/Paper Images/CHARM_Expression1.png Graphic file (type pn
 g)
@@ -6632,7 +6631,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--171
 LaTeX Warning: Citation `liberzon_molecular_2015' on page 104 undefined on inpu
 t line 173.
 
-<../../../Desktop/Paper Images/CHARM_Expression2.png, id=3601, 1435.61343pt x 7
+<../../../Desktop/Paper Images/CHARM_Expression2.png, id=3799, 1435.61343pt x 7
 20.44156pt>
 File: ../../../Desktop/Paper Images/CHARM_Expression2.png Graphic file (type pn
 g)
@@ -6652,7 +6651,7 @@ t line 180.
 LaTeX Warning: Citation `liberzon_molecular_2015' on page 104 undefined on inpu
 t line 184.
 
-<../../../Desktop/Paper Images/CHARM_Expression3.png, id=3604, 1421.31pt x 596.
+<../../../Desktop/Paper Images/CHARM_Expression3.png, id=3802, 1421.31pt x 596.
 2275pt>
 File: ../../../Desktop/Paper Images/CHARM_Expression3.png Graphic file (type pn
 g)
@@ -6664,7 +6663,7 @@ sed on input line 187.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104 <../../../Desktop/Paper Images/CHARM_Expression2.PNG>]
-<../../../Desktop/Paper Images/CHARM_Expression4.png, id=3612, 1423.56844pt x 6
+<../../../Desktop/Paper Images/CHARM_Expression4.png, id=3810, 1423.56844pt x 6
 91.08188pt>
 File: ../../../Desktop/Paper Images/CHARM_Expression4.png Graphic file (type pn
 g)
@@ -6684,7 +6683,7 @@ LaTeX Warning: Citation `ascensao-ferreira_betas_2024' on page 106 undefined on
 LaTeX Warning: Citation `tapial_atlas_2017' on page 106 undefined on input line
  203.
 
-<../../../Desktop/Paper Images/CHARM_Splicing1.png, id=3624, 1423.56844pt x 719
+<../../../Desktop/Paper Images/CHARM_Splicing1.png, id=3822, 1423.56844pt x 719
 .68875pt>
 File: ../../../Desktop/Paper Images/CHARM_Splicing1.png Graphic file (type png)
 
@@ -6712,7 +6711,7 @@ LaTeX Warning: Citation `ascensao-ferreira_betas_2024' on page 106 undefined on
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [106 <../../../Desktop/Paper Images/CHARM_Expression4.PNG>]
-<../../../Desktop/Paper Images/CHARM_Splicing2.png, id=3637, 1427.3325pt x 719.
+<../../../Desktop/Paper Images/CHARM_Splicing2.png, id=3836, 1427.3325pt x 719.
 68875pt>
 File: ../../../Desktop/Paper Images/CHARM_Splicing2.png Graphic file (type png)
 
@@ -6732,7 +6731,7 @@ LaTeX Warning: Citation `ascensao-ferreira_betas_2024' on page 108 undefined on
 LaTeX Warning: Citation `tapial_atlas_2017' on page 108 undefined on input line
  221.
 
-<../../../Desktop/Paper Images/CHARM_Splicing3.png, id=3645, 1422.81563pt x 719
+<../../../Desktop/Paper Images/CHARM_Splicing3.png, id=3844, 1422.81563pt x 719
 .68875pt>
 File: ../../../Desktop/Paper Images/CHARM_Splicing3.png Graphic file (type png)
 
@@ -6744,7 +6743,7 @@ d on input line 224.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108 <../../../Desktop/Paper Images/CHARM_Splicing2.PNG>]
-<../../../Desktop/Paper Images/CHARM_Binding1.png, id=3665, 1433.355pt x 718.93
+<../../../Desktop/Paper Images/CHARM_Binding1.png, id=3864, 1433.355pt x 718.93
 594pt>
 File: ../../../Desktop/Paper Images/CHARM_Binding1.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/CHARM_Binding1.png>
@@ -6761,7 +6760,7 @@ LaTeX Warning: Citation `benjamini_controlling_1995' on page 109 undefined on i
 nput line 243.
 
 [109 <../../../Desktop/Paper Images/CHARM_Splicing3.PNG>]
-<../../../Desktop/Paper Images/CHARM_Binding2.png, id=3689, 1434.10782pt x 724.
+<../../../Desktop/Paper Images/CHARM_Binding2.png, id=3887, 1434.10782pt x 724.
 95844pt>
 File: ../../../Desktop/Paper Images/CHARM_Binding2.png Graphic file (type png)
 <use ../../../Desktop/Paper Images/CHARM_Binding2.png>
@@ -6777,14 +6776,204 @@ nput line 251.
 LaTeX Warning: Citation `benjamini_controlling_1995' on page 110 undefined on i
 nput line 251.
 
-)
+) (./chapters/ChapterIV_NAME.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110 <../../../Desktop/Paper Images/CHARM_Binding1.PNG>] (./chapters/discussio
-n.tex
-[111 <../../../Desktop/Paper Images/CHARM_Binding2.PNG>]
+ [110 <../../../Desktop/Paper Images/CHARM_Binding1.PNG>] [111 <../../../Deskto
+p/Paper Images/CHARM_Binding2.PNG>]
 Chapter 7.
-) [112
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+\OT1/cmr/m/n/12 form-a-tion.
+ []
+
+
+LaTeX Warning: Citation `matheny_transcriptome-wide_2019' on page 112 undefined
+ on input line 17.
+
+
+LaTeX Warning: Citation `matheny_rna_2021' on page 112 undefined on input line 
+18.
+
+
+LaTeX Warning: Citation `matheny_corrigendum_2023' on page 112 undefined on inp
+ut line 18.
+
+
+LaTeX Warning: Citation `paget_stress_2023' on page 112 undefined on input line
+ 19.
+
+
+LaTeX Warning: Citation `lopez-polo_release_2024' on page 112 undefined on inpu
+t line 26.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--31
+\OT1/cmr/m/n/12 cluded. 
+ []
+
+[112
+
+]
+
+LaTeX Warning: Citation `bolger_trimmomatic_2014' on page 113 undefined on inpu
+t line 34.
+
+
+LaTeX Warning: Citation `dobin_star_2013' on page 113 undefined on input line 3
+4.
+
+
+LaTeX Warning: Citation `frankish_gencode_2021' on page 113 undefined on input 
+line 48.
+
+
+LaTeX Warning: Citation `liao_featurecounts_2014' on page 113 undefined on inpu
+t line 48.
+
+
+LaTeX Warning: Citation `schneider_voyager_2024' on page 113 undefined on input
+ line 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
+
+ []
+
+
+LaTeX Warning: Citation `cunningham_ensembl_2022' on page 113 undefined on inpu
+t line 56.
+
+
+LaTeX Warning: Citation `cunningham_ensembl_2022' on page 113 undefined on inpu
+t line 56.
+
+
+LaTeX Warning: Citation `smyth_linear_nodate' on page 113 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Citation `subramanian_gene_2005' on page 113 undefined on input 
+line 64.
+
+
+LaTeX Warning: Citation `korotkevich_fast_2016' on page 113 undefined on input 
+line 64.
+
+
+LaTeX Warning: Citation `liberzon_molecular_2015' on page 113 undefined on inpu
+t line 64.
+
+[113]
+
+LaTeX Warning: Citation `schneider_voyager_2024' on page 114 undefined on input
+ line 68.
+
+[114]
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [115]
+[116]) (./chapters/ChapterV_NAME.tex [117]
+Chapter 8.
+
+LaTeX Warning: Citation `network_cancer_nodate' on page 118 undefined on input 
+line 12.
+
+
+LaTeX Warning: Citation `heath_nci_2021' on page 118 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation `schneider_voyager_2024' on page 118 undefined on input
+ line 13.
+
+
+LaTeX Warning: Citation `bolger_trimmomatic_2014' on page 118 undefined on inpu
+t line 17.
+
+
+LaTeX Warning: Citation `dobin_star_2013' on page 118 undefined on input line 1
+7.
+
+[118
+
+]
+
+LaTeX Warning: Citation `frankish_gencode_2021' on page 119 undefined on input 
+line 31.
+
+
+LaTeX Warning: Citation `liao_featurecounts_2014' on page 119 undefined on inpu
+t line 31.
+
+
+LaTeX Warning: Citation `smyth_linear_nodate' on page 119 undefined on input li
+ne 35.
+
+
+LaTeX Warning: Citation `subramanian_gene_2005' on page 119 undefined on input 
+line 39.
+
+
+LaTeX Warning: Citation `korotkevich_fast_2016' on page 119 undefined on input 
+line 39.
+
+
+LaTeX Warning: Citation `liberzon_molecular_2015' on page 119 undefined on inpu
+t line 39.
+
+[119] [120]
+Overfull \hbox (2.6176pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/12 cells re-portedly en-hance SG as-sembly parac-rin-ally via PTGS
+2 up-reg-u-la-tion26. However,
+ []
+
+[121]
+Overfull \hbox (10.13594pt too wide) in paragraph at lines 71--73
+\OT1/cmr/m/n/12 cinoma (LUSC); Melan-oma (SKCM); Meso-the-lioma (MESO); Ocu-lar
+ melan-o-mas (UVM);
+ []
+
+
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [122])
+(./chapters/ChapterVI_NAME.tex
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [123]
+[124]
+Chapter 9.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125
+
+]
+[126]
+Overfull \hbox (13.65486pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 tially com-pared between stressed and un-stressed samples using
+ Stu-dent's t-tests. However,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129])
+(./chapters/discussion.tex [130]
+Chapter 10.
+) [131
 
 ] (./PhD Thesis.aux)
  ***********
@@ -6796,20 +6985,20 @@ L3 programming layer <2025-10-24>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"PhD Thesis".out' has not changed.
-(rerunfilecheck)             Checksum: F87ABC858B9DA43F23AD785BFC5A73A0;19656.
+(rerunfilecheck)             Checksum: 86EB85943540536A805AA12EDD0ADE70;27377.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 463 ({)
+### simple group (level 1) entered at line 465 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 50467 strings out of 467577
- 938404 string characters out of 5424718
- 1574303 words of memory out of 5000000
- 77968 multiletter control sequences out of 15000+600000
+ 50684 strings out of 467577
+ 941917 string characters out of 5424718
+ 1576783 words of memory out of 5000000
+ 78096 multiletter control sequences out of 15000+600000
  643877 words of font info for 95 fonts, out of 8000000 for 9000
  1261 hyphenation exceptions out of 8191
- 197i,12n,292p,2526b,1303s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 197i,12n,292p,3326b,1307s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
 :/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/
@@ -6831,10 +7020,10 @@ live/2025/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb><c:/texlive/2025/t
 exmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb><c:/texlive/2025/texmf-dist/f
 onts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1
 /public/cm-super/sfrm1200.pfb>
-Output written on "PhD Thesis.pdf" (142 pages, 33408510 bytes).
+Output written on "PhD Thesis.pdf" (162 pages, 33461933 bytes).
 PDF statistics:
- 3931 PDF objects out of 4296 (max. 8388607)
- 3257 compressed objects within 33 object streams
- 547 named destinations out of 1000 (max. 500000)
- 933 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4278 PDF objects out of 4296 (max. 8388607)
+ 3581 compressed objects within 36 object streams
+ 627 named destinations out of 1000 (max. 500000)
+ 1237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
