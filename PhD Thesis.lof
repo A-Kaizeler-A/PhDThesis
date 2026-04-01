@@ -32,21 +32,32 @@
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Mitochondrial RNA Enrichment Across SG Transcriptomes}}{85}{figure.caption.39}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Rationale behind RBP function alterations driven by SG sequestration}}{91}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Alternative splicing alterations in SG competent and incompetent cells}}{92}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Alterations of TIA1 function upon KD and SG assembly}}{94}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Alternative splicing alterations in SG competent and incompetent cells}}{93}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Alterations of TIA1 function upon KD and SG assembly}}{95}{figure.caption.44}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Alternative Events Selection}}{98}{figure.caption.46}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces CHARM's Home Screen}}{102}{figure.caption.48}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces CHARM's Expression Tab in Explore Mode}}{103}{figure.caption.49}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces CHARM's Expression Tab in Explore Mode, Gene and Gene Set Centered submodes}}{104}{figure.caption.50}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces CHARM's Expression Tab in Explore Mode, Similar RBPs submode}}{105}{figure.caption.51}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces CHARM's Expression Tab in Discovery Mode}}{106}{figure.caption.52}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces CHARM's Splicing Tab in Explore Mode}}{107}{figure.caption.53}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces CHARM's Splicing Tab in Explore Mode, Similar RBPs submode}}{108}{figure.caption.54}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces CHARM's Splicing Tab in Discovery Mode}}{109}{figure.caption.55}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces CHARM's Binding Tab in Explore Mode, Single-Comparison submode}}{110}{figure.caption.56}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces CHARM's Binding Tab in Explore Mode, Multi-Comparison submode}}{111}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Alternative Events Selection}}{99}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces CHARM's Home Screen}}{103}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces CHARM's Expression Tab in Explore Mode}}{104}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces CHARM's Expression Tab in Explore Mode, Gene and Gene Set Centered submodes}}{105}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces CHARM's Expression Tab in Explore Mode, Similar RBPs submode}}{106}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces CHARM's Expression Tab in Discovery Mode}}{107}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces CHARM's Splicing Tab in Explore Mode}}{108}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces CHARM's Splicing Tab in Explore Mode, Similar RBPs submode}}{109}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces CHARM's Splicing Tab in Discovery Mode}}{110}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces CHARM's Binding Tab in Explore Mode, Single-Comparison submode}}{111}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces CHARM's Binding Tab in Explore Mode, Multi-Comparison submode}}{112}{figure.caption.57}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces GTEx's sample origin is a confounding batch effect}}{116}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Example of batch effect correction on gene-centric (\textit {SFTPA2}) analysis.}}{118}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces SG Assembly is Anti-Inflammatory}}{119}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes}}{121}{figure.caption.61}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition}}{122}{figure.caption.62}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Overall survival analysis based on gene expression of SG-related proteins}}{127}{figure.caption.63}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces KRAS mutation and associated drug sensitivities and resistances}}{129}{figure.caption.65}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Development and Validation of the SG-Score}}{131}{figure.caption.67}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces SG score across GDC-TCGA datasets}}{132}{figure.caption.68}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Survival Stratification with SG Score, across GDC-TCGA datasets}}{134}{figure.caption.70}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Mechanistic Insights on SGs as Prognostic Markers}}{136}{figure.caption.72}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -32,6 +32,12 @@ For \gls{shrna} experiments, data from the ENCODE project (HepG2 and K562 cells 
 \\
 A more in depth description of the integration of \gls{eclip} data with these differential splicing events is provided in the next chapter.
 
+\subsection{\textit{In Silico} Resources}
+
+All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
+Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run vast-tools\cite{tapial_atlas_2017}, FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, and featureCounts\cite{liao_featurecounts_2014}. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). The eCLIPSE tool (used for the \gls{eclip} splicing analyses, will be introduced in more detail next chapter) includes steps that were conducted in Python 3 (v3.10.11), and in R (v4.1.2). 
+
+
 \subsection{U2-OS growth conditions}
 
 Human osteosarcoma U2-OS cells were cultured in DMEM (high glucose) supplemented with 10\% fetal bovine serum. Cells were plated on glass coverslips in 24-well plates and used for all experimental procedures.

@@ -107,8 +107,7 @@ As before, sedimented \gls{rna} abundances were converted back to read counts us
 \subsection{\textit{In Silico} Resources}
 
 All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
-Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, featureCounts\cite{liao_featurecounts_2014}, and IGV visualisation. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). Mimi-Seq and SpinSim simulations were conducted in Python 3 (v3.10.11). Images were assembled using Microsoft PowerPoint (v16.0.1).
-
+Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, featureCounts\cite{liao_featurecounts_2014}, and IGV visualisation. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). Mimi-Seq and SpinSim simulations were conducted in Python 3 (v3.10.11). 
 
 \section{Standard Bioinformatics Analytical Pipeline}
 
@@ -243,7 +242,7 @@ To achieve this, gene expression was modeled using a design matrix of the form:
 \begin{verbatim}
 	model.matrix(~0 + SampleType + m6AState)
 \end{verbatim}
-
+\noindent
 In this formulation, gene expression is explained by the effects of \textit{SampleType} and \textit{m6AState}, allowing their contributions to be estimated separately. This distinction is important for correct biological interpretation. In this dataset, a direct comparison between SG m6A KO and SG m6A WT samples reveals reduced enrichment of longer transcripts in the \gls{ko} samples, as described by the original authors\cite{di_timoteo_m6a_2024}. At first glance, this might suggest that m6A status, rather than gene length, drives \gls{sg} enrichment. However, performing the same comparison in whole-cell samples (WC m6A KO vs WC m6A WT) reveals the same trend. Thus, the \gls{m6a} perturbation consistently produces a transcriptome enriched for shorter \glspl{rna} regardless of sample type. In this context, the \gls{sg} transcriptome likely reflects the underlying \gls{wc} transcriptome, meaning that the apparent reduction in length bias within \glspl{sg} may simply mirror the cellular background (Figure 4.5). This example is not meant to criticise the original study but to illustrate common analytical pitfalls that can arise even in well-designed experiments.
 \\
 \linebreak
@@ -258,7 +257,7 @@ For the analysis of this dataset, we used the following linear model:
 \begin{verbatim}
 model.matrix(~0 + Target * StressState)
 \end{verbatim}
-
+\noindent
 Here, \textit{Target} represents the proximity-labelling bait (\gls{eg}, \gls{g3bp1}, polysome, cytoplasm, or control), and \textit{StressState} indicates whether cells were stressed or unstressed. Targeting \gls{g3bp1} in unstressed cells captures the baseline \gls{g3bp1} interactome, whereas targeting \gls{g3bp1} during stress captures the stressed interactome, which includes \gls{sg}-associated \glspl{rna}. However, stress itself induces widespread transcriptomic changes. As a result, a simple comparison between stressed and unstressed \gls{g3bp1} samples would capture both \gls{sg}-specific interactions and general stress responses. By modelling the interaction between \gls{g3bp1} targeting and stress, transcripts specifically enriched in the \gls{g3bp1} interactome during stress can be isolated, providing a more precise estimate of the \gls{sg}-associated transcriptome.
 \\
 In some situations it is also useful to apply variable centering. Centering involves subtracting the mean of a variable from each observation so that the variable is expressed relative to its average value. While this does not change the fitted model, it improves interpretability and reduces collinearity between model terms, particularly when interactions are included. As such, whenever a linear model with interaction was used, variable centering was performed.
