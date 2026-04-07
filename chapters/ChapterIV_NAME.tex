@@ -8,7 +8,7 @@ In the \gls{sg} transcriptome chapter (Chapter 4), we identified a technical bat
 
 \subsection{Dataset Procurement}
 
-For dataset procurement, we queried the \gls{geo} Datasets repository using the term "stress granule", filtering for expression profiling by high-throughput sequencing and restricting results to human samples, following a strategy similar to that described in Section 4.1.1. As done for Chapter 5, we specifically targeted studies including both stressed and unstressed conditions, as well as experimental setups with and without \gls{sg} formation. 
+For dataset procurement, we queried the \gls{geo} Datasets repository using the term ``stress granule", filtering for expression profiling by high-throughput sequencing and restricting results to human samples, following a strategy similar to that described in Section 4.1.1. As done for Chapter 5, we specifically targeted studies including both stressed and unstressed conditions, as well as experimental setups with and without \gls{sg} formation. 
 \linebreak
 \noindent
 The following datasets, were used throughout this work:
@@ -24,9 +24,8 @@ All these datasets, or their joint integration, allowed for uncoupling of the tr
 \linebreak
 \noindent
 During the literature review, we identified an unrelated dataset exhibiting a transcriptomic profile almost opposite to our putative \gls{sg} effect. To enable direct comparison between these two phenotypes, this senescent dataset (GSE236521\cite{lopez-polo_release_2024}) was also included.
-\
-\linebreak
-\noindent
+\\
+\\
 The batch correction methodology is described in the Results section of this chapter (Section 7.2.2).
 
 \subsection{Dataset Pre-processing}
@@ -53,11 +52,11 @@ For voyAGEr related pre-processing, please consult original publication\cite{sch
 
 \subsection{Correlations}
 
-Unless otherwise indicated, correlations shown in scatter plots and heatmaps were calculated using the t-statistic from differential expression, with Spearman's correlation coefficient $\rho$ and the associated test’s p-value. For correlations involving gene length, the canonical transcript length (in number of nucleotides), obtained from ENSEMBL\cite{cunningham_ensembl_2022} was used, with the longest transcript chosen in cases of ambiguity\cite{cunningham_ensembl_2022}. 
+Unless otherwise indicated, correlations shown in scatter plots and heatmaps were calculated using the t-statistic from differential expression, with Spearman's correlation coefficient $\rho$ and the associated test’s p-value. For correlations involving gene length, the canonical transcript length (in number of \gls{nt}), obtained from ENSEMBL\cite{cunningham_ensembl_2022} was used, with the longest transcript chosen in cases of ambiguity\cite{cunningham_ensembl_2022}. 
 
 \subsection{DGEA}
 
-To model expression changes between conditions, linear models were fitted to the gene expression data, incorporating genotype (\gls{eg} \gls{g3bp1} \gls{ko} or \gls{wt}), stress condition (\gls{eg} arsenite or sorbitol treatment), and \gls{sg} presence as covariates. Standard errors were subsequently moderated via empirical Bayes shrinkage\cite{smyth_linear_nodate}. Differentially expressed genes were defined separately for each dataset using dataset-specific log2FC values and B-statistics, rather than fixed thresholds.
+To model expression changes between conditions, linear models were fitted to the gene expression data, incorporating genotype (\gls{eg} \gls{g3bp1} \gls{ko} or \gls{wt}), stress condition (\gls{eg} arsenite or sorbitol treatment), and \gls{sg} presence as covariates. Standard errors were subsequently moderated via empirical Bayes shrinkage\cite{smyth_linear_nodate}. Differentially expressed genes were defined separately for each dataset using dataset-specific Log2FC values and B-statistics, rather than fixed thresholds.
 
 \subsection{GSEA}
 
@@ -77,12 +76,13 @@ To illustrate how even methodologically consistent comparisons, such as those re
 
 The \gls{gtex} project encompasses two major sample types: organ donor samples, obtained from organ retrieval following, for example, fatal accidents, and \textit{post-mortem} samples, collected from individuals who passed away in a hospital setting\cite{lonsdale_genotype-tissue_2013}. While the distinction in nomenclature is somewhat misleading, as both types are technically obtained \textit{post-mortem}, they differ substantially in practice\cite{schneider_voyager_2024}. Donor samples tend to span a broader age range, as fatal accidents affect both younger and older individuals, whereas hospital-derived \textit{post-mortem} samples are typically collected from older individuals\cite{schneider_voyager_2024}. This results in an overrepresentation of donor samples at younger ages\cite{schneider_voyager_2024}.
 \\
+\\
 Additionally, these two sample types typically exhibit substantial transcriptomic differences (Figure 7.1), owing for instance to disparities in ischemic time: hospital-collected samples are processed promptly, whereas donor samples from accident scenes inevitably incur delays before processing\cite{schneider_voyager_2024}. \gls{rna} degradation can therefore introduce systematic differences in gene expression even between age-matched samples of different origins. Since donor and \textit{post-mortem} samples are not balanced across age groups, this constitutes a confound that could be misattributed to ageing itself, a concern that was indeed raised by reviewers during the submission process\cite{schneider_voyager_2024}.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/VoyagerFig1.png"}
-	\caption[GTEx's sample origin is a confounding batch effect]{\textbf{GTEx's sample origin is a confounding batch effect.} PCA Plot of GTEx's "Whole-Blood" samples. Sample Type/Origin explains most of the gene expression variance in this tissue (PC1 - 37.18\%).}
+	\caption[GTEx's sample origin is a confounding batch effect]{\textbf{GTEx's sample origin is a confounding batch effect.} PCA Plot of GTEx's ``Whole-Blood" samples. Sample Type/Origin explains most of the gene expression variance in this tissue (PC1 - 37.18\%).}
 	\label{fig:Figure7.1}
 \end{figure}
 \noindent
@@ -96,22 +96,23 @@ A clear illustration of this is the expression of \textit{SFTPA2}, which exhibit
 This highlights a key conceptual point: whether a variable constitutes a batch effect is not determined by its biological or technical nature, but by whether it is a variable of interest for the question at hand. For instance, if the goal is to identify expression changes common across cell types in response to a treatment, cell type itself may be treated as a batch effect, provided of course cell-type-specific effects are not of interest.
 Resolving such confounds requires batch effect correction, the effectiveness of which scales with sample size. A critical prerequisite, however, is that confounding variables must not be collinear with variables of interest: if stressed neurons and unstressed fibroblasts comprise the entire dataset, stress and cell type are inseparable, rendering correction invalid. Adequate sample representation across all conditions is therefore essential, a requirement readily met by a resource as large as GTEx\cite{lonsdale_genotype-tissue_2013, schneider_voyager_2024}.
 \\
-Although several batch correction methods exist, a dedicated approach was developed for \textbf{voyAGEr} (see the original publication for a detailed description\cite{schneider_voyager_2024}). Briefly, a linear model is fitted incorporating both the batch variable (sample type: donor vs.\textit{post-mortem}) and the variables of interest (age and sex). The component of expression variation attributable to the batch effect, excluding that explained by the variables of interest, is estimated and subtracted from the original expression matrix. Linear models are subsequently refitted on this corrected matrix using only the variables of interest, enabling attribution of expression changes to age and sex specifically.
+\\
+Although several batch correction methods exist, a dedicated approach was developed for \textbf{voyAGEr} (see the original publication for a detailed description\cite{schneider_voyager_2024}). Briefly, a linear model is fitted incorporating both the batch variable (sample type: donor vs. \textit{post-mortem}) and the variables of interest (age and sex). The component of expression variation attributable to the batch effect, excluding that explained by the variables of interest, is estimated and subtracted from the original expression matrix. Linear models are subsequently refitted on this corrected matrix using only the variables of interest, enabling attribution of expression changes to age and sex specifically.
 \\
 This is a conservative approach, as only mean expression differences between sample types are removed. Alternative methods such as \texttt{ComBat} additionally correct for variance differences across batches\cite{johnson_adjusting_2007}. That is, when a gene exhibits greater variability within one sample type than another\cite{johnson_adjusting_2007}. This represents a more aggressive correction, which risks removing genuine biological signal. Since the conservative approach was sufficient to resolve the confound in \textbf{voyAGEr}\cite{schneider_voyager_2024} (Figure 7.2B), it was preferred in order to maximise retention of true biological signal.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/VoyagerFig2.png"}
-	\caption[Example of batch effect correction on gene-centric (\textit{SFTPA2}) analysis.]{\textbf{Example of batch effect correction on gene-centric (\textit{SFTPA2}) analysis.} (A) Gene expression (Top - Y-Axis) of \textit{SFTPA2} in Lung tissue from GTEx\cite{lonsdale_genotype-tissue_2013}, across age and corresponding significance of alterations (Bottom - Y-Axis), before batch effect correction. \textit{SFTPA2} expression diminishes throughout ageing. This change is particularly significant after around 55 years of age. (B) Gene expression (Top - Y-Axis) of \textit{SFTPA2} in Lung tissue from GTEx\cite{lonsdale_genotype-tissue_2013}, across age and corresponding significance of alterations (Bottom - Y-Axis), after batch effect correction. Expression of this gene shows no significant alterations across age ranges.}
+	\caption[Example of batch effect correction on gene-centric (\textit{SFTPA2}) analysis.]{\textbf{Example of batch effect correction on gene-centric (\textit{SFTPA2}) analysis.} (A) Gene expression (Top - Y-Axis) of \textit{SFTPA2} in Lung tissue from GTEx\cite{lonsdale_genotype-tissue_2013}, across age and corresponding significance of alterations (Bottom - Y-Axis), before batch effect correction. \textit{SFTPA2} expression diminishes throughout ageing. This change is particularly significant after around 55 years of age. (B) Gene expression (Top - Y-Axis) of \textit{SFTPA2} in Lung tissue from GTEx\cite{lonsdale_genotype-tissue_2013}, across age and corresponding significance of alterations (Bottom - Y-Axis), after batch effect correction. Expression of this gene shows no significant alterations across age ranges. All gene expression values are given in LogCPM.}
 	\label{fig:Figure7.2}
 \end{figure}
 \noindent
 
 
-\section{What changes on a cell upon SG assembly?}
+\section{What Changes on a Cell upon SG Assembly?}
 
-\subsection{SGs are anti-inflammatory}
+\subsection{SGs are Anti-Inflammatory}
 
 As outlined in the aims, most publicly available datasets do not perform \gls{sg}-detection, making it necessary to infer their presence and functional impact from \gls{wc} transcriptomes. A central challenge in this approach is disentangling \gls{sg}-specific effects from the broader cellular stress response.
 \\
@@ -131,30 +132,31 @@ At the gene level, we observed downregulation of \textit{\gls{fos}}, an immediat
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig7.3"}
-	\caption[SG Assembly is Anti-Inflammatory]{\textbf{SG Assembly is Anti-Inflammatory} (A) \gls{gsea} \gls{nes} of Hallmark gene sets, ranked by t-statistic, of the "SG-assembly effect" as given by linear modelling. (B)  Volcano plot of significance (Y-Axis – B-Statistic) and corresponding effect size (X-Axis - Log2 Fold-Change)  of the "SG-assembly effect" as given by linear modelling; transcripts as circles; Most differentially expressed transcripts are coloured red (if upregulated, log2FC$>$1 with B-Statistic$>$15), blue (if downregulated, log2FC$<$ -2 with B-Statistic$>$15), or green (if mitochondrially encoded).}
+	\caption[SG assembly is anti-inflammatory]{\textbf{SG assembly is anti-inflammatory} (A) \gls{gsea} \gls{nes} of Hallmark gene sets, ranked by t-statistic, of the ``SG-assembly effect" as given by linear modelling. (B)  Volcano plot of significance (Y-Axis – B-Statistic) and corresponding effect size (X-Axis - Log2 Fold-Change)  of the "SG-assembly effect" as given by linear modelling; transcripts as circles; Most differentially expressed transcripts are coloured red (if upregulated, Log2FC$>$1 with B-Statistic$>$15), blue (if downregulated, Log2FC$<$ -2 with B-Statistic$>$15), or green (if mitochondrially encoded).}
 	\label{fig:Figure7.3}
 \end{figure}
 \noindent
 Since one of the theorised functions of \glspl{sg} is to sequester transcripts from pathways whose expression is temporarily suppressed, we considered whether the \gls{wc} transcriptome may exhibit an inverse correlation with the previously analysed \gls{sg} transcriptome\footnote{It is worth noting, however, that it remains unclear whether \gls{sg}-sequestered \glspl{rna} are captured during standard \gls{wc} \gls{rna} extraction, as they may be removed during cleaning steps alongside large organelles such as mitochondria. To our knowledge, this has not been directly demonstrated, and is therefore presented here as a hypothesis. Furthermore, since only a fraction of cellular \glspl{sg} are localised to \glspl{sg}, it is uncertain whether their loss would produce any detectable differences in the \gls{wc} transcriptome.}. 
-Examining these comparisons, the PL-derived dataset from Somasekharan \gls{etal}\cite{somasekharan_g3bp1-linked_2020} aligns more closely with \gls{wc} transcriptomes than other \gls{sg} datasets (Figure 4.16), possibly reflecting that only 20\% of G3BP1 localises to \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}. In contrast, the PL-derived dataset from Ren \gls{etal}\cite{\cite{ren_profiling_2023}}, targeting the same protein, does not, which complicates this interpretation (Figure 4.16).
+Examining these comparisons, the PL-derived dataset from Somasekharan \gls{etal}\cite{somasekharan_g3bp1-linked_2020} 2020 aligns more closely with \gls{wc} transcriptomes than other \gls{sg} datasets (Figure 4.16), possibly reflecting that only 20\% of G3BP1 localises to \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}. In contrast, the PL-derived dataset from Ren \gls{etal} 2023\cite{ren_profiling_2023}, targeting the same protein, does not, which complicates this interpretation (Figure 4.16).
+\\
 \\
 To explore the mechanisms underlying the dampening of stress and inflammatory signalling suggested by the meta-analysis, \gls{wc} transcriptomes from \gls{sg}-bearing cells were compared against \gls{sg}-enriched transcripts. Although no overall correlation was observed, mitochondrial \glspl{rna} were consistently anti-correlated between the two (Figure 7.4).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"../../../Desktop/Paper Images/TESE_Fig7.4"}
-	\caption[Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes]{\textbf{Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes.}  Scatter plot of t-statistics of \gls{dgea} in \gls{sg}-bearing \gls{wc} samples versus their non-bearing counterparts\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023} (X-Axis – WC Enrichment) and mean of t-statistics of \gls{dgea} of SG-sequestration enrichment in 4 selected studies: Somasekharan \gls{etal}\cite{somasekharan_g3bp1-linked_2020}, Kudrin \gls{etal}\cite{kudrin_n4-acetylcytidine_2024}, Rajachandran \gls{etal}\cite{rajachandran_subcellular_2025} and Zhou \gls{etal}\cite{zhou_rna_2024} (Y-Axis – \gls{sg} Enrichment); transcripts as circles; transcripts with most differential enrichment between axes labelled and coloured dark red (|WC Enrichment * SG Enrichment| $>$ 30 t-statistic); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on bottom left corner.}
+	\caption[Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes]{\textbf{Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes.}  Scatter plot of t-statistics of \gls{dgea} in \gls{sg}-bearing \gls{wc} samples versus their non-bearing counterparts\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023} (X-Axis – WC Enrichment) and mean of t-statistics of \gls{dgea} of SG-sequestration enrichment in 4 selected studies: Somasekharan \gls{etal}\cite{somasekharan_g3bp1-linked_2020}, Kudrin \gls{etal}\cite{kudrin_n4-acetylcytidine_2024}, Rajachandran \gls{etal}\cite{rajachandran_subcellular_2025} and Zhou \gls{etal}\cite{zhou_rna_2024} (Y-Axis – \gls{sg} Enrichment); transcripts as circles; transcripts with most differential enrichment between axes labelled and coloured dark red ($|WC Enrichment * SG Enrichment| >$ 30 t-statistic); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on bottom left corner.}
 	\label{fig:Figure7.4}
 \end{figure}
 \noindent
 
-\subsection{SGs have opposite roles to senescence}
+\subsection{SGs Have Opposite Roles to Senescence}
 
-Consistent with the reported role of \glspl{sg} as senescence inhibitors\cite{omer_stress_2018}, and in line with our results on \textit{SERPINE1}, a recent study targeting the \gls{sasp} identified downregulation of pathways analogous to those observed during \gls{sg} assembly\cite{lopez-polo_release_2024}. A direct comparison, however, reveals notable differences in gene expression between \gls{sasp} inhibition and \gls{sg} formation (Figure 7.5A). Nevertheless, both conditions shared downregulation of mitochondrially encoded \glspl{rna}, and despite weak overall correlations, \gls{gsea} revealed broad suppression of inflammation-related pathways (Figure 7.5B). Given that both senescence and \gls{sg} formation are triggered by cellular stress, it is plausible that they represent distinct responses to a common stimulus, or that dysregulated \gls{sg} homeostasis may contribute to the onset of senescence.
+Consistent with the reported role of \glspl{sg} as senescence inhibitors\cite{omer_stress_2018}, and in line with our results regarding \textit{SERPINE1}, a recent study targeting the \gls{sasp} identified downregulation of pathways analogous to those observed during \gls{sg} assembly\cite{lopez-polo_release_2024}. A direct comparison, however, reveals notable differences in gene expression between \gls{sasp} inhibition and \gls{sg} formation (Figure 7.5A). Nevertheless, both conditions shared downregulation of mitochondrially encoded \glspl{rna}, and despite weak overall correlations, \gls{gsea} revealed broad suppression of inflammation-related pathways (Figure 7.5B). Given that both senescence and \gls{sg} formation are triggered by cellular stress, it is plausible that they represent distinct responses to a common stimulus, or that dysregulated \gls{sg} homeostasis may contribute to the onset of senescence.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig7.5"}
-	\caption[Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition]{\textbf{Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition.}  (A) Scatter plot of t-statistics of \gls{dgea} in \gls{sasp}-inhibited \gls{wc} samples versus their non-inhibited counterparts, through \gls{mfn} \gls{kd}\cite{lopez-polo_release_2024} (Y-Axis - t-statistics), versus SG bearing cells compared to their non-bearing counterparts \cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023} (X-Axis - t-statistics); transcripts as circles; trancripts with most conserved enrichment between axes labelled and coloured dark red (SG Enrichment * SASP Inhibition > 20 t-statistic); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (B) Scatter plot of \gls{gsea} \gls{nes} of Hallmark gene sets in \gls{dgea}, ranked by t-statistic, in SG bearing cells compared to their non-bearing counterparts \cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023} (X-Axis) versus SASP-inhibited samples (Y-Axis).}
+	\caption[Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition]{\textbf{Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition.}  (A) Scatter plot of t-statistics of \gls{dgea} in \gls{sasp}-inhibited \gls{wc} samples versus their non-inhibited counterparts, through \gls{mfn} \gls{kd}\cite{lopez-polo_release_2024} (Y-Axis - t-statistics), versus SG bearing cells compared to their non-bearing counterparts \cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023} (X-Axis - t-statistics); transcripts as circles; trancripts with most conserved enrichment between axes labelled and coloured dark red (SG Enrichment * SASP Inhibition $>$ 20 t-statistic); density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner. (B) Scatter plot of \gls{gsea} \gls{nes} of Hallmark gene sets in \gls{dgea}, ranked by t-statistic, in SG bearing cells compared to their non-bearing counterparts \cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023} (X-Axis) versus SASP-inhibited samples (Y-Axis).}
 	\label{fig:Figure7.5}
 \end{figure}
 \noindent

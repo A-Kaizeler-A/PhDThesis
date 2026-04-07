@@ -1,10 +1,10 @@
 % !TEX root = ../PhD Thesis.tex
-\chapter{The SG "Indirect" Proteome}
+\chapter{The SG ``Indirect" Proteome}
 \label{chap:ChapterII}
 
 Unlike \gls{rna}, proteins appear to precipitate more homogeneously during \gls{sg} isolation, showing minimal sensitivity to stress conditions\cite{glauninger_transcriptome-wide_2025}. This is reflected in the high consistency observed across proteomic studies\cite{nunes_msgp_2019, millar_new_2023}. Notably, two independent compiled databases of \gls{sg}-associated proteins report highly overlapping top candidates and converge on the conclusion that approximately 50\% of them are \glspl{rbp}\cite{nunes_msgp_2019, millar_new_2023}.
 \\
-However, the presence of a protein in \gls{sg} datasets does not imply that all of its cellular copies are sequestered within \glspl{sg}. In fact, as discussed previously, even canonical \gls{sg} markers such as \gls{g3bp1} show only partial localisation, with estimates suggesting that approximately 20\% of the total of this protein pool is associated with \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}. The functional consequences of this partial sequestration remain unclear, as \glspl{rbp} are highly multifunctional and participate in numerous aspects of \gls{rna} metabolism (see section 1.2.2), including splicing regulation.
+Yet, the presence of a protein in \gls{sg} datasets does not imply that all of its cellular copies are sequestered within \glspl{sg}. In fact, as discussed previously, even canonical \gls{sg} markers such as \gls{g3bp1} show only partial localisation, with estimates suggesting that approximately 20\% of the total of this protein pool is associated with \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}. The functional consequences of this partial sequestration remain unclear, as \glspl{rbp} are highly multifunctional and participate in numerous aspects of \gls{rna} metabolism (see section 1.2.2).
 \\
 Their sequestration within \glspl{sg} may therefore reduce their availability in other cellular compartments. For example, displacement of \glspl{rbp} from the nucleus, where splicing occurs, could impair splicing regulation and lead to downstream effects on gene expression.
 
@@ -14,13 +14,13 @@ Their sequestration within \glspl{sg} may therefore reduce their availability in
 
 For dataset procurement, we queried the \gls{geo} Datasets repository using the term "stress granule", filtering for expression profiling by high-throughput sequencing and restricting results to human samples, following a strategy similar to that described in Section 4.1.1. In this case, however, we specifically targeted studies including both stressed and unstressed conditions, as well as experimental setups with and without \gls{sg} formation.
 \\
-Because the objective was to perform differential splicing analysis, only datasets with sufficient sequencing depth were considered. High read depth is particularly critical for splicing analyses, as exon–exon junction reads and low-abundance isoforms are often underrepresented, making shallow sequencing insufficient to reliably capture alternative splicing events. Based on these criteria, we selected the dataset GSE173953\cite{paget_stress_2023}, which includes U2-OS and A549 \gls{g3bp1} \gls{wt} and \gls{ko} cells exposed to \gls{dsrna} as a proxy for viral infection. Importantly, \gls{g3bp1} knockout cells do not form \glspl{sg} under these conditions, enabling direct comparison between stressed cells with and without SG formation. This design allows the isolation of \gls{sg}-specific effects from general stress responses. Datasets GSE138988\cite{matheny_transcriptome-wide_2019}, and GSE119977\cite{matheny_rna_2021, matheny_corrigendum_2023} had the necessary sample types, but had substantially lower read coverage than GSE173953\cite{paget_stress_2023} and were thus discarded.
+Because the objective was to perform differential splicing analysis, only datasets with sufficient sequencing depth were considered. High read depth is particularly critical for splicing analyses, as exon–exon junction reads and low-abundance isoforms are often underrepresented, making shallow sequencing insufficient to reliably capture alternative splicing events. Based on these criteria, we selected the dataset GSE173953\cite{paget_stress_2023}, which includes \gls{u2os} and A549 \gls{g3bp1} \gls{wt} and \gls{ko} cells exposed to \gls{dsrna} as a proxy for viral infection. Importantly, \gls{g3bp1} knockout cells do not form \glspl{sg} under these conditions, enabling direct comparison between stressed cells with and without SG formation. This design allows the isolation of \gls{sg}-specific effects from general stress responses. Datasets GSE138988\cite{matheny_transcriptome-wide_2019}, and GSE119977\cite{matheny_rna_2021, matheny_corrigendum_2023} had the necessary sample types, but had substantially lower read coverage than GSE173953\cite{paget_stress_2023} and were thus discarded.
 
 \subsection{Correlations}
 
 Unless otherwise indicated, correlations shown in scatter plots and heatmaps were calculated using the t-statistic from differential expression, with Spearman's correlation coefficient $\rho$ and the associated test's p-value.
 
-\subsection{Differential splicing analysis}
+\subsection{Differential Splicing Analysis}
 
 Raw sequencing reads (FASTQ format) were first trimmed using Trimmomatic (v0.39)\cite{bolger_trimmomatic_2014} in \gls{pe} mode, and subsequently processed with VAST-TOOLS (v2.5.1)\cite{tapial_atlas_2017}. Alignment was performed against the human reference genome \gls{hg38} using Bowtie (v1.2.2)\cite{langmead_ultrafast_2009}, following the standard VAST-TOOLS pipeline\cite{tapial_atlas_2017}.
 \\
@@ -28,7 +28,8 @@ After running the \texttt{vast-tools align} and \texttt{vast-tools combine} step
 \\
 To improve specificity, we incorporated prior information from the VASTDB MAIN PSI table\cite{tapial_atlas_2017}. For exon-skipping events, we computed the average \gls{psi} and variance across tissues and cell types. Events were classified as alternative if they satisfied at least one of the following empirical criteria: variance $>=$ 750, or mean \gls{psi} between 12.5 and 87.5. Only events meeting these criteria were retained for downstream filtering of the VAST-TOOLS output.
 \\
-For \gls{shrna} experiments, data from the ENCODE project (HepG2 and K562 cells treated with scrambled \gls{shrna} controls)\cite{the_encode_project_consortium_integrated_2012} were processed jointly using this modified betAS pipeline. The same approach was applied to the GSE173953 dataset, with U2-OS and A549 samples analysed together. Although this joint processing strategy reduced the total number of detected differential splicing events, it increased the robustness and reproducibility of the identified events.
+For \gls{shrna} experiments, data from the ENCODE project (HepG2 and K562 cells treated with scrambled \gls{shrna} controls)\cite{the_encode_project_consortium_integrated_2012} were processed jointly using this modified betAS pipeline. The same approach was applied to the GSE173953 dataset, with \gls{u2os} and A549 samples analysed together. Although this joint processing strategy reduced the total number of detected differential splicing events, it increased the robustness and reproducibility of the identified events.
+\\
 \\
 A more in depth description of the integration of \gls{eclip} data with these differential splicing events is provided in the next chapter.
 
@@ -38,23 +39,23 @@ All analyses were performed on the workstation \textit{lobito} at the \gls{gimm}
 Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run vast-tools\cite{tapial_atlas_2017}, FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, and featureCounts\cite{liao_featurecounts_2014}. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). The eCLIPSE tool (used for the \gls{eclip} splicing analyses, will be introduced in more detail next chapter) includes steps that were conducted in Python 3 (v3.10.11), and in R (v4.1.2). 
 
 
-\subsection{U2-OS growth conditions}
+\subsection{U2-OS Growth Conditions}
 
-Human osteosarcoma U2-OS cells were cultured in DMEM (high glucose) supplemented with 10\% fetal bovine serum. Cells were plated on glass coverslips in 24-well plates and used for all experimental procedures.
+Human osteosarcoma \gls{u2os} cells were cultured in DMEM (high glucose) supplemented with 10\% fetal bovine serum. Cells were plated on glass coverslips in 24-well plates and used for all experimental procedures.
 \\
 \\
-Reagents and material references are supplied in the Key Resources Table.
+Reagents and material references are supplied in section 10.1.1.
 
 \subsection{Stress conditions}
 
-To examine mRNA localisation under stress, when 80\% confluency was reached, cells were exposed to 0.4 M sorbitol for 3 hours.
+To examine mRNA localisation under stress, when 80\% confluency was reached, cells were exposed to 0.4 \gls{molar} sorbitol for 3 hours.
 \\
 \\
-Reagents and material references are supplied in the Key Resources Table.
+Reagents and material references are supplied in section 10.1.1.
 
-\subsection{Immunofluorescence}
+\subsection{\gls{if}}
 
-Following stress treatments, cells were washed three times with \gls{pbs}+/+ (\gls{pbs} supplemented with calcium and magnesium). Fixation was performed using 4\% formaldehyde in \gls{pbs}+/+ (\gls{ph} 7.4) for 20 minutes at room temperature, followed by three additional washes with \gls{pbs}+/+. Cells were then permeabilised with 0.1\% Triton X-100 in \gls{pbs}+/+ for 10 minutes at room temperature and washed three times with unsupplemented \gls{pbs}.
+Following stress treatments, cells were washed three times with \gls{pbs} +/+ (\gls{pbs} supplemented with calcium and magnesium). Fixation was performed using 4\% formaldehyde in \gls{pbs} +/+ (\gls{ph} 7.4) for 20 minutes at room temperature, followed by three additional washes with \gls{pbs} +/+. Cells were then permeabilised with 0.1\% Triton X-100 in \gls{pbs} +/+ for 10 minutes at room temperature and washed three times with unsupplemented \gls{pbs}.
 \\
 Glass coverslips were removed from 24-well plates and transferred to a humid chamber containing 20 \gls{ul} droplets of blocking buffer (5\% goat serum in \gls{pbs}). Coverslips were inverted onto the droplets (cell side facing down) and incubated for 60 minutes at room temperature.
 \\
@@ -65,28 +66,29 @@ Secondary antibodies were diluted 1:500 in blocking buffer together with \gls{da
 For mounting, 2 \gls{ul} of Vectashield mounting medium was placed on each microscope slide, and coverslips were positioned cell-side down onto the drops. Coverslips were sealed with nail polish prior to imaging.
 \\
 \\
-Reagents and material references are supplied in the Key Resources Table.
+Reagents and material references are supplied in section 10.1.1.
 
-\subsection{Microscopy and image analysis}
+\subsection{Microscopy and Image Analysis}
 
 After fixation, cells were imaged on a ZEISS \gls{lsm} 880 confocal microscope, using a 63x/1.4 Plan-Apochromat \gls{dic} oil immersion objective. For each condition, a z-stack of a single field of view (1024x1024\gls{px}, with a \gls{px} size of 0.13 \gls{um}) was acquired, comprising 10–20 Z-planes, with a 0.48 \gls{um} step size, according to Nyquist, with a scan zoom of 1.0. TIA1 was excited using a 633 \gls{nm} laser, and \gls{dapi} with a 405 \gls{nm} laser. Images were observed in \gls{fiji}, with maximum intensity thresholds defined for each channel using sorbitol-stressed samples. These same parameters were then applied to all other conditions to ensure consistency across images. 
 
 \section{Results and Discussion}
 
-\subsection{Sequestration of TIA1 in SGs recapitulates splicing alterations from TIA1 depletion}
+\subsection{Sequestration of TIA1 in SGs Recapitulates Splicing Alterations from TIA1 Depletion}
 
 Since a large number of transcriptomic datasets had been compiled for \glspl{sg}, we used alternative splicing as a proxy to assess the functional consequences of \gls{rbp} sequestration into \glspl{sg}. Changes in splicing are detectable at the transcriptomic level and provide a measurable readout of \gls{rbp} activity. If \gls{sg} sequestration affects splicing regulation, it is likely that other \gls{rbp}-dependent processes are also impacted (Figure 5.1).
 \\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig5.1"}
-	\caption[Rationale behind RBP function alterations driven by SG sequestration]{\textbf{Rationale behind RBP function alterations driven by SG sequestration.} (left) In the absence of \glspl{sg}, \glspl{rbp} remain available in the nucleus (or are recruited to) to regulate splicing as needed. (right) When \glspl{sg} form, \glspl{rbp} are sequestered within them, reducing their nuclear availability and impairing splicing regulation.}
+	\caption[Rationale behind RBP function alterations driven by SG sequestration]{\textbf{Rationale behind RBP function alterations driven by SG sequestration.} (Left) In the absence of \glspl{sg}, \glspl{rbp} remain available in the nucleus (or are recruited to) to regulate splicing as needed. (Right) When \glspl{sg} form, \glspl{rbp} are sequestered within them, reducing their nuclear availability and impairing splicing regulation.}
 	\label{fig:Figure5.1}
 \end{figure}
 \noindent
 Direct analysis of individual splicing events, however, is constrained by transcript expression\cite{van_nostrand_large-scale_2020}. Alternative splicing can only be detected in expressed genes, and expression profiles vary substantially across cell types and conditions, limiting the identification of consistent trends\cite{van_nostrand_large-scale_2020}. To address this, we adopted a complementary approach based on \gls{rbp} binding profiles. By grouping exon-skipping events into categories (increased inclusion, unchanged, or increased exclusion upon \gls{sg} assembly), we assessed whether specific \glspl{rbp} show preferential binding to any of these classes (an example is given in Figure 1.2). 
 \\
-To test this, we compiled a set of \glspl{rbp} known to localise to \glspl{sg}\cite{nunes_msgp_2019, millar_new_2023} and mapped their \gls{rna} targets using \gls{eclip} data. We then performed differential alternative splicing analysis between \gls{dsrna}-stressed and unstressed cells. This analysis identified seven \glspl{rbp} (\gls{tia1}, \gls{qki}, \gls{ddx3x}, \gls{rbm15}, \gls{khsrp}, \gls{pcbp1}, and \gls{ybx3}) with significant enrichment or depletion patterns.
+Therefore, we compiled a set of \glspl{rbp} known to localise to \glspl{sg}\cite{nunes_msgp_2019, millar_new_2023} and mapped their \gls{rna} targets using \gls{eclip} data. We then performed differential alternative splicing analysis between \gls{dsrna}-stressed and unstressed cells. This analysis identified seven \glspl{rbp} (\gls{tia1}, \gls{qki}, \gls{ddx3x}, \gls{rbm15}, \gls{khsrp}, \gls{pcbp1}, and \gls{ybx3}) with significant enrichment or depletion patterns.
+\\
 \\
 To minimise confounding effects from expression-driven splicing changes, we excluded \glspl{rbp} whose expression differed between stressed and unstressed conditions in both \gls{sg}-competent and \gls{sg}-deficient cells\footnote{More copies of a protein, are naturally expected to lead to, usually, increased function. It is perfectly acceptable that SG assembly would lead to expression changes that would naturally impact splicing regulation. Nevertheless, our aim was to uncover if SG sequestration could directly impact RBP function, and as such, expression driven splicing alterations were excluded. Obviously, other types of post-transcriptional could occur, potentially changing splicing such as RNA modifications, but as we had no way to infer them, we could not control for them.} (Figure 5.2A). This filtering yielded five candidate \glspl{rbp}: \gls{khsrp}, \gls{qki}, \gls{tia1}, \gls{pcbp1}, and \gls{ybx3}.
 
@@ -103,12 +105,13 @@ To minimise confounding effects from expression-driven splicing changes, we excl
 \begin{figure}[t]
 	\captionsetup{labelformat=adja-page}
 	\ContinuedFloat
-	\caption[]{\textbf{Alternative splicing alterations in SG competent and incompetent cells.} (A) Volcano plot of \gls{dgea} between stressed and unstressed \glspl{wc} (X-Axis -  Log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic) in SG competent (left) and incompetent (right) U2-OS and A549 cell lines subjected to dsRNA as a stressor\cite{paget_stress_2023}; genes as circles, with RBPs with differential binding across event types labelled and in red. Vertical dashed lines correspond to -0.5 and 0.5 log2\gls{fc}. Horizontal dashed line corresponds to B-statistic $=$ 0. Only genes with -2 $<$ log2\gls{fc} $<$ 2 are plotted. (B-F) RNA binding maps of alternative exon splicing events in shRNA treated cells for KHSRP (B), PCBP1 (C), QKI (D), TIA1 (E), and YBX3 (F) obtained from ENCODE\cite{the_encode_project_consortium_integrated_2012} (left), in SG competent cells (middle) and in SG incompetent cells (right). (Top) Normalised binding of RBP of interest to metagenomic regulatory sequences of alternative exons. The plot discriminates excluded (blue), included (red) or maintained (black) alternative exons upon RBP knockdown (left) or upon dsRNA stress stimuli, in SG competent (middle) and incompetent (right) cells. The total number of events in each category can be found beneath the plot in brackets, preceded by the number of events for which there is at least one binding site for that RBP. (Bottom) False discovery rate (FDR) of excluded (blue) or included (red) normalised binding, in relation to maintained events. Vertical lines delimitate the following metagenomic splicing regulatory sequences, in order: last 50 nt of upstream constitutive exon; first 200 nt of upstream intron; last 200 nt of upstream intron; first 50 nt of alternative exon; last 50 nt of alternative exon; first 200 nt of downstream intron; last 200 nt of downstream intron; first 50 nt of downstream constitutive exon.}
+	\caption[]{\textbf{Alternative splicing alterations in SG competent and incompetent cells.} (A) Volcano plot of \gls{dgea} between stressed and unstressed \glspl{wc} (X-Axis -  Log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic) in SG competent (Left) and incompetent (Right) U2-OS and A549 cell lines subjected to dsRNA as a stressor\cite{paget_stress_2023}; genes as circles, with RBPs with differential binding across event types labelled and in red. Vertical dashed lines correspond to -0.5 and 0.5 Log2\gls{fc}. Horizontal dashed line corresponds to B-statistic $=$ 0. Only genes with -2 $<$ Log2\gls{fc} $<$ 2 are plotted. (B-F) RNA binding maps of alternative exon splicing events in shRNA treated cells for KHSRP (B), PCBP1 (C), QKI (D), TIA1 (E), and YBX3 (F) obtained from ENCODE\cite{the_encode_project_consortium_integrated_2012} (Left), in SG competent cells (Middle) and in SG incompetent cells (Right). (Top) Normalised binding of RBP of interest to metagenomic regulatory sequences of alternative exons. The plot discriminates excluded (blue), included (red) or maintained (black) alternative exons upon RBP knockdown (Left) or upon dsRNA stress stimuli, in SG competent (Middle) and incompetent (Right) cells. The total number of events in each category can be found beneath the plot in brackets, preceded by the number of events for which there is at least one binding site for that RBP. (Bottom) False discovery rate (FDR) of excluded (blue) or included (red) normalised binding, in relation to maintained events. Vertical lines delimitate the following metagenomic splicing regulatory sequences, in order: last 50 nt of upstream constitutive exon; first 200 nt of upstream intron; last 200 nt of upstream intron; first 50 nt of alternative exon; last 50 nt of alternative exon; first 200 nt of downstream intron; last 200 nt of downstream intron; first 50 nt of downstream constitutive exon.}
 \end{figure}
 \noindent
 To determine whether the observed splicing patterns were consistent with loss of \gls{rbp} function, we compared these profiles with splicing changes following \gls{shrna}-mediated \gls{kd} of each \gls{rbp} (Figure 5.2B-F - Left). \glspl{rbp} whose binding profiles resembled the \gls{kd}-induced splicing patterns were considered likely to be functionally affected by \gls{sg} sequestration (Figure 5.2B-F - Middle). Of the five candidates, only \gls{tia1} and \gls{ybx3} showed visually similar FDR distributions, which were further assessed using Kolmogorov–Smirnov test (p-value = 0.16, and p-value = 0.9, respectively).
 \\
-However, these similarities could reflect general stress-induced changes rather than \gls{sg}-specific effects. To address this, we repeated the analysis in \gls{g3bp1}/\gls{g3bp2} \gls{ko} cells exposed to \gls{dsrna}, a condition in which \glspl{sg} do not form\cite{paget_stress_2023} (Figure 5.2B-F - Right). Under these conditions, the similarity observed for \gls{tia1} was lost (Kolmogorov-Smirnov test with p-value < 0.02), whereas \gls{ybx3} remained unchanged (Kolmogorov-Smirnov test with p-value 0.46). This suggests that \gls{tia1} function may be specifically affected by \gls{sg} assembly, whereas \gls{ybx3} is more likely influenced by stress independently of \gls{sg} formation.
+However, these similarities could reflect general stress-induced changes rather than \gls{sg}-specific effects. To address this, we repeated the analysis in \gls{g3bp1}/\gls{g3bp2} \gls{ko} cells exposed to \gls{dsrna}, a condition in which \glspl{sg} do not form\cite{paget_stress_2023} (Figure 5.2B-F - Right). Under these conditions, the similarity observed for \gls{tia1} was lost (Kolmogorov-Smirnov test with p-value $=$ 0.02), whereas \gls{ybx3} remained unchanged (Kolmogorov-Smirnov test with p-value $=$ 0.46). This suggests that \gls{tia1} function may be specifically affected by \gls{sg} assembly, whereas \gls{ybx3} is more likely influenced by stress independently of \gls{sg} formation.
+\\
 \\
 To further investigate \gls{tia1} behaviour, we performed immunofluorescence under control and hyperosmotic stress conditions. Under basal conditions, \gls{tia1} is typically nuclear\cite{noauthor_human_nodate, thul_subcellular_2017}, but in our experiments it was predominantly cytoplasmic, likely reflecting baseline stress associated with cell culture (Figure 5.3A). No clear differences in overall localisation were observed between conditions, although \gls{tia1} consistently marked \glspl{sg}.
 \\

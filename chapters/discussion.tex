@@ -1,6 +1,221 @@
 % !TEX root = ../PhD Thesis.tex
-\chapter{Discussion}
+\chapter{Final Thoughts}
 
-\lipsum[1]
+\section{Our View of Science}
 
-\lipsum[1]
+\subsection{Openness and Reproducibility}
+
+As bioinformaticians and computational biologists, we are particularly invested in openness. Although some more orthodox practitioners also generate their own experimental data, as I did, with varying degrees of success, most of the data used in this thesis are publicly available. It is true that collaborations occasionally grant access to unpublished datasets, but open data remains the cornerstone. Without it, the meta-analysis of \gls{sg} content presented here would simply not have been possible. That said, mere availability is not enough: data must be properly annotated and described, which, sadly, was often not the case.
+\\
+\\
+Open data can feel exposing. It opens the book on every corner of a project, inviting people like me to point out that your replicates cluster suspiciously\cite{matheny_rna_2021, matheny_corrigendum_2023}, or that your supposedly female samples express Y chromosome genes\cite{padron_proximity_2019}, which can be embarrassing. And yet, I firmly believe that bad data is better than no data at all. One might argue that bad data propagates bad conclusions downstream, such as the detection of neurodegeneration-associated transcripts, which happen to be longer than average, in \glspl{sg} being a case in point\cite{sato_stress_2023}. But without open data, that observation would likely have been made regardless, and bioinformaticians would have had no means to model the centrifugation artefact, nor to raise the points discussed throughout this thesis.
+\\
+\\
+Reproducibility is equally critical. What is the value of a phenotype that only manifests under highly specific conditions? Only, as it were, when Mercury is in retrograde? An observation that holds across multiple methods, stressors, and cell types carries far greater weight (this pun was honestly not intentional, I only caught it while proofreading the thesis). The consistent enrichment of mitochondrial RNA within \glspl{sg}, shown here is replicable using orthogonal approaches, is a case in point. Open data further reinforces this: if an independent researcher, starting from the same raw data, reaches the same conclusions, the result is considerably more robust. In that sense, bioinformaticians and computational biologists are perhaps the ultimate peer reviewers.
+One might expect that, unlike wet lab protocols, computational analyses are largely invariant. After all, the choice between \texttt{edgeR} and \texttt{DESeq2} aside, most pipelines ask very similar questions of the same data. Perhaps equivalent to growing cells in a T-25 instead of a T-75; differences, which in principle, should be negligible. And yet, in practice, that is often not what we find. On numerous occasions, we were unable to replicate published results even when starting from the authors' own count tables, setting aside any alignment differences entirely.
+\\
+\\
+Computational biology is frequently perceived as a set of techniques that anyone can learn and execute competently. This is true to an extent, but like any technique, it exists on a spectrum. With enough practice, someone with no natural affinity for wet lab work could learn to perform western blots reliably. I speak from experience: too much background has always plagued mine, and no amount of optimisation has fully resolved it. But no use crying over spilled milk. Pun entirely intended. The difference is that I can recognise the problem: I know my bands will not quantify cleanly, and I adjust my conclusions accordingly. That critical self-awareness is what I feel is often missing in computational work. Glaring issues, whether noticed or not, are too rarely called out. My suspicion, which I will elaborate on in the next section, is that this stems from computational biology being viewed primarily as a service rather than a scientific discipline in its own right.
+\\
+\\
+In the interest of not being a hypocrite, all data used in this thesis, along with the analyses of every dataset and the \gls{sg} Score signature, are publicly available at \url{https://github.com/DiseaseTranscriptomicsLab/StressGranules}. The code is, I will admit, of a somewhat chaotic nature, but I believe it is sufficiently organised to be navigable, and it does come with my personal brand of occasionally sarcastic commentary. More professionally, thanks to a briliant colleague and co-author, the \textbf{voyAGEr} code is also available in considerably better shape at \url{https://github.com/DiseaseTranscriptomicsLab/voyAGEr}. The \textbf{CHARM} code, though less polished and commented, as it has not yet been developed into a publication, is similarly available at \url{https://github.com/DiseaseTranscriptomicsLab/CHARM}.
+\\
+\\
+I will be partially hypocritical here, however: not all data are hosted on GitHub. This is for practical reasons. The binding data, encompassing direct and indirect targets, is too large for GitHub's constraints, and a similar issue arose with the \gls{if} images, particularly the super-resolution ones. I expect both to be made available upon publication. Nevertheless, I reiterate the importance of openness. The corresponding author designation is too often treated as a mere box to be checked, much like open data policies themselves. I have sent many an email requesting data or clarification, receiving either vague replies or none at all. I cannot promise I will never find myself on the other side of that exchange, but I can commit that if data or questions are sent to me, I will make every effort to respond properly and accommodate the request.
+\\
+\\
+In the interest of reproducibility, in addition to \textit{in silico} resources, we also provide a full list of \textit{in vitro} materials and reagents used, as well as their \glspl{rrid} and \gls{cvcl} identifiers, with the exception of those used throughout Chapter 3:
+\begin{table}[H]
+	\centering
+	\caption[Key resources used in this study]{\textbf{Key resources used in this study}.}
+	\scriptsize
+	\newlength{\resourcetablewidth}
+	\setlength{\resourcetablewidth}{\textwidth - 6\tabcolsep - 4\arrayrulewidth}
+	
+	\begin{tabular}{|p{0.50\resourcetablewidth}|p{0.25\resourcetablewidth}|p{0.25\resourcetablewidth}|}
+		\hline
+		\textbf{Reagent or Resource} & \textbf{Source} & \textbf{Identifier} \\
+		\hline
+		\multicolumn{3}{|l|}{\textbf{Antibodies}} \\
+		\hline
+		Rabbit Anti-G3BP1 & Atlas Antibodies & Cat\# HPA004052; RRID:AB\_1849348 \\
+		\hline
+		Rabbit Anti-TIA1 & Atlas Antibodies & Cat\# HPA056961; RRID:AB\_2683289 \\
+		\hline
+		Mouse Anti-dsRNA J2 & Jena Bioscience & Cat\# RNT-SCI-10010200; RRID:AB\_2922431 \\
+		\hline
+		Chicken Anti-HSP60 & Bio-Techne Sales Corp. & Cat\# NBP3-05536-50ul; RRID:AB\_3086708 \\
+		\hline
+		Donkey anti-Rabbit IgG (H+L), highly cross-adsorbed, Alexa Fluor\texttrademark~647 & Thermo Fisher & Cat\# A-31573; RRID:AB\_2536183 \\
+		\hline
+		Donkey anti-Mouse IgG (H+L), highly cross-adsorbed, Alexa Fluor\texttrademark~488 & Thermo Fisher & Cat\# A-21202; RRID:AB\_141607 \\
+		\hline
+		Donkey anti-Chicken IgY (H+L), highly cross-adsorbed, Alexa Fluor\texttrademark~568 & Thermo Fisher & Cat\# A78950; RRID:AB\_2921072 \\
+		\hline
+		\multicolumn{3}{|l|}{\textbf{Chemicals, Dyes and Other Reagents}} \\
+		\hline
+		DAPI & Sigma-Aldrich & Cat\# D9452 \\
+		\hline
+		\textsc{d}-Sorbitol & Sigma-Aldrich & Cat\# S6021 \\
+		\hline
+		DIDS & Sigma-Aldrich & Cat\# 309795 \\
+		\hline
+		Triton X-100 & Sigma-Aldrich & Cat\# T8787 \\
+		\hline
+		Goat Serum & Agilent Dako & Cat\# X090710 \\
+		\hline
+		DMEM/F-12, no phenol red & Gibco & Cat\# 21041025 \\
+		\hline
+		Fetal Bovine Serum, one shot & Gibco & Cat\# A5209401 \\
+		\hline
+		Paraformaldehyde 16\% Aqueous Solution, EM Grade & Electron Microscopy Sciences & Cat\# 15710 \\
+		\hline
+		Costar\textregistered~24-well Clear TC-treated Multiwell Plates & Corning & Cat\# 3524 \\
+		\hline
+		VECTASHIELD\textregistered~Antifade Mounting Medium & Vector Laboratories & Cat\# H-1000 \\
+		\hline
+		VWR\textregistered~Microscope Slides & Avantor & Cat\# 564378 \\
+		\hline
+		Cover Glasses Circular & Marienfeld Superior & Cat\# 0111530 \\
+		\hline
+		\multicolumn{3}{|l|}{\textbf{Cell Lines}} \\
+		\hline
+		U2-OS & Carmo-Fonseca Lab & RRID:CVCL\_0042 \\
+		\hline
+		\multicolumn{3}{|l|}{\textbf{Software and Algorithms}} \\
+		\hline
+		FIJI (v1.54p) & NIH & ImageJ/FIJI \\
+		\hline
+		ZEN (v3.4.91) & Zeiss & ZEISS ZEN Microscopy Software \\
+		\hline
+		Imaris (v10.2.0) & Oxford Instruments & Imaris --- Oxford Instruments \\
+		\hline
+		Microsoft PowerPoint (v16.0.1) & Microsoft & PowerPoint | Microsoft 365 \\
+		\hline
+		R (v4.1.2) & R Foundation & R Project for Statistical Computing \\
+		\hline
+		Perl (v5.26.1) & The Perl Foundation & The Perl Programming Language \\
+		\hline
+		Bowtie (v1.2.2) & \cite{langmead_ultrafast_2009} & Bowtie \\
+		\hline
+		STAR (v2.7.9a) & \cite{dobin_star_2013} & alexdobin/STAR \\
+		\hline
+		Trimmomatic (v0.39) & \cite{bolger_trimmomatic_2014} & Trimmomatic \\
+		\hline
+		featureCounts (v2.0.3) & \cite{liao_featurecounts_2014} & The Subread Package \\
+		\hline
+		VAST-TOOLS (v2.5.1) & \cite{tapial_atlas_2017} & vastgroup/vast-tools \\
+		\hline
+	\end{tabular}
+	\label{tab:keyresources}
+\end{table}
+\subsection{Science is Collaborative}
+
+As I implied above, bioinformaticians are too often treated as second-rate scientists, as a service rather than a discipline. The respect is rarely forthcoming, though I will acknowledge that finding anyone who feels their work is truly appreciated is a challenge regardless of field. The usual justification for this particular brand of dismissal is something along the lines of \textit{"you lot don't even know basic biology"}, presumably because many of us come from engineering backgrounds and therefore had fewer formal biology courses. I was, on multiple occasions, simply referred to as an engineer, despite being a biomedical scientist and oncobiologist by training. And even engineers, for what it is worth, have biology courses.
+Speaking from my own background: biology is not an especially difficult subject to pick up. My training is in oncobiology, and I will freely admit that other areas of biology are sometimes a weakness of mine. But when the need arises, one can read, and better yet, collaborate with the relevant experts. This happened repeatedly throughout my PhD, even in notoriously gatekept areas like immunology, where with the right guidance from peers, one can learn and adapt surprisingly quickly. In return, I try to offer the same care in explaining my own methods and reasoning, much as I attempted to do in Chapter 4.2. The willingness to engage with the details, at least, goes both ways.
+\\
+\\
+A computational biologist is still a biologist. The computational part refers to the tool. As my supervisor once put it, perhaps we should name biologists after their primary instrument. After all, why should anyone's opinion carry more weight simply because their tool is a pipette rather than a script? The point is not to replace one form of vitriol with another. I desperately wanted to draw a parallel with politics, with how trivial internal disputes are amplified to distract from more pressing problems, but I will refrain from specific examples. The two sides of this particular coin need not be in conflict. Scientists, whatever their tools, can coexist and achieve remarkable things together, provided there is mutual respect and honest awareness of each other's limitations.
+\\
+\\
+With that philosophy in mind, I participated in numerous collaborations throughout my PhD. Some may accuse me of a lack of focus, given that several were not directly cancer-related and spanned quite different areas of biology. I stand by those decisions. How does one learn a language by only ever speaking another? How does one offer a fresh perspective from inside the same echo chamber? Every collaboration, in my view, is symbiotic: I become familiar with new subjects and ways of thinking, and hopefully offer something useful in return. What follows is a simplified, largely enumerative account of those collaborations.
+\subsubsection{In-House Collaborations}
+Within our own lab, shared problems naturally draw people together, whether for brainstorming or for tackling challenges too large for a single person.
+\textbf{voyAGEr} was one such case. Reviewers correctly identified that GTEx harbours substantial batch effects leading to erroneous interpretations. Resolving these, and rebuilding the original \textbf{voyAGEr} to accommodate the corrections, was non-trivial. Together with a colleague, we applied batch correction methods to address this, which is described in more detail in Chapter 7.2. This work resulted in a co-first author publication in \textit{eLife}\cite{schneider_voyager_2024}.
+\\
+\\
+While validating the \gls{sg} Score, I encountered the problem that most gene signatures appear prognostic in cancer, yet no straightforward tool existed to assess this. At the time, a colleague was developing \textbf{markeR}, a tool to evaluate how well a signature reflects a given phenotype. It was natural to add a function comparing signatures against randomly generated ones, as well as one to assess overlap with existing signatures. We implemented both together, resulting in an R package that is currently available as a preprint\cite{martins-silva_exploring_2025} and should be published shortly.
+\subsubsection{Vera Martins Lab}
+Having previously worked on cell competition and its relevance in cancer, this collaboration was a natural fit, though it was one where I learned a great deal. I understand the fundamentals of \gls{tall}, but the intricacies of twenty or more subtypes within a single T-cell lineage were well beyond my prior knowledge. In this collaboration, we analysed the transcriptomic impact of incomplete bone marrow reconstitution on T-ALL development, identifying commonalities and differences across distinct experimental protocols. This resulted in a manuscript currently available as a preprint\cite{oliveira_limited_2025}.
+\\
+\\
+The collaboration is ongoing, with a further publication in view. Mouse models are widely used in T-ALL research, as in most of biomedical science, but how faithfully they recapitulate the human disease, or just specific subtypes of it, remains an open question. We are currently conducting a meta-analysis to address this. An additional avenue not yet explored is the impact of specific mutations on T-ALL subtyping, likely using pipelines similar to those applied in the cell competition work.
+\subsubsection{Jesus Gil Lab}
+Given our lab's experience in splicing, we were approached to investigate how shRNA-mediated knockdown of two RNA-binding proteins affects splicing dynamics in and out of senescent states. Beyond standard differential splicing analysis, reviewer feedback made it clear that the mechanism of action of one of the target RBPs was not well established. Using eCLIP data analysed through the \textit{CHARM} pipeline, we were able to at least postulate a plausible mechanism. This work has been accepted for publication in \textit{Nature Communications}.
+\subsubsection{Verena Wagner Lab}
+This lab's focus is on liver cancer, with a particular interest in identifying novel therapeutic targets, with splicing being one such candidate. We performed differential splicing analysis, applied \textit{CIBERSORTx}\cite{chen_profiling_2018} to model tumour immune infiltration, and related splicing events (both exon skipping and intron retention, the latter of which is expected to generate neoantigens) to patient survival and infiltration levels. Using CHARM, we additionally identified candidate RBPs as potential regulators of these events.
+\subsubsection{Kathi Zarnack Lab}
+This lab generates iCLIP2 data, a higher-resolution successor to standard eCLIP. I tested a subset of these datasets through the CHARM pipeline, and the results were remarkable. However, given the currently limited number of RBPs with available iCLIP2 data, ENCODE eCLIP data remains the primary resource for the time being.
+\subsubsection{Gonçalo Bernardes Lab}
+We characterised the transcriptomic impact of several compounds in a specific cell line. During expression quantification, it became apparent that the cells were exhibiting hallmarks of stress, subsequently confirmed by splicing analysis revealing canonical stress signatures including increased intron retention. This work is currently being prepared as a manuscript.
+\subsubsection{Ana Sebastião Lab}
+Given my background in stress and meta-analysis, I was asked to support a PhD student from this lab with a meta-analysis of their own examining the transcriptomic effects of sleep deprivation in the brain and potential therapeutic interventions. This was a particularly interesting challenge, as the transcriptomic impact of sleep deprivation in specific brain regions is relatively modest, necessitating the development and application of less conventional analytical approaches. This collaboration is ongoing, with additional studies continuing to be incorporated.
+
+\section{Summary and Discussion}
+\subsection{The SG Transcriptome: Navigating a Field Prone to Confirmation Bias}
+
+Since their discovery, \glspl{sg} have remained enigmatic structures, their functions only partially understood. Given that they form in response to stress, it was initially hypothesised that they play a direct role in the translation arrest observed during stress conditions\cite{kedersha_g3bpcaprin1usp10_2016}. This assumption was later disproved, translation is blocked independently of \gls{sg} formation\cite{kedersha_g3bpcaprin1usp10_2016}, and the prevailing view has since shifted. \glspl{sg} are now thought to contribute to the fine-tuning of the stress response by selectively sequestering specific proteins and transcripts, thereby preventing their function or translation and allowing the cell to prioritise its stress response\cite{fujikawa_stress_2023, omer_stress_2018, park_stress_2017}. The sequestration of apoptotic factors, for instance, may protect cells from stress-induced apoptosis\cite{fujikawa_stress_2023}. Given that cancer cells are chronically exposed to elevated stress, nutrient deprivation, hypoxia, replicative stress, it is tantalising to consider that \glspl{sg} may contribute to tumour progression\cite{anderson_stress_2015, szaflarski_vinca_2016, moeller_radiation_2004}, a possibility supported by reports linking them to increased aggressiveness and therapeutic resistance\cite{somasekharan_yb-1_2015, grabocka_mutant_2016}.
+This framework has motivated the development of several techniques aimed at elucidating the \gls{sg} transcriptome, with the goal of uncovering assembly mechanisms and identifying sequestered pathways relevant to cancer. However, the resulting purified \gls{sg} transcriptomes vary considerably, particularly across purification methods (summarised in Figure 4.6). Rather than treating this variability as evidence of fundamental incompatibility, we reasoned that a common signal should exist beneath the methodological noise, and set out to identify it through a systematic meta-analysis.
+\\
+\\
+It is worth pausing here to acknowledge a broader issue in the \gls{sg} field that shaped how we interpreted our findings. There is a tendency towards confirmation bias, in which new data is interpreted as supporting prevailing hypotheses rather than interrogating them. The observation that cell-free RNA shares substantial overlap with the \gls{sg} transcriptome\cite{van_treeck_rna_2018}, for instance, has been taken as evidence that \glspl{sg} are so evolutionarily conserved that their RNA content is invariant\cite{van_treeck_rna_2018}, rather than the simpler alternative: that all RNAs are prone to aggregation to some degree\cite{glauninger_transcriptome-wide_2025}. Contradictory evidence, such as proximity-ligation-purified \glspl{sg} lacking the length enrichment seen in differential centrifugation datasets, has at times been dismissed on methodological grounds rather than integrated into a revised model\cite{somasekharan_g3bp1-linked_2020}. Being mindful of this tendency was essential to our own analysis.
+
+\subsection{Addressing Dataset Quality and the Centrifugation Artefact}
+
+The meta-analysis itself presented immediate challenges. Several published datasets contained significant quality issues, including improper sample labelling, corrected by the original authors following our correspondence\cite{matheny_rna_2021, matheny_corrigendum_2023}, unclear specificity of isolation techniques, given that \glspl{sg} share compositional similarities with nuclear and nucleoplasmic structures\cite{honda_high-depth_2021}, and inadequate gene filtration\cite{padron_proximity_2019, shen_sexually_2022}. In the latter case, applying more stringent filtration thresholds led to the exclusion of several initial conclusions, as a greater proportion of reported expression changes fell within the noise range\cite{padron_proximity_2019}. A particularly illustrative example is the detection of Y-chromosome-encoded proteins in \glspl{sg} purified from female cells\cite{padron_proximity_2019}, a clear artefact of insufficient filtering that went unnoticed without careful quality control.
+\\
+\\
+Despite these issues, a consistent pattern emerged immediately: transcriptomes isolated by \gls{dc} were systematically enriched for longer \glspl{rna} compared to \gls{wc} transcriptomes and other purification methods, even when the same cells and stressors were used (Figure 4.6). We hypothesised that this reflects a physical property of the technique itself: longer RNAs form heavier condensates, which sediment more readily during centrifugation\cite{glauninger_transcriptome-wide_2025}. Our \textit{in silico} simulations of \gls{sg} isolation reproduced this length bias closely, using both theoretical parameters and empirical sedimentation values from yeast\cite{glauninger_transcriptome-wide_2025} (Figure 4.14). Experimental support for this interpretation comes from yeast studies demonstrating that RNAs condense largely irrespective of their length, such that centrifugation naturally over-represents longer transcripts in the pellet\cite{glauninger_transcriptome-wide_2025}.
+It is important to acknowledge that this artefact has had downstream consequences in the field. Studies built on DC-purified transcriptomes, including one reporting enrichment of neurodegeneration-associated transcripts in \glspl{sg}, which happen to be longer than average\cite{sato_stress_2023}, may have drawn conclusions that reflect centrifugation physics rather than genuine \gls{sg} biology. Therapeutic strategies based on such findings would, in all likelihood, not translate. A flawed foundational method casts a long shadow.
+\\
+\\
+After computationally removing the estimated centrifugation-derived signal, the corrected \gls{dc} transcriptomes showed markedly reduced length bias and greater concordance with those obtained by other methods (Figure 4.16). This correction is necessarily an approximation: our model assumes that mitochondrial RNAs have higher sedimentation coefficients than nuclear-encoded transcripts, based on yeast data\cite{glauninger_transcriptome-wide_2025} that may not fully translate to human mitochondrial dynamics, and may in some cases have been overcorrected\footnote{This represents a case in which we worked against our own hypothesis. Had we not defined different dynamics for mitochondrial transcripts, all corrected DC studies would result in enrichment of these transcripts. Still, as we had evidence that suggested they possessed distinct dynamics, we acted accordingly.}. The polycistronic nature of mitochondrial transcripts\cite{dsouza_mitochondrial_2018} and the possibility that yeast pellets contained incidental \glspl{sg} both introduce additional uncertainty. We flag this transparently.
+
+\subsection{Mitochondrial RNA Enrichment as a Robust Signal}
+
+As introduced just above, one finding that survived all these corrections and methodological caveats was the enrichment of mitochondrially encoded RNAs in several purified \gls{sg} transcriptomes (Figure 4.17). This signal was attenuated by our centrifugation correction in DC datasets, consistent with our overcorrection concern, yet remained detectable across other isolation methods. Crucially, it was also observable in datasets that would otherwise be considered too flawed for inclusion. The Padron \gls{etal} 2019 study\cite{padron_proximity_2019}, for instance, has highly discordant replicates: one robustly shows mitochondrial RNA enrichment; the other does not. This is not a bioinformatic artefact, and to avoid the very confirmation bias we were guarding against, we excluded this dataset from our final analysis (Figure 4.16). Yet even here, the signal is detectable in half the data. If a biological signal is visible even under such unfavourable conditions, and is reproducible across substantially different methods, stressors, and cell types, it is more likely real.
+\\
+\\
+This leads to a broader point about what the \gls{sg} transcriptome actually is. Beyond mitochondrial RNA enrichment, no other transcript class, besides a few stress related transcripts, showed consistent or striking preferential enrichment across methods. \glspl{sg} appear, in essence, to represent a non-selective sample of the whole-cell transcriptome (Figure 4.7B). This suggests that the sequestration of specific pathways may not occur at the level of individual transcripts, but rather through bulk phase separation. The Somasekharan \gls{etal} 2020 study\cite{somasekharan_g3bp1-linked_2020} is particularly illuminating here: it includes polysome profiling data showing that stress-related transcripts are preferentially translated following stress initiation, consistent with a model of fine-tuned, selective translational prioritisation rather than slective sequestration. The \gls{sg} data from the same study, notably, does not show the length enrichment expected from a DC perspective, and the authors attribute this to their proximity-ligation approach rather than reconsidering the DC model\cite{somasekharan_g3bp1-linked_2020}, an instructive example of the confirmation bias described above.
+\\
+\\
+This view of \gls{sg}s as an unselective condensate also resonates with an observation made forty years ago by the late Susan Lindquist, who noted that translation arrest is accompanied by preferential translation of newly synthesised transcripts\cite{didomenico_heat_1982}. Regardless of what upstream event mediates the arrest, whether \gls{sg} assembly or the \gls{eif2a} phosphorylation that we know precedes it\cite{anderson_visibly_2002}, the outcome is a selective enrichment of novel transcripts in the actively translated pool. The \gls{sg} may simply be where everything else goes.
+\\
+\\
+The best science in this field supports exactly this kind of nuanced, self-correcting interpretation. The work of Drummond and Wallace\cite{glauninger_transcriptome-wide_2025} is exhaustive and reaches conclusions broadly consistent with our own. The foundational contributions of Kedersha, Anderson, and colleagues have advanced the field for decades with rigour and intellectual honesty. Even erroneous conclusions that have since been adopted beyond their intended scope are interpretive overreach on the part of others, not errors of the original authors.
+
+\subsection{Whole-Cell Transcriptomics Reveals an Anti-Inflammatory Function}
+
+Since purified \gls{sg} transcriptomes yielded limited discriminatory information beyond mitochondrial RNA enrichment, we shifted focus to the whole-cell transcriptome, asking what pathway-level changes accompany \gls{sg} presence. A direct comparison of stressed versus unstressed cells was insufficient, as it primarily captured general stress responses. By fitting linear models that included unstressed cells alongside stressed cells with and without \gls{sg}s, we isolated transcriptomic changes specifically associated with \gls{sg} assembly. This revealed a consistent pattern: mitochondrial RNA was downregulated, and inflammation-related pathways were significantly depleted in \gls{sg}-bearing cells (Figure 7.3). These findings suggest that \gls{sg}s fine-tune the stress response by dampening inflammatory signalling, a protective function that appears to operate independently of the specific stressor, having been observed under oxidative, hyperosmotic, and dsRNA-induced stress conditions. A strikingly similar transcriptomic profile was observed in senescent cells treated with \gls{mavs} pathway inhibition\cite{lopez-polo_release_2024} (Figure 7.5), raising the possibility that \gls{sg}s and senescence represent antagonistic or complementary arms of the same overarching stress-sensing framework.
+
+\subsection{A Mitochondrial Origin for the Inflammatory Signal}
+
+The observation that mitochondrially encoded RNAs, but not nuclear-encoded mitochondrial RNAs (Figure 4.17), were enriched in purified \gls{sg}s led us to hypothesise that the relevant species are mitochondrial dsRNAs, which arise naturally as byproducts of bidirectional mtDNA transcription\cite{dsouza_mitochondrial_2018}. Upon cytoplasmic release, these dsRNAs activate MDA5 and RIG-I, initiating inflammatory signalling\cite{dhir_mitochondrial_2018}. \gls{sg}s could therefore attenuate inflammation by sequestering mitochondrial dsRNA before it engages these sensors.
+\\
+\\
+To test this model, we exposed U2-OS cells to hyperosmotic stress, which perturbs but does not directly damage mitochondria\cite{ikizawa_mitochondria_2023}, alongside DIDS, a VDAC1/2 inhibitor previously shown to block cytoplasmic release of mitochondrial dsRNA\cite{krieger_trafficking_2024}. The result was unexpected: DIDS treatment completely abolished \gls{sg} assembly (Figure 9.2, 9.3). This suggests that mitochondrial permeability, or at minimum VDAC channel activity, is required for \gls{sg} formation, implicating mitochondrial dsRNA export, or another VDAC-dependent signal, as a potential trigger. We note, however, that DIDS-treated cells showed broadly similar diffuse G3BP1 distribution regardless of stress status, raising the possibility of pleiotropic cellular effects that complicate exclusive attribution to VDAC inhibition. Additionally, other mitochondria-derived damage signals, cytochrome c, cardiolipin, metabolic intermediates, cannot be excluded as contributing triggers, nor can impaired mitochondrial import of cytoplasmic factors.
+
+\subsection{Imaging Challenges and dsRNA Colocalisation}
+
+Because \gls{sg}s frequently form in close proximity to mitochondria\cite{amen_stress_2021, fung_production_2013}, standard confocal microscopy was insufficient for accurately quantifying dsRNA colocalisation within \gls{sg}s. Re-imaging with Airyscan and joint deconvolution substantially improved spatial resolution, but introduced new interpretive challenges: RNA-FISH samples' signal was effectively too unclear for proper quantification, and in IF samples  at this resolution, G3BP1 appeared as small discrete foci in both stressed and unstressed cells, rather than the diffuse distribution typically observed by conventional microscopy in unstressed conditions (Figure 9.2). This complicated discrimination of bona fide \gls{sg}s from background G3BP1 signal, and points to a broader issue in the field: \gls{sg} detection criteria, including the size thresholds implicit in standard imaging approaches, are rarely reported in sufficient detail, yet they can substantially influence what is classified as an \gls{sg}. Higher-resolution imaging reveals G3BP1-positive structures that fall below the visibility threshold of conventional microscopy, suggesting that current size-based definitions may underestimate \gls{sg} prevalence under moderate or physiological stress. Whether these smaller condensates recruit canonical \gls{sg} components and should be considered as actual \gls{sg}s remains an open question that the field would benefit from addressing systematically.
+\\
+\\
+Proceeding with quantification despite these limitations, we found that mitochondrial colocalisation with dsRNA was counterintuitively higher in stressed than in unstressed cells (Figure 10B). This may reflect enhanced dsRNA clearance under acute stress via nuclease activity or autophagy, or stress-induced mitochondrial remodelling that increases apparent colocalisation. Alternatively, baseline culture conditions may impose a low level of stress sufficient to promote mitochondrial dsRNA leakage but insufficient to trigger \gls{sg} assembly, leakage that \gls{sg}s, once formed, could then mitigate. Evidence from \textit{C. elegans} suggesting that translational inhibition, common during acute stress\cite{kedersha_g3bpcaprin1usp10_2016}, enhances mitochondrial function\cite{mallick_amp_2025} introduces a further layer of complexity, as increased mitochondrial activity could paradoxically elevate dsRNA production under stress.
+To isolate \gls{sg}-specific dsRNA uptake, we excluded signal colocalising with both mitochondria and \gls{sg}s, assigning triple-colocalisation conservatively to mitochondria, with unstressed cells serving as a baseline lacking cannonical \gls{sg}s. Under these stringent conditions, dsRNA-G3BP1 colocalisation was elevated under hyperosmotic stress, with a large effect size (AUC = 0.969; Cohen's d = 2.847), despite the absence of statistical significance owing to limited sample size (Figure 9.4). These data are fully consistent with the model that \gls{sg}s sequester cytoplasmic dsRNA under stress, but should be regarded as supportive rather than definitive pending further experimental validation. We also note that the J2 antibody recognises dsRNA non-specifically; although VDAC inhibition data and the well-established biology of mitochondrial dsRNA production\cite{krieger_trafficking_2024} argue for a predominantly mitochondrial origin, contributions from other dsRNA species, including transposable element-derived dsRNAs arising from nuclear destabilisation\cite{krieger_trafficking_2024}, cannot be excluded.
+
+\subsection{TIA1 Splicing as a Functional Readout of SG Sequestration}
+
+Complementary evidence for functional \gls{sg} sequestration came from differential splicing analysis. TIA1-regulated splicing events in stressed cells (in terms of differential binding) resembled those observed following TIA1 \gls{kd} (Figure 5.2), suggesting that a substantial fraction of TIA1 is functionally sequestered into \gls{sg}s during stress. Whether this splicing dysregulation is a direct consequence of \gls{sg} assembly or a parallel effect of upstream stress signalling remains unresolved. \gls{if} experiments were similarly inconclusive: despite TIA1's established nuclear localisation\cite{thul_subcellular_2017}, we observed predominantly cytoplasmic signal in both stressed and unstressed cultured cells (Figure 5.3), most likely reflecting the elevated basal stress characteristic of \textit{in vitro} conditions.
+
+\subsection{Single-Gene Approaches Are Insufficient to Study SG Function in Cancer}
+
+\gls{sg}s have been extensively implicated in cancer, where they have been associated with tumour aggressiveness\cite{somasekharan_yb-1_2015, fonteneau_stress_2022} and chemotherapy resistance\cite{grabocka_mutant_2016}. However, the \gls{ko} models used as controls in these studies typically target proteins with functions extending well beyond \gls{sg} assembly. We adopted the explicit null hypothesis that these additional functions could account for the reported phenotypes, and found that this hypothesis cannot be easily rejected (Figures 8.2, 8.3). This does not imply that \gls{sg}s play no role in cancer; it highlights, rather, the fundamental limitation of single-gene perturbation strategies for studying \gls{sg}-specific effects in oncological contexts.
+
+\subsection{The SG Score: A Transcriptomic Approach to SG Detection in Cancer}
+
+To circumvent the limitations of single-gene approaches, we developed a machine learning-derived transcriptomic signature, the \gls{sg} Score, using elastic net regression on integrated datasets\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023}. Following validation in an independent cohort\cite{paget_stress_2023} (Figure 8.3), the signature was applied across GDC-TCGA cancer datasets\cite{network_cancer_nodate, heath_nci_2021}. Contrary to the widely held assumption that \gls{sg} formation is globally elevated in cancer due to the prevalence of tumour-associated stress\cite{anderson_stress_2015}, elevated \gls{sg} Scores in tumour versus normal tissue were observed in only four of seventeen cancer types with sufficient normal sample representation; seven cancer types showed the opposite pattern (Figure 8.4). This is consistent with experimental observations that robust \gls{sg} assembly requires stress conditions more severe than those typically encountered in physiological or even many tumour settings\cite{glauninger_stressful_2022}.
+Survival analysis stratified by \gls{sg} Score, benchmarked against 100 randomly generated signatures to control for the well-documented tendency of gene signatures to show spurious prognostic value\cite{venet_most_2011, shimoni_association_2018}, identified four cancer types, ACC, CHOL, MESO, and STAD, in which higher \gls{sg} Scores were associated with significantly poorer outcomes (Figure 8.5). Notably, STAD showed lower \gls{sg} Scores in tumours than in normal tissue, and its prognostic association should therefore be interpreted with caution.
+\\
+\\
+To understand why prognostic relevance was restricted to this subset, we examined the transcriptional landscape of these cancers relative to other TCGA tumours (Figure 8.6). These four types were characterised by reduced BCL2 expression, lower proliferation, and enrichment of \gls{emt} and inflammatory pathways, features that may reflect an inflammatory microenvironment supportive of anti-tumour immunity\cite{vogler_bcl2_2025}. Within these cancers, however, higher \gls{sg} Scores were associated with an apparent inversion: reduced \gls{emt}, increased proliferation programmes, and persistently elevated interferon-\alpha and -\gamma responses (Figure 8.6). This pattern is more consistent with \gls{sg}s mitigating, rather than abolishing, stress-induced inflammation, and may also simply reflect a comparison of tumours under high versus lower stress burden, where \gls{sg}-high tumours are more stressed overall. That \gls{emt}, and by extension, potentially metastatic potential, is strongly downregulated in this comparison aligns with evidence that metastasis depends on chronic inflammation\cite{nishida_role_2025}, and offers a plausible mechanistic link. Repeating the survival analysis using the two most enriched basal gene sets, \gls{nfkb} signalling and \gls{emt}, confirmed that neither was independently prognostic in these cancer types, suggesting that the \gls{sg} Score captures biology not reducible to these pathways alone.
+\\
+\\
+A particularly notable finding was the upregulation of \textit{HK2} in \gls{sg}-high tumours (Figure 8.6C), a gene known to promote VDAC pore opening and facilitate ATP transport from mitochondria to the cytosol\cite{haloi_structural_2021}. Given that VDAC pores also serve as conduits for mitochondrial dsRNA efflux\cite{krieger_trafficking_2024}, this observation is consistent with our proposed model linking mitochondrial nucleic acid release to \gls{sg} assembly and inflammatory signalling. We present this as a hypothesis rather than a conclusion, and note that no direct experimental validation was performed in the cancer context. We call attention to it here in the hope of guiding future studies.
+
+\section{Conclusions and Future Directions}
+
+In summary, we identified and addressed several methodological challenges inherent to \gls{sg}-related transcriptomic datasets, and assembled what we propose is a more accurate representation of the \gls{sg} transcriptome and its associated whole-cell expression changes. \gls{sg} formation was consistently linked to downregulation of mitochondrial RNA and inflammation-related pathways, a finding that held across stressors, cell types, and isolation methods, and that therefore carries considerable evidential weight precisely because it is reproducible under highly variable, and at times imperfect, conditions.
+Several important caveats must be acknowledged. Our analysis did not distinguish between \gls{sg} subtypes, which differ in their dependence on \gls{eif2a} phosphorylation and can contribute to cross-dataset variability. The centrifugation correction, while effective in reducing length bias, rests on assumptions derived from yeast sedimentation data that may not fully generalise to human cells. Mitochondrial RNA enrichment was not observed in all datasets passing quality thresholds, partly a consequence of potential overcorrection, and our imaging experiments, though supportive of the dsRNA sequestration model, are limited by sample size and antibody non-specificity. The SG Score, while showing promise as a prognostic biomarker, requires validation in prospective and independent datasets before its clinical utility can be assessed.
+\\
+\\
+The field would benefit from a second meta-analysis once transcriptomics studies employing more rigorous and standardised \gls{sg} isolation methods have accumulated. The mechanistic links between mitochondria, \gls{sg}s, and inflammatory signalling uncovered here, particularly the putative requirement for VDAC activity in \gls{sg} assembly, and the enrichment of \textit{HK2} in prognostically relevant tumours, necessitates direct experimental follow-up. We identified the continent and mapped the coastline; the interior remains to be explored.
