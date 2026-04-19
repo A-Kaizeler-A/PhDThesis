@@ -1,72 +1,66 @@
 This is BibTeX, Version 0.99e (TeX Live 2026)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: PhD Thesis.aux
-White space in argument---line 2775 of file PhD Thesis.aux
- : \citation{\cite
- :                 {ren_profiling_2023}}
-I'm skipping whatever remains of this command
 The style file: plos2015.bst
-Reallocated field_info (elt_size=4) to 15404 items from 5000.
+Reallocated field_info (elt_size=4) to 15506 items from 5000.
 Database file #1: refs.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--I didn't find a database entry for "gould2010panda"
-Warning--I didn't find a database entry for "glauninger_transcriptome-wide_2024"
-Warning--I didn't find a database entry for "kodali_rna_2022"
-Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "khong_stress_2017)"
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--there's a month but no year in network_cancer_nodate
 Warning--there's a month but no year in tcga_research_network_cancer_nodate
-Warning--empty year in smyth_linear_nodate
-Warning--there's a month but no year in bd_biosciences_bd_nodate
 Warning--there's a month but no year in thermo_fisher_dna_nodate
 Warning--empty author in noauthor_nomenclature_1985
 `journal' is a missing field, not a string, for entry svedberg_ultracentrifuge_1940
 while executing---line 3749 of file plos2015.bst
 Warning--empty journal in svedberg_ultracentrifuge_1940
+Warning--empty year in smyth_linear_nodate
 Warning--empty author in noauthor_human_nodate
 Warning--there's a month but no year in noauthor_human_nodate
-Warning--there's a month but no year in network_cancer_nodate
-You've used 302 entries,
+Warning--empty author in noauthor_sparc-p53_2020
+Warning--there's a month but no year in bd_biosciences_bd_nodate
+You've used 308 entries,
             3058 wiz_defined-function locations,
-            2675 strings with 110663 characters,
-and the built_in function-call counts, 806061 in all, are:
-= -- 99951
-> -- 5516
-< -- 5
-+ -- 3402
-- -- 1378
-* -- 73685
-:= -- 88027
-add.period$ -- 1452
-call.type$ -- 302
-change.case$ -- 4
+            2710 strings with 112021 characters,
+and the built_in function-call counts, 815931 in all, are:
+= -- 101211
+> -- 5593
+< -- 7
++ -- 3444
+- -- 1397
+* -- 74507
+:= -- 89105
+add.period$ -- 1481
+call.type$ -- 308
+change.case$ -- 6
 chr.to.int$ -- 6
-cite$ -- 311
-duplicate$ -- 50997
-empty$ -- 78921
-format.name$ -- 1654
-if$ -- 185516
+cite$ -- 318
+duplicate$ -- 51815
+empty$ -- 79849
+format.name$ -- 1677
+if$ -- 187819
 int.to.chr$ -- 0
-int.to.str$ -- 302
-missing$ -- 3151
-newline$ -- 1774
-num.names$ -- 300
-pop$ -- 4355
+int.to.str$ -- 308
+missing$ -- 3208
+newline$ -- 1809
+num.names$ -- 305
+pop$ -- 4440
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5225
+skip$ -- 5331
 stack$ -- 0
-substring$ -- 184466
-swap$ -- 7880
-text.length$ -- 3
+substring$ -- 186331
+swap$ -- 8033
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 3318
-width$ -- 305
-write$ -- 3845
-(There were 2 error messages)
+warning$ -- 10
+while$ -- 3373
+width$ -- 311
+write$ -- 3923
+(There was 1 error message)

@@ -2,13 +2,13 @@
 \chapter{The WC Transcriptome}
 \label{chap:ChapterIV}
 
-In the \gls{sg} transcriptome chapter (Chapter 4), we identified a technical batch effect introduced by the \gls{sg} isolation method. The \gls{wc} transcriptomes were not expected to carry such systematic biases, given the greater consistency of their collection procedure. However, multiple confounding variables could still influence the results, making the assessment of the \gls{wc} transcriptome less straightforward than initially anticipated.
+In the \gls{sg} transcriptome chapter (Chapter 3), we identified a technical batch effect introduced by \gls{dc} as a \gls{sg} isolation method. In contrast, whole-cell (\gls{wc}) transcriptomes are not subject to this specific source of bias, as they reflect the total cellular RNA content without fractionation-based enrichment steps, and are therefore better suited as a baseline for comparative analyses. Importantly, the \gls{wc} transcriptome serves two key roles in this context: it provides the reference state against which transcriptional changes induced by \gls{sg} assembly can be measured, and it enables the derivation of a \gls{sg}-associated transcriptional signature, which will be introduced in more detail in a later chapter. However, despite this advantage, \gls{wc} transcriptomes remain influenced by biological and technical confounders, which must be considered in downstream analyses.
 
 \section{Materials and Methods}
 
 \subsection{Dataset Procurement}
 
-For dataset procurement, we queried the \gls{geo} Datasets repository using the term ``stress granule", filtering for expression profiling by high-throughput sequencing and restricting results to human samples, following a strategy similar to that described in Section 4.1.1. As done for Chapter 5, we specifically targeted studies including both stressed and unstressed conditions, as well as experimental setups with and without \gls{sg} formation. 
+For dataset procurement, we queried the \gls{geo} Datasets repository using the term ``stress granule", filtering for expression profiling by high-throughput sequencing and restricting results to human samples, following a strategy similar to that described in Section 4.1.1. As done for Chapter 4, we specifically targeted studies including both stressed and unstressed conditions, as well as experimental setups with and without \gls{sg} formation. 
 \linebreak
 \noindent
 The following datasets, were used throughout this work:
@@ -19,18 +19,15 @@ The following datasets, were used throughout this work:
 	\item GSE173953\cite{paget_stress_2023}.
 \end{itemize}
 \noindent
-All these datasets, or their joint integration, allowed for uncoupling of the transcriptomic effect of \textbf{stress} and/or \textbf{genotype}, from the effect of \textbf{\gls{sg} assembly} alone, which would otherwise confound the analyses.
+All these datasets, or their joint integration, allowed for uncoupling of the transcriptomic effect of \textbf{stress} (unstressed, or stress type) and/or \textbf{genotype} (\gls{wt} or \gls{ko} for proteins important for SG assembly), from the effect of \textbf{\gls{sg} assembly} alone, which would otherwise confound the analyses.
 \\
 \linebreak
 \noindent
-During the literature review, we identified an unrelated dataset exhibiting a transcriptomic profile almost opposite to our putative \gls{sg} effect. To enable direct comparison between these two phenotypes, this senescent dataset (GSE236521\cite{lopez-polo_release_2024}) was also included.
-\\
-\\
-The batch correction methodology is described in the Results section of this chapter (Section 7.2.2).
+During the literature review, we identified an unrelated dataset, and noticed that it exhibited a transcriptomic profile almost opposite to our putative \gls{sg} effect. To enable direct comparison between these two phenotypes, this senescent dataset (GSE236521\cite{lopez-polo_release_2024}) was also included.
 
 \subsection{Dataset Pre-processing}
 
-Downloaded raw reads (in FASTQ format) were trimmed using Trimmomatic (v0.39)\cite{bolger_trimmomatic_2014} operating in either \gls{se} or \gls{pe} mode, depending on the original study design, with appropriate adapter sequences and parameters. Trimmed reads were then aligned to the \gls{hg38} reference genome using STAR (v2.7.9a)\cite{dobin_star_2013} with the following parameters:
+Downloaded raw reads (in FASTQ format) were trimmed using Trimmomatic (v0.39)\cite{bolger_trimmomatic_2014} operating in either \gls{se} or \gls{pe} mode, depending on the original study design, with appropriate adapter sequences, using default parameters. Trimmed reads were then aligned to the \gls{hg38} reference genome using STAR (v2.7.9a)\cite{dobin_star_2013} with the following parameters:
 
 \begin{lstlisting}
 	--outFilterType BySJout
@@ -45,10 +42,6 @@ Downloaded raw reads (in FASTQ format) were trimmed using Trimmomatic (v0.39)\ci
 \end{lstlisting}
 \noindent
 Aligned reads (\gls{bam} files) were subsequently annotated using the GENCODE v42 primary assembly\cite{frankish_gencode_2021} and quantified with featureCounts (v2.0.3)\cite{liao_featurecounts_2014}.
-\\
-\linebreak
-\noindent
-For voyAGEr related pre-processing, please consult original publication\cite{schneider_voyager_2024}.
 
 \subsection{Correlations}
 
@@ -60,24 +53,24 @@ To model expression changes between conditions, linear models were fitted to the
 
 \subsection{GSEA}
 
-For each variable of interest, such as \gls{sg} effect, \gls{gsea}\cite{subramanian_gene_2005} was performed using the fgsea (v1.20.0)\cite{korotkevich_fast_2016} R package. Genes were ranked by t-statistics from differential expression analysis, ordered from most positive to most negative, and analysed against the Hallmark gene sets\cite{liberzon_molecular_2015}. The \gls{nes} was extracted to quantify the extent to which a given gene set is enriched at the extremes of the ranked gene list. A positive \gls{nes} indicates that the gene set is enriched amongst over-expressed genes, whereas a negative \gls{nes} indicates depletion.
+For each variable of interest, such as the transcriptomic effect of \gls{sg} assembly, \gls{gsea}\cite{subramanian_gene_2005} was performed using the fgsea (v1.20.0)\cite{korotkevich_fast_2016} R package. Genes were ranked by t-statistics from differential expression analysis, ordered from most positive to most negative, and analysed against the Hallmark gene sets\cite{liberzon_molecular_2015}. The \gls{nes} was extracted to quantify the extent to which a given gene set is enriched at the extremes of the ranked gene list.
 
 \subsection{\textit{In Silico} Resources}
 
 All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
-Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, and featureCounts\cite{liao_featurecounts_2014}. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). voyAGEr was created as an open usage suite with RShiny (v1.11.1), and is hosted in the host lab's tool/app website.
+Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, and featureCounts\cite{liao_featurecounts_2014}. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). voyAGEr is an open usage suite developed with RShiny (v1.11.1), hosted in the host lab's web server.
 
 
 \section{voyAGEr: a free web interface for the analysis of age-related gene expression alterations in human tissues}
 
-To illustrate how even methodologically consistent comparisons, such as those relying on standard \gls{wc} \gls{rna} extraction procedures, can still yield substantial analytical challenges, a relevant side project warrants mention here. This involved the development of \textbf{voyAGEr}, an application to explore age-related gene expression alterations in \gls{gtex}\cite{lonsdale_genotype-tissue_2013} samples, which resulted in a first-author publication\cite{schneider_voyager_2024}.
+To illustrate how even methodologically consistent comparisons, such as those relying on standard \gls{wc} \gls{rna} extraction procedures, can still yield substantial analytical challenges, a relevant side project warrants mention here. This involved the development of \textbf{voyAGEr}, an application to explore age-related gene expression alterations in \gls{gtex}\cite{lonsdale_genotype-tissue_2013} samples, which resulted in a co-first author publication\cite{schneider_voyager_2024}.
 
 \subsection{Sample Origin as a Confounder}
 
-The \gls{gtex} project encompasses two major sample types: organ donor samples, obtained from organ retrieval following, for example, fatal accidents, and \textit{post-mortem} samples, collected from individuals who passed away in a hospital setting\cite{lonsdale_genotype-tissue_2013}. While the distinction in nomenclature is somewhat misleading, as both types are technically obtained \textit{post-mortem}, they differ substantially in practice\cite{schneider_voyager_2024}. Donor samples tend to span a broader age range, as fatal accidents affect both younger and older individuals, whereas hospital-derived \textit{post-mortem} samples are typically collected from older individuals\cite{schneider_voyager_2024}. This results in an overrepresentation of donor samples at younger ages\cite{schneider_voyager_2024}.
+The transcriptomic arm of the \gls{gtex} project encompasses two major \gls{rnaseq} sample types: organ donor samples, obtained from organ retrieval following, for example, fatal accidents, and \textit{post-mortem} samples, collected from individuals who passed away in a hospital setting\cite{lonsdale_genotype-tissue_2013}. While the distinction in nomenclature is somewhat misleading, as both types are technically obtained \textit{post-mortem}, they differ substantially in practice\cite{schneider_voyager_2024}. Donor samples tend to span a broader age range, as fatal accidents affect both younger and older individuals, whereas hospital-derived \textit{post-mortem} samples are typically collected from older individuals\cite{schneider_voyager_2024}. This results in an overrepresentation of donor samples at younger ages\cite{schneider_voyager_2024}.
 \\
 \\
-Additionally, these two sample types typically exhibit substantial transcriptomic differences (Figure 7.1), owing for instance to disparities in ischemic time: hospital-collected samples are processed promptly, whereas donor samples from accident scenes inevitably incur delays before processing\cite{schneider_voyager_2024}. \gls{rna} degradation can therefore introduce systematic differences in gene expression even between age-matched samples of different origins. Since donor and \textit{post-mortem} samples are not balanced across age groups, this constitutes a confound that could be misattributed to ageing itself, a concern that was indeed raised by reviewers during the submission process\cite{schneider_voyager_2024}.
+Additionally, these two sample types typically exhibit substantial transcriptomic differences (Figure 5.1), owing for instance to disparities in ischemic time: hospital-collected samples are processed promptly, whereas donor samples from accident scenes inevitably incur delays before processing\cite{schneider_voyager_2024}. \gls{rna} degradation can therefore introduce systematic differences in gene expression even between age-matched samples of different origins. Since donor and \textit{post-mortem} samples are not balanced across age groups, this constitutes a confound that could be misattributed to ageing itself, a concern that was indeed raised by reviewers during the submission process\cite{schneider_voyager_2024}\footnote{Citting one such comment directly, as an example of the importance of the peer review process: "\textit{The authors did not address any correction for batch effects or RNA integrity numbers, which are known to affect transcriptome profiles. For instance, our analysis of GTEx v8 Cortex tissue revealed that after filtering out lowly expressed genes, in the same way authors did, PC1 (which accounts for 24\% of the variation) had a Spearman's correlation value of 0.48 (p<6.1e-16) with RNA integrity number.}"}.
 
 \begin{figure}[H]
 	\centering
@@ -90,16 +83,17 @@ Additionally, these two sample types typically exhibit substantial transcriptomi
 \subsection{Batch Correction as a Solution}
 
 This does not render the GTEx datasets\cite{lonsdale_genotype-tissue_2013} unsuitable for inferring age-related expression changes. Given the large number of available samples, it is possible to statistically partition observed gene expression alterations into those attributable to confounding variables and those of genuine biological interest.
-A clear illustration of this is the expression of \textit{SFTPA2}, which exhibits a strongly bimodal distribution corresponding precisely to the two sample types (Figure 7.2A). This is unsurprising, as \textit{SFTPA2} expression is associated with ventilator usage\cite{mccall_complex_2016}, a variable directly linked to one of the sample types (\textit{post-mortem}), resulting in a pronounced difference between them. While, this difference is biologically real rather than a technical artefact, it can still be regarded as a batch effect in this context, as it is exclusively associated with one sample type. 
+A clear illustration of this is the expression of \textit{SFTPA2}, which exhibits a strongly bimodal distribution corresponding precisely to the two sample types (Figure 5.2A). This is unsurprising, as \textit{SFTPA2} expression is associated with ventilator usage\cite{mccall_complex_2016}, a variable directly linked to one of the sample types (\textit{post-mortem}), resulting in a pronounced difference between them. While, this difference is biologically real rather than a technical artefact, it can still be regarded as a batch effect in this context, as it is exclusively associated with one sample type. 
 \linebreak
 \noindent
 This highlights a key conceptual point: whether a variable constitutes a batch effect is not determined by its biological or technical nature, but by whether it is a variable of interest for the question at hand. For instance, if the goal is to identify expression changes common across cell types in response to a treatment, cell type itself may be treated as a batch effect, provided of course cell-type-specific effects are not of interest.
 Resolving such confounds requires batch effect correction, the effectiveness of which scales with sample size. A critical prerequisite, however, is that confounding variables must not be collinear with variables of interest: if stressed neurons and unstressed fibroblasts comprise the entire dataset, stress and cell type are inseparable, rendering correction invalid. Adequate sample representation across all conditions is therefore essential, a requirement readily met by a resource as large as GTEx\cite{lonsdale_genotype-tissue_2013, schneider_voyager_2024}.
 \\
 \\
-Although several batch correction methods exist, a dedicated approach was developed for \textbf{voyAGEr} (see the original publication for a detailed description\cite{schneider_voyager_2024}). Briefly, a linear model is fitted incorporating both the batch variable (sample type: donor vs. \textit{post-mortem}) and the variables of interest (age and sex). The component of expression variation attributable to the batch effect, excluding that explained by the variables of interest, is estimated and subtracted from the original expression matrix. Linear models are subsequently refitted on this corrected matrix using only the variables of interest, enabling attribution of expression changes to age and sex specifically.
+Although several batch correction methods exist, a dedicated approach was developed for \textbf{voyAGEr} (see the original publication for a detailed description\cite{schneider_voyager_2024}). Briefly, unwanted sources of variation were corrected on a tissue-by-tissue basis by adapting the \texttt{removeBatchEffect} function from the limma package\cite{ritchie_limma_2015}. This approach fits a linear model in which gene expression is regressed against both the variables of interest (age and sex) and additional covariates capturing technical and biological confounders, including sample type (donor vs. post-mortem) and other flagged batch effects. The estimated contributions of these batch effect variables are then removed from the original logCPM expression matrix, yielding a corrected expression profile in which systematic effects unrelated to age and sex are reduced. To preserve biological interpretability, the corrected expression values were subsequently offset to match the minimum value of the original (uncorrected) matrix.
 \\
-This is a conservative approach, as only mean expression differences between sample types are removed. Alternative methods such as \texttt{ComBat} additionally correct for variance differences across batches\cite{johnson_adjusting_2007}. That is, when a gene exhibits greater variability within one sample type than another\cite{johnson_adjusting_2007}. This represents a more aggressive correction, which risks removing genuine biological signal. Since the conservative approach was sufficient to resolve the confound in \textbf{voyAGEr}\cite{schneider_voyager_2024} (Figure 7.2B), it was preferred in order to maximise retention of true biological signal.
+\\
+This is a conservative approach, as only mean expression differences between sample types are removed. Alternative methods such as \texttt{ComBat} additionally correct for variance differences across batches\cite{johnson_adjusting_2007}. That is, when a gene exhibits greater variability within one sample type than another\cite{johnson_adjusting_2007}. This represents a more aggressive correction, which risks removing genuine biological signal. Since the conservative approach was sufficient to resolve the confound in \textbf{voyAGEr}\cite{schneider_voyager_2024} (Figure 5.2B), it was preferred in order to maximise retention of true biological signal.
 
 \begin{figure}[H]
 	\centering
@@ -114,19 +108,22 @@ This is a conservative approach, as only mean expression differences between sam
 
 \subsection{SGs are Anti-Inflammatory}
 
-As outlined in the aims, most publicly available datasets do not perform \gls{sg}-detection, making it necessary to infer their presence and functional impact from \gls{wc} transcriptomes. A central challenge in this approach is disentangling \gls{sg}-specific effects from the broader cellular stress response.
+As outlined in the aims, most publicly available datasets do not have annotated the presence of SGs in their samples, making it necessary to infer their presence and functional impact from \gls{wc} transcriptomes. A central challenge in this approach is disentangling \gls{sg}-specific effects from the broader cellular stress response.
 \\
-To address this, we leveraged G3BP1/G3BP2 \gls{ko} cells, which fail to form morphologically detectable \glspl{sg} under oxidative and viral dsRNA induced stress\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023}. This system enables separation of \gls{sg}-dependent and \gls{sg}-independent stress responses. By comparing \gls{ko} and \gls{wt} cells under both stressed and unstressed conditions, we were able to isolate the individual contributions of \gls{sg} assembly, stress, and genotype to the \gls{wc} transcriptome (see 4.2.5)\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023}.
+\\
+To address this, we leveraged G3BP1/G3BP2 \gls{ko} cells, which fail to form morphologically detectable \glspl{sg} under oxidative and viral dsRNA induced stress\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023}. This system enables separation of \gls{sg}-dependent and \gls{sg}-independent stress responses (with the caveat that we are assuming that these \gls{ko} cells present with a canonical stress response). By comparing \gls{ko} and \gls{wt} cells under both stressed and unstressed conditions, we were able to isolate the individual contributions of \gls{sg} assembly, stress, and genotype to the \gls{wc} transcriptome (see 4.2.5)\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023, paget_stress_2023}.
+\\
 \\
 Given that the experimental protocols across datasets were comparable, all samples were jointly analysed following integration. Because the variable of interest was \gls{sg}-driven transcriptomic variation, other factors (e.g., stress condition and genotype) were treated as confounding sources of variation\footnote{While the contribution of these effects would be appropriately accounted for with their inclusion in the linear model, for purposes of deriving the SG-specific transcriptomic signature, these extraneous sources of variation were directly subtracted from the expression matrix.}.
 \\
 \linebreak
 \noindent
-Contrary to their proposed role in fine-tuning the cellular stress response, our results suggest that \glspl{sg} attenuate it, with robust downregulation of stress- and immune-associated pathways, including interferon responses, \gls{nfkb}, and interleukin signaling (Figure 7.3A). Apoptosis-related pathways were similarly downregulated, consistent with the proposed role of \glspl{sg} in suppressing apoptotic processes (see 1.1.4).
+Contrary to their proposed role in fine-tuning the cellular stress response, by exacerbating its effect (\gls{vi} section 1.1.4), our results suggest that \glspl{sg} attenuate it, with robust downregulation of stress- and immune-associated pathways, including interferon responses, \gls{nfkb}, and interleukin signaling (Figure 5.3A). Despite this surprising attenuation effect, we observed that apoptosis-related pathways were similarly downregulated, consistent with the proposed role of \glspl{sg} in suppressing apoptotic processes (\gls{vi} section 1.1.4).
 \\
-Functionally, these observations support a model in which \glspl{sg} act as ``shock absorbers" dampening excessive immune activation, as described in the source publication of one of the used datasets, in the context of dsRNA-mediated responses\cite{paget_stress_2023}. Notably, this pattern appears consistent across other stress conditions, as the other datasets\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023}, with oxidative and hyperosmotic stress, exhibit the same anti-inflammatory profile.
 \\
-At the gene level, we observed downregulation of \textit{\gls{fos}}, an immediate-early stress-responsive gene\cite{zhou_role_2007}, alongside upregulation of \textit{\gls{serpine1}}, a senescence-associated gene (also known as \textit{\gls{pai1}}) and component of the \gls{sasp}\cite{omer_stress_2018} (Figure 7.3B). In addition, multiple mitochondrially encoded genes were consistently downregulated (Figure 7.3B).
+Functionally, these observations support a model in which \glspl{sg} act as ``shock absorbers" dampening excessive immune activation, as described in the source publication of one of the used datasets, in the context of dsRNA-mediated responses\cite{paget_stress_2023}. Notably, this pattern appears consistent across other stress conditions, as the other datasets\cite{matheny_transcriptome-wide_2019, matheny_rna_2021, matheny_corrigendum_2023}, with oxidative and hyperosmotic stress, exhibit the same anti-inflammatory profile (Figure 3.17A).
+\\
+At the gene level, we observed downregulation of \textit{\gls{fos}}, an immediate-early stress-responsive gene\cite{zhou_role_2007}, alongside upregulation of \textit{\gls{serpine1}}, a senescence-associated gene (also known as \textit{\gls{pai1}}) and component of the \gls{sasp}\cite{omer_stress_2018}, previously described as being sequestered in \gls{sg}s\cite{omer_stress_2018} (Figure 5.3B). In addition, multiple mitochondrially encoded genes were consistently downregulated (Figure 5.3B).
 
 
 \begin{figure}[H]
@@ -136,11 +133,11 @@ At the gene level, we observed downregulation of \textit{\gls{fos}}, an immediat
 	\label{fig:Figure7.3}
 \end{figure}
 \noindent
-Since one of the theorised functions of \glspl{sg} is to sequester transcripts from pathways whose expression is temporarily suppressed, we considered whether the \gls{wc} transcriptome may exhibit an inverse correlation with the previously analysed \gls{sg} transcriptome\footnote{It is worth noting, however, that it remains unclear whether \gls{sg}-sequestered \glspl{rna} are captured during standard \gls{wc} \gls{rna} extraction, as they may be removed during cleaning steps alongside large organelles such as mitochondria. To our knowledge, this has not been directly demonstrated, and is therefore presented here as a hypothesis. Furthermore, since only a fraction of cellular \glspl{sg} are localised to \glspl{sg}, it is uncertain whether their loss would produce any detectable differences in the \gls{wc} transcriptome.}. 
-Examining these comparisons, the PL-derived dataset from Somasekharan \gls{etal}\cite{somasekharan_g3bp1-linked_2020} 2020 aligns more closely with \gls{wc} transcriptomes than other \gls{sg} datasets (Figure 4.16), possibly reflecting that only 20\% of G3BP1 localises to \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}. In contrast, the PL-derived dataset from Ren \gls{etal} 2023\cite{ren_profiling_2023}, targeting the same protein, does not, which complicates this interpretation (Figure 4.16).
+Since one of the proposed functions of \glspl{sg} is the selective sequestration of mRNAs from specific functional programmes during stress, effectively reducing their cytoplasmic availability for translation, we investigated whether the \gls{wc} transcriptome shows an inverse relationship with the corresponding \gls{sg}-associated RNA profiles\footnote{It remains unclear whether \gls{sg}-associated \glspl{rna} are efficiently recovered during standard \gls{wc} RNA extraction protocols. A potential technical contribution may arise if transcripts associated with higher-order ribonucleoprotein assemblies or organelle-linked structures are differentially retained or lost during extraction, thereby affecting their representation in RNA-seq data. However, to our knowledge, this has not been directly demonstrated and is therefore considered a hypothesis.}. 
+Examining these comparisons, the PL-derived dataset from Somasekharan \gls{etal}\cite{somasekharan_g3bp1-linked_2020} 2020 aligns more closely with \gls{wc} transcriptomes than other \gls{sg} datasets (Figure 3.16), possibly reflecting that only 20\% of G3BP1 localises to \glspl{sg}\cite{somasekharan_g3bp1-linked_2020}. In contrast, the PL-derived dataset from Ren \gls{etal} 2023\cite{ren_profiling_2023}, targeting the same protein, does not, which complicates this interpretation (Figure 3.16).
 \\
 \\
-To explore the mechanisms underlying the dampening of stress and inflammatory signalling suggested by the meta-analysis, \gls{wc} transcriptomes from \gls{sg}-bearing cells were compared against \gls{sg}-enriched transcripts. Although no overall correlation was observed, mitochondrial \glspl{rna} were consistently anti-correlated between the two (Figure 7.4).
+To explore the mechanisms underlying the dampening of stress and inflammatory signalling suggested by the meta-analysis, \gls{wc} transcriptomes from \gls{sg}-bearing cells were compared against \gls{sg}-enriched transcripts, using our previously introduced corrections. Although no overall correlation was observed, mitochondrial \glspl{rna} were consistently anti-correlated between the two (Figure 5.4).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"../../../Desktop/Paper Images/TESE_Fig7.4"}
@@ -151,7 +148,7 @@ To explore the mechanisms underlying the dampening of stress and inflammatory si
 
 \subsection{SGs Have Opposite Roles to Senescence}
 
-Consistent with the reported role of \glspl{sg} as senescence inhibitors\cite{omer_stress_2018}, and in line with our results regarding \textit{SERPINE1}, a recent study targeting the \gls{sasp} identified downregulation of pathways analogous to those observed during \gls{sg} assembly\cite{lopez-polo_release_2024}. A direct comparison, however, reveals notable differences in gene expression between \gls{sasp} inhibition and \gls{sg} formation (Figure 7.5A). Nevertheless, both conditions shared downregulation of mitochondrially encoded \glspl{rna}, and despite weak overall correlations, \gls{gsea} revealed broad suppression of inflammation-related pathways (Figure 7.5B). Given that both senescence and \gls{sg} formation are triggered by cellular stress, it is plausible that they represent distinct responses to a common stimulus, or that dysregulated \gls{sg} homeostasis may contribute to the onset of senescence.
+Consistent with the reported role of \glspl{sg} as senescence inhibitors\cite{omer_stress_2018}, and in line with our results regarding \textit{SERPINE1}, a recent study targeting the \gls{sasp} identified downregulation of pathways analogous to those observed during \gls{sg} assembly\cite{lopez-polo_release_2024}. A direct comparison, however, reveals notable differences in gene expression between \gls{sasp} inhibition and \gls{sg} formation (Figure 5.5A). Nevertheless, both conditions shared downregulation of mitochondrially encoded \glspl{rna}, and despite weak overall correlations, \gls{gsea} revealed broad suppression of inflammation-related pathways (Figure 5.5B). Given that both senescence and \gls{sg} formation are triggered by cellular stress, it is plausible that they represent distinct responses to a common stimulus, or that dysregulated \gls{sg} homeostasis may contribute to the onset of senescence.
 
 \begin{figure}[H]
 	\centering

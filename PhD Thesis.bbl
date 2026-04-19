@@ -69,6 +69,199 @@ Ivanov P, Kedersha N, Anderson P.
 \newblock Cold Spring Harbor Perspectives in Biology. 2019;11(5):a032813.
 \newblock doi:{10.1101/cshperspect.a032813}.
 
+\bibitem{kedersha_rna-binding_1999}
+Kedersha NL, Gupta M, Li W, Miller I, Anderson P.
+\newblock {RNA}-binding proteins {TIA}-1 and {TIAR} link the phosphorylation of
+  {eIF}-2 alpha to the assembly of mammalian stress granules.
+\newblock The Journal of Cell Biology. 1999;147(7):1431--1442.
+\newblock doi:{10.1083/jcb.147.7.1431}.
+
+\bibitem{kedersha_g3bpcaprin1usp10_2016}
+Kedersha N, Panas MD, Achorn CA, Lyons S, Tisdale S, Hickman T, et~al.
+\newblock {G3BP}–{Caprin1}–{USP10} complexes mediate stress granule
+  condensation and associate with {40S} subunits.
+\newblock Journal of Cell Biology. 2016;212(7):e201508028.
+\newblock doi:{10.1083/jcb.201508028}.
+
+\bibitem{marcelo_stress_2021}
+Marcelo A, Koppenol R, de~Almeida LP, Matos CA, Nóbrega C.
+\newblock Stress granules, {RNA}-binding proteins and polyglutamine diseases:
+  too much aggregation?
+\newblock Cell Death \& Disease. 2021;12(6):592.
+\newblock doi:{10.1038/s41419-021-03873-8}.
+
+\bibitem{arimoto_formation_2008}
+Arimoto K, Fukuda H, Imajoh-Ohmi S, Saito H, Takekawa M.
+\newblock Formation of stress granules inhibits apoptosis by suppressing
+  stress-responsive {MAPK} pathways.
+\newblock Nature Cell Biology. 2008;10(11):1324--1332.
+\newblock doi:{10.1038/ncb1791}.
+
+\bibitem{tsai_rhoarock1_2010}
+Tsai NP, Wei LN.
+\newblock {RhoA}/{ROCK1} signaling regulates stress granule formation and
+  apoptosis.
+\newblock Cellular Signalling. 2010;22(4):668--675.
+\newblock doi:{10.1016/j.cellsig.2009.12.001}.
+
+\bibitem{fujikawa_stress_2023}
+Fujikawa D, Nakamura T, Yoshioka D, Li Z, Moriizumi H, Taguchi M, et~al.
+\newblock Stress granule formation inhibits stress-induced apoptosis by
+  selectively sequestering executioner caspases.
+\newblock Current Biology. 2023;33(10):1967--1981.e8.
+\newblock doi:{10.1016/j.cub.2023.04.012}.
+
+\bibitem{omer_stress_2018}
+Omer A, Patel D, Lian XJ, Sadek J, Di~Marco S, Pause A, et~al.
+\newblock Stress granules counteract senescence by sequestration of {PAI}‐1.
+\newblock EMBO reports. 2018;19(5):e44722.
+\newblock doi:{10.15252/embr.201744722}.
+
+\bibitem{park_stress_2017}
+Park C, Choi S, Kim YE, Lee S, Park SH, Adelstein RS, et~al.
+\newblock Stress {Granules} {Contain} {Rbfox2} with {Cell} {Cycle}-related
+  {mRNAs}.
+\newblock Scientific Reports. 2017;7(1):11211.
+\newblock doi:{10.1038/s41598-017-11651-w}.
+
+\bibitem{mateju_single-molecule_2020}
+Mateju D, Eichenberger B, Voigt F, Eglinger J, Roth G, Chao JA.
+\newblock Single-{Molecule} {Imaging} {Reveals} {Translation} of {mRNAs}
+  {Localized} to {Stress} {Granules}.
+\newblock Cell. 2020;183(7):1801--1812.e13.
+\newblock doi:{10.1016/j.cell.2020.11.010}.
+
+\bibitem{bevivino_expanded_2001}
+Bevivino AE, Loll PJ.
+\newblock An expanded glutamine repeat destabilizes native ataxin-3 structure
+  and mediates formation of parallel β-fibrils.
+\newblock Proceedings of the National Academy of Sciences.
+  2001;98(21):11955--11960.
+\newblock doi:{10.1073/pnas.211305198}.
+
+\bibitem{elden_ataxin-2_2010}
+Elden AC, Kim HJ, Hart MP, Chen-Plotkin AS, Johnson BS, Fang X, et~al.
+\newblock Ataxin-2 intermediate-length polyglutamine expansions are associated
+  with increased risk for {ALS}.
+\newblock Nature. 2010;466(7310):1069--1075.
+\newblock doi:{10.1038/nature09320}.
+
+\bibitem{guan_multiple_2023}
+Guan Y, Wang Y, Fu X, Bai G, Li X, Mao J, et~al.
+\newblock Multiple functions of stress granules in viral infection at a glance.
+\newblock Frontiers in Microbiology. 2023;14:1138864.
+\newblock doi:{10.3389/fmicb.2023.1138864}.
+
+\bibitem{redding_stress_2023}
+Redding A, Grabocka E.
+\newblock Stress granules and hormetic adaptation of cancer.
+\newblock Trends in Cancer. 2023;9(12):995--1005.
+\newblock doi:{10.1016/j.trecan.2023.08.005}.
+
+\bibitem{lee_stress_2022}
+Lee JI, Namkoong S.
+\newblock Stress granules dynamics: benefits in cancer.
+\newblock BMB reports. 2022;55(12):577--586.
+\newblock doi:{10.5483/BMBRep.2022.55.12.141}.
+
+\bibitem{somasekharan_yb-1_2015}
+Somasekharan SP, El-Naggar A, Leprivier G, Cheng H, Hajee S, Grunewald TGP,
+  et~al.
+\newblock {YB}-1 regulates stress granule formation and tumor progression by
+  translationally activating {G3BP1}.
+\newblock Journal of Cell Biology. 2015;208(7):913--929.
+\newblock doi:{10.1083/jcb.201411047}.
+
+\bibitem{grabocka_mutant_2016}
+Grabocka E, Bar-Sagi D.
+\newblock Mutant {KRAS} {Enhances} {Tumor} {Cell} {Fitness} by {Upregulating}
+  {Stress} {Granules}.
+\newblock Cell. 2016;167(7):1803--1813.e12.
+\newblock doi:{10.1016/j.cell.2016.11.035}.
+
+\bibitem{somasekharan_g3bp1-linked_2020}
+Somasekharan S, Zhang F, Saxena N, Huang J, Kuo IC, Low C, et~al.
+\newblock {G3BP1}-linked {mRNA} partitioning supports selective protein
+  synthesis in response to oxidative stress.
+\newblock Nucleic Acids Research. 2020;48(12):6855--6873.
+\newblock doi:{10.1093/nar/gkaa376}.
+
+\bibitem{khong_stress_2017}
+Khong A, Matheny T, Jain S, Mitchell SF, Wheeler JR, Parker R.
+\newblock The {Stress} {Granule} {Transcriptome} {Reveals} {Principles} of
+  {mRNA} {Accumulation} in {Stress} {Granules}.
+\newblock Molecular Cell. 2017;68(4):808--820.e5.
+\newblock doi:{10.1016/j.molcel.2017.10.015}.
+
+\bibitem{glauninger_stressful_2022}
+Glauninger H, Wong~Hickernell CJ, Bard JAM, Drummond DA.
+\newblock Stressful steps: {Progress} and challenges in understanding
+  stress-induced {mRNA} condensation and accumulation in stress granules.
+\newblock Molecular Cell. 2022;82(14):2544--2556.
+\newblock doi:{10.1016/j.molcel.2022.05.014}.
+
+\bibitem{wu_rnalocate_2025}
+Wu L, Wang L, Hu S, Tang G, Chen J, Yi Y, et~al.
+\newblock {RNALocate} v3.0: {Advancing} the {Repository} of {RNA} {Subcellular}
+  {Localization} with {Dynamic} {Analysis} and {Prediction}.
+\newblock Nucleic Acids Research. 2025;53(D1):D284--D292.
+\newblock doi:{10.1093/nar/gkae872}.
+
+\bibitem{krieger_trafficking_2024}
+Krieger MR, Abrahamian M, He KL, Atamdede S, Hakimjavadi H, Momcilovic M,
+  et~al.
+\newblock Trafficking of mitochondrial double-stranded {RNA} from mitochondria
+  to the cytosol.
+\newblock Life Science Alliance. 2024;7(9):e202302396.
+\newblock doi:{10.26508/lsa.202302396}.
+
+\bibitem{dhir_mitochondrial_2018}
+Dhir A, Dhir S, Borowski LS, Jimenez L, Teitell M, Rötig A, et~al.
+\newblock Mitochondrial double-stranded {RNA} triggers antiviral signalling in
+  humans.
+\newblock Nature. 2018;560(7717):238--242.
+\newblock doi:{10.1038/s41586-018-0363-0}.
+
+\bibitem{matheny_rna_2021}
+Matheny T, Van~Treeck B, Huynh TN, Parker R.
+\newblock {RNA} partitioning into stress granules is based on the summation of
+  multiple interactions.
+\newblock RNA. 2021;27(2):174--189.
+\newblock doi:{10.1261/rna.078204.120}.
+
+\bibitem{el_manaa_transcription-_2021}
+El~Manaa W, Duplan E, Goiran T, Lauritzen I, Vaillant~Beuchot L, Lacas-Gervais
+  S, et~al.
+\newblock Transcription- and phosphorylation-dependent control of a functional
+  interplay between {XBP1s} and {PINK1} governs mitophagy and potentially
+  impacts {Parkinson} disease pathophysiology.
+\newblock Autophagy. 2021;17(12):4363--4385.
+\newblock doi:{10.1080/15548627.2021.1917129}.
+
+\bibitem{network_cancer_nodate}
+Network TR. The {Cancer} {Genome} {Atlas};.
+\newblock Available from: \url{https://www.cancer.gov/tcga}.
+
+\bibitem{heath_nci_2021}
+Heath AP, Ferretti V, Agrawal S, An M, Angelakos JC, Arya R, et~al.
+\newblock The {NCI} {Genomic} {Data} {Commons}.
+\newblock Nature Genetics. 2021;53(3):257--262.
+\newblock doi:{10.1038/s41588-021-00791-5}.
+
+\bibitem{haloi_structural_2021}
+Haloi N, Wen PC, Cheng Q, Yang M, Natarajan G, Camara AKS, et~al.
+\newblock Structural basis of complex formation between mitochondrial anion
+  channel {VDAC1} and {Hexokinase}-{II}.
+\newblock Communications Biology. 2021;4(1):667.
+\newblock doi:{10.1038/s42003-021-02205-y}.
+
+\bibitem{collier_dynamic_1986}
+Collier NC, Schlesinger MJ.
+\newblock The dynamic state of heat shock proteins in chicken embryo
+  fibroblasts.
+\newblock The Journal of cell biology. 1986;103(4):1495--1507.
+\newblock doi:{10.1083/jcb.103.4.1495}.
+
 \bibitem{nover_formation_1983}
 Nover L, Scharf KD, Neumann D.
 \newblock Formation of cytoplasmic heat shock granules in tomato cell cultures
@@ -82,13 +275,6 @@ Weber C, Nover L, Fauth M.
   heat stress granules.
 \newblock The Plant Journal. 2008;56(4):517--530.
 \newblock doi:{10.1111/j.1365-313X.2008.03623.x}.
-
-\bibitem{collier_dynamic_1986}
-Collier NC, Schlesinger MJ.
-\newblock The dynamic state of heat shock proteins in chicken embryo
-  fibroblasts.
-\newblock The Journal of cell biology. 1986;103(4):1495--1507.
-\newblock doi:{10.1083/jcb.103.4.1495}.
 
 \bibitem{hu_ssd1_2018}
 Hu Z, Xia B, Postnikoff SD, Shen ZJ, Tomoiaga AS, Harkness TA, et~al.
@@ -140,13 +326,6 @@ Namkoong S, Ho A, Woo YM, Kwak H, Lee JH.
 \newblock Molecular Cell. 2018;70(1):175--187.e8.
 \newblock doi:{10.1016/j.molcel.2018.02.025}.
 
-\bibitem{somasekharan_g3bp1-linked_2020}
-Somasekharan S, Zhang F, Saxena N, Huang J, Kuo IC, Low C, et~al.
-\newblock {G3BP1}-linked {mRNA} partitioning supports selective protein
-  synthesis in response to oxidative stress.
-\newblock Nucleic Acids Research. 2020;48(12):6855--6873.
-\newblock doi:{10.1093/nar/gkaa376}.
-
 \bibitem{bejder_limbs_2002}
 Bejder L, Hall BK.
 \newblock Limbs in whales and limblessness in other vertebrates: mechanisms of
@@ -193,13 +372,6 @@ Anderson P, Kedersha N.
   protein translation.
 \newblock Cell Stress \& Chaperones. 2002;7(2):213--221.
 \newblock doi:{10.1379/1466-1268(2002)007<0213:vstroe>2.0.co;2}.
-
-\bibitem{kedersha_rna-binding_1999}
-Kedersha NL, Gupta M, Li W, Miller I, Anderson P.
-\newblock {RNA}-binding proteins {TIA}-1 and {TIAR} link the phosphorylation of
-  {eIF}-2 alpha to the assembly of mammalian stress granules.
-\newblock The Journal of Cell Biology. 1999;147(7):1431--1442.
-\newblock doi:{10.1083/jcb.147.7.1431}.
 
 \bibitem{donnelly_eif2_2013}
 Donnelly N, Gorman AM, Gupta S, Samali A.
@@ -276,13 +448,6 @@ Mazroui R, Sukarieh R, Bordeleau ME, Kaufman RJ, Northcote P, Tanaka J, et~al.
 \newblock Molecular Biology of the Cell. 2006;17(10):4212--4219.
 \newblock doi:{10.1091/mbc.e06-04-0318}.
 
-\bibitem{kedersha_g3bpcaprin1usp10_2016}
-Kedersha N, Panas MD, Achorn CA, Lyons S, Tisdale S, Hickman T, et~al.
-\newblock {G3BP}–{Caprin1}–{USP10} complexes mediate stress granule
-  condensation and associate with {40S} subunits.
-\newblock Journal of Cell Biology. 2016;212(7):e201508028.
-\newblock doi:{10.1083/jcb.201508028}.
-
 \bibitem{bounedjah_macromolecular_2012}
 Bounedjah O, Hamon L, Savarin P, Desforges B, Curmi PA, Pastré D.
 \newblock Macromolecular crowding regulates assembly of {mRNA} stress granules
@@ -325,13 +490,6 @@ Ganassi M, Mateju D, Bigi I, Mediani L, Poser I, Lee HO, et~al.
 \newblock Molecular Cell. 2016;63(5):796--810.
 \newblock doi:{10.1016/j.molcel.2016.07.021}.
 
-\bibitem{marcelo_stress_2021}
-Marcelo A, Koppenol R, de~Almeida LP, Matos CA, Nóbrega C.
-\newblock Stress granules, {RNA}-binding proteins and polyglutamine diseases:
-  too much aggregation?
-\newblock Cell Death \& Disease. 2021;12(6):592.
-\newblock doi:{10.1038/s41419-021-03873-8}.
-
 \bibitem{storti_translational_1980}
 Storti RV, Scott MP, Rich A, Pardue ML.
 \newblock Translational control of protein synthesis in response to heat shock
@@ -361,59 +519,11 @@ Mokas S, Mills JR, Garreau C, Fournier MJ, Robert F, Arya P, et~al.
 \newblock Molecular Biology of the Cell. 2009;20(11):2673--2683.
 \newblock doi:{10.1091/mbc.e08-10-1061}.
 
-\bibitem{mateju_single-molecule_2020}
-Mateju D, Eichenberger B, Voigt F, Eglinger J, Roth G, Chao JA.
-\newblock Single-{Molecule} {Imaging} {Reveals} {Translation} of {mRNAs}
-  {Localized} to {Stress} {Granules}.
-\newblock Cell. 2020;183(7):1801--1812.e13.
-\newblock doi:{10.1016/j.cell.2020.11.010}.
-
 \bibitem{mateju_stress_2022}
 Mateju D, Chao JA.
 \newblock Stress granules: regulators or by‐products?
 \newblock The FEBS Journal. 2022;289(2):363--373.
 \newblock doi:{10.1111/febs.15821}.
-
-\bibitem{arimoto_formation_2008}
-Arimoto K, Fukuda H, Imajoh-Ohmi S, Saito H, Takekawa M.
-\newblock Formation of stress granules inhibits apoptosis by suppressing
-  stress-responsive {MAPK} pathways.
-\newblock Nature Cell Biology. 2008;10(11):1324--1332.
-\newblock doi:{10.1038/ncb1791}.
-
-\bibitem{tsai_rhoarock1_2010}
-Tsai NP, Wei LN.
-\newblock {RhoA}/{ROCK1} signaling regulates stress granule formation and
-  apoptosis.
-\newblock Cellular Signalling. 2010;22(4):668--675.
-\newblock doi:{10.1016/j.cellsig.2009.12.001}.
-
-\bibitem{fujikawa_stress_2023}
-Fujikawa D, Nakamura T, Yoshioka D, Li Z, Moriizumi H, Taguchi M, et~al.
-\newblock Stress granule formation inhibits stress-induced apoptosis by
-  selectively sequestering executioner caspases.
-\newblock Current Biology. 2023;33(10):1967--1981.e8.
-\newblock doi:{10.1016/j.cub.2023.04.012}.
-
-\bibitem{omer_stress_2018}
-Omer A, Patel D, Lian XJ, Sadek J, Di~Marco S, Pause A, et~al.
-\newblock Stress granules counteract senescence by sequestration of {PAI}‐1.
-\newblock EMBO reports. 2018;19(5):e44722.
-\newblock doi:{10.15252/embr.201744722}.
-
-\bibitem{park_stress_2017}
-Park C, Choi S, Kim YE, Lee S, Park SH, Adelstein RS, et~al.
-\newblock Stress {Granules} {Contain} {Rbfox2} with {Cell} {Cycle}-related
-  {mRNAs}.
-\newblock Scientific Reports. 2017;7(1):11211.
-\newblock doi:{10.1038/s41598-017-11651-w}.
-
-\bibitem{matheny_rna_2021}
-Matheny T, Van~Treeck B, Huynh TN, Parker R.
-\newblock {RNA} partitioning into stress granules is based on the summation of
-  multiple interactions.
-\newblock RNA. 2021;27(2):174--189.
-\newblock doi:{10.1261/rna.078204.120}.
 
 \bibitem{matheny_corrigendum_2023}
 Matheny T, Van~Treeck B, Huynh TN, Parker R.
@@ -421,13 +531,6 @@ Matheny T, Van~Treeck B, Huynh TN, Parker R.
   summation of multiple interactions.
 \newblock RNA. 2023;29(11):1837--1837.
 \newblock doi:{10.1261/rna.079790.123}.
-
-\bibitem{khong_stress_2017}
-Khong A, Matheny T, Jain S, Mitchell SF, Wheeler JR, Parker R.
-\newblock The {Stress} {Granule} {Transcriptome} {Reveals} {Principles} of
-  {mRNA} {Accumulation} in {Stress} {Granules}.
-\newblock Molecular Cell. 2017;68(4):808--820.e5.
-\newblock doi:{10.1016/j.molcel.2017.10.015}.
 
 \bibitem{matheny_transcriptome-wide_2019}
 Matheny T, Rao BS, Parker R.
@@ -437,12 +540,18 @@ Matheny T, Rao BS, Parker R.
 \newblock Molecular and Cellular Biology. 2019;39(24):e00313--19.
 \newblock doi:{10.1128/MCB.00313-19}.
 
-\bibitem{glauninger_stressful_2022}
-Glauninger H, Wong~Hickernell CJ, Bard JAM, Drummond DA.
-\newblock Stressful steps: {Progress} and challenges in understanding
-  stress-induced {mRNA} condensation and accumulation in stress granules.
-\newblock Molecular Cell. 2022;82(14):2544--2556.
-\newblock doi:{10.1016/j.molcel.2022.05.014}.
+\bibitem{glauninger_transcriptome-wide_2025}
+Glauninger H, Bard JAM, Wong~Hickernell CJ, Velez KM, Airoldi EM, Li W, et~al.
+\newblock Transcriptome-wide {mRNP} condensation precedes stress granule
+  formation and excludes new {mRNAs}.
+\newblock Molecular Cell. 2025;85(23):4393--4409.e11.
+\newblock doi:{10.1016/j.molcel.2025.11.003}.
+
+\bibitem{mazzarello_how_2009}
+Mazzarello P, Garbarino C, Calligaro A.
+\newblock How {Camillo} {Golgi} became “the {Golgi}”.
+\newblock FEBS Letters. 2009;583(23):3732--3737.
+\newblock doi:{10.1016/j.febslet.2009.10.018}.
 
 \bibitem{wear_proteins_2015}
 Wear MP, Kryndushkin D, O’Meally R, Sonnenberg JL, Cole RN, Shewmaker FP.
@@ -450,21 +559,6 @@ Wear MP, Kryndushkin D, O’Meally R, Sonnenberg JL, Cole RN, Shewmaker FP.
   {Preferentially} {Recruited} to {Polyglutamine} {Aggregates}.
 \newblock PLOS ONE. 2015;10(8):e0136362.
 \newblock doi:{10.1371/journal.pone.0136362}.
-
-\bibitem{bevivino_expanded_2001}
-Bevivino AE, Loll PJ.
-\newblock An expanded glutamine repeat destabilizes native ataxin-3 structure
-  and mediates formation of parallel β-fibrils.
-\newblock Proceedings of the National Academy of Sciences.
-  2001;98(21):11955--11960.
-\newblock doi:{10.1073/pnas.211305198}.
-
-\bibitem{elden_ataxin-2_2010}
-Elden AC, Kim HJ, Hart MP, Chen-Plotkin AS, Johnson BS, Fang X, et~al.
-\newblock Ataxin-2 intermediate-length polyglutamine expansions are associated
-  with increased risk for {ALS}.
-\newblock Nature. 2010;466(7310):1069--1075.
-\newblock doi:{10.1038/nature09320}.
 
 \bibitem{mackenzie_tia1_2017}
 Mackenzie IR, Nicholson AM, Sarkar M, Messing J, Purice MD, Pottier C, et~al.
@@ -493,12 +587,6 @@ Wang F, Li J, Fan S, Jin Z, Huang C.
   diseases.
 \newblock Pharmacological Research. 2020;161:105143.
 \newblock doi:{10.1016/j.phrs.2020.105143}.
-
-\bibitem{guan_multiple_2023}
-Guan Y, Wang Y, Fu X, Bai G, Li X, Mao J, et~al.
-\newblock Multiple functions of stress granules in viral infection at a glance.
-\newblock Frontiers in Microbiology. 2023;14:1138864.
-\newblock doi:{10.3389/fmicb.2023.1138864}.
 
 \bibitem{lindquist_activation_2011}
 Lindquist ME, Mainou BA, Dermody TS, Crowe JE.
@@ -682,12 +770,6 @@ Van~Nostrand EL, Freese P, Pratt GA, Wang X, Wei X, Xiao R, et~al.
   proteins.
 \newblock Nature. 2020;583(7818):711--719.
 \newblock doi:{10.1038/s41586-020-2077-3}.
-
-\bibitem{redding_stress_2023}
-Redding A, Grabocka E.
-\newblock Stress granules and hormetic adaptation of cancer.
-\newblock Trends in Cancer. 2023;9(12):995--1005.
-\newblock doi:{10.1016/j.trecan.2023.08.005}.
 
 \bibitem{babitzke_regulation_2009}
 Babitzke P, Baker CS, Romeo T.
@@ -891,6 +973,12 @@ Stampar SN, Broe MB, Macrander J, Reitzel AM, Brugler MR, Daly M.
 \newblock Scientific Reports. 2019;9(1):6094.
 \newblock doi:{10.1038/s41598-019-42621-z}.
 
+\bibitem{frankish_gencode_2021}
+Frankish A, Diekhans M, Jungreis I, Lagarde J, Loveland J, Mudge JM, et~al.
+\newblock {GENCODE} 2021.
+\newblock Nucleic Acids Research. 2021;49(D1):D916--D923.
+\newblock doi:{10.1093/nar/gkaa1087}.
+
 \bibitem{habbane_human_2021}
 Habbane M, Montoya J, Rhouda T, Sbaoui Y, Radallah D, Emperador S.
 \newblock Human {Mitochondrial} {DNA}: {Particularities} and {Diseases}.
@@ -1055,6 +1143,40 @@ Fernández~Pinto M.
 \newblock Perspectives on Science. 2023;31(5):535--554.
 \newblock doi:{10.1162/posc\_a\_00589}.
 
+\bibitem{kolodziejczyk_technology_2015}
+Kolodziejczyk A, Kim JK, Svensson V, Marioni J, Teichmann S.
+\newblock The {Technology} and {Biology} of {Single}-{Cell} {RNA} {Sequencing}.
+\newblock Molecular Cell. 2015;58(4):610--620.
+\newblock doi:{10.1016/j.molcel.2015.04.005}.
+
+\bibitem{newman_robust_2015}
+Newman AM, Liu CL, Green MR, Gentles AJ, Feng W, Xu Y, et~al.
+\newblock Robust enumeration of cell subsets from tissue expression profiles.
+\newblock Nature Methods. 2015;12(5):453--457.
+\newblock doi:{10.1038/nmeth.3337}.
+
+\bibitem{schneider_voyager_2024}
+Schneider AL, Martins-Silva R, Kaizeler A, Saraiva-Agostinho N, Barbosa-Morais
+  NL.
+\newblock {voyAGEr}, a free web interface for the analysis of age-related gene
+  expression alterations in human tissues.
+\newblock eLife. 2024;12:RP88623.
+\newblock doi:{10.7554/eLife.88623}.
+
+\bibitem{phipson_gene_2017}
+Phipson B, Zappia L, Oshlack A.
+\newblock Gene length and detection bias in single cell {RNA} sequencing
+  protocols.
+\newblock F1000Research. 2017;6:595.
+\newblock doi:{10.12688/f1000research.11290.1}.
+
+\bibitem{nakazato_experimental_2013}
+Nakazato T, Ohta T, Bono H.
+\newblock Experimental design-based functional mining and characterization of
+  high-throughput sequencing data in the sequence read archive.
+\newblock PloS One. 2013;8(10):e77910.
+\newblock doi:{10.1371/journal.pone.0077910}.
+
 \bibitem{adams_complementary_1991}
 Adams MD, Kelley JM, Gocayne JD, Dubnick M, Polymeropoulos MH, Xiao H, et~al.
 \newblock Complementary {DNA} {Sequencing}: {Expressed} {Sequence} {Tags} and
@@ -1108,40 +1230,6 @@ Baker M.
 \newblock Nature. 2015;521(7552):274--276.
 \newblock doi:{10.1038/521274a}.
 
-\bibitem{kolodziejczyk_technology_2015}
-Kolodziejczyk A, Kim JK, Svensson V, Marioni J, Teichmann S.
-\newblock The {Technology} and {Biology} of {Single}-{Cell} {RNA} {Sequencing}.
-\newblock Molecular Cell. 2015;58(4):610--620.
-\newblock doi:{10.1016/j.molcel.2015.04.005}.
-
-\bibitem{newman_robust_2015}
-Newman AM, Liu CL, Green MR, Gentles AJ, Feng W, Xu Y, et~al.
-\newblock Robust enumeration of cell subsets from tissue expression profiles.
-\newblock Nature Methods. 2015;12(5):453--457.
-\newblock doi:{10.1038/nmeth.3337}.
-
-\bibitem{schneider_voyager_2024}
-Schneider AL, Martins-Silva R, Kaizeler A, Saraiva-Agostinho N, Barbosa-Morais
-  NL.
-\newblock {voyAGEr}, a free web interface for the analysis of age-related gene
-  expression alterations in human tissues.
-\newblock eLife. 2024;12:RP88623.
-\newblock doi:{10.7554/eLife.88623}.
-
-\bibitem{phipson_gene_2017}
-Phipson B, Zappia L, Oshlack A.
-\newblock Gene length and detection bias in single cell {RNA} sequencing
-  protocols.
-\newblock F1000Research. 2017;6:595.
-\newblock doi:{10.12688/f1000research.11290.1}.
-
-\bibitem{nakazato_experimental_2013}
-Nakazato T, Ohta T, Bono H.
-\newblock Experimental design-based functional mining and characterization of
-  high-throughput sequencing data in the sequence read archive.
-\newblock PloS One. 2013;8(10):e77910.
-\newblock doi:{10.1371/journal.pone.0077910}.
-
 \bibitem{bray_global_2024}
 Bray F, Laversanne M, Sung H, Ferlay J, Siegel RL, Soerjomataram I, et~al.
 \newblock Global cancer statistics 2022: {GLOBOCAN} estimates of incidence and
@@ -1163,12 +1251,6 @@ Ramos P, Bentires-Alj M.
 \newblock Oncogene. 2015;34(28):3617--3626.
 \newblock doi:{10.1038/onc.2014.314}.
 
-\bibitem{lee_stress_2022}
-Lee JI, Namkoong S.
-\newblock Stress granules dynamics: benefits in cancer.
-\newblock BMB reports. 2022;55(12):577--586.
-\newblock doi:{10.5483/BMBRep.2022.55.12.141}.
-
 \bibitem{fanelli_negative_2012}
 Fanelli D.
 \newblock Negative results are disappearing from most disciplines and
@@ -1183,14 +1265,6 @@ Fonteneau G, Redding A, Hoag-Lee H, Sim ES, Heinrich S, Gaida MM, et~al.
 \newblock Cancer Discovery. 2022;12(8):1984--2005.
 \newblock doi:{10.1158/2159-8290.CD-21-1672}.
 
-\bibitem{somasekharan_yb-1_2015}
-Somasekharan SP, El-Naggar A, Leprivier G, Cheng H, Hajee S, Grunewald TGP,
-  et~al.
-\newblock {YB}-1 regulates stress granule formation and tumor progression by
-  translationally activating {G3BP1}.
-\newblock Journal of Cell Biology. 2015;208(7):913--929.
-\newblock doi:{10.1083/jcb.201411047}.
-
 \bibitem{thedieck_inhibition_2013}
 Thedieck K, Holzwarth B, Prentzell M, Boehlke C, Kläsener K, Ruf S, et~al.
 \newblock Inhibition of {mTORC1} by {Astrin} and {Stress} {Granules} {Prevents}
@@ -1198,164 +1272,9 @@ Thedieck K, Holzwarth B, Prentzell M, Boehlke C, Kläsener K, Ruf S, et~al.
 \newblock Cell. 2013;154(4):859--874.
 \newblock doi:{10.1016/j.cell.2013.07.031}.
 
-\bibitem{grabocka_mutant_2016}
-Grabocka E, Bar-Sagi D.
-\newblock Mutant {KRAS} {Enhances} {Tumor} {Cell} {Fitness} by {Upregulating}
-  {Stress} {Granules}.
-\newblock Cell. 2016;167(7):1803--1813.e12.
-\newblock doi:{10.1016/j.cell.2016.11.035}.
-
 \bibitem{tcga_research_network_cancer_nodate}
 Network TR. The {Cancer} {Genome} {Atlas};.
 \newblock Available from: \url{https://www.cancer.gov/tcga}.
-
-\bibitem{morata_cell_2021}
-Morata G.
-\newblock Cell competition: {A} historical perspective.
-\newblock Developmental Biology. 2021;476:33--40.
-\newblock doi:{10.1016/j.ydbio.2021.02.012}.
-
-\bibitem{morata_minutes_1975}
-Morata G, Ripoll P.
-\newblock Minutes: {Mutants} of {Drosophila} autonomously affecting cell
-  division rate.
-\newblock Developmental Biology. 1975;42(2):211--221.
-\newblock doi:{10.1016/0012-1606(75)90330-9}.
-
-\bibitem{bolger_trimmomatic_2014}
-Bolger AM, Lohse M, Usadel B.
-\newblock Trimmomatic: a flexible trimmer for {Illumina} sequence data.
-\newblock Bioinformatics (Oxford, England). 2014;30(15):2114--2120.
-\newblock doi:{10.1093/bioinformatics/btu170}.
-
-\bibitem{li_fast_2009}
-Li H, Durbin R.
-\newblock Fast and accurate short read alignment with {Burrows}-{Wheeler}
-  transform.
-\newblock Bioinformatics. 2009;25(14):1754--1760.
-\newblock doi:{10.1093/bioinformatics/btp324}.
-
-\bibitem{frankish_gencode_2021}
-Frankish A, Diekhans M, Jungreis I, Lagarde J, Loveland J, Mudge JM, et~al.
-\newblock {GENCODE} 2021.
-\newblock Nucleic Acids Research. 2021;49(D1):D916--D923.
-\newblock doi:{10.1093/nar/gkaa1087}.
-
-\bibitem{liao_featurecounts_2014}
-Liao Y, Smyth GK, Shi W.
-\newblock {featureCounts}: an efficient general purpose program for assigning
-  sequence reads to genomic features.
-\newblock Bioinformatics. 2014;30(7):923--930.
-\newblock doi:{10.1093/bioinformatics/btt656}.
-
-\bibitem{benjamin_calling_2019}
-Benjamin D, Sato T, Cibulskis K, Getz G, Stewart C, Lichtenstein L. Calling
-  {Somatic} {SNVs} and {Indels} with {Mutect2}; 2019.
-\newblock Available from: \url{http://biorxiv.org/lookup/doi/10.1101/861054}.
-
-\bibitem{van_der_auwera_genomics_2020}
-Van~der Auwera G, O'Connor B.
-\newblock Genomics in the {Cloud}.
-\newblock 1st ed. Place of publication not identified: O'Reilly Media,
-  Incorporated; 2020.
-
-\bibitem{robinson_variant_2017}
-Robinson JT, Thorvaldsdóttir H, Wenger AM, Zehir A, Mesirov JP.
-\newblock Variant {Review} with the {Integrative} {Genomics} {Viewer}.
-\newblock Cancer Research. 2017;77(21):e31--e34.
-\newblock doi:{10.1158/0008-5472.CAN-17-0337}.
-
-\bibitem{robinson_scaling_2010}
-Robinson MD, Oshlack A.
-\newblock A scaling normalization method for differential expression analysis
-  of {RNA}-seq data.
-\newblock Genome Biology. 2010;11(3):R25.
-\newblock doi:{10.1186/gb-2010-11-3-r25}.
-
-\bibitem{robinson_edger_2010}
-Robinson MD, McCarthy DJ, Smyth GK.
-\newblock {edgeR} : a {Bioconductor} package for differential expression
-  analysis of digital gene expression data.
-\newblock Bioinformatics. 2010;26(1):139--140.
-\newblock doi:{10.1093/bioinformatics/btp616}.
-
-\bibitem{law_voom_2014}
-Law CW, Chen Y, Shi W, Smyth GK.
-\newblock voom: {Precision} weights unlock linear model analysis tools for
-  {RNA}-seq read counts.
-\newblock Genome Biology. 2014;15(2):R29.
-\newblock doi:{10.1186/gb-2014-15-2-r29}.
-
-\bibitem{ritchie_limma_2015}
-Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W, et~al.
-\newblock limma powers differential expression analyses for {RNA}-sequencing
-  and microarray studies.
-\newblock Nucleic Acids Research. 2015;43(7):e47.
-\newblock doi:{10.1093/nar/gkv007}.
-
-\bibitem{smyth_linear_nodate}
-Smyth GK.
-\newblock Linear models and empirical {Bayes} methods for assessing
-  differential expression in microarray experiments. 2004.
-\newblock Statistical applications in genetics and molecular biology;3(1).
-
-\bibitem{di_giacomo_human_2017}
-Di~Giacomo S, Sollazzo M, De~Biase D, Ragazzi M, Bellosta P, Pession A, et~al.
-\newblock Human {Cancer} {Cells} {Signal} {Their} {Competitive} {Fitness}
-  {Through} {MYC} {Activity}.
-\newblock Scientific Reports. 2017;7(1):12568.
-\newblock doi:{10.1038/s41598-017-13002-1}.
-
-\bibitem{quintana-murci_human_2001}
-Quintana-Murci L, Fellous M.
-\newblock The {Human} {Y} {Chromosome}: {The} {Biological} {Role} of a
-  "{Functional} {Wasteland}".
-\newblock Journal of Biomedicine \& Biotechnology. 2001;1(1):18--24.
-\newblock doi:{10.1155/S1110724301000080}.
-
-\bibitem{bannour_swyer_2025}
-Bannour I, Bannour B, Ferjani S, Boughizane S.
-\newblock Swyer {Syndrome}: {A} diagnostic challenge.
-\newblock JBRA assisted reproduction. 2025;29(1):195--198.
-\newblock doi:{10.5935/1518-0557.20240096}.
-
-\bibitem{bairoch_cellosaurus_2018}
-Bairoch A.
-\newblock The {Cellosaurus}, a {Cell}-{Line} {Knowledge} {Resource}.
-\newblock Journal of biomolecular techniques: JBT. 2018;29(2):25--38.
-\newblock doi:{10.7171/jbt.18-2902-002}.
-
-\bibitem{linnekamp_consensus_2018}
-Linnekamp JF, Hooff SRv, Prasetyanti PR, Kandimalla R, Buikhuisen JY, Fessler
-  E, et~al.
-\newblock Consensus molecular subtypes of colorectal cancer are recapitulated
-  in in vitro and in vivo models.
-\newblock Cell Death and Differentiation. 2018;25(3):616--633.
-\newblock doi:{10.1038/s41418-017-0011-5}.
-
-\bibitem{shrivastava_microchimerism_2019}
-Shrivastava S, Naik R, Suryawanshi H, Gupta N.
-\newblock Microchimerism: {A} new concept.
-\newblock Journal of oral and maxillofacial pathology: JOMFP. 2019;23(2):311.
-\newblock doi:{10.4103/jomfp.JOMFP\_85\_17}.
-
-\bibitem{chen_profiling_2018}
-Chen B, Khodadoust MS, Liu CL, Newman AM, Alizadeh AA.
-\newblock Profiling {Tumor} {Infiltrating} {Immune} {Cells} with {CIBERSORT}.
-\newblock Methods in Molecular Biology. 2018;1711:243--259.
-\newblock doi:{10.1007/978-1-4939-7493-1\_12}.
-
-\bibitem{bd_biosciences_bd_nodate}
-{BD Biosciences}. {BD} {FACSAria} {Fusion} {Cell} {Sorter} {Brochure};.
-\newblock Available from:
-  \url{https://www.bdbiosciences.com/content/dam/bdb/marketing-documents/products-pdf-folder/instruments/research-cell-sorters/instruments-tech-specs-facsaria-fusion.pdf}.
-
-\bibitem{hao_distinct_2016}
-Hao D, Wang L, Di Lj.
-\newblock Distinct mutation accumulation rates among tissues determine the
-  variation in cancer risk.
-\newblock Scientific Reports. 2016;6:19458.
-\newblock doi:{10.1038/srep19458}.
 
 \bibitem{padron_proximity_2019}
 Padrón A, Iwasaki S, Ingolia NT.
@@ -1446,12 +1365,11 @@ Ren Z, Tang W, Peng L, Zou P.
 \newblock Nature Communications. 2023;14(1):7390.
 \newblock doi:{10.1038/s41467-023-43194-2}.
 
-\bibitem{glauninger_transcriptome-wide_2025}
-Glauninger H, Bard JAM, Wong~Hickernell CJ, Velez KM, Airoldi EM, Li W, et~al.
-\newblock Transcriptome-wide {mRNP} condensation precedes stress granule
-  formation and excludes new {mRNAs}.
-\newblock Molecular Cell. 2025;85(23):4393--4409.e11.
-\newblock doi:{10.1016/j.molcel.2025.11.003}.
+\bibitem{kodali_rna_2024}
+Kodali S, Proietti L, Valcarcel G, López-Rubio AV, Pessina P, Eder T, et~al.
+\newblock {RNA} sequestration in {P}-bodies sustains myeloid leukaemia.
+\newblock Nature Cell Biology. 2024;26(10):1745--1758.
+\newblock doi:{10.1038/s41556-024-01489-6}.
 
 \bibitem{cunningham_ensembl_2022}
 Cunningham F, Allen JE, Allen J, Alvarez-Jarreta J, Amode MR, Armean IM, et~al.
@@ -1527,10 +1445,70 @@ Dobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, et~al.
 \newblock Bioinformatics (Oxford, England). 2013;29(1):15--21.
 \newblock doi:{10.1093/bioinformatics/bts635}.
 
+\bibitem{liao_featurecounts_2014}
+Liao Y, Smyth GK, Shi W.
+\newblock {featureCounts}: an efficient general purpose program for assigning
+  sequence reads to genomic features.
+\newblock Bioinformatics. 2014;30(7):923--930.
+\newblock doi:{10.1093/bioinformatics/btt656}.
+
 \bibitem{peter_fitzgerald_introduction_2024}
 {Peter FitzGerald}. Introduction to {RNA}-{Seq} {Data} {Analysis}; 2024.
 \newblock Available from:
   \url{https://bioinformatics.ccr.cancer.gov/docs/bioinformatics-for-beginners-2025/RNASeq_2024.pdf}.
+
+\bibitem{bolger_trimmomatic_2014}
+Bolger AM, Lohse M, Usadel B.
+\newblock Trimmomatic: a flexible trimmer for {Illumina} sequence data.
+\newblock Bioinformatics (Oxford, England). 2014;30(15):2114--2120.
+\newblock doi:{10.1093/bioinformatics/btu170}.
+
+\bibitem{costa_uncovering_2010}
+Costa V, Angelini C, De~Feis I, Ciccodicola A.
+\newblock Uncovering the complexity of transcriptomes with {RNA}-{Seq}.
+\newblock Journal of Biomedicine \& Biotechnology. 2010;2010:853916.
+\newblock doi:{10.1155/2010/853916}.
+
+\bibitem{robinson_scaling_2010}
+Robinson MD, Oshlack A.
+\newblock A scaling normalization method for differential expression analysis
+  of {RNA}-seq data.
+\newblock Genome Biology. 2010;11(3):R25.
+\newblock doi:{10.1186/gb-2010-11-3-r25}.
+
+\bibitem{robinson_edger_2010}
+Robinson MD, McCarthy DJ, Smyth GK.
+\newblock {edgeR} : a {Bioconductor} package for differential expression
+  analysis of digital gene expression data.
+\newblock Bioinformatics. 2010;26(1):139--140.
+\newblock doi:{10.1093/bioinformatics/btp616}.
+
+\bibitem{law_voom_2014}
+Law CW, Chen Y, Shi W, Smyth GK.
+\newblock voom: {Precision} weights unlock linear model analysis tools for
+  {RNA}-seq read counts.
+\newblock Genome Biology. 2014;15(2):R29.
+\newblock doi:{10.1186/gb-2014-15-2-r29}.
+
+\bibitem{ritchie_limma_2015}
+Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W, et~al.
+\newblock limma powers differential expression analyses for {RNA}-sequencing
+  and microarray studies.
+\newblock Nucleic Acids Research. 2015;43(7):e47.
+\newblock doi:{10.1093/nar/gkv007}.
+
+\bibitem{hofmann_centering_1998}
+Hofmann D.
+\newblock Centering {Decisions} in {Hierarchical} {Linear} {Models}:
+  {Implications} for {Research} in {Organizations}.
+\newblock Journal of Management. 1998;24(5):623--641.
+\newblock doi:{10.1016/S0149-2063(99)80077-4}.
+
+\bibitem{smyth_linear_nodate}
+Smyth GK.
+\newblock Linear models and empirical {Bayes} methods for assessing
+  differential expression in microarray experiments. 2004.
+\newblock Statistical applications in genetics and molecular biology;3(1).
 
 \bibitem{benjamini_controlling_1995}
 Benjamini Y, Hochberg Y.
@@ -1622,19 +1600,6 @@ Hubstenberger A, Courel M, Bénard M, Souquere S, Ernoult-Lange M, Chouaib R,
 \newblock Molecular Cell. 2017;68(1):144--157.e5.
 \newblock doi:{10.1016/j.molcel.2017.09.003}.
 
-\bibitem{kodali_rna_2024}
-Kodali S, Proietti L, Valcarcel G, López-Rubio AV, Pessina P, Eder T, et~al.
-\newblock {RNA} sequestration in {P}-bodies sustains myeloid leukaemia.
-\newblock Nature Cell Biology. 2024;26(10):1745--1758.
-\newblock doi:{10.1038/s41556-024-01489-6}.
-
-\bibitem{wu_rnalocate_2025}
-Wu L, Wang L, Hu S, Tang G, Chen J, Yi Y, et~al.
-\newblock {RNALocate} v3.0: {Advancing} the {Repository} of {RNA} {Subcellular}
-  {Localization} with {Dynamic} {Analysis} and {Prediction}.
-\newblock Nucleic Acids Research. 2025;53(D1):D284--D292.
-\newblock doi:{10.1093/nar/gkae872}.
-
 \bibitem{sun_chac1_2024}
 Sun J, Ren H, Wang J, Xiao X, Zhu L, Wang Y, et~al.
 \newblock {CHAC1}: a master regulator of oxidative stress and ferroptosis in
@@ -1715,19 +1680,6 @@ Del Gatto-Konczak F, Bourgeois CF, Le~Guiner C, Kister L, Gesnel MC, Stévenin
 \newblock Molecular and Cellular Biology. 2000;20(17):6287--6299.
 \newblock doi:{10.1128/MCB.20.17.6287-6299.2000}.
 
-\bibitem{rogalska_transcriptome-wide_2024}
-Rogalska ME, Mancini E, Bonnal S, Gohr A, Dunyak BM, Arecco N, et~al.
-\newblock Transcriptome-wide splicing network reveals specialized regulatory
-  functions of the core spliceosome.
-\newblock Science. 2024;386(6721):551--560.
-\newblock doi:{10.1126/science.adn8105}.
-
-\bibitem{buchbender_improved_2020}
-Buchbender A, Mutter H, Sutandy FXR, Körtel N, Hänel H, Busch A, et~al.
-\newblock Improved library preparation with the new {iCLIP2} protocol.
-\newblock Methods. 2020;178:33--48.
-\newblock doi:{10.1016/j.ymeth.2019.10.003}.
-
 \bibitem{lonsdale_genotype-tissue_2013}
 Lonsdale J, Thomas J, Salvatore M, Phillips R, Lo E, Shad S, et~al.
 \newblock The {Genotype}-{Tissue} {Expression} ({GTEx}) project.
@@ -1760,16 +1712,6 @@ Turizo-Smith AD, Córdoba-Hernandez S, Mejía-Guarnizo LV, Monroy-Camacho PS,
 \newblock Inflammation and cancer: friend or foe?
 \newblock Frontiers in Pharmacology. 2024;15:1385479.
 \newblock doi:{10.3389/fphar.2024.1385479}.
-
-\bibitem{network_cancer_nodate}
-Network TR. The {Cancer} {Genome} {Atlas};.
-\newblock Available from: \url{https://www.cancer.gov/tcga}.
-
-\bibitem{heath_nci_2021}
-Heath AP, Ferretti V, Agrawal S, An M, Angelakos JC, Arya R, et~al.
-\newblock The {NCI} {Genomic} {Data} {Commons}.
-\newblock Nature Genetics. 2021;53(3):257--262.
-\newblock doi:{10.1038/s41588-021-00791-5}.
 
 \bibitem{subramanian_next_2017}
 Subramanian A, Narayan R, Corsello SM, Peck DD, Natoli TE, Lu X, et~al.
@@ -1944,6 +1886,20 @@ Shimoni Y.
 \newblock PLOS Computational Biology. 2018;14(2):e1006026.
 \newblock doi:{10.1371/journal.pcbi.1006026}.
 
+\bibitem{datta_tumor_2020}
+Datta N, Chakraborty S, Basu M, Ghosh MK.
+\newblock Tumor {Suppressors} {Having} {Oncogenic} {Functions}: {The} {Double}
+  {Agents}.
+\newblock Cells. 2020;10(1):46.
+\newblock doi:{10.3390/cells10010046}.
+
+\bibitem{noauthor_sparc-p53_2020}
+{SPARC}-p53: {The} double agents of cancer.
+\newblock In: Advances in {Cancer} {Research}. vol. 148. Elsevier; 2020. p.
+  171--199.
+\newblock Available from:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0065230X20300464}.
+
 \bibitem{vogler_bcl2_2025}
 Vogler M, Braun Y, Smith VM, Westhoff MA, Pereira RS, Pieper NM, et~al.
 \newblock The {BCL2} family: from apoptosis mechanisms to new advances in
@@ -1957,20 +1913,6 @@ Nishida A, Andoh A.
   {Initiation}, {Progression}, and {Metastasis}.
 \newblock Cells. 2025;14(7):488.
 \newblock doi:{10.3390/cells14070488}.
-
-\bibitem{haloi_structural_2021}
-Haloi N, Wen PC, Cheng Q, Yang M, Natarajan G, Camara AKS, et~al.
-\newblock Structural basis of complex formation between mitochondrial anion
-  channel {VDAC1} and {Hexokinase}-{II}.
-\newblock Communications Biology. 2021;4(1):667.
-\newblock doi:{10.1038/s42003-021-02205-y}.
-
-\bibitem{dhir_mitochondrial_2018}
-Dhir A, Dhir S, Borowski LS, Jimenez L, Teitell M, Rötig A, et~al.
-\newblock Mitochondrial double-stranded {RNA} triggers antiviral signalling in
-  humans.
-\newblock Nature. 2018;560(7717):238--242.
-\newblock doi:{10.1038/s41586-018-0363-0}.
 
 \bibitem{amen_stress_2021}
 Amen T, Kaganovich D.
@@ -1986,14 +1928,6 @@ Fung G, Ng CS, Zhang J, Shi J, Wong J, Piesik P, et~al.
   {Protective} {Stress} {Granules} during {CVB3} {Infection}.
 \newblock PLoS ONE. 2013;8(11):e79546.
 \newblock doi:{10.1371/journal.pone.0079546}.
-
-\bibitem{krieger_trafficking_2024}
-Krieger MR, Abrahamian M, He KL, Atamdede S, Hakimjavadi H, Momcilovic M,
-  et~al.
-\newblock Trafficking of mitochondrial double-stranded {RNA} from mitochondria
-  to the cytosol.
-\newblock Life Science Alliance. 2024;7(9):e202302396.
-\newblock doi:{10.26508/lsa.202302396}.
 
 \bibitem{travers_mitochondria-derived_2025}
 Travers J, Huang E, McMullen MR, Wu J, Cajigas-Du~Ross CK, Paouri E, et~al..
@@ -2043,15 +1977,6 @@ Ikizawa T, Ikeda K, Arita M, Kitajima S, Soga T, Ichijo H, et~al.
 \newblock The Journal of Biological Chemistry. 2023;299(2):102837.
 \newblock doi:{10.1016/j.jbc.2022.102837}.
 
-\bibitem{el_manaa_transcription-_2021}
-El~Manaa W, Duplan E, Goiran T, Lauritzen I, Vaillant~Beuchot L, Lacas-Gervais
-  S, et~al.
-\newblock Transcription- and phosphorylation-dependent control of a functional
-  interplay between {XBP1s} and {PINK1} governs mitophagy and potentially
-  impacts {Parkinson} disease pathophysiology.
-\newblock Autophagy. 2021;17(12):4363--4385.
-\newblock doi:{10.1080/15548627.2021.1917129}.
-
 \bibitem{lin_mitochondrial-derived_2022}
 Lin Mm, Liu N, Qin Zh, Wang Y.
 \newblock Mitochondrial-derived damage-associated molecular patterns amplify
@@ -2065,6 +1990,121 @@ Mallick A, Ramalho T, Du Y, Li R, Ali L, Kim S, et~al.. {AMP} accumulation
   mitochondrial protein synthesis components via {NHR}-180; 2025.
 \newblock Available from:
   \url{http://biorxiv.org/lookup/doi/10.1101/2025.01.22.634344}.
+
+\bibitem{morata_cell_2021}
+Morata G.
+\newblock Cell competition: {A} historical perspective.
+\newblock Developmental Biology. 2021;476:33--40.
+\newblock doi:{10.1016/j.ydbio.2021.02.012}.
+
+\bibitem{morata_minutes_1975}
+Morata G, Ripoll P.
+\newblock Minutes: {Mutants} of {Drosophila} autonomously affecting cell
+  division rate.
+\newblock Developmental Biology. 1975;42(2):211--221.
+\newblock doi:{10.1016/0012-1606(75)90330-9}.
+
+\bibitem{li_fast_2009}
+Li H, Durbin R.
+\newblock Fast and accurate short read alignment with {Burrows}-{Wheeler}
+  transform.
+\newblock Bioinformatics. 2009;25(14):1754--1760.
+\newblock doi:{10.1093/bioinformatics/btp324}.
+
+\bibitem{benjamin_calling_2019}
+Benjamin D, Sato T, Cibulskis K, Getz G, Stewart C, Lichtenstein L. Calling
+  {Somatic} {SNVs} and {Indels} with {Mutect2}; 2019.
+\newblock Available from: \url{http://biorxiv.org/lookup/doi/10.1101/861054}.
+
+\bibitem{van_der_auwera_genomics_2020}
+Van~der Auwera G, O'Connor B.
+\newblock Genomics in the {Cloud}.
+\newblock 1st ed. Place of publication not identified: O'Reilly Media,
+  Incorporated; 2020.
+
+\bibitem{robinson_variant_2017}
+Robinson JT, Thorvaldsdóttir H, Wenger AM, Zehir A, Mesirov JP.
+\newblock Variant {Review} with the {Integrative} {Genomics} {Viewer}.
+\newblock Cancer Research. 2017;77(21):e31--e34.
+\newblock doi:{10.1158/0008-5472.CAN-17-0337}.
+
+\bibitem{chen_profiling_2018}
+Chen B, Khodadoust MS, Liu CL, Newman AM, Alizadeh AA.
+\newblock Profiling {Tumor} {Infiltrating} {Immune} {Cells} with {CIBERSORT}.
+\newblock Methods in Molecular Biology. 2018;1711:243--259.
+\newblock doi:{10.1007/978-1-4939-7493-1\_12}.
+
+\bibitem{di_giacomo_human_2017}
+Di~Giacomo S, Sollazzo M, De~Biase D, Ragazzi M, Bellosta P, Pession A, et~al.
+\newblock Human {Cancer} {Cells} {Signal} {Their} {Competitive} {Fitness}
+  {Through} {MYC} {Activity}.
+\newblock Scientific Reports. 2017;7(1):12568.
+\newblock doi:{10.1038/s41598-017-13002-1}.
+
+\bibitem{quintana-murci_human_2001}
+Quintana-Murci L, Fellous M.
+\newblock The {Human} {Y} {Chromosome}: {The} {Biological} {Role} of a
+  "{Functional} {Wasteland}".
+\newblock Journal of Biomedicine \& Biotechnology. 2001;1(1):18--24.
+\newblock doi:{10.1155/S1110724301000080}.
+
+\bibitem{bannour_swyer_2025}
+Bannour I, Bannour B, Ferjani S, Boughizane S.
+\newblock Swyer {Syndrome}: {A} diagnostic challenge.
+\newblock JBRA assisted reproduction. 2025;29(1):195--198.
+\newblock doi:{10.5935/1518-0557.20240096}.
+
+\bibitem{bairoch_cellosaurus_2018}
+Bairoch A.
+\newblock The {Cellosaurus}, a {Cell}-{Line} {Knowledge} {Resource}.
+\newblock Journal of biomolecular techniques: JBT. 2018;29(2):25--38.
+\newblock doi:{10.7171/jbt.18-2902-002}.
+
+\bibitem{linnekamp_consensus_2018}
+Linnekamp JF, Hooff SRv, Prasetyanti PR, Kandimalla R, Buikhuisen JY, Fessler
+  E, et~al.
+\newblock Consensus molecular subtypes of colorectal cancer are recapitulated
+  in in vitro and in vivo models.
+\newblock Cell Death and Differentiation. 2018;25(3):616--633.
+\newblock doi:{10.1038/s41418-017-0011-5}.
+
+\bibitem{shrivastava_microchimerism_2019}
+Shrivastava S, Naik R, Suryawanshi H, Gupta N.
+\newblock Microchimerism: {A} new concept.
+\newblock Journal of oral and maxillofacial pathology: JOMFP. 2019;23(2):311.
+\newblock doi:{10.4103/jomfp.JOMFP\_85\_17}.
+
+\bibitem{bd_biosciences_bd_nodate}
+{BD Biosciences}. {BD} {FACSAria} {Fusion} {Cell} {Sorter} {Brochure};.
+\newblock Available from:
+  \url{https://www.bdbiosciences.com/content/dam/bdb/marketing-documents/products-pdf-folder/instruments/research-cell-sorters/instruments-tech-specs-facsaria-fusion.pdf}.
+
+\bibitem{hao_distinct_2016}
+Hao D, Wang L, Di Lj.
+\newblock Distinct mutation accumulation rates among tissues determine the
+  variation in cancer risk.
+\newblock Scientific Reports. 2016;6:19458.
+\newblock doi:{10.1038/srep19458}.
+
+\bibitem{aldalaqan_cryptic_2022}
+Aldalaqan S, Dalgliesh C, Luzzi S, Siachisumo C, Reynard LN, Ehrmann I, et~al.
+\newblock Cryptic splicing: common pathological mechanisms involved in male
+  infertility and neuronal diseases.
+\newblock Cell Cycle. 2022;21(3):219--227.
+\newblock doi:{10.1080/15384101.2021.2015672}.
+
+\bibitem{rogalska_transcriptome-wide_2024}
+Rogalska ME, Mancini E, Bonnal S, Gohr A, Dunyak BM, Arecco N, et~al.
+\newblock Transcriptome-wide splicing network reveals specialized regulatory
+  functions of the core spliceosome.
+\newblock Science. 2024;386(6721):551--560.
+\newblock doi:{10.1126/science.adn8105}.
+
+\bibitem{buchbender_improved_2020}
+Buchbender A, Mutter H, Sutandy FXR, Körtel N, Hänel H, Busch A, et~al.
+\newblock Improved library preparation with the new {iCLIP2} protocol.
+\newblock Methods. 2020;178:33--48.
+\newblock doi:{10.1016/j.ymeth.2019.10.003}.
 
 \bibitem{oliveira_limited_2025}
 Oliveira BSP, Paiva RA, Pinto CC, Paiva RV, Pereira MXG, Ramos CV, et~al..

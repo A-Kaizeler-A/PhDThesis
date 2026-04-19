@@ -2,11 +2,13 @@
 \chapter{Charm: Comprehensive Hub for Alternative Regulatory Mapping of RBPs}
 \label{chap:ChapterIII}
 
-In the previous chapter, we focused on \glspl{rbp} known to be sequestered within \glspl{sg} and showed that functional alterations can be inferred from changes in their \gls{rna} binding profiles, even in the absence of differential expression. This establishes a ``medium-throughput" framework to detect \gls{rbp} functional perturbations across diverse conditions using transcriptomic data alone. Compared to targeted approaches such as \gls{if} (for localisation changes) or western blotting (for post-translational modifications), this strategy enables broader and more scalable screening of candidate \glspl{rbp}.
+In the previous chapter, we focused on \glspl{rbp} known to be sequestered within \glspl{sg} and showed that functional alterations can be inferred from changes in their \gls{rna} binding profiles, even in the absence of differential expression. This establishes a framework to detect \gls{rbp} functional perturbations across diverse conditions using transcriptomic data alone. Compared to targeted approaches such as \gls{if} (for localisation changes) or western blotting (for post-translational modifications), this strategy enables broader and more scalable screening of candidate \glspl{rbp}.
+\\
 \\
 Importantly, this approach does not distinguish the underlying mechanism driving functional changes, but it does provide an efficient first-pass method to identify \glspl{rbp} whose activity is likely perturbed, thereby prioritising targets for more in depth downstream analyses.
 \\
-Our observations with \gls{tia1} serve as a proof of concept for this framework, demonstrating that \gls{sg}-associated sequestration can be linked to measurable functional consequences at the transcriptomic level. Building on this, we expanded the analysis beyond \gls{sg}-associated proteins to include all \glspl{rbp} with available ENCODE data\cite{the_encode_project_consortium_integrated_2012}, allowing for a more comprehensive and systematic assessment of \gls{rbp} functional modulation.
+\\
+Our observations with \gls{tia1} serve as a proof of concept for this framework, demonstrating that \gls{sg}-associated sequestration can be linked to measurable functional consequences at the transcriptomic level. Building on this, we expanded the analysis beyond \gls{sg}-associated proteins to include all \glspl{rbp} with available ENCODE data\cite{the_encode_project_consortium_integrated_2012}, allowing for a more comprehensive and systematic assessment of \gls{rbp} functional modulation, not only on a \gls{sg} context, but in any physiological conditions in which their function is expected to altered.
 
 \section{Materials and Methods}
 
@@ -14,18 +16,22 @@ Our observations with \gls{tia1} serve as a proof of concept for this framework,
 
 We obtained gene silencing experiments from ENCODE\cite{the_encode_project_consortium_integrated_2012} targeting \glspl{rbp} for which corresponding \gls{eclip} data are available within the same resource. The selected experiments were conducted in the HepG2 and K562 cell lines and employed either shRNA-mediated knockdown or \gls{crispr}-based perturbation.
 \\
+\\
 For each cell line and target, we selected a single gene silencing experiment. Selection prioritised non-archived datasets; when multiple non-archived options were available, \gls{crispr}-based experiments were preferred. All replicates from the chosen experiment, along with their corresponding controls, were downloaded as FASTQ files.
+\\
 \\
 These were first trimmed using Trimmomatic (v0.39)\cite{bolger_trimmomatic_2014} in \gls{pe} mode, and subsequently processed with VAST-TOOLS (v2.5.1)\cite{tapial_atlas_2017}. Alignment was performed against the human reference genome \gls{hg38} using Bowtie (v1.2.2)\cite{langmead_ultrafast_2009}, following the standard VAST-TOOLS pipeline\cite{tapial_atlas_2017}.
 \\
+\\
 After running the \texttt{vast-tools align} and \texttt{vast-tools combine} steps, differential splicing analysis was conducted using the betAS R package (v1.2.1)\cite{ascensao-ferreira_betas_2024}, with modifications to the default filtering procedure. By default, the \texttt{alternativeEvents} function excludes events in which at least one sample does not meet the \gls{psi} thresholds (1 $<=$ \gls{psi} $<=$ 99). However, applying these thresholds resulted in the inclusion of a large number of events that appeared constitutive, showing minimal variation rather than true alternative splicing.
 \\
-To improve specificity, we incorporated prior information from the VASTDB MAIN PSI table\cite{tapial_atlas_2017}. For exon-skipping events, we computed the average \gls{psi} and variance across tissues and cell types. Events were classified as alternative if they satisfied at least one of the following empirical criteria: variance $>=$ 750, or average \gls{psi} between 12.5 and 87.5 (Figure 6.1). Only events meeting these criteria were retained for downstream filtering of the VAST-TOOLS output.
+\\
+To improve specificity, we incorporated prior information from the VASTDB MAIN PSI table\cite{tapial_atlas_2017}. For exon-skipping events, we computed the average \gls{psi} and variance across tissues and cell types. Events were classified as alternative if they satisfied at least one of the following empirical criteria: variance $>=$ 750, or average \gls{psi} between 12.5 and 87.5 (Figure 9.1). Only events meeting these criteria were retained for downstream filtering of the VAST-TOOLS output.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/eCLIPSE_FILT"}
-	\caption[Alternative events selection]{\textbf{Alternative events selection.} Scatter plots of exon skipping (Left) and intron retention (Right) events annotated in VastDB\cite{tapial_atlas_2017}, representing a comprehensive catalog of splicing events. Events are plotted by average PSI (X-Axis) and variance (Y-Axis). Both low and high average \gls{psi} values may indicate that an event is more cryptic than alternatively regulated. Because these metrics are averaged across multiple tissues, low variance can reflect tissue-specific regulation, such as an event consistently included in one tissue (e.g., neuronal) but excluded in others. For downstream analyses, only events with strong evidence of alternative inclusion were maintained. Dashed lines indicate the applied filtering thresholds: variance $>=$ 750 (horizontal) and PSI between 12.5 and 87.5 (vertical).}
+	\caption[Alternative events selection]{\textbf{Alternative events selection.} Scatter plots of exon skipping (Left) and intron retention (Right) events annotated in VastDB\cite{tapial_atlas_2017}, representing a comprehensive catalog of splicing events, throughout a wide variety of tissues. Events are plotted by average PSI (X-Axis) and variance (Y-Axis) across tissues. Both low and high average \gls{psi} values may indicate that an event is more cryptic (\gls{ie} an event that is almost always skipped/included, but under specific conditions, such as failure of other splice sites, is used instead\cite{aldalaqan_cryptic_2022}) than alternatively regulated. Because these metrics are averaged across multiple tissues, low variance can reflect tissue-specific regulation, such as an event consistently included in one tissue (e.g., neuronal) but excluded in others. For downstream analyses, only events with strong evidence of alternative inclusion were maintained. Dashed lines indicate the applied filtering thresholds: variance $>=$ 750 (horizontal) and PSI between 12.5 and 87.5 (vertical).}
 	\label{fig:Figure6.1}
 \end{figure}
 
@@ -34,12 +40,15 @@ To improve specificity, we incorporated prior information from the VASTDB MAIN P
 \subsection{\textit{In Silico} Resources}
 
 All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
-Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run vast-tools\cite{tapial_atlas_2017}, FASTQC\cite{andrews_fastqc_2010}, and MultiQC\cite{ewels_multiqc_2016}. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717).. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). The eCLIPSE tool includes steps that were conducted in Python 3 (v3.10.11), and in R (v4.1.2). CHARM was created as an open usage suite with RShiny (v1.11.1), and is planned to be hosted in the host lab's tool/app website.
+Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run vast-tools\cite{tapial_atlas_2017}, FASTQC\cite{andrews_fastqc_2010}, and MultiQC\cite{ewels_multiqc_2016}. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). The eCLIPSE tool includes steps that were conducted in Python 3 (v3.10.11), and in R (v4.1.2). CHARM was created as an open usage suite with RShiny (v1.11.1), and is planned to be hosted in the host lab's tool/app website.
 
 
 \section{RBP Binding Analyses Pipeline (eCLIPSE)}
 
-\gls{eclipse} is a (as of yet unpublished) computational pipeline developed to integrate \gls{eclip} data from the ENCODE project\cite{the_encode_project_consortium_integrated_2012} with splicing annotations from \gls{vastdb}\cite{tapial_atlas_2017}, generating \gls{rna} splicing maps. By aligning \gls{rbp} binding profiles to the genomic coordinates of annotated splicing events, \gls{eclipse} enables the systematic assessment of how individual \glspl{rbp} regulate alternative splicing, either directly (via their own binding) or indirectly (through downstream effects on other \glspl{rbp}). A brief description of each relevant step is shared on the sections below.
+\gls{eclipse} is a computational pipeline developed to integrate \gls{eclip} data from the ENCODE project\cite{the_encode_project_consortium_integrated_2012} with splicing annotations from \gls{vastdb}\cite{tapial_atlas_2017}, generating \gls{rna} splicing maps. By aligning \gls{rbp} binding profiles to the genomic coordinates of annotated splicing events, \gls{eclipse} enables the systematic assessment of how individual \glspl{rbp} regulate alternative splicing, either directly (via their own binding) or indirectly (through downstream effects on other \glspl{rbp}). All components required to reproduce this pipeline are available on GitHub at https://github.com/DiseaseTranscriptomicsLab/CHARM, with the exception of large files that cannot be hosted publicly due to size constraints but are nonetheless available upon request.
+\\
+\\
+A brief description of each relevant step is shared on the sections below.
 
 \subsection{Splicing-Genome Creation}
 
@@ -74,6 +83,9 @@ Intron retention events with introns shorter than 30 bp were excluded. For each 
 \end{verbatim}
 \noindent 
 Additional rules for handling short introns ($<$400 bp) were defined. These introns' length was divided between the start and end regions, to ensure we maintained comparable regions of interest for these events. For even-length introns, the split was equal; for odd-length introns, the extra base was assigned to the end region. 
+\\
+\\
+This step was conducted in R (v4.1.2).
 
 \subsection{eCLIP Samples}
 
@@ -81,11 +93,11 @@ One \gls{eclip} file per cell line for each available \gls{rbp} in \gls{encode}\
 
 \subsection{Binding Metagenome Assembly}
 
-\gls{rbp} binding peaks were intersected with the predefined splicing regions to extract the binding signal in \gls{hg38} coordinates. Each \gls{nt} in the original genome was coded as 0 (no binding) or 1 (binding present). To enable comparison across events of different lengths, each event was mapped to a standardised ``metagenome" coordinate system corresponding to the regions of interest (e.g., upstream exon, upstream intron, alternative exon, downstream intron, downstream exon, as defined in 6.2.1). Each splicing event was subsetted and rescaled to fixed metagenome coordinates (e.g., 1-50 corresponding to -50 nt to upstream exon end, 51-250 corresponding to upstream intron start to +200 nt, …), preserving the relative position of binding within the region. As stated above, because individual exons or introns can be shorter than the full reference \gls{roi} (i.e., exons $<$100 nt or introns $<$400 nt), some positions in the metagenome may not have corresponding \gls{hg38} coordinates with binding information. These positions are assigned \textit{\gls{na}} to indicate missing binding data. Binding information in metagenome coordinates were strand-specific. All conversions were implemented in Python3 (v3.10.11). Since Python indexing starts at 0, a +1 was added to Python defined coordinates, to ensure consistency with R defined coordinates, whose indexing starts at 1.
+\gls{rbp} binding peaks were intersected with the predefined splicing regions to extract the binding signal in \gls{hg38} coordinates. For each \gls{rbp}, a \gls{nt} in the original genome was coded as 0 (no binding) or 1 (binding present). To enable comparison across events of different lengths, each event was mapped to a standardised ``metagenome" coordinate system corresponding to the regions of interest (e.g., upstream exon, upstream intron, alternative exon, downstream intron, downstream exon, as defined in 9.2.1). Each splicing event was subsetted and rescaled to fixed metagenome coordinates (e.g., 1-50 corresponding to -50 nt to upstream exon end, 51-250 corresponding to upstream intron start to +200 nt, …), preserving the relative position of binding within the region. As stated above, because individual exons or introns can be shorter than the full reference \gls{roi} (i.e., exons $<$100 nt or introns $<$400 nt), some positions in the metagenome may not have corresponding \gls{hg38} coordinates with binding information. These positions are assigned \textit{\gls{na}} to indicate missing binding data. Binding information in metagenome coordinates were strand-specific. All conversions were implemented in Python3 (v3.10.11). Since Python indexing starts at 0, a +1 was added to Python defined coordinates, to ensure consistency with R defined coordinates, whose indexing starts at 1.
 
 \subsection{RNA-Binding Maps}
 
-Events from our differential splicing analysis using betAS (v1.2.1)\cite{ascensao-ferreira_betas_2024} were defined as maintained, increased, or decreased, based on a chosen dPSI threshold ($|0.1|$ in this analysis). For assessment of differential binding, a Chi-Squared Test was applied to each position using the following contingency matrix (Table 6.1): 
+Events from our differential splicing analysis using betAS (v1.2.1)\cite{ascensao-ferreira_betas_2024} were defined as maintained, increased, or decreased, based on a chosen dPSI threshold ($|0.1|$ in this analysis). For assessment of differential binding, a Chi-Squared Test was applied to each position using the following contingency matrix (Table 9.1): 
 
 
 \begin{table}[H]
@@ -108,6 +120,7 @@ Events from our differential splicing analysis using betAS (v1.2.1)\cite{ascensa
 \noindent
 The resulting p-values from the test are then log10-transformed and corrected for multiple testing using the \gls{bh} procedure\cite{benjamini_controlling_1995}, resulting in \gls{fdr}, which were multiplied by -1 for positions with decreased binding.
 \\
+\\
 For each category, and per \gls{rbp}, normalised binding profiles were computed across the metagenome coordinates for the corresponding events. Specifically, for each nucleotide position in the metagenome, the binding signal was calculated as such, ensuring a per-position signal that accounts for missing values due to shorter regions in individual events, which would otherwise be overrepresented:
 
 \begin{equation}
@@ -117,22 +130,25 @@ For each category, and per \gls{rbp}, normalised binding profiles were computed 
 \eqcaption{Normalised binding procedure}
 \\
 \noindent
-Finally, position-wise normalised binding profiles were plotted along the metagenome coordinates for each category, with the corresponding FDR values, or Chi-Squared Statistic values, shown in the bottom half of the plot. Taken together, these steps generate statistically assessed RBP binding maps for maintained, increased, and decreased exon-skipping events. This process was performed in R (v. 4.1.2).
+Finally, position-wise normalised binding profiles were plotted along the metagenome coordinates for each category, with the corresponding FDR values, or Chi-Squared Statistic values, shown in the bottom half of the plot. Taken together, these steps generate statistically assessed RBP binding maps for maintained, increased, and decreased exon-skipping events. This process was performed in R (v4.1.2).
 
 
 \section{From eCLIPSE to CHARM}
 
 With the eCLIPSE pipeline established, we developed a systematic framework to analyse alternative splicing in the context of biological perturbations. Starting from gene silencing experiments, the pipeline enables quantification of splicing events as increased, decreased, or unchanged, and integrates differential binding enrichment to infer functional alterations in \glspl{rbp}.
 \\
+\\
 Using \gls{encode} \gls{shrna} datasets targeting \glspl{rbp}, we assembled a multi-layered database capturing gene expression, splicing, and protein–RNA binding. While integrative analyses across these layers have been previously reported\cite{rogalska_transcriptome-wide_2024}, our approach introduces a key extension: the ability to assess indirect binding effects, specifically how \gls{kd} of one \gls{rbp} influences the binding profiles of others. This added dimension enables the exploration of cooperative and competitive interactions, facilitating the identification of regulatory relationships and potential RBP complexes.
 \\
+\\
 To support this analysis, we developed \gls{charm} as an open-access, modular suite implemented as an RShiny web application. Its design allows straightforward integration of additional datasets, including gene silencing experiments from other sources, \gls{eclip} profiles for additional RBPs, and alternative \gls{clip} technologies such as iCLIP2\cite{buchbender_improved_2020}. CHARM is intended as a hypothesis-generation platform, with results requiring downstream experimental validation.
+\\
 \\
 From an oncobiology perspective, this framework enables the identification of functional alterations in RBPs that are not evident at the expression level alone, potentially revealing novel tumour-promoting or tumour-suppressive mechanisms. Furthermore, it facilitates the detection of splicing events, such as intron retention, that may generate neoantigens associated with improved clinical outcomes or serve as candidates for therapeutic targeting, an area of growing translational interest\cite{rogalska_regulation_2023}.
 \\
 \linebreak
 \noindent
-Thus, CHARM has two modes of usage (Figure 6.2): (1) Explore mode, in which users can investigate these layers of information derived from ENCODE's data\cite{the_encode_project_consortium_integrated_2012}; (2) Discovery mode, in which users can input their own expression or splicing data, to either compare with ENCODE's data\cite{the_encode_project_consortium_integrated_2012}, or to use the eCLIPSE pipeline to uncover differential binding.
+Thus, CHARM has two modes of usage (Figure 9.2): (1) Explore mode, in which users can investigate these layers of information derived from ENCODE's data\cite{the_encode_project_consortium_integrated_2012}; (2) Discovery mode, in which users can input their own expression or splicing data, to either compare with ENCODE's data\cite{the_encode_project_consortium_integrated_2012}, or to use the eCLIPSE pipeline to uncover differential binding.
 \\
 
 \begin{figure}[H]
@@ -145,15 +161,18 @@ Thus, CHARM has two modes of usage (Figure 6.2): (1) Explore mode, in which user
 
 
 \noindent
-An overview of CHARM's different modules is presented below.
+CHARM was thus developed to integrate several layers (modules) of information pertaining to \gls{rbp}s, based on expression, splicing, and binding, reflecting how these are changed upon \gls{shrna} treatment, or other conditions of interest. An overview of CHARM's different modules is presented below.
 
 \subsection{Expression}
 
-Within the \textbf{Expression} tab, in \textbf{Explore Mode} (Figure 6.3A) users can explore the effects of \gls{rbp} \gls{kd} on gene expression. Analyses can be performed for HepG2 and K562 cell lines, either jointly or independently (Figure 6.3B). After selecting a \gls{rbp} (Figure 6.3C), The interface initially presents a violin plot summarising the distribution of expression changes following \gls{kd} (Figure 6.3F), alongside a scatter plot comparing the selected \gls{rbp} with all other available \glspl{rbp} for reference (Figure 6.3G).
+Within the \textbf{Expression} tab, in \textbf{Explore Mode} (Figure 9.3A) users can explore the effects of \gls{rbp} \gls{kd} on gene expression. Analyses can be performed for HepG2 and K562 cell lines, either jointly or independently (Figure 9.3B). After selecting a \gls{rbp} (Figure 9.3C), the interface initially presents a violin plot summarising the distribution of expression changes following \gls{kd} (Figure 9.3F), alongside a scatter plot comparing the selected \gls{rbp} with all other available \glspl{rbp} for reference (Figure 9.3G).
+\\
 \\
 This comparative view is particularly relevant because some \gls{encode} \gls{kd} experiments show limited or inconsistent perturbation efficiency, with minimal or even increased expression of the targeted gene. In such cases, analyses remain available; however, a warning message is displayed to indicate potential data quality concerns.
 \\
-Downstream results include a volcano plot of \gls{dgea} (Figure 6.3H) and an associated results table (Figure 6.3I). Both elements are interactive and implemented using Plotly (v4.11.0): selecting a gene in the table highlights the corresponding point in the volcano plot, and vice-versa. The targeted \gls{rbp} is specifically highlighted in red.
+\\
+Downstream results include a volcano plot of \gls{dgea} (Figure 9.3H) and an associated results table (Figure 9.3I). Both elements are interactive and implemented using Plotly (v4.11.0): selecting a gene in the table highlights the corresponding point in the volcano plot, and vice-versa. The targeted \gls{rbp} is specifically highlighted in red.
+\\
 \\
 \gls{gsea} results are presented below, showing enriched and depleted Hallmark gene sets\cite{liberzon_molecular_2015} along with a corresponding interactive table.
 
@@ -169,8 +188,8 @@ The Expression tab also provides additional discovery-oriented submodes:
 \linebreak
 \noindent
 \begin{itemize}
-\item Gene-centered submode (Figure 6.3D, 6.4A): Users can select a gene of interest and visualise, via a bar plot, the RBPs that most strongly influence its expression in both positive and negative directions.
-\item GSEA-centered submode (Figure 6.3E, 6.4A): Users can select a Hallmark gene set\cite{liberzon_molecular_2015} and evaluate which RBPs are most strongly associated with its enrichment or depletion.
+\item Gene-centered submode (Figure 9.3D, 9.4A): Users can select a gene of interest and visualise, via a bar plot, the RBPs whose KD most strongly influence its expression in both positive and negative directions.
+\item GSEA-centered submode (Figure 9.3E, 9.4A): Users can select a Hallmark gene set\cite{liberzon_molecular_2015} and evaluate which RBPs' KD are most strongly associated with its enrichment or depletion.
 \end{itemize}
 
 
@@ -181,7 +200,7 @@ The Expression tab also provides additional discovery-oriented submodes:
 	\label{fig:Figure6.4}
 \end{figure}
 \noindent
-Additionally, a ``Similar RBPs" mode enables direct comparison between RBPs (Figure 6.5). Visualisation is provided as scatter plots when a single comparison is selected, or bar plots for multiple \glspl{rbp}. Users can also identify the most and least similar \glspl{rbp} relative to a query. Similarity can be defined based on gene expression correlations or GSEA Hallmark\cite{liberzon_molecular_2015} correlations.
+Additionally, a ``Similar RBPs" mode enables direct comparison between expression profiles from each RBPs' KD (Figure 9.5). Visualisation is provided as scatter plots when a single comparison is selected, or bar plots for multiple \glspl{rbp}. Users can also identify the most and least similar \glspl{rbp} relative to a user supplied query (\gls{ie} user selects RBP A, and is presented with RBPs whose KD is most similar, or dissimilar, to RBP A's KD.). Similarity can be defined based on gene expression correlations or GSEA Hallmark\cite{liberzon_molecular_2015} correlations (Figure 9.5C).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Expression3"}
@@ -189,7 +208,7 @@ Additionally, a ``Similar RBPs" mode enables direct comparison between RBPs (Fig
 	\label{fig:Figure6.5}
 \end{figure}
 \noindent
-In discovery mode (Figure 6.6A), users may also upload their own gene expression dataset (Figure 6.6B). The input requires two columns: \gls{hgnc} gene symbols and a differential expression statistic (preferably t-statistic). Users can then compare their dataset against selected \glspl{rbp} using scatter or bar plot visualisations, or perform exploratory analyses to identify the most and least related RBPs. As in the ``Similar RBPs" mode, similarity can be assessed using either gene expression or GSEA-based correlations (Figure 6.6C).
+In discovery mode (Figure 9.6A), users may also upload their own differential gene expression dataset (Figure 9.6B). The input requires two columns: \gls{hgnc} gene symbols and a differential expression statistic (preferably t-statistic). Users can then compare their dataset against selected \glspl{rbp}'s KD using scatter or bar plot visualisations, or perform exploratory analyses to identify the most and least related RBPs. As in the ``Similar RBPs" mode, similarity between RBPs' KD can be assessed using either gene expression or GSEA-based correlations (Figure 9.6C).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Expression4"}
@@ -200,17 +219,18 @@ In discovery mode (Figure 6.6A), users may also upload their own gene expression
 
 \subsection{Splicing}
 
-Within the Splicing tab, in Explore Mode (Figure 6.7A), users can investigate how \gls{rbp} \gls{kd} reshapes splicing patterns, focusing specifically on exon skipping and intron retention events. Upon selection of an \gls{rbp} (Figure 6.7C), the interface summarises global splicing alterations (Figure 6.7E) and provides an interactive volcano plot displaying \gls{dpsi} (X-Axis) versus statistical significance (Y-Axis, PDiff\cite{ascensao-ferreira_betas_2024}) (Figure 6.7G). Splicing events are identified using \gls{vastdb} event IDs\cite{tapial_atlas_2017}, and results are accompanied by an interactive table for detailed inspection (Figure 6.7H).
+Within the Splicing tab, in Explore Mode (Figure 9.7A), users can investigate how \gls{rbp} \gls{kd} reshapes splicing patterns, focusing specifically on exon skipping and intron retention events. Upon selection of an \gls{rbp} (Figure 9.7C), the interface summarises global splicing alterations (Figure 9.7E) and provides an interactive volcano plot displaying \gls{dpsi} (X-Axis) versus statistical significance (Y-Axis, \gls{pdiff}\cite{ascensao-ferreira_betas_2024}) (Figure 9.7G). Splicing events are identified using \gls{vastdb} event IDs\cite{tapial_atlas_2017}, and results are accompanied by an interactive table for detailed inspection (Figure 9.7H).
 \\
-Analyses can be performed on HepG2 and K562 cell lines either jointly or separately (Figure 6.7B). In contrast to the global view, an event-centered mode allows users to query a specific splicing event (Figure 6.7D) and visualise, via bar plots, which \glspl{rbp} most strongly promote exon inclusion or exclusion.
+\\
+Analyses can be performed on HepG2 and K562 cell lines either jointly or separately (Figure 9.7B). In contrast to the global view, an event-centered mode allows users to query a specific splicing event (Figure 9.7D) and visualise, via bar plots, which \glspl{rbp} most strongly promote exon inclusion or exclusion.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Splicing1"}
-	\caption[CHARM's Splicing Tab in Explore Mode]{\textbf{CHARM's Splicing Tab in Explore Mode. } (A) Selection of usage mode; in this example, Explore Mode is active. (B) Selection of data scope, allowing analysis of HepG2 and K562 cell lines either jointly or separately. This panel also provides access to the "Similar RBPs" mode. (C) Selection of \gls{rbp} of interest. (D) Event-centered analysis, where users select an event of interest, as per VastDB IDs\cite{tapial_atlas_2017}. Resulting visualisations display bar plots indicating the \glspl{rbp} that most strongly influence the alternative splicing of the selected event. (E) Violin plots showing global distribution of \gls{dpsi} of intron retention (IR) and exon skipping (EX) events. In the example shown, \textit{AQR} KD has a strong global effect in splicing efficiency, as its knockdown increases intron retention and alternative exon inclusion. (F) Scatter plot summarising knockdown efficiency across experiments, with effect size (X-Axis, Log2 fold change) and statistical significance (Y-Axis, B-statistic). (G) Volcano plot showing differential splicing analysis following knockdown of the selected RBP, with effect size (X-Axis, dPSI) and significance (Y-Axis, PDiff\cite{ascensao-ferreira_betas_2024}). Events are represented as circles. (H) Interactive differential splicing results table corresponding to panel (G). Users can sort by metrics of interest, and selecting a row highlights the corresponding event in the volcano plot.}
+	\caption[CHARM's Splicing Tab in Explore Mode]{\textbf{CHARM's Splicing Tab in Explore Mode. } (A) Selection of usage mode; in this example, Explore Mode is active. (B) Selection of data scope, allowing analysis of HepG2 and K562 cell lines either jointly or separately. This panel also provides access to the "Similar RBPs" mode. (C) Selection of \gls{rbp} of interest. (D) Event-centered analysis, where users select an event of interest, as per VastDB IDs\cite{tapial_atlas_2017}. Resulting visualisations display bar plots indicating the \glspl{rbp} that most strongly influence the alternative splicing of the selected event. (E) Violin plots showing global distribution of \gls{dpsi} of intron retention (IR) and exon skipping (EX) events. In the example shown, \textit{AQR} KD has a strong global effect in splicing efficiency, as its knockdown increases intron retention and alternative exon inclusion. (F) Scatter plot summarising knockdown efficiency across experiments, with effect size (X-Axis, Log2 fold change) and statistical significance (Y-Axis, B-statistic). (G) Volcano plot showing differential splicing analysis following knockdown of the selected RBP, with effect size (X-Axis, dPSI) and significance (Y-Axis, \gls{pdiff}\cite{ascensao-ferreira_betas_2024}). Events are represented as circles. (H) Interactive differential splicing results table corresponding to panel (G). Users can sort by metrics of interest, and selecting a row highlights the corresponding event in the volcano plot.}
 	\label{fig:Figure6.7}
 \end{figure}
 \noindent
-The “Similar RBPs” mode enables comparative analysis of RBPs based on their splicing impact profiles (Figure 6.8A). When comparing a single pair of RBPs, results are shown as scatter plots of event-level agreement (Figure 6.8E); when multiple \glspl{rbp} are selected, similarity is summarised using bar plots based on correlation metrics. This mode also supports exploratory queries to identify \glspl{rbp} with the most similar or dissimilar splicing signatures relative to a chosen reference (Figure 6.8D).
+The “Similar RBPs” mode enables comparative analysis of RBPs based on their splicing impact profiles (Figure 9.8A). When comparing a single pair of RBPs, results are shown as scatter plots of event-level agreement (Figure 9.8E); when multiple \glspl{rbp} are selected, similarity is summarised using bar plots based on correlation metrics. This mode also supports exploratory queries to identify \glspl{rbp} with the most similar or dissimilar splicing signatures relative to a chosen reference (Figure 9.8D).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Splicing2"}
@@ -218,7 +238,7 @@ The “Similar RBPs” mode enables comparative analysis of RBPs based on their 
 	\label{fig:Figure6.8}
 \end{figure}
 \noindent
-In discovery mode (Figure 6.9A), users can upload an external differential splicing dataset (Figure 6.9B). To ensure compatibility, input tables must be preprocessed using the betAS application\cite{ascensao-ferreira_betas_2024}, which formats outputs derived from vast-tools\cite{tapial_atlas_2017}. Uploaded datasets can then be compared against reference \glspl{rbp} using the same visualisation framework (scatter or bar plots) (Figure 6.9C), or used to identify RBPs with concordant or opposing splicing effects (Figure 6.9D, F). Additionally, a global summary of splicing alterations, capturing exon skipping and intron retention patterns, is generated to contextualise the uploaded data (Figure 6.9E).
+In discovery mode (Figure 9.9A), users can upload an external differential splicing dataset (Figure 9.9B). To ensure compatibility, input tables must be preprocessed using the betAS application\cite{ascensao-ferreira_betas_2024}, which formats outputs derived from vast-tools\cite{tapial_atlas_2017} (and from other splicing quantification tools). Uploaded datasets can then be compared against reference \glspl{rbp} using the same visualisation framework as above (scatter or bar plots) (Figure 9.9C), or used to identify RBPs with concordant or opposing splicing effects (Figure 9.9D, F). Additionally, a global summary of splicing alterations, capturing exon skipping and intron retention patterns, is generated to contextualise the uploaded data (Figure 9.9E).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Splicing3"}
@@ -229,27 +249,32 @@ In discovery mode (Figure 6.9A), users can upload an external differential splic
 
 \subsection{Binding}
 
-Within the Binding tab, users can analyse \gls{rbp}–\gls{rna} interaction changes in the context of exon skipping or intron retention events. Analyses can be performed for HepG2 and K562 cell lines either jointly or independently.
+Within the Binding tab, users can analyse changes in \gls{rbp}–\gls{rna} interaction patterns in the context of alternative splicing events, including exon skipping or intron retention. In this framework, \textit{differential binding} refers to differences in \gls{rbp} eCLIP signal distribution between groups of splicing events stratified by their regulatory outcome (\gls{eg} increased exon inclusion versus increased exon exclusion). Analyses can be performed for HepG2 and K562 cell lines either jointly or independently.
 \\
-Because differential binding analyses depend critically on the \gls{dpsi} threshold used to define increased and decreased splicing events, and because optimal thresholds vary across \glspl{rbp}, we first conducted a systematic threshold optimisation. For each \gls{rbp} \gls{kd}
-and its corresponding effect on binding profiles (derived from eCLIP data), \gls{dpsi} thresholds ranging from 0.01 to 0.1 (in increments of 0.01) were evaluated.
 \\
-For each threshold, differential binding signal was quantified by integrating statistical evidence across events, specifically using the absolute integral of \gls{fdr} and Chi-Squared statistics, computed separately for increased and decreased splicing events. Thresholds that maximised either metric for either event class were retained. In addition, \gls{dpsi} thresholds of 0.05 and 0.1 were included as standard reference values.
+Because differential binding analyses depend critically on the \gls{dpsi} threshold used to define splicing event groups, and because the optimal threshold may vary across \glspl{rbp} due to differences in binding strength and regulatory effect size, we first conducted a systematic threshold optimisation. For each \gls{rbp} perturbation (\gls{kd}) and its corresponding binding signal derived from eCLIP data, \gls{dpsi} thresholds ranging from 0.01 to 0.1 (in increments of 0.01) were evaluated.
 \\
-In the \gls{charm} interface, when users analyse a single \gls{rbp} interaction, they can select from these predefined \gls{dpsi} thresholds, presenting as canonical RNA maps (Figure 6.10). 
+\\
+For each threshold, differential binding was quantified by comparing eCLIP signal distributions between event groups and integrating statistical evidence across all events, using the absolute integral of \gls{fdr}-adjusted enrichment and Chi-Squared statistics, computed separately for increased and decreased splicing classes. Thresholds that maximised either metric for either class were retained. In addition, \gls{dpsi} thresholds of 0.05 and 0.1 were included as standard reference values.
+\\
+\\
+In the \gls{charm} interface, when users analyse a single \gls{rbp} interaction, they can select from these predefined \gls{dpsi} thresholds, which are then used to generate canonical RNA splicing maps (Figure 9.10).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Binding1"}
-	\caption[CHARM's Binding Tab in Explore Mode, Single-Comparison submode]{\textbf{CHARM's Binding Tab in Explore Mode, Single-Comparison submode.} (A) Selection of splicing event type to analyse; in this example, exon skipping is selected. (B) Selection of usage mode; Explore Mode is active. (C) Selection of data scope, allowing analysis of HepG2 and K562 cell lines either jointly or separately. (D) Selection of the \gls{rbp} \gls{kd} used as the perturbation.(E) Selection of target \glspl{rbp} whose binding profiles are evaluated for changes upon the selected \gls{kd} (D). If a single \gls{rbp} is selected, results are displayed as RNA maps (see panels H–J). If multiple RBPs are selected, results are summarised as a heatmap based on the selected metric (Figure 6.11). (F) Selection of the \gls{dpsi} threshold used to define increased and decreased splicing events. The annotation in parentheses indicates the criterion by which the threshold was retained during preliminary optimisation. In this example, $dPSI = 0.10$ maximises the chi-squared statistic for increased events. (G) Selection of the metric used for visualisation. ``Effect size" corresponds to the chi-squared statistic, while ``FDR" refers to \gls{bh}\cite{benjamini_controlling_1995} adjusted p-values derived from the chi-squared test. (H) Schematic representation of the analysed splicing event type; here, an exon skipping event is illustrated. (I) Normalised binding density profile of the selected \gls{rbp} (E) under the specified \gls{kd} condition (D) and \gls{dpsi} threshold (F). (J) Statistical signal across the binding profile shown in (I), represented as either chi-squared statistic or FDR, according to the selection in (G). The number of events with binding for the selected RBP is indicated between panels (I) and (J), with the total number of defined events of that type shown in parentheses.}
+	\caption[CHARM's Binding Tab in Explore Mode, Single-Comparison submode]{\textbf{CHARM's Binding Tab in Explore Mode, Single-Comparison submode.} (A) Selection of splicing event type to analyse; in this example, exon skipping is selected. (B) Selection of usage mode; Explore Mode is active. (C) Selection of data scope, allowing analysis of HepG2 and K562 cell lines either jointly or separately. (D) Selection of the \gls{rbp} \gls{kd} used as the perturbation.(E) Selection of target \glspl{rbp} whose binding profiles are evaluated for changes upon the selected \gls{kd} (D). If a single \gls{rbp} is selected, results are displayed as RNA maps (see panels H–J). If multiple RBPs are selected, results are summarised as a heatmap based on the selected metric (Figure 9.11). (F) Selection of the \gls{dpsi} threshold used to define increased and decreased splicing events. The annotation in parentheses indicates the criterion by which the threshold was retained during preliminary optimisation. In this example, $dPSI = 0.10$ maximises the chi-squared statistic for increased events. (G) Selection of the metric used for visualisation. ``Effect size" corresponds to the chi-squared statistic, while ``FDR" refers to \gls{bh}\cite{benjamini_controlling_1995} adjusted p-values derived from the chi-squared test. (H) Schematic representation of the analysed splicing event type; here, an exon skipping event is illustrated. (I) Normalised binding density profile of the selected \gls{rbp} (E) under the specified \gls{kd} condition (D) and \gls{dpsi} threshold (F). (J) Statistical signal across the binding profile shown in (I), represented as either chi-squared statistic or FDR, according to the selection in (G). The number of events with binding for the selected RBP is indicated between panels (I) and (J), with the total number of defined events of that type shown in parentheses.}
 	\label{fig:Figure6.10}
 \end{figure}
 \noindent
-When multiple interactions are explored simultaneously, the available options include the default thresholds (0.05 and 0.1) as well as four optimised thresholds, corresponding to those that maximise the selected metric (FDR or chi-squared statistic) for increased or decreased events within the query, represented as heatmaps (Figure 6.11).
+When multiple interactions are explored simultaneously, the available options include the default thresholds (0.05 and 0.1) as well as four optimised thresholds, corresponding to those that maximise the selected metric (FDR or chi-squared statistic) for increased or decreased events within the query, represented as heatmaps (Figure 9.11).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/CHARM_Binding2"}
-	\caption[CHARM's Binding Tab in Explore Mode, Multi-Comparison submode]{\textbf{CHARM's Binding Tab in Explore Mode, Multi-Comparison submode. } (A) Selection of splicing event type to analyse; in this example, intron retention is selected. (B) Selection of usage mode; Explore Mode is active. (C) Selection of data scope, allowing analysis of HepG2 and K562 cell lines either jointly or separately. (D) Selection of the \gls{rbp} \gls{kd} used as the perturbation.(E) Selection of target \glspl{rbp} whose binding profiles are evaluated for changes upon the selected \gls{kd} (D). If a single \gls{rbp} is selected, results are displayed as RNA maps (Figure 6.10). If multiple RBPs are selected, results are summarised as a heatmap based on the selected metric (panels H and J). (F) Selection of the \gls{dpsi} threshold used to define increased and decreased splicing events. (G) Selection of the metric used for visualisation. ``Effect size" corresponds to the chi-squared statistic, while ``FDR" refers to \gls{bh}\cite{benjamini_controlling_1995} adjusted p-values derived from the chi-squared test. (H) Statistical signal across the binding profile of selected RBP pairings, represented as either chi-squared statistic or FDR, according to the selection in (G), in events with decreased (left) or increased inclusion (right). (I) Schematic representation of the analysed splicing event type; here, an intron retention event is illustrated.}
+	\caption[CHARM's Binding Tab in Explore Mode, Multi-Comparison submode]{\textbf{CHARM's Binding Tab in Explore Mode, Multi-Comparison submode. } (A) Selection of splicing event type to analyse; in this example, intron retention is selected. (B) Selection of usage mode; Explore Mode is active. (C) Selection of data scope, allowing analysis of HepG2 and K562 cell lines either jointly or separately. (D) Selection of the \gls{rbp} \gls{kd} used as the perturbation.(E) Selection of target \glspl{rbp} whose binding profiles are evaluated for changes upon the selected \gls{kd} (D). If a single \gls{rbp} is selected, results are displayed as RNA maps (Figure 9.10). If multiple RBPs are selected, results are summarised as a heatmap based on the selected metric (panels H and J). (F) Selection of the \gls{dpsi} threshold used to define increased and decreased splicing events. (G) Selection of the metric used for visualisation. ``Effect size" corresponds to the chi-squared statistic, while ``FDR" refers to \gls{bh}\cite{benjamini_controlling_1995} adjusted p-values derived from the chi-squared test. (H) Statistical signal across the binding profile of selected RBP pairings, represented as either chi-squared statistic or FDR, according to the selection in (G), in events with decreased (left) or increased inclusion (right). (I) Schematic representation of the analysed splicing event type; here, an intron retention event is illustrated.}
 	\label{fig:Figure6.11}
 \end{figure}
-
-As of the writing of this thesis, these are the functional and implemented modes of function. An additional tab, \textbf{Network} is planned in the near function, to create regulatory networks between RBPs taking into account the other 3 tabs of information.
+\noindent
+As of the writing of this thesis, these represent the implemented functional modes.
+\\
+\\
+A future \textbf{Network} module is planned to integrate outputs from the other three tabs into a unified graph representation of \gls{rbp} regulation. In this framework, network edges would be defined using multiple complementary evidence layers, including shared target enrichment, similarity of RNA binding patterns, and concordant splicing regulatory signatures, enabling multi-modal inference of functional RBP–RBP relationships.

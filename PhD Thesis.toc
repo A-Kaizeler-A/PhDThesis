@@ -2,154 +2,155 @@
 \babel@toc {portuguese}{}\relax 
 \contentsline {chapter}{Resumo}{vi}{chapter*.1}%
 \babel@toc {british}{}\relax 
-\contentsline {chapter}{Summary}{ix}{chapter*.2}%
-\contentsline {chapter}{Preface and Acknowledgments}{xi}{chapter*.3}%
-\contentsline {chapter}{Eulogy}{xvii}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{xxiii}{chapter*.4}%
-\contentsline {chapter}{List of Tables}{xxiii}{chapter*.4}%
-\contentsline {chapter}{List of Equations}{xxiii}{chapter*.4}%
-\contentsline {chapter}{Abbreviations, acronyms, innitialisms, and symbols}{xxiv}{section*.5}%
+\contentsline {chapter}{Summary}{x}{chapter*.2}%
+\contentsline {chapter}{Preface and Acknowledgments}{xii}{chapter*.3}%
+\contentsline {chapter}{Eulogy}{xix}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{xxv}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{xxv}{chapter*.4}%
+\contentsline {chapter}{List of Equations}{xxv}{chapter*.4}%
+\contentsline {chapter}{Abbreviations, acronyms, innitialisms, and symbols}{xxvi}{section*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Stress Granules}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}What are Stress Granules?}{1}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}A brief history of Stress Granules}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}A Brief History of Stress Granules}{1}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Stress Granule Assembly and Disassembly}{3}{subsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.1.4}Functions of Stress Granules}{6}{subsection.1.1.4}%
 \contentsline {subsection}{\numberline {1.1.5}Stress Granules in Disease}{8}{subsection.1.1.5}%
-\contentsline {section}{\numberline {1.2}RNA-Binding Proteins}{11}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}What are RNA-Binding Proteins?}{11}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Functions of RNA-Binding Proteins}{12}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}RBPs and Splicing}{13}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Mitochondria}{16}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}What is a Mitochondrion?}{16}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}The Mitochondrial Genome}{17}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Functions of the Mitochondrion}{19}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}The Mitochondrion and Inflammation}{20}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Transcriptomics}{24}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}What is Transcriptomics?}{24}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Why Transcriptomics?}{26}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}A Brief Introduction to RNA-Sequencing}{27}{subsection.1.4.3}%
-\contentsline {chapter}{\numberline {2}Objectives}{29}{chapter.2}%
-\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{29}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Aims}{30}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Thesis Outline}{31}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Cell Competition and the Importance of Critical Thinking}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Brief Introduction to Cell Competition}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Materials and Methods}{34}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Non \textit {In Silico} Methods}{34}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Dataset Pre-Processing and Alignment}{34}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Variant Calling}{35}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Read count data pre-processing}{35}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Differential expression analysis }{35}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}\textit {In Silico} Resources}{36}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Results and Discussion}{36}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}A Surprising Result}{36}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Biological Knowledge Driving Methodological Choices}{39}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}The SG Transcriptome}{42}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Materials and Methods}{43}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Dataset Procurement and List}{43}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Correlations}{44}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Sampling Bias Simulations (Mimi-Seq)}{44}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Centrifugation Simulation (Spin-Sim)}{44}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}\textit {In Silico} Resources}{46}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Standard Bioinformatics Analytical Pipeline}{46}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Quality Control: Dataset Pre-processing}{47}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Quality Control: Coverage and Complexity}{49}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Processing Steps: Filtering and Normalisation}{50}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Exploratory Analysis: PCA}{54}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Differential Expression Analysis – Linear Modelling}{56}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Differential Expression Analysis – Volcano Plots and GSEA}{58}{subsection.4.2.6}%
-\contentsline {section}{\numberline {4.3}Results and Discussion}{60}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Different SG Purification Techniques Yield Different SG Transcriptomes}{60}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Sampling Bias Does Not Explain the RNA Length Bias in DC-derived SGs}{65}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Simulation of the Centrifugation Process Yields RNA Length Bias Compatible with that Observed in DC-isolated SGs}{69}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Centrifugation Simulation with Added Weight from RNA Modifications Recapitulate their Effect in DC-isolated SGs}{73}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Differential Centrifugation Yields Similar Transcriptomes for Stress Granules and other RNP Granules}{75}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Revisiting Stress Granule Transcriptomes Reveals Mitochondrial RNA Enrichment Despite Methodological Bias}{78}{subsection.4.3.6}%
-\contentsline {chapter}{\numberline {5}The SG ``Indirect" Proteome}{88}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Materials and Methods}{88}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Dataset Procurement and List}{88}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Correlations}{89}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Differential Splicing Analysis}{89}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}\textit {In Silico} Resources}{90}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}U2-OS Growth Conditions}{90}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}Stress conditions}{90}{subsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.1.7}\gls {if}}{90}{subsection.5.1.7}%
-\contentsline {subsection}{\numberline {5.1.8}Microscopy and Image Analysis}{91}{subsection.5.1.8}%
-\contentsline {section}{\numberline {5.2}Results and Discussion}{91}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Sequestration of TIA1 in SGs Recapitulates Splicing Alterations from TIA1 Depletion}{91}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {6}Charm: Comprehensive Hub for Alternative Regulatory Mapping of RBPs}{98}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Materials and Methods}{98}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Differential Splicing Analysis}{98}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}\textit {In Silico} Resources}{100}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}RBP Binding Analyses Pipeline (eCLIPSE)}{100}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Splicing-Genome Creation}{101}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}eCLIP Samples}{102}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Binding Metagenome Assembly}{102}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}RNA-Binding Maps}{102}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}From eCLIPSE to CHARM}{103}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Expression}{104}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Splicing}{108}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Binding}{111}{subsection.6.3.3}%
-\contentsline {chapter}{\numberline {7}The WC Transcriptome}{114}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Materials and Methods}{114}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Dataset Procurement}{114}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Dataset Pre-processing}{115}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Correlations}{115}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}DGEA}{115}{subsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.1.5}GSEA}{116}{subsection.7.1.5}%
-\contentsline {subsection}{\numberline {7.1.6}\textit {In Silico} Resources}{116}{subsection.7.1.6}%
-\contentsline {section}{\numberline {7.2}voyAGEr: a free web interface for the analysis of age-related gene expression alterations in human tissues}{116}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Sample Origin as a Confounder}{116}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Batch Correction as a Solution}{117}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}What Changes on a Cell upon SG Assembly?}{119}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}SGs are Anti-Inflammatory}{119}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}SGs Have Opposite Roles to Senescence}{122}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}SGs and Cancer}{124}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Inflammation: A Double Agent in Plain Sight}{124}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Materials and Methods}{124}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}TCGA Expression Data}{124}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}TCGA Pre-Processing}{124}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}DGEA}{125}{subsection.8.2.3}%
-\contentsline {subsection}{\numberline {8.2.4}GSEA}{125}{subsection.8.2.4}%
-\contentsline {subsection}{\numberline {8.2.5}Alternative Hypothesis Testing for SG Implication in Cancer}{125}{subsection.8.2.5}%
-\contentsline {subsection}{\numberline {8.2.6}SG Signature}{126}{subsection.8.2.6}%
-\contentsline {subsection}{\numberline {8.2.7}Survival Analysis}{126}{subsection.8.2.7}%
-\contentsline {subsection}{\numberline {8.2.8}\textit {In Silico} Resources}{126}{subsection.8.2.8}%
-\contentsline {section}{\numberline {8.3}The Problem with Single-Gene Approaches in SG Studies}{127}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}In Metastasis}{127}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}In Chemoresistance}{130}{subsection.8.3.2}%
-\contentsline {section}{\numberline {8.4}The SG Score}{132}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Constructing a SG Transcriptomic Signature}{132}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}SGs as Survival Biomarkers}{133}{subsection.8.4.2}%
-\contentsline {subsection}{\numberline {8.4.3}Mechanistic Basis of SG Prognostic Associations}{138}{subsection.8.4.3}%
-\contentsline {chapter}{\numberline {9}Mitochondria, SGs and Inflammation: A Novel Regulatory Triad}{141}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Materials and Methods}{142}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}U-2 OS Growth Conditions}{142}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Stress Conditions}{142}{subsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.1.3}Immunofluorescence}{143}{subsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.1.4}Microscopy and Image Analysis}{143}{subsection.9.1.4}%
-\contentsline {section}{\numberline {9.2}Mitochondrial Permeability is Required for SG Assembly}{145}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Mitochondrial dsRNA is Enriched in the SG}{148}{section.9.3}%
-\contentsline {chapter}{\numberline {10}Final Thoughts}{152}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Our View of Science}{152}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Openness and Reproducibility}{152}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Science is Collaborative}{155}{subsection.10.1.2}%
-\contentsline {subsubsection}{In-House Collaborations}{156}{section*.79}%
-\contentsline {subsubsection}{Vera Martins Lab}{157}{section*.80}%
-\contentsline {subsubsection}{Jesus Gil Lab}{157}{section*.81}%
-\contentsline {subsubsection}{Verena Wagner Lab}{158}{section*.82}%
-\contentsline {subsubsection}{Kathi Zarnack Lab}{158}{section*.83}%
-\contentsline {subsubsection}{Gonçalo Bernardes Lab}{158}{section*.84}%
-\contentsline {subsubsection}{Ana Sebastião Lab}{158}{section*.85}%
-\contentsline {section}{\numberline {10.2}Summary and Discussion}{159}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}The SG Transcriptome: Navigating a Field Prone to Confirmation Bias}{159}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Addressing Dataset Quality and the Centrifugation Artefact}{160}{subsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.2.3}Mitochondrial RNA Enrichment as a Robust Signal}{161}{subsection.10.2.3}%
-\contentsline {subsection}{\numberline {10.2.4}Whole-Cell Transcriptomics Reveals an Anti-Inflammatory Function}{162}{subsection.10.2.4}%
-\contentsline {subsection}{\numberline {10.2.5}A Mitochondrial Origin for the Inflammatory Signal}{162}{subsection.10.2.5}%
-\contentsline {subsection}{\numberline {10.2.6}Imaging Challenges and dsRNA Colocalisation}{163}{subsection.10.2.6}%
-\contentsline {subsection}{\numberline {10.2.7}TIA1 Splicing as a Functional Readout of SG Sequestration}{164}{subsection.10.2.7}%
-\contentsline {subsection}{\numberline {10.2.8}Single-Gene Approaches Are Insufficient to Study SG Function in Cancer}{164}{subsection.10.2.8}%
-\contentsline {subsection}{\numberline {10.2.9}The SG Score: A Transcriptomic Approach to SG Detection in Cancer}{165}{subsection.10.2.9}%
-\contentsline {section}{\numberline {10.3}Conclusions and Future Directions}{166}{section.10.3}%
+\contentsline {section}{\numberline {1.2}RNA-Binding Proteins}{12}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}What are RNA-Binding Proteins?}{12}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Functions of RNA-Binding Proteins}{13}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}RBPs and Splicing}{14}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Mitochondria}{17}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}What is a Mitochondrion?}{17}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}The Mitochondrial Genome}{18}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Functions of the Mitochondrion}{20}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}The Mitochondrion and Inflammation}{22}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Transcriptomics}{25}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}What is Transcriptomics?}{25}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}A Brief Introduction to RNA-Sequencing}{27}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Why Transcriptomics?}{28}{subsection.1.4.3}%
+\contentsline {chapter}{\numberline {2}Objectives}{31}{chapter.2}%
+\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{31}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Aims}{32}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Thesis Outline}{33}{section.2.3}%
+\contentsline {chapter}{\numberline {3}The SG Transcriptome}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Materials and Methods}{36}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Dataset Procurement and List}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Correlations}{37}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Sampling Bias Simulations (Mimi-Seq)}{37}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Centrifugation Simulation (Spin-Sim)}{38}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}\textit {In Silico} Resources}{40}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Standard Bioinformatics Analytical Pipeline}{41}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Quality Control: Dataset Pre-processing}{41}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Quality Control: Coverage and Complexity}{43}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Processing Steps: Filtering and Normalisation}{45}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Exploratory Analysis: PCA}{49}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Differential Expression Analysis – Linear Modelling}{51}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Differential Expression Analysis – Volcano Plots and GSEA}{53}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Results and Discussion}{55}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Different SG Purification Techniques Yield Different SG Transcriptomes}{55}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Sampling Bias Does Not Explain the RNA Length Bias in DC-derived SGs}{60}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Simulation of the Centrifugation Process Yields RNA Length Bias Compatible with that Observed in DC-isolated SGs}{64}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Centrifugation Simulation with Added Weight from RNA Modifications Recapitulate their Effect in DC-isolated SGs}{68}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Differential Centrifugation Yields Similar Transcriptomes for Stress Granules and other RNP Granules}{71}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Revisiting Stress Granule Transcriptomes Reveals Mitochondrial RNA Enrichment Despite Methodological Bias}{74}{subsection.3.3.6}%
+\contentsline {chapter}{\numberline {4}The SG ``Indirect" Proteome}{84}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Materials and Methods}{85}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Dataset Procurement and List}{85}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Correlations}{85}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Differential Splicing Analysis}{85}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}\textit {In Silico} Resources}{86}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}U2-OS Growth Conditions}{86}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}Stress conditions}{87}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Immunofluorescence}{87}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}Microscopy and Image Analysis}{88}{subsection.4.1.8}%
+\contentsline {section}{\numberline {4.2}Results and Discussion}{88}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Sequestration of TIA1 in SGs Recapitulates Splicing Alterations from TIA1 Depletion}{88}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}The WC Transcriptome}{94}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Materials and Methods}{94}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Dataset Procurement}{94}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Dataset Pre-processing}{95}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Correlations}{95}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}DGEA}{95}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}GSEA}{96}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}\textit {In Silico} Resources}{96}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}voyAGEr: a free web interface for the analysis of age-related gene expression alterations in human tissues}{96}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Sample Origin as a Confounder}{96}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Batch Correction as a Solution}{98}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}What Changes on a Cell upon SG Assembly?}{99}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}SGs are Anti-Inflammatory}{99}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}SGs Have Opposite Roles to Senescence}{102}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}SGs and Cancer}{104}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Inflammation: A Double Agent in Plain Sight}{104}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Materials and Methods}{104}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}TCGA Expression Data}{104}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}TCGA Pre-Processing}{105}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}DGEA}{105}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}GSEA}{105}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Alternative Hypothesis Testing for SG Implication in Cancer}{105}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.2.6}SG Signature}{106}{subsection.6.2.6}%
+\contentsline {subsection}{\numberline {6.2.7}Survival Analysis}{106}{subsection.6.2.7}%
+\contentsline {subsection}{\numberline {6.2.8}\textit {In Silico} Resources}{107}{subsection.6.2.8}%
+\contentsline {section}{\numberline {6.3}The Problem with Single-Gene Approaches in SG Studies}{107}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}In Metastasis}{107}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}In Chemoresistance}{110}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}The SG Score}{112}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Constructing a SG Transcriptomic Signature}{112}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}SGs as Survival Biomarkers}{113}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Mechanistic Basis of SG Prognostic Associations}{118}{subsection.6.4.3}%
+\contentsline {chapter}{\numberline {7}Mitochondria, SGs and Inflammation: A Novel Regulatory Triad}{121}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Materials and Methods}{122}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}U2-OS Growth Conditions}{122}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Stress Conditions}{122}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Immunofluorescence}{123}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Microscopy and Image Analysis}{124}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Mitochondrial Permeability is Required for SG Assembly}{125}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Mitochondrial dsRNA is Enriched in the SG}{129}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Cell Competition and the Importance of Critical Thinking}{134}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Brief Introduction to Cell Competition}{134}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Materials and Methods}{135}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Non \textit {In Silico} Methods}{135}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Dataset Pre-Processing and Alignment}{135}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Variant Calling}{136}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Read Count Data Pre-processing}{136}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}Differential Expression Analysis}{137}{subsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.2.6}Deconvolution Using CYBERSORTx}{137}{subsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.2.7}\textit {In Silico} Resources}{137}{subsection.8.2.7}%
+\contentsline {section}{\numberline {8.3}Results and Discussion}{137}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}A Surprising Result}{137}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Biological Knowledge Driving Methodological Choices}{140}{subsection.8.3.2}%
+\contentsline {chapter}{\numberline {9}Charm: Comprehensive Hub for Alternative Regulatory Mapping of RBPs}{143}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Materials and Methods}{144}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Differential Splicing Analysis}{144}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}\textit {In Silico} Resources}{145}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}RBP Binding Analyses Pipeline (eCLIPSE)}{145}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Splicing-Genome Creation}{146}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}eCLIP Samples}{147}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Binding Metagenome Assembly}{147}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}RNA-Binding Maps}{147}{subsection.9.2.4}%
+\contentsline {section}{\numberline {9.3}From eCLIPSE to CHARM}{148}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Expression}{150}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Splicing}{154}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Binding}{157}{subsection.9.3.3}%
+\contentsline {chapter}{\numberline {10}Final Thoughts}{161}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Our View of Science}{161}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Openness and Reproducibility}{161}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Science is Collaborative}{164}{subsection.10.1.2}%
+\contentsline {subsubsection}{In-House Collaborations}{166}{section*.79}%
+\contentsline {subsubsection}{Vera Martins Lab}{166}{section*.80}%
+\contentsline {subsubsection}{Jesus Gil Lab}{167}{section*.81}%
+\contentsline {subsubsection}{Verena Wagner Lab}{167}{section*.82}%
+\contentsline {subsubsection}{Kathi Zarnack Lab}{167}{section*.83}%
+\contentsline {subsubsection}{Gonçalo Bernardes Lab}{167}{section*.84}%
+\contentsline {subsubsection}{Ana Sebastião Lab}{167}{section*.85}%
+\contentsline {section}{\numberline {10.2}Summary and Discussion}{168}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}The SG Transcriptome: Navigating a Field Prone to Confirmation Bias}{168}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Addressing Dataset Quality and the Centrifugation Artefact}{169}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Mitochondrial RNA Enrichment as a Robust Signal}{170}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}Whole-Cell Transcriptomics Reveals an Anti-Inflammatory Function}{171}{subsection.10.2.4}%
+\contentsline {subsection}{\numberline {10.2.5}A Mitochondrial Origin for the Inflammatory Signal}{171}{subsection.10.2.5}%
+\contentsline {subsection}{\numberline {10.2.6}Imaging Challenges and dsRNA Colocalisation}{172}{subsection.10.2.6}%
+\contentsline {subsection}{\numberline {10.2.7}TIA1 Splicing as a Functional Readout of SG Sequestration}{173}{subsection.10.2.7}%
+\contentsline {subsection}{\numberline {10.2.8}Single-Gene Approaches Are Insufficient to Study SG Function in Cancer}{173}{subsection.10.2.8}%
+\contentsline {subsection}{\numberline {10.2.9}The SG Score: A Transcriptomic Approach to SG Detection in Cancer}{174}{subsection.10.2.9}%
+\contentsline {section}{\numberline {10.3}Conclusions and Future Directions}{175}{section.10.3}%
