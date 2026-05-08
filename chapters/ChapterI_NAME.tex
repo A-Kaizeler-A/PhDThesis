@@ -2,6 +2,14 @@
 \chapter{The SG Transcriptome}
 \label{chap:ChapterI}
  
+  
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"images/Paper Images/badimagecmap"}
+	\caption{}
+	\label{fig:badimagecmap}
+\end{figure}
+ 
 \glspl{sg} continue to garner significant attention in various physiological and pathological contexts, owing to their supposed role in selective \gls{mrna} and protein sequestration, hypothesised to contribute to the downregulation of specific pathways in numerous diseases.
 \\
 \\
@@ -149,7 +157,7 @@ Alignment or read summarisation statistics provide an additional layer of qualit
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.1"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.1"}
 	\caption[Different types of information provided by FASTQC]{\textbf{Different types of information provided by FASTQC.} (A) Per base sequence quality in paired-end reads, in first (Left) and in second (Right) pair members, from sample SRR5605168 (GSE99304\cite{khong_stress_2017}). Note the lower scores on the second member of the read pair. Image is a screenshot from FASTQC's resulting \gls{html} files. (B) Overrepresented sequences in FASTQ files, prior to adapter trimming in (Left) SRR10191283\_1 (GSE138058\cite{somasekharan_g3bp1-linked_2020}) and in (Right) SRR8083956 (GSE121575\cite{padron_proximity_2019}). Sequences from Left represent a higher total percentage of reads, individually, and originate from \gls{rnaseq} adapters. Sequences from Right represent a lower total percentage of reads, individually, and originate from rRNAs, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}. Image is a screenshot from FASTQC's resulting \gls{html} files. (C) featureCounts\cite{liao_featurecounts_2014} summary of assigned and unassigned reads, from the same files represented in B, after adapter trimming. In Left, a suitable number of reads were uniquely mapped. In Right, a very small percentage of reads was uniquely mapped, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}.}
 	\label{fig:fastqc}
 \end{figure}
@@ -197,7 +205,7 @@ All of these assessments were performed in an \textit{ad hoc} manner, on a datas
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.2"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.2"}
 	\caption[Sample Coverage and Complexity]{\textbf{Sample Coverage and Complexity.} (A) Cumulative read coverage plot showing the distribution of sequencing reads across genes for each sample (\gls{ie}, how many reads are assigned to how many genes). The data correspond to samples from GSE99304\cite{khong_stress_2017}. In this example, differences in coverage appear to be sample-type specific, as \gls{sg} samples consistently exhibit higher coverage than their \gls{wc} counterparts. (B) Sample complexity plot showing the number of genes required to account for \textit{X}\% of the total reads. An horizontal dashed line is shown at 50\% of total reads, to represent half of total library. The data correspond to samples from GSE143413\cite{honda_high-depth_2021}. In this case, two samples display markedly lower complexity, clearly observed at around 75\% of the total reads. As these represent technical control samples in the original study\cite{honda_high-depth_2021}, this pattern is expected. However, it is important to note that direct comparisons involving these samples will inevitably yield numerous apparent differences due solely to their lower complexity.}
 	\label{fig:CovandComp}
 \end{figure}
@@ -235,7 +243,7 @@ In this work, normalisation factors were determined using the \gls{tmm} method\c
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.3"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.3"}
 	\caption[Filtering and Normalisation]{\textbf{Filtering and Normalisation.} (A) Density plot showing the distribution of summed reads per gene (Log10 scale) before (Left) and after (Right) filtering, in samples from GSE188397\cite{sato_stress_2023}. In this example, the filtering threshold was set at Log10 = 3.25, corresponding to the boundary between the lowly-expressed and other gene populations. (B) Scatter plot comparing two replicates from the same sample type in GSE171792\cite{shen_sexually_2022}; genes as circles, axes given in \gls{cpm}, Spearman’s correlation coefficient $\rho$ and associated test’s p-value on top left corner. After filtering (Right), the samples appear less similar than before filtering (Left). This occurs because many genes with zero or near-zero counts artificially inflate correlation estimates when retained. Even after filtering, the similarity between replicates remains somewhat lower than reported in the original study\cite{shen_sexually_2022}, possibly due to differences in normalisation methods. (C) Box plots showing the distribution of read counts across samples from PRJNA115262153\cite{rajachandran_subcellular_2025} before (left) and after (right) normalisation. Prior to normalisation, noticeable differences between samples are present, reflecting variation in sequencing depth and library composition. These discrepancies are largely resolved after the normalisation step. Colours correspond to sample types. Although this distinction is not relevant for the purpose of this example, colours were kept to illustrate that read count distribution is often sample type related.}
 	\label{fig:FiltandNorm}
 \end{figure}
@@ -261,7 +269,7 @@ As an additional layer of interpretation, principal components can be examined t
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.4"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.4"}
 	\caption[PCA as an Exploratory Tool]{}
 	\label{fig:PCAExamples}
 \end{figure}
@@ -343,7 +351,7 @@ The enrichment analysis produces a \gls{nes}, which quantifies the extent to whi
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.5"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.5"}
 	\caption[DGEA and GSEA]{\textbf{DGEA and GSEA.} (A) Volcano plots showing \gls{dgea} in GSE242766\cite{di_timoteo_m6a_2024} comparing \gls{sg} samples with their \gls{wc} counterparts in \gls{m6a} \gls{wt} (left) and \gls{m6a} \gls{ko} (right) conditions. Genes are represented as circles. Upregulated transcripts (LogFC $>$ 2.5 and B-statistic $>$ 10) are highlighted in red, whereas downregulated transcripts (LogFC $<$ -4 and B-statistic $>$ 10) are shown in blue. Using these thresholds, the same set of genes is highlighted in both conditions. (B) Heatmap showing \gls{nes} for Hallmark gene sets comparing \gls{sg} and \gls{wc} samples in \gls{m6a} \gls{wt} (left) and \gls{m6a} \gls{ko} (right) conditions. Under these parameters, the same pathways appear enriched or depleted in both comparisons. Together, panels A and B indicate that the two contrasts produce highly similar results, supporting the conclusion that \gls{m6a} modification does not play a major role in stress granule transcript sequestration.}
 	\label{fig:DGEA_GSEA}
 \end{figure}
@@ -417,7 +425,7 @@ To examine functional enrichment, we performed \gls{gsea} in \glspl{sg} induced 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure1"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/Figure1"}
 	\caption[SGs purified by different methods have distinct trancriptomes]{\textbf{SGs purified by different methods have distinct trancriptomes.} (A) Scatter plots of t-statistics between SGs and WCs (Y-Axis) versus length of gene’s representative \gls{rna} transcript in Log10 \gls{nt} (X-Axis), for \gls{sg} purification by DC\cite{khong_stress_2017} (Left) and PL\cite{somasekharan_g3bp1-linked_2020} (Right); genes as circles, density contour lines in dark red, Spearman's correlation coefficient$\rho$ and associated test's p-value on top left corner. (B) Heatmap of Spearman's correlations between t-statistics of DGEA between SGs and WCs, from different studies, and \gls{rna} length in Log10 \gls{nt} (label in red). Stress stimulus, cell type, and \gls{sg} purification method of each study are given below the heatmap. G3BP refers to \gls{g3bp1} alone or both \gls{g3bp1} and \gls{g3bp2}. \gls{mettl3} knockdown and knockout are marked with the same colour. (C) Scatter plot of \gls{gsea} \gls{nes} of Hallmarks between \glspl{sg} and \glspl{wc}, ranked by t-statistic, for \gls{sg} purification by DC\cite{khong_stress_2017} or PL\cite{somasekharan_g3bp1-linked_2020} (Y-Axis) versus genes ranked by number of \gls{nt} (X-Axis).}
 	\label{fig:Figure1}
 \end{figure}
@@ -430,7 +438,7 @@ Consistent with this, arsenite-treated U2-OS and PC-3 cell lines share highly up
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/SupFigure1_comp"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/SupFigure1_comp"}
 	\caption[U2-OS and PC-3 cells have a similar stress response]{\textbf{U2-OS and PC-3 cells have a similar stress responses.} (A) (Left) Scatter plot of t-statistics between \glspl{sg} and \glspl{wc} in PC-3\cite{somasekharan_g3bp1-linked_2020} (Y-Axis) and U2-OS\cite{khong_stress_2017} (X-Axis) cell lines exposed to oxidative stress through arsenite;  genes as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner; strongly upregulated genes in both cell lines (t-statistic $>$ 25) are labelled and highlighted in dark red. (Right) Scatter plot of GSEA NES of Hallmarks, ranked by t-statistic, in PC-3\cite{somasekharan_g3bp1-linked_2020} (Y-axis)  versus U2-OS\cite{khong_stress_2017}  (X-axis) cell lines, exposed to oxidative stress through arsenite. (B) Scatter plots of gene expression (in Log2 \gls{cpm}) in \glspl{sg} (Y-Axis) versus \glspl{wc} (X-Axis), for \gls{sg} purification by DC\cite{khong_stress_2017}  (left) and PL\cite{somasekharan_g3bp1-linked_2020} (right); genes as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value on top left corner.}
 	\label{fig:Figure2}
 \end{figure}
@@ -447,7 +455,7 @@ To evaluate whether technical or sampling effects could account for the observed
 \\
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.8"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.8"}
 	\caption[Mimi-Seq Simulation Pipeline]{\textbf{Mimi-Seq Simulation Pipeline.} (A) Schematic of methods used in this section. The diagram depicts the experimental workflow from the original study for obtaining WC and SG samples\cite{khong_stress_2017} (steps in grey) and the additional \textit{in silico} steps performed in our analyses (steps in black). }
 	\label{fig:Figure4.8}
 \end{figure}
@@ -465,7 +473,7 @@ Even in this simplified scenario, designed to maximise technical enrichment of l
 \\
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.9"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.9"}
 	\caption[Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias]{\textbf{Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias.} (A) Relative distribution of fragment length (\gls{nt}) in original samples\cite{khong_stress_2017} \gls{rnaseq} (Left) and simulated samples (Right). (B) Relative distribution of representative \gls{rna} fragment length (\gls{nt}) in simulated samples, using \gls{wc} (Left) or \gls{sg} (Right) expression as basis, and \gls{wc} or \gls{sg} fragmentation distributions as basis. (C) Scatter plot of t-statistics of \gls{dgea} between \gls{sg} and \gls{wc} simulated samples (Y-Axis) and representative \gls{rna} transcript length (\gls{nt}) (X-Axis); genes as circles, density contour lines in dark red, Spearman's correlation coefficient $\rho$ and associated test's p-value are also shown. The original WC expression\cite{khong_stress_2017} was used as the basis for both simulated \gls{wc} and \gls{sg} samples, with their respective fragment size distribution as the basis. (D) Cumulative distribution of the percentage of \gls{rnaseq} reads mapping to the increasing number of genes, ordered by decreasing read coverage, in the original dataset\cite{khong_stress_2017}.  More genes account for 50\% of the reads in \gls{sg} samples than their \gls{wc} counterparts, suggesting greater \gls{rna} library complexity.}
 	\label{fig:Figure4.9}
 \end{figure}
@@ -482,7 +490,7 @@ The simulated \glspl{sg} displayed a positive \gls{rna} length bias relative to 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure3"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/Figure3"}
 	\caption[Length bias in DC-isolated SGs is compatible with inherent RNA condensation]{}
 	\label{fig:Figure4.10}
 \end{figure}
@@ -509,7 +517,7 @@ If \gls{sg}-specific \gls{rna} sequestration occurs beyond the effects of stress
 \\
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Sup3"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/Sup3"}
 	\caption[Stress granules presence contribution to variance in RNP granules]{\textbf{Stress granules presence contribution to variance in RNP granules.} Relative contributions of different sources to gene expression variance in the GSE138988\cite{matheny_transcriptome-wide_2019} dataset. \gls{sg} contribute less to gene expression variance than the stress itself or the centrifugation effect.}
 	\label{fig:Figure4.11}
 \end{figure}
@@ -535,7 +543,7 @@ These results suggest that measurable shifts in \gls{sg} enrichment occur mainly
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure4"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/Figure4"}
 	\caption[DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases]{}
 	\label{fig:Figure4.12}
 \end{figure}
@@ -573,7 +581,7 @@ The authors of the GSE138988\cite{matheny_transcriptome-wide_2019} study propose
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/Figure5"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/Figure5"}
 	\caption[Samples isolated through DC are highly correlated]{}
 	\label{fig:Figure4.13}
 \end{figure}
@@ -609,7 +617,7 @@ Simulations based on \gls{s} more closely matched empirical \gls{sg} data than o
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.14"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.14"}
 	\caption[Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 1)]{}
 	\label{fig:Figure4.14}
 \end{figure}
@@ -633,7 +641,7 @@ To further refine \gls{sg} composition in human cells, we applied a correction s
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.15"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.15"}
 	\caption[Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 2)]{}
 	\label{fig:Figure4.15}
 \end{figure}
@@ -653,7 +661,7 @@ Given the divergent results across \gls{sg} purification strategies, we applied 
 \\
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.16"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.16"}
 	\caption[Meta-analysis of SG transcriptomes]{\textbf{Meta-analysis of SG transcriptomes.} Heatmap of Spearman's correlations between transcriptomic profiles of corrected/controlled \glspl{sg} from different studies and \gls{rna} length (Log10 \gls{nt}). \gls{sg} purification method of each study is given below the heatmap.}
 	\label{fig:Figure4.16}
 \end{figure}
@@ -678,7 +686,7 @@ To derive a consensus \gls{sg} enrichment signal, we averaged t-statistics acros
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.17"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.17"}
 	\caption[Mitochondrial RNA Enrichment Across SG Transcriptomes]{}
 	\label{fig:Figure4.17}
 \end{figure}

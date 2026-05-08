@@ -65,7 +65,7 @@ To model expression changes between conditions, we directly compared co-culture 
 \\
 Standard errors were then moderated using empirical Bayes shrinkage\cite{smyth_linear_nodate}, and top differentially expressed genes were defined by visual inspection supported by several statistical metrics, which will be detailed in the following sections.
 
-\subsection{Deconvolution Using CYBERSORTx}
+\subsection{Deconvolution Using CIBERSORTx}
 
 To estimate the relative proportions of LoVo and LS174T cells in sorted co-cultures, the web-based implementation of CIBERSORTx\cite{chen_profiling_2018} was used. Briefly, RNA-seq profiles from the two monocultures were compared to identify the top 100 differentially expressed genes, which were used to construct cell line-specific signature matrices. These signatures were then applied to a mixture matrix comprising both monoculture and co-culture samples, enabling deconvolution of cell-type proportions based on their transcriptional profiles.
 
@@ -89,8 +89,8 @@ Taken together, these results indicate that, in this experimental context, LS174
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.1"}
-	\caption[\gls{dgea} between LS174T cells in co-culture with monoculture]{\textbf{\gls{dgea} between LS174T cells in co-culture with monoculture.} Volcano plot of differential expression (X-Axis – Log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic (Bayesian log-odds of differential expression)) in LS174T cells in co-culture compared to monoculture; genes as circles; potentially differentially expressed genes are coloured blue if upregulated (Log2FC$>$1.75 and adjusted p-value$<$0.05) in co-culture condition.}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.1"}
+	\caption[\Gls{dgea} between LS174T cells in co-culture with monoculture]{\textbf{\gls{dgea} between LS174T cells in co-culture with monoculture.} Volcano plot of differential expression (X-Axis – Log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic (Bayesian log-odds of differential expression)) in LS174T cells in co-culture compared to monoculture; genes as circles; potentially differentially expressed genes are coloured blue if upregulated (Log2FC$>$1.75 and adjusted p-value$<$0.05) in co-culture condition.}
 	\label{fig:cc_winvulcan}
 \end{figure}
 
@@ -109,7 +109,7 @@ However, even if such mechanisms explained the presence of these transcripts, th
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.2"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.2"}
 	\caption[Expression of potential \glspl{deg} in winner cells engaged in CC]{\textbf{Expression of potential \glspl{deg} in winner cells engaged in CC.} Dot plots of expression (Y-Axis – Log2 \gls{cpm}) in winner and loser cells, ordered by percentage of LS174T cells in the mix, as given by CYBERSORTx\cite{chen_profiling_2018} (X-Axis – LS174T percentage); samples as circles, coloured green if from a winner cell sample, or red if from a loser cell sample, with darker shades corresponding to monoculture. Acronyms stand for \gls{lmc}, \gls{lcc}, \gls{lsmc}, and \gls{lscc}.}
 	\label{fig:cc_expgraph1}
 \end{figure}
@@ -134,7 +134,7 @@ Based on this idea, we performed a variant-calling analysis and successfully ide
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.3"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.3"}
 	\caption[Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture]{\textbf{Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture.} Dot plots of expression (Y-Axis – t-statistic) in winner cells, ordered by \gls{af}, compared to reference genome (X-Axis – Allelic Frequency); genes as circles, coloured orange if distinguishing mutation originates from LoVo, or cyan if from LS174T. Two genes with exclusive mutations are highlighted on the plot.}
 	\label{fig:cc_afplot}
 \end{figure}
@@ -146,7 +146,7 @@ This inspection confirmed the expected pattern of contamination. For \textit{\gl
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig3.4"}
+	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.4"}
 	\caption[Mutations in \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}} allow for distinguishing read origin in winner cells in co-culture]{\textbf{Mutations in \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}} allow for distinguishing read origin in winner cells in co-culture.} Screenshots in \gls{igv} from cell line specific mutations in \textit{\gls{wnt5a}} (Top) and in \textit{\gls{sipa1l2}} (Bottom). The specific mutation of interest in each case is presented in the center of each track. Rows are identified, in order, as \gls{lmc} in red, and as \gls{lsmc} and \gls{lscc} in green.}
 	\label{fig:cc_igv}
 \end{figure}
