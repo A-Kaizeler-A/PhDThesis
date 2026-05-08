@@ -4,13 +4,26 @@
 \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=2.5cm]{geometry}
 \usepackage[portuguese,british]{babel}
 \usepackage{CJKutf8}
-
+\usepackage{marginnote}
+\usepackage{xcolor}
+\usepackage{etoolbox} % for if-odd-page detection
 \usepackage{tocloft}
 \newcommand{\listequationsname}{List of Equations}
 \newlistof{myequations}{equ}{\listequationsname}
 
 \newcommand{\eqcaption}[1]{%
 	\addcontentsline{equ}{myequations}{Equation \theequation: #1}
+}
+
+% Custom margin comment that works on both odd and even pages
+\newcommand{\comment}[1]{%
+	\marginnote[%
+	% left margin version for even pages
+	\scriptsize\colorbox{yellow!15!white}{\parbox{1.9cm}{#1}}%
+	]{%
+		% right margin version for odd pages
+		\scriptsize\colorbox{yellow!15!white}{\parbox{1.9cm}{#1}}%
+	}[0pt]  % vertical offset, adjust if needed
 }
 
 \usepackage{chngcntr}
@@ -65,11 +78,6 @@
 }
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{ifthen}
-
-% Custom inline comment with small font and light blue background
-\newcommand{\comment}[1]{%
-	\todo[inline, backgroundcolor=yellow!15!white, bordercolor=blue!50!black]{\smaller #1}%
-}
 
 
 \usepackage{float}
@@ -446,7 +454,12 @@
 \printnoidxglossary[type=\acronymtype, nonumberlist=true] 
 \printacronyms
 
-
+ \pagebreak
+\vspace*{\fill}
+\begin{center}
+	
+	\textbf{ Disclosure of AI Tool Usage:} This thesis includes the use of generative artificial intelligence tools, specifically ChatGPT (OpenAI, GPT-4 and GPT 5.5) and Claude (Anthropic, Sonnet 4.6), to assist with language editing, text refinement, brainstorming, code troubleshooting, and figure design. These tools were used under my supervision, and all generated content was critically reviewed and verified for accuracy and appropriateness. I confirm that the intellectual content, interpretation, and conclusions presented in this thesis are my own, with AI used solely as a supporting tool in accordance with institutional guidelines on academic integrity.
+\end{center}
 \input{chapters/introduction}
 
 \input{chapters/objectives}
