@@ -2,6 +2,7 @@
 \chapter{The SG Transcriptome}
 \label{chap:ChapterI}
  
+<<<<<<< Updated upstream
   
 \begin{figure}
 	\centering
@@ -11,6 +12,9 @@
 \end{figure}
  
 \glspl{sg} continue to garner significant attention in various physiological and pathological contexts, owing to their supposed role in selective \gls{mrna} and protein sequestration, hypothesised to contribute to the downregulation of specific pathways in numerous diseases.
+=======
+\glspl{sg} continue to garner significant attention in various physiological and pathological contexts, owing to their assumed role in selective \gls{mrna} and protein sequestration, hypothesised to contribute to the downregulation of specific pathways in numerous diseases.
+>>>>>>> Stashed changes
 \\
 \\
 Two main methodologies have emerged for elucidating their \gls{rna} content, followed by standard \gls{rnaseq}: \gls{dc}, which in Khong \gls{etal} 2017 provided the first isolated \gls{sg} transcriptome\cite{khong_stress_2017}, and \gls{pl} via \gls{apexseq}\cite{padron_proximity_2019}, both relying on core \gls{sg} proteins (usually \gls{g3bp1}). 
@@ -29,6 +33,7 @@ While \gls{dc} highlights \gls{rna} length as a significant predictor of \gls{sg
 \\
 \\
 In addition to transcript length, several other features have been proposed to influence \gls{sg} enrichment. These include translation efficiency and the number of binding sites for \gls{sg}-associated \glspl{rbp}\cite{khong_stress_2017}. However, since both features are themselves correlated with transcript length, such associations were expected\cite{glauninger_stressful_2022}. \gls{rna} modifications such as \gls{m6a}\cite{di_timoteo_m6a_2024} and \gls{ac4c}\cite{kudrin_n4-acetylcytidine_2024} have also been linked to \gls{sg} localisation. Yet, because the number of these modification sites also scales with transcript length, it remains controversial whether their enrichment persists after proper length normalization\cite{khong_limited_2022}.
+In addition to transcript length, several other features have been proposed to influence \gls{sg} enrichment. These include translation efficiency and the number of binding sites for \gls{sg}-associated \glspl{rbp}\cite{khong_stress_2017}. However, since both features are themselves correlated with transcript length, such associations were expected\cite{glauninger_stressful_2022}. \gls{rna} modifications such as \gls{m6a}\cite{di_timoteo_m6a_2024} and \gls{ac4c}\cite{kudrin_n4-acetylcytidine_2024} have also been linked to \gls{sg} localisation. Yet, because the number of these modification sites also scales with transcript length, it remains controversial whether their enrichment persists after proper length normalisation\cite{khong_limited_2022}.
 \\
 \\
 To address these discrepancies in \gls{sg} characterisation and to identify genuine transcript features associated with \gls{sg} enrichment, we performed a meta-analysis of publicly available human \gls{sg} transcriptomic datasets. These datasets span multiple cell lines, purification strategies, and stress conditions, and include studies employing \gls{dc}, \gls{pl}, as well as additional, less commonly used approaches such as \gls{pic}\cite{honda_high-depth_2021}, \gls{artrseq}\cite{xiao_profiling_2024}, \gls{eclipseq}\cite{sato_stress_2023}, \gls{fanci}\cite{zhou_rna_2024}, and \gls{photon}\cite{rajachandran_subcellular_2025}.
@@ -38,6 +43,7 @@ To address these discrepancies in \gls{sg} characterisation and to identify genu
 \subsection{Dataset Procurement and List}
 
 For dataset procurement, we searched \gls{geo} Datasets using the term ``stress granule", filtering for expression profiling by high-throughput sequencing and restricting to human samples, excluding microarray studies. Using this approach, no single-cell datasets were retrieved. All publicly available studies up to September 1, 2024, were included. From the studies initially considered during the screening, we excluded specifically the dataset associated with Yi \gls{etal} (GSE245209 and GSE245210)\cite{yi_mapping_2024}, given that its \gls{coclip} method required peak-based analyses across conditions, more analogous to \gls{clip} than standard differential expression. Part of the study from Sato \gls{etal} 2023\cite{sato_stress_2023} also featured samples more akin to \gls{clip}, but as these had considerably higher read depth, we found they could be analysed as regular \gls{rnaseq} samples, and were thus maintained.
+For dataset procurement, we searched \gls{geo} Datasets using the term ``stress granule", filtering for expression profiling by high-throughput sequencing and restricting to human samples, excluding microarray studies. Using this approach, no single-cell datasets were retrieved. All publicly available studies up to September 1, 2024, were included. From the studies initially considered during the screening, we excluded specifically the dataset associated with Yi \gls{etal} (GSE245209 and GSE245210)\cite{yi_mapping_2024}, given that its \gls{coclip} method required peak-based analyses across conditions, more analogous to \gls{clip} than standard differential expression. Part of the study from Sato \gls{etal} 2023\cite{sato_stress_2023} also featured samples more akin to \gls{clip}, but, as these had considerably higher read depth, we found they could be analysed as regular \gls{rnaseq} samples, and were thus kept.
 \\
 \linebreak
 The following datasets identified by their \gls{gseid} (more detailed in Table 3.1), and additional data/supplemental information, divided by their usage, were used throughout this work:
@@ -53,6 +59,8 @@ The following datasets identified by their \gls{gseid} (more detailed in Table 3
 \subsection{Correlations}
  
 Unless otherwise indicated, correlations shown in scatter plots and heatmaps were calculated using the t-statistic from differential expression, with Spearman’s correlation coefficient $\rho$ and the associated test’s p-value. For correlations involving gene length, the canonical transcript length (in number of \gls{nt}), obtained from ENSEMBL\cite{cunningham_ensembl_2022} was used, with the longest transcript chosen in cases of ambiguity. 
+Unless otherwise indicated, correlations were calculated by comparing gene-level moderated t-statistics obtained from differential expression analyses, with Spearman’s correlation coefficient $\rho$ and the associated test’s p-value. For correlations involving gene length, the canonical transcript length (in number of \gls{nt}), obtained from ENSEMBL\cite{cunningham_ensembl_2022} was used, with the longest transcript chosen in cases of ambiguity.
+\comment{For Nuno: Achas que a frase das correlações ficou mais clara assim?}
 
 \subsection{Sampling Bias Simulations (Mimi-Seq)}
 
@@ -69,14 +77,26 @@ To assess this, we simulated RNA-seq fragmentation using expression levels and f
 	\eqcaption{Median fragment position}
 \end{enumerate}
 For this dataset, read length was 152 \gls{nt}. Fragment length distributions were stored as probability tables representing the frequency of each observed size. Transcript expression values were first normalised to \gls{tpm}, and then scaled to reflect the sequencing depth of \gls{wc} (1,000,000) or \gls{sg} (100,000) libraries, since \gls{sg}s were described as containing around 10\% of all \gls{rna} in a cell. These values were then used to determine the number of fragmentation events per transcript. For each event, fragment lengths were randomly drawn from the relevant empirical size distribution, and the transcript was iteratively fragmented until no fragment length could be accommodated by the remaining sequence. This procedure preserved both the transcript origin and fragment size of each simulated read. Simulated \glspl{tpm} were then converted back to read counts, maintaining total read depth equivalent to empirical \gls{sg} datasets. This resulted in three simulated WC and three simulated SG samples, allowing us to assess whether subsampling to 10\% of the total reads (approximating the SG fraction) is sufficient to introduce a length-dependent bias in transcript representation.
+For this dataset, read length was 152 \gls{nt}. \comment{For Nuno: A francisca queixou-se que não era claro porque mudava para TPMs, e depois voltava para counts. Rescrevi a secccao para tentar deixar mais explicito.}Fragment length distributions were represented as empirical probability tables describing the frequency of each observed fragment size. Transcript abundances were first normalised to \gls{tpm}, providing length-normalised estimates of transcript representation independent of transcript size and library depth. TPM values were then scaled according to the target sequencing depth of either \gls{wc} (1,000,000 reads) or \gls{sg} (100,000 reads) libraries, reflecting reports that \gls{sg}s contain approximately 10\% of total cellular \gls{rna}\cite{khong_stress_2017}. These scaled abundances were used to estimate the number of fragmentation events assigned to each transcript.
+\\
+\\
+For each fragmentation event, fragment lengths were randomly sampled from the corresponding empirical size distribution, and transcripts were iteratively fragmented until no additional fragment could be accommodated within the remaining sequence. This approach preserved both transcript identity and fragment length characteristics in the simulated reads.
+\\
+\\
+Following simulation, transcript abundances were converted back to discrete read counts to generate sequencing-like count matrices, allowing downstream differential expression analyses, using the same pipeline as described in section 3.2, while preserving the intended total library depth of empirical \gls{sg} datasets. Three simulated WC and three simulated SG samples were generated to assess whether subsampling to approximately 10\% of total reads, mimicking the SG fraction, was sufficient to induce length-dependent transcript representation biases.
+
 
 
 \subsection{Centrifugation Simulation (Spin-Sim)}
 
+We then considered that a physical centrifugation  bias could explain the enrichment of longer \gls{rna}s in \gls{dc}-isolated \gls{sg}s, as longer, and therefore heavier transcript species are expected to more readily precipitate\cite{glauninger_transcriptome-wide_2025}.
+\\
+\\
 In this section, the term \gls{rna}, and its associated \gls{mw}, is used operationally to refer to the average enrichment or sedimentation behaviour associated with a given transcript species. This reflects the collective behaviour of all molecules of that transcript across the population of aggregates, rather than individual \gls{rna} molecules, which do not precipitate independently but instead co-sediment as part of larger ribonucleoprotein condensates\cite{glauninger_transcriptome-wide_2025}.
 \\
 \\
 Read counts were first converted to \gls{tpm}. Reference nucleotide sequences for each transcript were retrieved from ENSEMBL\cite{cunningham_ensembl_2022} to determine nucleotide composition and calculate the molecular weight (\gls{mw}) of each \gls{rna}. Molecular weights were computed as the sum of the individual nucleotide masses, based on standard values\cite{thermo_fisher_dna_nodate}, following IUPAC nomenclature\cite{noauthor_nomenclature_1985}:
+Read counts were first converted to \gls{tpm}, providing length-normalised estimates of transcript representation independent of transcript size and library depth. Reference nucleotide sequences for each transcript were retrieved from ENSEMBL\cite{cunningham_ensembl_2022} to determine nucleotide composition and calculate the molecular weight (\gls{mw}) of each \gls{rna}. Molecular weights were computed as the sum of the individual nucleotide masses, based on standard values\cite{thermo_fisher_dna_nodate}, following IUPAC nomenclature\cite{noauthor_nomenclature_1985}:
 
 \begin{equation}
 	MW = (A \times 329.2) + (U \times 306.2) + (C \times 305.2) + (G \times 345.2) + 159 \;\text{g mol}^{-1}
@@ -103,6 +123,7 @@ Since precise sedimentation coefficients depend on transcript-specific features 
 \eqcaption{RNA Sedimentation Heuristic Distance}
 \\
 The centrifugation process was modelled after Khong \gls{etal} 2017\cite{khong_stress_2017}, assuming initiation from the 1 mL mark in standard 2 mL microcentrifuge tubes (resulting in 2 cm from the bottom, as empirically measured using standard safe-lock tubes). Each transcript’s sedimentation distance was scaled proportionally to estimate the fraction of each RNA that would sediment. These sedimented proportions were converted back to read counts using:
+The centrifugation process was modelled after Khong \gls{etal} 2017\cite{khong_stress_2017}, assuming initiation from the 1 mL mark in standard 2 mL microcentrifuge tubes (resulting in 2 cm from the bottom, as empirically measured using standard safe-lock tubes). Each transcript’s sedimentation distance was scaled proportionally to estimate the fraction of each RNA that would sediment. These sedimented proportions were converted back to read counts, to generate sequencing-like count matrices as above-mentioned, using:
 \begin{equation}
 	\text{Counts} =
 	\left(
@@ -135,30 +156,41 @@ As before, sedimented \gls{rna} abundances were converted back to read counts us
 \subsection{\textit{In Silico} Resources}
 
 All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data center, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
+All analyses were performed on the workstation \textit{lobito} at the \gls{gimm} data centre, which is equipped with 19 \gls{tb} of \gls{ssd} storage, 768 \gls{gb} of RAM, 72 \gls{cpu} threads (\gls{intel} Xeon
 Gold 6254 @ 3.10 \gls{ghz}), and an integrated Matrox G200eW3 \gls{gpu}. \gls{bash} was used to run FASTQC\cite{andrews_fastqc_2010}, MultiQC\cite{ewels_multiqc_2016}, STAR\cite{dobin_star_2013}, featureCounts\cite{liao_featurecounts_2014}, and IGV visualisation. Downstream analyses were conducted in R (v4.1.2) using RStudio Server (v1.4.1717). Mimi-Seq and SpinSim simulations were conducted in Python 3 (v3.10.11). 
 
 \section{Standard Bioinformatics Analytical Pipeline}
 
 To illustrate the standard analyses that were almost universally applied to all datasets, the following section presents these steps along with example results from the examined datasets. The aim is to demonstrate the importance of each analysis in context. This section is intended as a guide, showing the methods I applied across all datasets in this thesis, typically highlighting both a ``good" and a ``less ideal" example for each type of analysis.
+The following section summarises the core analyses consistently applied throughout this thesis, together with representative examples illustrating their interpretation and practical importance. This section is intended as a guide, typically highlighting both a ``good" and a ``less good" example for each type of analysis.
 
 
 \subsection{Quality Control: Dataset Pre-processing}
+\subsection{Quality Control: Dataset Pre-Processing}
 
 Before conducting downstream analyses, it is essential to evaluate the quality of the sequencing data, as technical issues can strongly influence the results. Tools such as FastQC\cite{andrews_fastqc_2010} and MultiQC\cite{ewels_multiqc_2016} allow inspection of the raw FASTQ files and provide several metrics related to read quality and sequence composition (Figure 3.1). 
+Before conducting any analyses, it is essential to evaluate the quality of the \gls{rnaseq} data, as technical issues associated with library preparation and sequencing can strongly influence the results. Tools such as FastQC\cite{andrews_fastqc_2010} and MultiQC\cite{ewels_multiqc_2016} allow inspection of the raw FASTQ files and provide several metrics related to read quality and sequence composition (Figure 3.1). 
 \\
 \\
 For example, FastQC reports base quality scores across reads, which can reveal degradation patterns\cite{andrews_fastqc_2010}. In \gls{rnaseq} data, degradation often appears as reduced quality toward the 3' end of reads. In \gls{pe} sequencing, the second read of the pair typically exhibits slightly lower quality because it is sequenced after the first read and therefore accumulates more ``degradation" (Figure 3.1A). 
+For example, FastQC reports per-base quality scores across sequencing reads, enabling the identification of systematic declines in sequencing quality\cite{andrews_fastqc_2010} \comment{For Nuno: Aqui, tinhas tipo que nao ficava claro o que era a degradação, e porque e que a qualidade baixava. Como os FastQC dão os quality scores do sequencing, e nao do RNA em si, mudei para "deteriorizacao" e rescrevi a secção.}. In \gls{rnaseq} datasets, reduced base-calling accuracy is commonly observed toward the 3' end of reads as sequencing quality deteriorates over successive sequencing cycles. In paired-end sequencing, the second read of a pair typically exhibits slightly lower quality than the first, since it is generated after an additional round of sequencing chemistry and therefore accumulates more technical noise (Figure 3.1A).
 \\
 \\
 FastQC also identifies overrepresented sequences, which may indicate technical artefacts\cite{andrews_fastqc_2010} (Figure 3.1B). These sequences can correspond to sequencing adapters if adapter trimming was not performed, or to \gls{rrna} fragments if ribosomal depletion during library preparation was inefficient. 
+FastQC also identifies overrepresented sequences, which can correspond to sequencing adapters if adapter trimming was not performed, or to \gls{rrna} fragments if ribosomal depletion during library preparation was inefficient\cite{andrews_fastqc_2010} (Figure 3.1B). 
 \\
 \\
 Alignment or read summarisation statistics provide an additional layer of quality assessment (Figure 3.1C). In general, a uniquely mapped read percentage above ~70\% is considered acceptable for \gls{rnaseq} experiments\cite{peter_fitzgerald_introduction_2024}. Lower mapping rates may indicate degraded \gls{rna}, contamination from another organism, or an excess of repetitive sequences such as \gls{rrna} resulting from incomplete ribosomal depletion. 
 
 \begin{figure}[H]
 	\centering
+<<<<<<< Updated upstream
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.1"}
 	\caption[Different types of information provided by FASTQC]{\textbf{Different types of information provided by FASTQC.} (A) Per base sequence quality in paired-end reads, in first (Left) and in second (Right) pair members, from sample SRR5605168 (GSE99304\cite{khong_stress_2017}). Note the lower scores on the second member of the read pair. Image is a screenshot from FASTQC's resulting \gls{html} files. (B) Overrepresented sequences in FASTQ files, prior to adapter trimming in (Left) SRR10191283\_1 (GSE138058\cite{somasekharan_g3bp1-linked_2020}) and in (Right) SRR8083956 (GSE121575\cite{padron_proximity_2019}). Sequences from Left represent a higher total percentage of reads, individually, and originate from \gls{rnaseq} adapters. Sequences from Right represent a lower total percentage of reads, individually, and originate from rRNAs, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}. Image is a screenshot from FASTQC's resulting \gls{html} files. (C) featureCounts\cite{liao_featurecounts_2014} summary of assigned and unassigned reads, from the same files represented in B, after adapter trimming. In Left, a suitable number of reads were uniquely mapped. In Right, a very small percentage of reads was uniquely mapped, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}.}
+=======
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.1"}
+	\caption[Different types of information provided by FastQC]{\textbf{Different types of information provided by FASTQC.} (A) Per base sequence quality in paired-end reads, in first (Left) and in second (Right) pair members, from sample SRR5605168 (GSE99304\cite{khong_stress_2017}). Note the lower scores on the second member of the read pair. Image is a screenshot from FastQC's resulting \gls{html} files. (B) Overrepresented sequences in FASTQ files, prior to adapter trimming in (Left) SRR10191283\_1 (GSE138058\cite{somasekharan_g3bp1-linked_2020}) and in (Right) SRR8083956 (GSE121575\cite{padron_proximity_2019}). Sequences from Left represent a higher total percentage of reads, individually, and originate from \gls{rnaseq} adapters. Sequences from Right represent a lower total percentage of reads, individually, and originate from rRNAs, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}. Image is a screenshot from FastQC's resulting \gls{html} files. (C) featureCounts\cite{liao_featurecounts_2014} summary of assigned and unassigned reads, from the same files represented in B, after adapter trimming. In Left, a suitable number of reads were uniquely mapped. In Right, a very small percentage of reads was uniquely mapped, as ribosomal depletion was intentionally skipped in this study\cite{padron_proximity_2019}.}
+>>>>>>> Stashed changes
 	\label{fig:fastqc}
 \end{figure}
 \noindent
@@ -193,20 +225,33 @@ After these initial quality control steps and read counting, two additional para
 \\
 \\
 These metrics are particularly useful for identifying outlier or potentially compromised samples. In this context, problematic samples are defined as those displaying substantial deviations in coverage or complexity relative to the cohort, indicative of technical issues such as low sequencing depth, poor mapping efficiency, or overrepresentation of a small subset of transcripts.
+\begin{itemize}
+\item \textbf{Sample coverage} (Figure 3.2A) reflects the effective sequencing depth, defined as the total number of reads assigned to annotated genes in a given sample\cite{costa_uncovering_2010}. To visualise this, cumulative coverage plots were generated by ranking genes by decreasing expression level and computing the cumulative number of reads as progressively more genes are included. The X-axis represents the cumulative number of genes ordered from highest to lowest expression, while the Y-axis shows the cumulative fraction of total reads. Typically, the curve rises steeply for the most highly expressed genes before gradually flattening, reflecting the log-normal distribution of gene expression in which a small number of transcripts dominates the total read count. Notably, differences in the shape and rate of this flattening across samples are informative of differences in library complexity, with steeper curves indicating greater domination by a small subset of transcripts.
+
+\item \textbf{Sample complexity}\comment{For Nuno: Aqui disseste que tinha de ser mais especifico. Para evitar mal-entendidos, fui mais simples e falo apenas de technical bias (e nao de biologico), dando o exemplo de mau ribo-depletion} (Figure 3.2B) describes the distribution of reads across genes, providing a measure of library diversity\cite{costa_uncovering_2010}. It was estimated as the number of genes required to account for \textit{Y}\% of total reads, computed by ranking genes by decreasing expression and calculating their cumulative contribution until the full library was accounted for. Samples with low complexity reach high read proportions with relatively few genes, indicating that a small subset of highly expressed transcripts dominates the library; conversely, high-complexity samples require a greater number of genes to reach the same proportions, reflecting a more even read distribution. Low complexity may arise for example, from technical factors such as incomplete \gls{rrna} depletion leading to contamination of the library with highly abundant ribosomal transcripts\cite{costa_uncovering_2010}.
+\end{itemize}
+These metrics are particularly useful for identifying outlier or potentially compromised samples. In this context, problematic samples are defined as those displaying substantial deviations in coverage or complexity relative to the cohort, indicative of technical issues such as low sequencing depth, poor mapping efficiency (reflecting a low fraction of reads aligning to the reference genome), or overrepresentation of a small subset of transcripts.
 \\
 \\
 In cases where these deviations are extreme, (\gls{ie} markedly reduced total assigned reads or very low complexity, where a small number of genes account for a large fraction of the library) the sample was considered technically compromised and excluded from downstream analyses. More moderate deviations, however, were not grounds for immediate exclusion, as differences in coverage and complexity can often be partially mitigated through normalisation procedures\cite{costa_uncovering_2010}.
 \\
 \\
 To further assess sample quality, exploratory analyses such as \gls{pca} were performed. Samples that assemble separately from their biological group were examined in conjunction with their coverage and complexity profiles. When anomalous behaviour in \gls{pca} coincided with clear technical deficiencies (low coverage and/or reduced complexity), this was interpreted as evidence of a technical artefact, and the sample was excluded. In contrast, samples with atypical clustering but without evident technical issues were retained, as such variation may reflect underlying biological differences rather than data quality concerns.
+To further assess sample quality, exploratory analyses such as \gls{pca} were performed on normalised log-transformed gene expression (\gls{cpm}). Samples that assemble separately from their biological group were examined in conjunction with their coverage and complexity profiles. When anomalous behaviour in \gls{pca} coincided with clear technical deficiencies (low coverage and/or reduced complexity), this was interpreted as evidence of a technical artefact, and the sample was excluded. In contrast, samples with atypical clustering but without evident technical issues were retained, as such variation may reflect underlying biological differences rather than data quality concerns.
 \\
 \\
 All of these assessments were performed in an \textit{ad hoc} manner, on a dataset by dataset basis.
+All of these assessments were performed in an empirical manner, on a dataset by dataset basis. \comment{For Nuno: Changed the image to linear, instead of log.}
 
 \begin{figure}[H]
 	\centering
+<<<<<<< Updated upstream
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.2"}
 	\caption[Sample Coverage and Complexity]{\textbf{Sample Coverage and Complexity.} (A) Cumulative read coverage plot showing the distribution of sequencing reads across genes for each sample (\gls{ie}, how many reads are assigned to how many genes). The data correspond to samples from GSE99304\cite{khong_stress_2017}. In this example, differences in coverage appear to be sample-type specific, as \gls{sg} samples consistently exhibit higher coverage than their \gls{wc} counterparts. (B) Sample complexity plot showing the number of genes required to account for \textit{X}\% of the total reads. An horizontal dashed line is shown at 50\% of total reads, to represent half of total library. The data correspond to samples from GSE143413\cite{honda_high-depth_2021}. In this case, two samples display markedly lower complexity, clearly observed at around 75\% of the total reads. As these represent technical control samples in the original study\cite{honda_high-depth_2021}, this pattern is expected. However, it is important to note that direct comparisons involving these samples will inevitably yield numerous apparent differences due solely to their lower complexity.}
+=======
+	\includegraphics[width=1\linewidth]{"../../../Desktop/Paper Images/TESE_Fig4.2"}
+	\caption[Sample Coverage and Complexity]{\textbf{Sample coverage and complexity.} (A) Cumulative read coverage plot showing the distribution of sequencing reads across genes for each sample (\gls{ie}, how many reads are assigned to how many genes). The data correspond to samples from GSE99304\cite{khong_stress_2017}. In this example, differences in coverage appear to be sample-type specific, as \gls{sg} samples consistently exhibit higher coverage than their \gls{wc} counterparts. (B) Sample complexity plot showing the number of genes required to account for \textit{X}\% of the total reads. The data correspond to samples from GSE143413\cite{honda_high-depth_2021}. In this case, two samples display markedly lower complexity, clearly observed at around 75\% of the total reads, represented by a dashed line. As these represent technical control samples in the original study\cite{honda_high-depth_2021}, this pattern is expected. However, it is important to note that direct comparisons involving these samples will inevitably yield numerous apparent differences due solely to their lower complexity.}
+>>>>>>> Stashed changes
 	\label{fig:CovandComp}
 \end{figure}
 

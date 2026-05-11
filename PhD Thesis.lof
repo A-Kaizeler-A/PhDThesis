@@ -8,6 +8,7 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces RNA-Seq as a snapshot of a transcriptome at a given time}}{26}{figure.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \relax }}{35}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Different types of information provided by FASTQC}}{42}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Sample Coverage and Complexity}}{45}{figure.caption.14}%
@@ -65,4 +66,62 @@
 \contentsline {figure}{\numberline {9.9}{\ignorespaces CHARM's Splicing Tab in Discovery Mode}}{157}{figure.caption.76}%
 \contentsline {figure}{\numberline {9.10}{\ignorespaces CHARM's Binding Tab in Explore Mode, Single-Comparison submode}}{159}{figure.caption.77}%
 \contentsline {figure}{\numberline {9.11}{\ignorespaces CHARM's Binding Tab in Explore Mode, Multi-Comparison submode}}{160}{figure.caption.78}%
+=======
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Different types of information provided by FastQC}}{43}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample Coverage and Complexity}}{46}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Filtering and Normalisation}}{49}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces PCA as an Exploratory Tool}}{51}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces DGEA and GSEA}}{56}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SGs purified by different methods have distinct trancriptomes}}{59}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces U2-OS and PC-3 cells have a similar stress response}}{61}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mimi-Seq Simulation Pipeline}}{62}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias}}{64}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Length bias in DC-isolated SGs is compatible with inherent RNA condensation}}{66}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Stress granules presence contribution to variance in RNP granules}}{69}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases}}{71}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Samples isolated through DC are highly correlated}}{74}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 1)}}{77}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 2)}}{79}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Meta-analysis of SG transcriptomes}}{81}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Mitochondrial RNA Enrichment Across SG Transcriptomes}}{83}{figure.caption.35}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Rationale behind RBP function alterations driven by SG sequestration}}{89}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Alternative splicing alterations in SG competent and incompetent cells}}{91}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Alterations of TIA1 function upon KD and SG assembly}}{93}{figure.caption.40}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GTEx's sample origin is a confounding batch effect}}{98}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of batch effect correction on gene-centric (\textit {SFTPA2}) analysis.}}{100}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces SG assembly is anti-inflammatory}}{102}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes}}{103}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition}}{104}{figure.caption.46}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Overall survival analysis based on gene expression of SG-related proteins}}{110}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces KRAS mutation and associated drug sensitivities and resistances}}{112}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Development and Validation of the SG-Score}}{114}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces SG score across GDC-TCGA datasets}}{116}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Survival Stratification with SG Score, across GDC-TCGA datasets}}{118}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Mechanistic Insights on SGs as Prognostic Markers}}{120}{figure.caption.56}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The SG-Mitochondria-Inflammation Triad Hypothesis}}{123}{figure.caption.57}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces IF suggests VDAC channel activity is required for SG formation, under hyperosmotic stress}}{128}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces RNA-FISH suggests VDAC channel activity is required for SG formation, under hyperosmotic stress}}{130}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces SG potentially uptake leaked mitochondrial dsRNA}}{133}{figure.caption.60}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces \gls {dgea} between LS174T cells in co-culture with monoculture}}{139}{figure.caption.62}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Expression of potential \glspl {deg} in winner cells engaged in CC}}{140}{figure.caption.63}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture}}{142}{figure.caption.64}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Mutations in \textit {\gls {wnt5a}} and \textit {\gls {sipa1l2}} allow for distinguishing read origin in winner cells in co-culture}}{143}{figure.caption.65}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Alternative events selection}}{146}{figure.caption.66}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces CHARM's Home Screen}}{150}{figure.caption.68}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces CHARM's Expression Tab in Explore Mode}}{152}{figure.caption.69}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces CHARM's Expression Tab in Explore Mode, Gene and Gene Set Centered submodes}}{153}{figure.caption.70}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces CHARM's Expression Tab in Explore Mode, Similar RBPs submode}}{154}{figure.caption.71}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces CHARM's Expression Tab in Discovery Mode}}{155}{figure.caption.72}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces CHARM's Splicing Tab in Explore Mode}}{156}{figure.caption.73}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces CHARM's Splicing Tab in Explore Mode, Similar RBPs submode}}{157}{figure.caption.74}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces CHARM's Splicing Tab in Discovery Mode}}{158}{figure.caption.75}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces CHARM's Binding Tab in Explore Mode, Single-Comparison submode}}{160}{figure.caption.76}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces CHARM's Binding Tab in Explore Mode, Multi-Comparison submode}}{161}{figure.caption.77}%
+>>>>>>> Stashed changes
 \addvspace {10\p@ }

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.8)  8 MAY 2026 14:24
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.30)  11 MAY 2026 14:34
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3090,24 +3094,147 @@ Overfull \hbox (19.22359pt too wide) in paragraph at lines 45--46
 9[]]; GSE171792 [[]195[]]; GSE188397
  []
 
+Package marginnote Info: Margin note 83.1 is on absolute page 83 on input line 
+48.
+Package marginnote Info: xpos seems to be 505.04698pt on input line 48.
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 59--63
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]\OT1/cmr/m/n/8 For Nuno:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\OT1/cmr/m/n/8 Achas que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\OT1/cmr/m/n/8 a frase das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\OT1/cmr/m/n/8 cor-rela^^Xc~oes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\OT1/cmr/m/n/8 ficou mais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+>>>>>>> Stashed changes
 
  []
 
 [37]
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 76--80
+=======
+Package marginnote Info: Margin note 84.1 is on absolute page 84 on input line 
+64.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]\OT1/cmr/m/n/8 For Nuno:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 A fran-cisca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 queixou-se
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 que n~ao era
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 claro porque
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 mu-dava para
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 TPMs, e de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 pois voltava
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 para counts.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 Re-screvi a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 sec-c-cao para
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 64--64
+\OT1/cmr/m/n/8 tentar deixar
+ []
+
+Package marginnote Info: xpos seems to be 307.29256pt on input line 64.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
+>>>>>>> Stashed changes
 
  []
 
 [38]
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 83--91
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 76--83
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 76--83
+>>>>>>> Stashed changes
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 115--123
+
+ []
+
+
+<<<<<<< Updated upstream
  [39]
 Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
@@ -3115,15 +3242,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
 [40]
 Underfull \hbox (badness 10000) in paragraph at lines 147--157
+=======
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Package marginnote Info: Margin note 87.1 is on absolute page 87 on input line 
+153.
+Package marginnote Info: xpos seems to be 442.24683pt on input line 153.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]\OT1/cmr/m/n/8 For Nuno:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 Aqui, tin-has
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 tipo que nao
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 ficava claro
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 o que era a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 de-grada^^Xc~ao,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 e porque e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 ade baixava.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 Como os
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 qual-ity scores
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 em si, mudei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 para "de-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 i-or-iz-a-cao"
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 153--153
+\OT1/cmr/m/n/8 e re-screvi a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 147--157
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 147--157
 
  []
@@ -3133,10 +3345,23 @@ File: images/Paper Images/TESE_Fig4.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.1.png  used on input lin
 e 160.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+
+ []
+
+[41]
+<../../../Desktop/Paper Images/TESE_Fig4.1.png, id=3350, 549.909pt x 516.84pt>
+File: ../../../Desktop/Paper Images/TESE_Fig4.1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.1.png  used on
+ input line 163.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 414.49777pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [41]
 Underfull \hbox (badness 10000) in paragraph at lines 164--169
 
@@ -3144,20 +3369,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--169
 
 [42 <./images/Paper Images/TESE_Fig4.1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 186--205
+=======
+ [42]
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
+
+ []
+
+[43 <../../../Desktop/Paper Images/TESE_Fig4.1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 186--205
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+
+ []
+
+[44]
+Package marginnote Info: Margin note 91.1 is on absolute page 91 on input line 
+195.
+Package marginnote Info: xpos seems to be 226.99297pt on input line 195.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]\OT1/cmr/m/n/8 For Nuno:
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 Aqui dis-seste
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 que tinha de
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 cifico. Para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 evitar mal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 mais simples
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 de tech-nical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 bias (e nao
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 de bio-lo-gico),
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 195--195
+\OT1/cmr/m/n/8 dando o ex-
+ []
+
+Package marginnote Info: Margin note 91.2 is on absolute page 92 on input line 
+206.
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]\OT1/cmr/m/n/8 For Nuno:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+\OT1/cmr/m/n/8 Changed the
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 206--206
+\OT1/cmr/m/n/8 image to lin-
+ []
+
+Package marginnote Info: xpos seems to be 145.7436pt on input line 206.
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--207
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 186--205
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 197--207
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 186--205
 
  []
@@ -3184,20 +3504,50 @@ e 208.
 (pdftex.def)             Requested size: 441.01773pt x 148.1179pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 215--220
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 197--207
+
+ []
+
+[45]
+<../../../Desktop/Paper Images/TESE_Fig4.2.png, id=3428, 549.252pt x 184.5294pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.2.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.2.png  used on
+ input line 210.
+(pdftex.def)             Requested size: 441.01773pt x 148.16432pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
+
+ []
+
+[46 <../../../Desktop/Paper Images/TESE_Fig4.2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 226--237
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 224--235
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 226--237
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 224--235
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 226--237
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 224--235
 
  []
@@ -3213,38 +3563,73 @@ File: images/Paper Images/TESE_Fig4.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.3.png  used on input lin
 e 246.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
+
+ []
+
+[47]
+<../../../Desktop/Paper Images/TESE_Fig4.3.png, id=3474, 548.157pt x 519.249pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.3.png  used on
+ input line 248.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 417.77667pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [47]
 Underfull \hbox (badness 10000) in paragraph at lines 253--269
+=======
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 253--269
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 253--269
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 253--269
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 253--269
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 255--271
+>>>>>>> Stashed changes
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [48 <./images/Paper Images/TESE_Fig4.3.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3258,50 +3643,95 @@ e 272.
 
 [50 <./images/Paper Images/TESE_Fig4.4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 289--297
+=======
+ [49 <../../../Desktop/Paper Images/TESE_Fig4.3.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+<../../../Desktop/Paper Images/TESE_Fig4.4.png, id=3523, 548.157pt x 548.376pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.4.png  used on
+ input line 274.
+(pdftex.def)             Requested size: 441.01773pt x 441.21165pt.
+
+[51 <../../../Desktop/Paper Images/TESE_Fig4.4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 291--299
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 289--297
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 291--299
+>>>>>>> Stashed changes
 
  []
 
 
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [51
+ [52
 
 ]
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 300--313
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 302--315
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 300--313
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 302--315
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 300--313
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 302--315
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 316--332
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 318--334
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 316--332
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 318--334
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 316--332
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 318--334
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 316--332
 
  []
@@ -3328,195 +3758,370 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--351
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 335--351
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 318--334
+>>>>>>> Stashed changes
 
  []
 
 [53]
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig4.5.png, id=3630, 548.157pt x 430.773pt>
 File: images/Paper Images/TESE_Fig4.5.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.5.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.5.png  used on input lin
 e 354.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 337--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--353
+
+ []
+
+[54]
+<../../../Desktop/Paper Images/TESE_Fig4.5.png, id=3639, 548.157pt x 430.773pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.5.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.5.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.5.png  used on
+ input line 356.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 346.59076pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
+ [55]
 \tablewidth=\skip121
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 381--381
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Heat-shock
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 381--381
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 and Hip-
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (2.25551pt too wide) in paragraph at lines 381--381
+=======
+Overfull \hbox (2.25551pt too wide) in paragraph at lines 383--383
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 HEK293T| 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 383--383
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Somasekharan
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 2173) in paragraph at lines 385--385
+=======
+Underfull \hbox (badness 2173) in paragraph at lines 387--387
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Oxidative and
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 385--385
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 PABPC1
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 385--385
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 and
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 385--385
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Wild-Type,
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 1661) in paragraph at lines 385--385
+=======
+Underfull \hbox (badness 1661) in paragraph at lines 387--387
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 G3BP-GFP and
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 DDX3X
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 and
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 APEX2-DDX3X
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 and APEX2-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 DC and
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 eCLIP-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 393--393
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 SH-SY-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 1215) in paragraph at lines 395--395
+=======
+Underfull \hbox (badness 1215) in paragraph at lines 397--397
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 T-Cell Ac-tiv-a-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 2173) in paragraph at lines 397--397
+=======
+Underfull \hbox (badness 2173) in paragraph at lines 399--399
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Oxidative and
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (2.25551pt too wide) in paragraph at lines 397--397
+=======
+Overfull \hbox (2.25551pt too wide) in paragraph at lines 399--399
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 HEK293T
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 5548) in paragraph at lines 397--397
+=======
+Underfull \hbox (badness 5548) in paragraph at lines 399--399
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 and U2-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 399--399
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 ARTR-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 401--401
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Oxidative,
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 401--401
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 Hyper-os-motic,
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 401--401
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 Heat-shock
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Wild-Type and
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Di Timoteo
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Wild-Type,
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 405--405
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+>>>>>>> Stashed changes
 \OT1/cmr/m/n/8 METTL3 KD,
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 407--407
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Rajachandran
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (2.49162pt too wide) in paragraph at lines 407--407
+=======
+Overfull \hbox (2.49162pt too wide) in paragraph at lines 409--409
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 PHOTON| 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 407--407
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 Wild-Type and
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (2.26927pt too wide) in paragraph at lines 407--408
+=======
+Overfull \hbox (2.26927pt too wide) in paragraph at lines 409--410
+>>>>>>> Stashed changes
 []|\OT1/cmr/m/n/8 PRJNA1152621| 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [55 <./images/Paper Images/TESE_Fig4.5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 414--424
+=======
+ [56 <../../../Desktop/Paper Images/TESE_Fig4.5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 416--426
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 414--424
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 416--426
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 414--424
 
  []
@@ -3527,14 +4132,27 @@ File: images/Paper Images/Figure1.png Graphic file (type png)
 <use images/Paper Images/Figure1.png>
 Package pdftex.def Info: images/Paper Images/Figure1.png  used on input line 42
 8.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 416--426
+
+ []
+
+[57]
+<../../../Desktop/Paper Images/Figure1.png, id=3727, 546.186pt x 690.726pt>
+File: ../../../Desktop/Paper Images/Figure1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure1.png  used on inp
+ut line 430.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 557.74597pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [58]
 Overfull \vbox (28.16295pt too high) has occurred while \output is active []
 
 
+<<<<<<< Updated upstream
 [58 <./images/Paper Images/Figure1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 433--438
 
@@ -3545,10 +4163,25 @@ File: images/Paper Images/SupFigure1_comp.png Graphic file (type png)
 <use images/Paper Images/SupFigure1_comp.png>
 Package pdftex.def Info: images/Paper Images/SupFigure1_comp.png  used on input
  line 441.
+=======
+[59 <../../../Desktop/Paper Images/Figure1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 435--440
+
+ []
+
+<../../../Desktop/Paper Images/SupFigure1_comp.png, id=3787, 542.901pt x 505.01
+4pt>
+File: ../../../Desktop/Paper Images/SupFigure1_comp.png Graphic file (type png)
+
+<use ../../../Desktop/Paper Images/SupFigure1_comp.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/SupFigure1_comp.png  use
+d on input line 443.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 410.25351pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [59]
 <images/Paper Images/TESE_Fig4.8.png, id=3828, 552.975pt x 355.437pt>
 File: images/Paper Images/TESE_Fig4.8.png Graphic file (type png)
@@ -3558,15 +4191,32 @@ e 458.
 (pdftex.def)             Requested size: 441.01773pt x 283.47136pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 448--461
+=======
+ [60]
+<../../../Desktop/Paper Images/TESE_Fig4.8.png, id=3838, 552.975pt x 355.437pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig4.8.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.8.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.8.png  used on
+ input line 460.
+(pdftex.def)             Requested size: 441.01773pt x 283.47136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--463
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 448--461
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 450--463
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 448--461
 
  []
@@ -3580,37 +4230,74 @@ e 476.
 (pdftex.def)             Requested size: 441.01773pt x 531.85889pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 462--479
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 450--463
+
+ []
+
+[61 <../../../Desktop/Paper Images/SupFigure1_comp.png>]
+<../../../Desktop/Paper Images/TESE_Fig4.9.png, id=3873, 546.624pt x 659.19pt>
+File: ../../../Desktop/Paper Images/TESE_Fig4.9.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.9.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.9.png  used on
+ input line 478.
+(pdftex.def)             Requested size: 441.01773pt x 531.85889pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--481
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 462--479
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 464--481
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 462--479
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 464--481
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 462--479
 
  []
 
 [61 <./images/Paper Images/TESE_Fig4.8.png>]
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 464--481
+
+ []
+
+[62 <../../../Desktop/Paper Images/TESE_Fig4.8.png>]
+>>>>>>> Stashed changes
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [63]
 Overfull \vbox (29.47588pt too high) has occurred while \output is active []
 
 
+<<<<<<< Updated upstream
 [63 <./images/Paper Images/TESE_Fig4.9.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 485--490
+=======
+[64 <../../../Desktop/Paper Images/TESE_Fig4.9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 487--492
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 485--490
 
  []
@@ -3620,10 +4307,22 @@ File: images/Paper Images/Figure3.png Graphic file (type png)
 <use images/Paper Images/Figure3.png>
 Package pdftex.def Info: images/Paper Images/Figure3.png  used on input line 49
 3.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 487--492
+
+ []
+
+<../../../Desktop/Paper Images/Figure3.png, id=3968, 542.025pt x 697.734pt>
+File: ../../../Desktop/Paper Images/Figure3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure3.png  used on inp
+ut line 495.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 567.72726pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [64]
 [65 <./images/Paper Images/Figure3.png>]
 <images/Paper Images/Sup3.png, id=4065, 521.001pt x 355.437pt>
@@ -3633,50 +4332,92 @@ Package pdftex.def Info: images/Paper Images/Sup3.png  used on input line 520.
 (pdftex.def)             Requested size: 441.01773pt x 300.88629pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 506--523
+=======
+ [65]
+[66 <../../../Desktop/Paper Images/FIgure3.png>]
+<../../../Desktop/Paper Images/Sup3.png, id=4074, 521.001pt x 355.437pt>
+File: ../../../Desktop/Paper Images/Sup3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Sup3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Sup3.png  used on input 
+line 522.
+(pdftex.def)             Requested size: 441.01773pt x 300.88629pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--525
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 506--523
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 508--525
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 506--523
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 508--525
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 506--523
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 508--525
+>>>>>>> Stashed changes
 
  []
 
-[66
+[67
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [67]
 Overfull \hbox (7.29005pt too wide) in paragraph at lines 527--527
+=======
+ [68]
+Overfull \hbox (7.29005pt too wide) in paragraph at lines 529--529
+>>>>>>> Stashed changes
 []\OT1/cmr/bx/n/14.4 Centrifugation Sim-u-la-tion with Ad-ded Weight from RNA
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 529--542
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 531--544
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 529--542
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 531--544
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 529--542
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 531--544
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 529--542
 
  []
@@ -3687,109 +4428,197 @@ File: images/Paper Images/Figure4.png Graphic file (type png)
 <use images/Paper Images/Figure4.png>
 Package pdftex.def Info: images/Paper Images/Figure4.png  used on input line 54
 6.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 531--544
+
+ []
+
+[69 <../../../Desktop/Paper Images/Sup3.png>]
+<../../../Desktop/Paper Images/Figure4.png, id=4139, 545.748pt x 784.239pt>
+File: ../../../Desktop/Paper Images/Figure4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure4.png  used on inp
+ut line 548.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 633.7702pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [69]
 [70 <./images/Paper Images/Figure4.png>]
 Overfull \hbox (8.56004pt too wide) in paragraph at lines 565--565
+=======
+ [70]
+[71 <../../../Desktop/Paper Images/FIgure4.png>]
+Overfull \hbox (8.56004pt too wide) in paragraph at lines 567--567
+>>>>>>> Stashed changes
 []\OT1/cmr/bx/n/14.4 Differential Cent-ri-fu-ga-tion Yields Sim-ilar Tran-scrip
 -tomes
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 567--581
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 569--583
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 567--581
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 569--583
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 567--581
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 569--583
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 567--581
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 569--583
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 567--581
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 569--583
+>>>>>>> Stashed changes
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71
+ [72
 
 ]
+<<<<<<< Updated upstream
 <images/Paper Images/Figure5.png, id=4287, 547.938pt x 407.559pt>
 File: images/Paper Images/Figure5.png Graphic file (type png)
 <use images/Paper Images/Figure5.png>
 Package pdftex.def Info: images/Paper Images/Figure5.png  used on input line 58
 4.
+=======
+<../../../Desktop/Paper Images/Figure5.png, id=4296, 547.938pt x 407.559pt>
+File: ../../../Desktop/Paper Images/Figure5.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure5.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure5.png  used on inp
+ut line 586.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 328.0439pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [72]
 [73 <./images/Paper Images/Figure5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 598--603
+=======
+ [73]
+[74 <../../../Desktop/Paper Images/FIgure5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 600--605
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 606--617
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 608--619
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 606--617
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 608--619
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 606--617
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 608--619
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 606--617
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 608--619
+>>>>>>> Stashed changes
 
  []
 
-[74
+[75
 
 ]
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig4.14.png, id=4450, 544.434pt x 731.241pt>
 File: images/Paper Images/TESE_Fig4.14.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.14.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.14.png  used on input li
 ne 620.
+=======
+<../../../Desktop/Paper Images/TESE_Fig4.14.png, id=4459, 544.434pt x 731.241pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.14.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.14.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.14.png  used o
+n input line 622.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 592.3689pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [75]
 [76 <./images/Paper Images/TESE_Fig4.14.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 634--640
+=======
+ [76]
+[77 <../../../Desktop/Paper Images/TESE_Fig4.14.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 636--642
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 634--640
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 636--642
+>>>>>>> Stashed changes
 
  []
 
-[77
+[78
 
 ]
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig4.15.png, id=4594, 542.025pt x 486.618pt>
 File: images/Paper Images/TESE_Fig4.15.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.15.png>
@@ -3805,47 +4634,91 @@ ne 664.
 (pdftex.def)             Requested size: 441.01773pt x 405.3922pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 656--667
+=======
+<../../../Desktop/Paper Images/TESE_Fig4.15.png, id=4603, 542.025pt x 486.618pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.15.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.15.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.15.png  used o
+n input line 646.
+(pdftex.def)             Requested size: 441.01773pt x 395.94789pt.
+ [79 <../../../Desktop/Paper Images/TESE_Fig4.15.png>]
+<../../../Desktop/Paper Images/TESE_Fig4.16.png, id=4678, 542.025pt x 498.225pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.16.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.16.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.16.png  used o
+n input line 666.
+(pdftex.def)             Requested size: 441.01773pt x 405.3922pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--669
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 656--667
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 658--669
+>>>>>>> Stashed changes
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79
+ [80
 
 ]
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 668--685
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 670--687
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 668--685
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 670--687
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 668--685
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 670--687
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 668--685
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 670--687
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.0863pt too wide) in paragraph at lines 668--685
+=======
+Overfull \hbox (1.0863pt too wide) in paragraph at lines 670--687
+>>>>>>> Stashed changes
 \OT1/cmr/m/it/12 glutamylcyclotransferase 1 (CHAC1)[]\OT1/cmr/m/n/12 , [][]\OT1
 /cmr/m/it/12 Ses-trin 2 (SESN2)[]\OT1/cmr/m/n/12 , [][]\OT1/cmr/m/it/12 ac-tiv-
 at-ing tran-scrip-tion factor
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 668--685
 
  []
@@ -3856,13 +4729,32 @@ File: images/Paper Images/TESE_Fig4.17.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.17.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.17.png  used on input li
 ne 689.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 670--687
+
+ []
+
+[81 <../../../Desktop/Paper Images/TESE_Fig4.16.png>]
+<../../../Desktop/Paper Images/TESE_Fig4.17.png, id=4729, 542.463pt x 742.848pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig4.17.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig4.17.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig4.17.png  used o
+n input line 691.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 603.9479pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [81]
 [82 <./images/Paper Images/TESE_Fig4.17.png>]) (./chapters/ChapterII_NAME.tex
 [83]
+=======
+ [82]
+[83 <../../../Desktop/Paper Images/TESE_Fig4.17.png>])
+(./chapters/ChapterII_NAME.tex [84]
+>>>>>>> Stashed changes
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--12
@@ -3882,7 +4774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84
+ [85
 
 
 ]
@@ -3912,12 +4804,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--41
 
  []
 
-[85]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
 
-[86]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
@@ -3953,12 +4845,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--80
 
  []
 
+<<<<<<< Updated upstream
 [87]
 <images/Paper Images/TESE_Fig5.1.png, id=4910, 542.025pt x 280.101pt>
 File: images/Paper Images/TESE_Fig5.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig5.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig5.1.png  used on input lin
 e 93.
+=======
+[88]
+<../../../Desktop/Paper Images/TESE_Fig5.1.png, id=4919, 542.025pt x 280.101pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig5.1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig5.1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig5.1.png  used on
+ input line 93.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 227.9106pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--96
@@ -3975,18 +4877,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--105
 
  []
 
+<<<<<<< Updated upstream
 [88 <./images/Paper Images/TESE_Fig5.1.png>]
 <images/Paper Images/Figure9.png, id=4955, 542.025pt x 745.914pt>
 File: images/Paper Images/Figure9.png Graphic file (type png)
 <use images/Paper Images/Figure9.png>
 Package pdftex.def Info: images/Paper Images/Figure9.png  used on input line 10
 8.
+=======
+[89 <../../../Desktop/Paper Images/TESE_Fig5.1.png>]
+<../../../Desktop/Paper Images/Figure9.png, id=4964, 542.025pt x 745.914pt>
+File: ../../../Desktop/Paper Images/Figure9.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure9.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure9.png  used on inp
+ut line 108.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 606.93004pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [89]
 [90 <./images/Paper Images/Figure9.png>]
+=======
+ [90]
+[91 <../../../Desktop/Paper Images/FIgure9.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 121--134
 
  []
@@ -4004,9 +4920,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--134
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91
+ [92
 
 ]
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig5.3.png, id=5036, 542.025pt x 513.117pt>
 File: images/Paper Images/TESE_Fig5.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig5.3.png>
@@ -4016,6 +4933,18 @@ e 138.
 
 [92 <./images/Paper Images/TESE_Fig5.3.png>]) (./chapters/ChapterIV_NAME.tex
 [93]
+=======
+<../../../Desktop/Paper Images/TESE_Fig5.3.png, id=5045, 542.025pt x 513.117pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig5.3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig5.3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig5.3.png  used on
+ input line 138.
+(pdftex.def)             Requested size: 441.01773pt x 417.50941pt.
+
+[93 <../../../Desktop/Paper Images/TESE_Fig5.3.png>])
+(./chapters/ChapterIV_NAME.tex [94]
+>>>>>>> Stashed changes
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--15
@@ -4027,20 +4956,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--27
 
  []
 
-[94
+[95
 
 
-] [95]
+] [96]
 Underfull \hbox (badness 10000) in paragraph at lines 70--74
 
  []
 
+<<<<<<< Updated upstream
 [96]
 <images/Paper Images/VoyagerFig1.png, id=5158, 867.24pt x 433.62pt>
 File: images/Paper Images/VoyagerFig1.png Graphic file (type png)
 <use images/Paper Images/VoyagerFig1.png>
 Package pdftex.def Info: images/Paper Images/VoyagerFig1.png  used on input lin
 e 77.
+=======
+[97]
+<../../../Desktop/Paper Images/VoyagerFig1.png, id=5168, 867.24pt x 433.62pt>
+File: ../../../Desktop/Paper Images/VoyagerFig1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/VoyagerFig1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/VoyagerFig1.png  used on
+ input line 77.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 220.50809pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--97
@@ -4055,6 +4993,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--97
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [97 <./images/Paper Images/VoyagerFig1.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4064,6 +5003,18 @@ File: images/Paper Images/VoyagerFig2.png Graphic file (type png)
 <use images/Paper Images/VoyagerFig2.png>
 Package pdftex.def Info: images/Paper Images/VoyagerFig2.png  used on input lin
 e 100.
+=======
+ [98 <../../../Desktop/Paper Images/VoyagerFig1.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+<../../../Desktop/Paper Images/VoyagerFig2.png, id=5188, 899.15926pt x 527.571p
+t>
+File: ../../../Desktop/Paper Images/VoyagerFig2.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/VoyagerFig2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/VoyagerFig2.png  used on
+ input line 100.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 258.7616pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 111--127
@@ -4091,22 +5042,42 @@ Overfull \hbox (13.44286pt too wide) in paragraph at lines 111--127
 -ily E mem-ber 1 (SER-PINE1)[]\OT1/cmr/m/n/12 , a senescence-associated
  []
 
+<<<<<<< Updated upstream
 [99 <./images/Paper Images/VoyagerFig2.png>]
 <images/Paper Images/TESE_Fig7.3.png, id=5229, 542.5068pt x 226.9278pt>
 File: images/Paper Images/TESE_Fig7.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.3.png  used on input lin
 e 131.
+=======
+[100 <../../../Desktop/Paper Images/VoyagerFig2.png>]
+<../../../Desktop/Paper Images/TESE_Fig7.3.png, id=5238, 542.5068pt x 226.9278p
+t>
+File: ../../../Desktop/Paper Images/TESE_Fig7.3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig7.3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig7.3.png  used on
+ input line 131.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 184.47533pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [100]
 <images/Paper Images/TESE_Fig7.4.png, id=5261, 227.4096pt x 198.9834pt>
 File: images/Paper Images/TESE_Fig7.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.4.png  used on input lin
 e 143.
+=======
+ [101]
+<../../../Desktop/Paper Images/TESE_Fig7.4.png, id=5270, 227.4096pt x 198.9834p
+t>
+File: ../../../Desktop/Paper Images/TESE_Fig7.4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig7.4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig7.4.png  used on
+ input line 143.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 308.71106pt x 270.125pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 135--146
@@ -4116,32 +5087,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--146
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [101 <./images/Paper Images/TESE_Fig7.3.png>]
 <images/Paper Images/TESE_Fig7.5.png, id=5311, 551.661pt x 252.945pt>
 File: images/Paper Images/TESE_Fig7.5.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.5.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.5.png  used on input lin
 e 155.
+=======
+ [102 <../../../Desktop/Paper Images/TESE_Fig7.3.png>]
+<../../../Desktop/Paper Images/TESE_Fig7.5.png, id=5320, 551.661pt x 252.945pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig7.5.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig7.5.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig7.5.png  used on
+ input line 155.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 202.21347pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [102 <./images/Paper Images/TESE_Fig7.4.png>]) (./chapters/ChapterV_NAME.tex [
 103 <./images/Paper Images/TESE_Fig7.5.png>]
+=======
+ [103 <../../../Desktop/Paper Images/TESE_Fig7.4.png>]) (./chapters/ChapterV_NA
+ME.tex
+[104 <../../../Desktop/Paper Images/TESE_Fig7.5.png>]
+>>>>>>> Stashed changes
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
  []
 
-[104
+[105
 
-] [105]
+] [106]
 Underfull \hbox (badness 10000) in paragraph at lines 50--55
 
  []
 
-[106]
+[107]
 Underfull \hbox (badness 10000) in paragraph at lines 68--76
 
  []
@@ -4159,16 +5146,26 @@ $[] \OT1/cmr/m/n/12 [[]11[]], [][]\OT1/cmr/m/it/12 Fas-activated ser-ine/threon
 ine
  []
 
+<<<<<<< Updated upstream
 [107]
 <images/Paper Images/Figure10.png, id=5556, 552.099pt x 747.885pt>
 File: images/Paper Images/Figure10.png Graphic file (type png)
 <use images/Paper Images/Figure10.png>
 Package pdftex.def Info: images/Paper Images/Figure10.png  used on input line 8
 0.
+=======
+[108]
+<../../../Desktop/Paper Images/Figure10.png, id=5565, 552.099pt x 747.885pt>
+File: ../../../Desktop/Paper Images/Figure10.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure10.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure10.png  used on in
+put line 80.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 597.40729pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [108]
 [109 <./images/Paper Images/Figure10.png>]
 <images/Paper Images/Figure11.png, id=5621, 542.025pt x 743.286pt>
@@ -4176,14 +5173,27 @@ File: images/Paper Images/Figure11.png Graphic file (type png)
 <use images/Paper Images/Figure11.png>
 Package pdftex.def Info: images/Paper Images/Figure11.png  used on input line 9
 9.
+=======
+ [109]
+[110 <../../../Desktop/Paper Images/FIgure10.png>]
+<../../../Desktop/Paper Images/Figure11.png, id=5630, 542.025pt x 743.286pt>
+File: ../../../Desktop/Paper Images/Figure11.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Figure11.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Figure11.png  used on in
+put line 99.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 604.79169pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110
+ [111
 
 ]
+<<<<<<< Updated upstream
 [111 <./images/Paper Images/Figure11.png>]
+=======
+[112 <../../../Desktop/Paper Images/FIgure11.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 118--125
 
  []
@@ -4196,85 +5206,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--125
 
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
- [112
+ [113
 
 ]
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig8.3.png, id=5724, 542.025pt x 216.81pt>
 File: images/Paper Images/TESE_Fig8.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig8.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig8.3.png  used on input lin
 e 128.
+=======
+<../../../Desktop/Paper Images/TESE_Fig8.3.png, id=5733, 542.025pt x 216.81pt>
+File: ../../../Desktop/Paper Images/TESE_Fig8.3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig8.3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig8.3.png  used on
+ input line 128.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 176.41241pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--140
 
  []
 
+<<<<<<< Updated upstream
 [113 <./images/Paper Images/TESE_Fig8.3.png>]
 <images/Paper Images/Sup10.png, id=5819, 526.257pt x 782.925pt>
 File: images/Paper Images/Sup10.png Graphic file (type png)
 <use images/Paper Images/Sup10.png>
 Package pdftex.def Info: images/Paper Images/Sup10.png  used on input line 143.
 
+=======
+[114 <../../../Desktop/Paper Images/TESE_Fig8.3.png>]
+<../../../Desktop/Paper Images/Sup10.png, id=5828, 526.257pt x 782.925pt>
+File: ../../../Desktop/Paper Images/Sup10.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Sup10.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Sup10.png  used on input
+ line 143.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 656.11143pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [114]
 [115 <./images/Paper Images/Sup10.png>]
+=======
+ [115]
+[116 <../../../Desktop/Paper Images/Sup10.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 156--161
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/Sup11.png, id=5872, 538.302pt x 787.743pt>
 File: images/Paper Images/Sup11.png Graphic file (type png)
 <use images/Paper Images/Sup11.png>
 Package pdftex.def Info: images/Paper Images/Sup11.png  used on input line 164.
 
+=======
+<../../../Desktop/Paper Images/Sup11.png, id=5881, 538.302pt x 787.743pt>
+File: ../../../Desktop/Paper Images/Sup11.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/Sup11.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/Sup11.png  used on input
+ line 164.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 645.40051pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116
+ [117
 
 ]
+<<<<<<< Updated upstream
 [117 <./images/Paper Images/Sup11.png>]
+=======
+[118 <../../../Desktop/Paper Images/Sup11.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 181--186
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig8.6.png, id=5920, 542.025pt x 464.937pt>
 File: images/Paper Images/TESE_Fig8.6.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig8.6.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig8.6.png  used on input lin
 e 191.
+=======
+<../../../Desktop/Paper Images/TESE_Fig8.6.png, id=5929, 542.025pt x 464.937pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig8.6.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig8.6.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig8.6.png  used on
+ input line 191.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 378.30664pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118
+ [119
 
 ])
 (./chapters/ChapterVI_NAME.tex
 Underfull \vbox (badness 2020) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [119 <./images/Paper Images/TESE_Fig8.6.png>] [120]
+=======
+ [120 <../../../Desktop/Paper Images/TESE_Fig8.6.png>] [121]
+>>>>>>> Stashed changes
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig9.1.png, id=6037, 544.9158pt x 302.5704pt>
 File: images/Paper Images/TESE_Fig9.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig9.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig9.1.png  used on input lin
 e 11.
+=======
+<../../../Desktop/Paper Images/TESE_Fig9.1.png, id=6047, 544.9158pt x 302.5704p
+t>
+File: ../../../Desktop/Paper Images/TESE_Fig9.1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig9.1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig9.1.png  used on
+ input line 11.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 244.88216pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121
+ [122
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 20--24
@@ -4316,7 +5382,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--55
 
  []
 
+<<<<<<< Updated upstream
 [122 <./images/Paper Images/TESE_Fig9.1.png>]
+=======
+[123 <../../../Desktop/Paper Images/TESE_Fig9.1.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 58--75
 
  []
@@ -4342,12 +5412,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--75
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [123]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125]
 Underfull \hbox (badness 10000) in paragraph at lines 79--92
 
  []
@@ -4373,17 +5443,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--92
 
  []
 
+<<<<<<< Updated upstream
 [125]
 <images/Paper Images/OGIF_G3.png, id=6183, 545.31pt x 565.458pt>
 File: images/Paper Images/OGIF_G3.png Graphic file (type png)
 <use images/Paper Images/OGIF_G3.png>
 Package pdftex.def Info: images/Paper Images/OGIF_G3.png  used on input line 95
 .
+=======
+[126]
+<../../../Desktop/Paper Images/OGIF_G3.png, id=6192, 545.31pt x 565.458pt>
+File: ../../../Desktop/Paper Images/OGIF_G3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/OGIF_G3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/OGIF_G3.png  used on inp
+ut line 95.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 457.3282pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [127]
 Underfull \hbox (badness 10000) in paragraph at lines 99--107
 
  []
@@ -4393,22 +5472,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--107
 
  []
 
+<<<<<<< Updated upstream
 [127 <./images/Paper Images/OGIF_G3.png>]
 <images/Paper Images/TESE_Fig9.4.png, id=6223, 544.434pt x 565.1514pt>
 File: images/Paper Images/TESE_Fig9.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig9.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig9.4.png  used on input lin
 e 110.
+=======
+[128 <../../../Desktop/Paper Images/OGIF_G3.png>]
+<../../../Desktop/Paper Images/TESE_Fig9.4.png, id=6232, 544.434pt x 565.1514pt
+>
+File: ../../../Desktop/Paper Images/TESE_Fig9.4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig9.4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig9.4.png  used on
+ input line 110.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 457.82185pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [128]
 <images/Paper Images/ImagingSG_V2.png, id=6267, 544.9158pt x 616.2222pt>
 File: images/Paper Images/ImagingSG_V2.png Graphic file (type png)
 <use images/Paper Images/ImagingSG_V2.png>
 Package pdftex.def Info: images/Paper Images/ImagingSG_V2.png  used on input li
 ne 133.
+=======
+ [129]
+<../../../Desktop/Paper Images/ImagingSG_V2.png, id=6276, 544.9158pt x 616.2222
+pt>
+File: ../../../Desktop/Paper Images/ImagingSG_V2.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/ImagingSG_V2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/ImagingSG_V2.png  used o
+n input line 133.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 498.73293pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--136
@@ -4430,15 +5529,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--136
 
  []
 
+<<<<<<< Updated upstream
 [129 <./images/Paper Images/TESE_Fig9.4.png>]
+=======
+[130 <../../../Desktop/Paper Images/TESE_Fig9.4.png>]
+>>>>>>> Stashed changes
 Underfull \vbox (badness 5741) has occurred while \output is active []
 
- [130]
+ [131]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [131]
 [132 <./images/Paper Images/ImagingSG_V2.png>]) (./chapters/methods.tex
 [133]
+=======
+ [132]
+[133 <../../../Desktop/Paper Images/ImagingSG_V2.png>]) (./chapters/methods.tex
+[134]
+>>>>>>> Stashed changes
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
@@ -4448,7 +5557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--10
 
 Underfull \vbox (badness 1694) has occurred while \output is active []
 
- [134
+ [135
 
 
 ]
@@ -4466,7 +5575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--37
 
  []
 
-[135]
+[136]
 Underfull \hbox (badness 10000) in paragraph at lines 40--53
 
  []
@@ -4499,7 +5608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
 Underfull \vbox (badness 3148) has occurred while \output is active []
 
- [136]
+ [137]
 Underfull \hbox (badness 10000) in paragraph at lines 81--88
 
  []
@@ -4509,12 +5618,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--88
 
  []
 
+<<<<<<< Updated upstream
 [137]
 <images/Paper Images/TESE_Fig3.1.png, id=6395, 496.254pt x 324.339pt>
 File: images/Paper Images/TESE_Fig3.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.1.png  used on input lin
 e 92.
+=======
+[138]
+<../../../Desktop/Paper Images/TESE_Fig3.1.png, id=6404, 496.254pt x 324.339pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig3.1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig3.1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.1.png  used on
+ input line 92.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 288.23517pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--108
@@ -4531,12 +5650,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--108
 
  []
 
+<<<<<<< Updated upstream
 [138 <./images/Paper Images/TESE_Fig3.1.png>]
 <images/Paper Images/TESE_Fig3.2.png, id=6417, 541.368pt x 346.458pt>
 File: images/Paper Images/TESE_Fig3.2.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.2.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.2.png  used on input lin
 e 112.
+=======
+[139 <../../../Desktop/Paper Images/TESE_Fig3.1.png>]
+<../../../Desktop/Paper Images/TESE_Fig3.2.png, id=6427, 541.368pt x 346.458pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig3.2.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig3.2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.2.png  used on
+ input line 112.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 282.2471pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--124
@@ -4546,7 +5675,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
 Underfull \vbox (badness 2088) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [139 <./images/Paper Images/TESE_Fig3.2.png>]
+=======
+ [140 <../../../Desktop/Paper Images/TESE_Fig3.2.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 127--134
 
  []
@@ -4556,35 +5689,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--134
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig3.3.png, id=6446, 542.025pt x 372.081pt>
 File: images/Paper Images/TESE_Fig3.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.3.png  used on input lin
 e 137.
+=======
+<../../../Desktop/Paper Images/TESE_Fig3.3.png, id=6456, 542.025pt x 372.081pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig3.3.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig3.3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.3.png  used on
+ input line 137.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 302.75223pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
+ [141]
 Underfull \hbox (badness 10000) in paragraph at lines 141--146
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/TESE_Fig3.4.png, id=6461, 542.025pt x 541.149pt>
 File: images/Paper Images/TESE_Fig3.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.4.png  used on input lin
 e 149.
+=======
+<../../../Desktop/Paper Images/TESE_Fig3.4.png, id=6470, 542.025pt x 541.149pt>
+
+File: ../../../Desktop/Paper Images/TESE_Fig3.4.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/TESE_Fig3.4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/TESE_Fig3.4.png  used on
+ input line 149.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 440.31828pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [141 <./images/Paper Images/TESE_Fig3.3.png>]
+=======
+ [142 <../../../Desktop/Paper Images/TESE_Fig3.3.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 154--159
 
  []
 
+<<<<<<< Updated upstream
 ) (./chapters/ChapterIII_NAME.tex [142 <./images/Paper Images/TESE_Fig3.4.png>]
+=======
+) (./chapters/ChapterIII_NAME.tex [143 <../../../Desktop/Paper Images/TESE_Fig3
+.4.png>]
+>>>>>>> Stashed changes
 Chapter 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--12
@@ -4626,19 +5786,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--30
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143
+ [144
 
 ]
+<<<<<<< Updated upstream
 <images/Paper Images/eCLIPSE_FILT.png, id=6528, 1011.78pt x 433.62pt>
 File: images/Paper Images/eCLIPSE_FILT.png Graphic file (type png)
 <use images/Paper Images/eCLIPSE_FILT.png>
 Package pdftex.def Info: images/Paper Images/eCLIPSE_FILT.png  used on input li
 ne 33.
+=======
+<../../../Desktop/Paper Images/eCLIPSE_FILT.png, id=6537, 1011.78pt x 433.62pt>
+
+File: ../../../Desktop/Paper Images/eCLIPSE_FILT.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/eCLIPSE_FILT.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/eCLIPSE_FILT.png  used o
+n input line 33.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 189.00693pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144]
+ [145]
 Overfull \hbox (57.0063pt too wide) in paragraph at lines 48--52
 \OT1/cmr/m/n/12 this pipeline are available on Git-Hub at ht-tps://github.com/D
 iseaseTranscriptomicsLab/CHARM,
@@ -4649,7 +5818,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
+<<<<<<< Updated upstream
 [145 <./images/Paper Images/eCLIPSE_FILT.png>]
+=======
+[146 <../../../Desktop/Paper Images/eCLIPSE_FILT.png>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
@@ -4664,7 +5837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--89
 
  []
 
-[146] [147]
+[147] [148]
 Underfull \hbox (badness 10000) in paragraph at lines 120--125
 
  []
@@ -4694,6 +5867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--153
 
  []
 
+<<<<<<< Updated upstream
 [148]
 <images/Paper Images/CHARM_Home.png, id=6622, 1146.08176pt x 570.33075pt>
 File: images/Paper Images/CHARM_Home.png Graphic file (type png)
@@ -4702,6 +5876,17 @@ Package pdftex.def Info: images/Paper Images/CHARM_Home.png  used on input line
  156.
 (pdftex.def)             Requested size: 441.01773pt x 219.46053pt.
  [149 <./images/Paper Images/CHARM_Home.png>]
+=======
+[149]
+<../../../Desktop/Paper Images/CHARM_Home.png, id=6631, 1146.08176pt x 570.3307
+5pt>
+File: ../../../Desktop/Paper Images/CHARM_Home.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/CHARM_Home.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Home.png  used on 
+input line 156.
+(pdftex.def)             Requested size: 441.01773pt x 219.46053pt.
+ [150 <../../../Desktop/Paper Images/CHARM_Home.PNG>]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 168--178
 
  []
@@ -4716,17 +5901,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--178
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/CHARM_Expression1.png, id=6644, 1425.07407pt x 714.41907pt
 >
 File: images/Paper Images/CHARM_Expression1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression1.png  used on inp
 ut line 181.
+=======
+<../../../Desktop/Paper Images/CHARM_Expression1.png, id=6653, 1425.07407pt x 7
+14.41907pt>
+File: ../../../Desktop/Paper Images/CHARM_Expression1.png Graphic file (type pn
+g)
+<use ../../../Desktop/Paper Images/CHARM_Expression1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Expression1.png  u
+sed on input line 181.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 221.08607pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [150]
+ [151]
 Underfull \hbox (badness 10000) in paragraph at lines 185--190
 
  []
@@ -4736,26 +5931,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--190
 
  []
 
+<<<<<<< Updated upstream
 <images/Paper Images/CHARM_Expression2.png, id=6654, 1435.61343pt x 720.44156pt
 >
 File: images/Paper Images/CHARM_Expression2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression2.png  used on inp
 ut line 198.
+=======
+<../../../Desktop/Paper Images/CHARM_Expression2.png, id=6664, 1435.61343pt x 7
+20.44156pt>
+File: ../../../Desktop/Paper Images/CHARM_Expression2.png Graphic file (type pn
+g)
+<use ../../../Desktop/Paper Images/CHARM_Expression2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Expression2.png  u
+sed on input line 198.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 221.31184pt.
 
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [151 <./images/Paper Images/CHARM_Expression1.png>]
 <images/Paper Images/CHARM_Expression3.png, id=6666, 1421.31pt x 596.2275pt>
 File: images/Paper Images/CHARM_Expression3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression3.png  used on inp
 ut line 206.
+=======
+ [152 <../../../Desktop/Paper Images/CHARM_Expression1.PNG>]
+<../../../Desktop/Paper Images/CHARM_Expression3.png, id=6675, 1421.31pt x 596.
+2275pt>
+File: ../../../Desktop/Paper Images/CHARM_Expression3.png Graphic file (type pn
+g)
+<use ../../../Desktop/Paper Images/CHARM_Expression3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Expression3.png  u
+sed on input line 206.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 185.00146pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [152 <./images/Paper Images/CHARM_Expression2.png>]
 <images/Paper Images/CHARM_Expression4.png, id=6674, 1423.56844pt x 691.08188pt
 >
@@ -4763,48 +5980,101 @@ File: images/Paper Images/CHARM_Expression4.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression4.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression4.png  used on inp
 ut line 214.
+=======
+ [153 <../../../Desktop/Paper Images/CHARM_Expression2.PNG>]
+<../../../Desktop/Paper Images/CHARM_Expression4.png, id=6684, 1423.56844pt x 6
+91.08188pt>
+File: ../../../Desktop/Paper Images/CHARM_Expression4.png Graphic file (type pn
+g)
+<use ../../../Desktop/Paper Images/CHARM_Expression4.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Expression4.png  u
+sed on input line 214.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 214.08553pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [153 <./images/Paper Images/CHARM_Expression3.png>]
 <images/Paper Images/CHARM_Splicing1.png, id=6690, 1423.56844pt x 719.68875pt>
 File: images/Paper Images/CHARM_Splicing1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing1.png  used on input
  line 228.
+=======
+ [154 <../../../Desktop/Paper Images/CHARM_Expression3.PNG>]
+<../../../Desktop/Paper Images/CHARM_Splicing1.png, id=6699, 1423.56844pt x 719
+.68875pt>
+File: ../../../Desktop/Paper Images/CHARM_Splicing1.png Graphic file (type png)
+
+<use ../../../Desktop/Paper Images/CHARM_Splicing1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Splicing1.png  use
+d on input line 228.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 222.94746pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 222--231
 
  []
 
+<<<<<<< Updated upstream
 [154 <./images/Paper Images/CHARM_Expression4.png>]
 <images/Paper Images/CHARM_Splicing2.png, id=6710, 1427.3325pt x 719.68875pt>
 File: images/Paper Images/CHARM_Splicing2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing2.png  used on input
  line 236.
+=======
+[155 <../../../Desktop/Paper Images/CHARM_Expression4.PNG>]
+<../../../Desktop/Paper Images/CHARM_Splicing2.png, id=6719, 1427.3325pt x 719.
+68875pt>
+File: ../../../Desktop/Paper Images/CHARM_Splicing2.png Graphic file (type png)
+
+<use ../../../Desktop/Paper Images/CHARM_Splicing2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Splicing2.png  use
+d on input line 236.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 222.36543pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [155 <./images/Paper Images/CHARM_Splicing1.png>]
 <images/Paper Images/CHARM_Splicing3.png, id=6720, 1422.81563pt x 719.68875pt>
 File: images/Paper Images/CHARM_Splicing3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing3.png  used on input
  line 244.
+=======
+ [156 <../../../Desktop/Paper Images/CHARM_Splicing1.PNG>]
+<../../../Desktop/Paper Images/CHARM_Splicing3.png, id=6729, 1422.81563pt x 719
+.68875pt>
+File: ../../../Desktop/Paper Images/CHARM_Splicing3.png Graphic file (type png)
+
+<use ../../../Desktop/Paper Images/CHARM_Splicing3.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Splicing3.png  use
+d on input line 244.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 223.07924pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [156 <./images/Paper Images/CHARM_Splicing2.png>]
 <images/Paper Images/CHARM_Binding1.png, id=6741, 1433.355pt x 718.93594pt>
 File: images/Paper Images/CHARM_Binding1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding1.png  used on input 
 line 264.
+=======
+ [157 <../../../Desktop/Paper Images/CHARM_Splicing2.PNG>]
+<../../../Desktop/Paper Images/CHARM_Binding1.png, id=6751, 1433.355pt x 718.93
+594pt>
+File: ../../../Desktop/Paper Images/CHARM_Binding1.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/CHARM_Binding1.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Binding1.png  used
+ on input line 264.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 221.20038pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 252--267
@@ -4821,6 +6091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--267
 
  []
 
+<<<<<<< Updated upstream
 [157 <./images/Paper Images/CHARM_Splicing3.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4830,16 +6101,37 @@ File: images/Paper Images/CHARM_Binding2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding2.png  used on input 
 line 272.
+=======
+[158 <../../../Desktop/Paper Images/CHARM_Splicing3.PNG>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [159]
+<../../../Desktop/Paper Images/CHARM_Binding2.png, id=6782, 1434.10782pt x 724.
+95844pt>
+File: ../../../Desktop/Paper Images/CHARM_Binding2.png Graphic file (type png)
+<use ../../../Desktop/Paper Images/CHARM_Binding2.png>
+Package pdftex.def Info: ../../../Desktop/Paper Images/CHARM_Binding2.png  used
+ on input line 272.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 441.01773pt x 222.93169pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< Updated upstream
  [159 <./images/Paper Images/CHARM_Binding1.png>]) (./chapters/discussion.tex
+=======
+ [160 <../../../Desktop/Paper Images/CHARM_Binding1.PNG>]) (./chapters/discussi
+on.tex
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 276--2
 
  []
 
+<<<<<<< Updated upstream
 [160 <./images/Paper Images/CHARM_Binding2.png>]
+=======
+[161 <../../../Desktop/Paper Images/CHARM_Binding2.PNG>]
+>>>>>>> Stashed changes
 Chapter 10.
 \resourcetablewidth=\skip122
 
@@ -4966,38 +6258,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--125
 
 Underfull \vbox (badness 1571) has occurred while \output is active []
 
- [161
+ [162
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [163]
-Underfull \hbox (badness 10000) in paragraph at lines 128--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--141
-
- []
-
-[164]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [165]
+ [164]
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+[165]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [166]
 Underfull \hbox (badness 10000) in paragraph at lines 142--147
 
  []
@@ -5007,12 +6299,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--152
 
  []
 
-[166] [167]
+[167] [168]
 Underfull \hbox (badness 10000) in paragraph at lines 166--171
 
  []
 
-[168]
+[169]
 Overfull \hbox (13.18509pt too wide) in paragraph at lines 172--172
 []\OT1/cmr/bx/n/14.4 Addressing Data-set Qual-ity and the Cent-ri-fu-ga-tion Ar
 te-
@@ -5028,22 +6320,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
-[169]
-Underfull \hbox (badness 10000) in paragraph at lines 185--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--195
-
- []
-
 [170]
+Underfull \hbox (badness 10000) in paragraph at lines 185--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--195
+
+ []
+
+[171]
 Overfull \hbox (27.24342pt too wide) in paragraph at lines 196--196
 []\OT1/cmr/bx/n/14.4 Whole-Cell Transcrip-tomics Re-veals an Anti-Inflammatory
  []
@@ -5053,7 +6345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
-[171]
+[172]
 Underfull \hbox (badness 10000) in paragraph at lines 209--214
 
  []
@@ -5061,8 +6353,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--214
 
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
- [172]
-[173]
+ [173]
+[174]
 Underfull \hbox (badness 10000) in paragraph at lines 225--233
 
  []
@@ -5072,7 +6364,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--233
 
  []
 
-[174])
+[175])
 Underfull \hbox (badness 10000) in paragraph at lines 236--478
 
  []
@@ -5092,7 +6384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--478
 
  []
 
-[175] [176] (./PhD Thesis.bbl
+[176] [177] (./PhD Thesis.bbl
 Underfull \hbox (badness 1881) in paragraph at lines 4--8
 \OT1/cmr/m/n/10 ease.  Sci-ence. 2017;357(6357):eaaf4382.
  []
@@ -5212,7 +6504,7 @@ Underfull \hbox (badness 4940) in paragraph at lines 94--99
 \OT1/cmr/m/n/10 Nature Cell Bio-logy. 2008;10(11):1324--
  []
 
-[177
+[178
 
 
 ]
@@ -5365,7 +6657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--202
 \OT1/cmr/m/n/10 Mo-lecu-lar Cell. 2022;82(14):2544--2556.
  []
 
-[178]
+[179]
 Underfull \hbox (badness 3009) in paragraph at lines 211--217
 []\OT1/cmr/m/n/10 Krieger MR, Ab-ra-hamian M, He KL,
  []
@@ -5550,7 +6842,7 @@ Underfull \hbox (badness 3219) in paragraph at lines 309--314
 \OT1/cmr/m/n/10 DHH1/DDX6-like RNA hel-icases main-
  []
 
-[179]
+[180]
 Underfull \hbox (badness 1990) in paragraph at lines 323--328
 []\OT1/cmr/m/n/10 Namkoong S, Ho A, Woo YM, Kwak
  []
@@ -5670,7 +6962,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 406--413
 \OT1/cmr/m/n/10 for Dif-ferent Amino Acids.  Mo-lecu-lar
  []
 
-[180]
+[181]
 Underfull \hbox (badness 7613) in paragraph at lines 422--428
 []\OT1/cmr/m/n/10 Srivastava SP, Ku-mar KU, Kauf-man
  []
@@ -5835,7 +7127,7 @@ Underfull \hbox (badness 1052) in paragraph at lines 516--521
 \OT1/cmr/m/n/10 logy of the Cell. 2009;20(11):2673--2683.
  []
 
-[181]
+[182]
 Underfull \hbox (badness 5077) in paragraph at lines 523--527
 []\OT1/cmr/m/n/10 Mateju D, Chao JA.  Stress gran-
  []
@@ -6090,7 +7382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 617--623
 \OT1/cmr/m/n/10 of Vir-o-logy. 2014;88(12):6611--6622.
  []
 
-[182]
+[183]
 Underfull \hbox (badness 1072) in paragraph at lines 625--631
 \OT1/cmr/m/n/10 H, Zhang P, et al.  New-castle dis-ease
  []
@@ -6251,7 +7543,7 @@ Underfull \hbox (badness 1859) in paragraph at lines 722--727
 \OT1/cmr/m/n/10 isms.  Mo-lecu-lar Cell. 2020;78(1):9--29.
  []
 
-[183]
+[184]
 Underfull \hbox (badness 1590) in paragraph at lines 749--753
 \OT1/cmr/m/n/10 iss T.  A brave new world of RNA-
  []
@@ -6384,6 +7676,7 @@ Underfull \hbox (badness 1983) in paragraph at lines 829--834
 \OT1/cmr/m/n/10 Cell. 1977;12(1):1--8.  doi:10.1016/0092-
  []
 
+<<<<<<< Updated upstream
 [184]
 
 ! LaTeX Error: Unicode character ′ (U+2032)
@@ -6400,6 +7693,9 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
+=======
+[185]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 5490) in paragraph at lines 836--841
 \OT1/cmr/m/n/10 Academy of Sci-ences. 1977;74(8):3171--
  []
@@ -6559,7 +7855,7 @@ Underfull \hbox (badness 1082) in paragraph at lines 938--942
 \OT1/cmr/m/n/10 Sci-entific Amer-ican. 1957;197(1):131--144.
  []
 
-[185]
+[186]
 Underfull \hbox (badness 2538) in paragraph at lines 944--948
 []\OT1/cmr/m/n/10 Kraus F, Roy K, Pu-cadyil TJ, Ryan
  []
@@ -6704,7 +8000,7 @@ Underfull \hbox (badness 7030) in paragraph at lines 1049--1053
 []\OT1/cmr/m/n/10 Walker BR, Mor-aes CT.  Nuclear-
  []
 
-[186]
+[187]
 Underfull \hbox (badness 1168) in paragraph at lines 1055--1062
 []\OT1/cmr/m/n/10 Pak VV, Ezeri^^Xna D, Ly-ub-l-in-skaya OG,
  []
@@ -6930,7 +8226,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1140--1145
 \OT1/cmr/m/n/10 ives on Sci-ence. 2023;31(5):535--554.
  []
 
-[187]
+[188]
 Underfull \hbox (badness 10000) in paragraph at lines 1167--1172
 []\OT1/cmr/m/n/10 Phipson B, Zap-pia L, Osh-lack A.
  []
@@ -7080,7 +8376,7 @@ Underfull \hbox (badness 3482) in paragraph at lines 1269--1274
 \OT1/cmr/m/n/10 Stress Gran-ules Pre-vents Ap-op-tosis in
  []
 
-[188]
+[189]
 Underfull \hbox (badness 1478) in paragraph at lines 1276--1278
 []\OT1/cmr/m/n/10 Network TR. The Can-cer Ge-nome At-
  []
@@ -7265,7 +8561,7 @@ Underfull \hbox (badness 1158) in paragraph at lines 1375--1379
 \OT1/cmr/m/n/10 Acids Re-search. 2022;50(D1):D988--D995.
  []
 
-[189]
+[190]
 Underfull \hbox (badness 5175) in paragraph at lines 1388--1391
 []\OT1/cmr/m/n/10 Fisher T. DNA and RNA Mo-lecu-lar
  []
@@ -7440,7 +8736,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 1467--1471
 \OT1/cmr/m/n/10 cine & Bi-o-tech-no-logy. 2010;2010:853916.
  []
 
-[190]
+[191]
 Underfull \hbox (badness 6876) in paragraph at lines 1480--1485
 []\OT1/cmr/m/n/10 Robinson MD, Mc-Carthy DJ, Smyth
  []
@@ -7580,7 +8876,7 @@ Underfull \hbox (badness 1147) in paragraph at lines 1575--1581
 \OT1/cmr/m/n/10 Khong A, Link CD, Parker R.  RNA
  []
 
-[191]
+[192]
 Underfull \hbox (badness 2426) in paragraph at lines 1589--1594
 \OT1/cmr/m/n/10 S, Jaf-frey SR.  m6A gov-erns length-
  []
@@ -7685,7 +8981,7 @@ Underfull \hbox (badness 2582) in paragraph at lines 1684--1688
 \OT1/cmr/m/n/10 lips R, Lo E, Shad S, et al.  The
  []
 
-[192]
+[193]
 Underfull \hbox (badness 1371) in paragraph at lines 1690--1695
 \OT1/cmr/m/n/10 Transcrip-tome.  The Amer-ican Journal
  []
@@ -7845,7 +9141,7 @@ Underfull \hbox (badness 8038) in paragraph at lines 1783--1788
 \OT1/cmr/m/n/10 Dautry F, Weil D.  The trans-la-
  []
 
-[193]
+[194]
 Underfull \hbox (badness 2042) in paragraph at lines 1790--1796
 []\OT1/cmr/m/n/10 Ogawa F, Ka-sai M, Akiyama T.  A
  []
@@ -8050,7 +9346,7 @@ Underfull \hbox (badness 4647) in paragraph at lines 1883--1888
 \OT1/cmr/m/n/10 pu-ta-tional Bio-logy. 2018;14(2):e1006026.
  []
 
-[194]
+[195]
 Underfull \hbox (badness 1077) in paragraph at lines 1897--1902
 \OT1/cmr/m/n/10 In: Ad-vances in Can-cer Re-search. vol.
  []
@@ -8245,7 +9541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1988--1993
 []$\OT1/cmtt/m/n/10 http : / / biorxiv . org / lookup / doi / 10 .
  []
 
-[195]
+[196]
 Underfull \hbox (badness 10000) in paragraph at lines 1995--1999
 []\OT1/cmr/m/n/10 Morata G.  Cell com-pet-i-tion: A
  []
@@ -8507,7 +9803,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 2097--2102
 \OT1/cmr/m/n/10 some.  Sci-ence. 2024;386(6721):551--560.
  []
 
-[196]
+[197]
 Underfull \hbox (badness 6725) in paragraph at lines 2110--2115
 []\OT1/cmr/m/n/10 Oliveira BSP, Paiva RA, Pinto CC,
  []
@@ -8532,13 +9828,14 @@ Underfull \hbox (badness 1515) in paragraph at lines 2110--2115
 \OT1/cmr/m/n/10 and causes leuk-emia; 2025.  Available
  []
 
-) [197
+) [198
 
 ] (./PhD Thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+<<<<<<< Updated upstream
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -8551,12 +9848,17 @@ Package rerunfilecheck Warning: File `"PhD Thesis".out' has changed.
 Package rerunfilecheck Info: Checksums for `"PhD Thesis".out':
 (rerunfilecheck)             Before: 432574AB3B045318FC9A013F081BD644;32679
 (rerunfilecheck)             After:  B4C5148414C2B1B6F03A733F43E6CF13;32679.
+=======
+Package rerunfilecheck Info: File `"PhD Thesis".out' has not changed.
+(rerunfilecheck)             Checksum: E5C63F2637E08BF363CE1EC402BEF16D;32679.
+>>>>>>> Stashed changes
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 95 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  54064 strings out of 467525
  1002609 string characters out of 5418983
  1637447 words of memory out of 5000000
@@ -8599,4 +9901,44 @@ PDF statistics:
  6488 compressed objects within 65 object streams
  1145 named destinations out of 1200 (max. 500000)
  1461 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 54060 strings out of 467525
+ 1004608 string characters out of 5423209
+ 1633443 words of memory out of 5000000
+ 80986 multiletter control sequences out of 15000+600000
+ 646656 words of font info for 99 fonts, out of 8000000 for 9000
+ 1261 hyphenation exceptions out of 8191
+ 197i,13n,292p,2540b,1504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
+:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/
+2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2026/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2026/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/te
+xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/
+texlive/2026/texmf-dist/fonts/type1/public/cbfonts/grmi1000.pfb><c:/texlive/202
+6/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb><c:/texlive/2026/texmf-dis
+t/fonts/type1/public/cbfonts/grmn1095.pfb><c:/texlive/2026/texmf-dist/fonts/typ
+e1/public/cbfonts/grmn1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/c
+bfonts/grxn1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfb
+x1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+<c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texliv
+e/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "PhD Thesis.pdf" (240 pages, 49986691 bytes).
+PDF statistics:
+ 7586 PDF objects out of 8907 (max. 8388607)
+ 6495 compressed objects within 65 object streams
+ 1145 named destinations out of 1200 (max. 500000)
+ 1456 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 
