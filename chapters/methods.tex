@@ -1,12 +1,7 @@
 % !TEX root = ../PhD Thesis.tex
-\chapter{Cell Competition and the Importance of Critical Thinking}
+\chapter{Side Project I - Cell Competition}
 
-Prior to this PhD project, my experience in bioinformatics and computational biology was effectively nonexistent. To acquire proficiency across these diverse methodologies, many of which rest on engineering or quantitative foundations unfamiliar to a wet-lab biologist, I chose a safe approach.
-\\
-Mistakes were inevitable. That, in itself, was not the concern. The real danger lay in making errors without recognising them, which I considered a plausible risk given the superficiality of my initial understanding. To mitigate this, I deliberately worked with data unrelated to my PhD project. This allowed me to learn in a low-stakes, low-pressure environment, where missteps would not compromise the integrity of my central research.
-\\
-\\
-This training dataset was derived from data generated during a prior \gls{msc} project conducted at 	\gls{fmul}, available in the university thesis repository. In this context, it was used exclusively as a convenient and well-characterised dataset for methodological training, rather than as a source of novel biological insight.
+The computational and analytical expertise developed throughout this PhD created an opportunity to revisit unresolved questions arising from a previous \gls{msc} project conducted at \gls{fmul}. While the original study generated valuable experimental data, several aspects of the analysis remained limited by the computational approaches and methodological experience available at the time. The work presented in this chapter therefore represents a systematic re-analysis and extension of that dataset using more advanced bioinformatic methodologies acquired during doctoral training. This re-evaluation enabled a more rigorous exploration of transcriptomic patterns, improved data integration and quality control strategies, and the investigation of biological questions that were not fully addressed in the original study.
 
 \section{Brief Introduction to Cell Competition}
 
@@ -20,13 +15,16 @@ Since these initial observations, multiple genes and pathways have been implicat
 
 \subsection{Non \textit{In Silico} Methods}
  
-The methods underlying this part of the project are described in detail in the publicly available \gls{msc} thesis document, under the title ´´Gene Expression and Phenotypical Analysis of Winner and Loser Cells Engaged in Cell Competition". Therefore, only a brief and simplified overview of the steps prior to \textit{in silico} analyses is provided below.
+The methods underlying this part of the project are described in detail in the publicly available \gls{msc} thesis document, under the title ``\textit{Gene Expression and Phenotypical Analysis of Winner and Loser Cells Engaged in Cell Competition}". Therefore, only a brief and simplified overview of the steps prior to \textit{in silico} analyses is provided below.
 \\
 \\
 LoVo (RRID:CVCL\_0399) and LS174T (RRID:CVCL\_1384) cells were differentially fluorescently labelled and cultured either in monoculture or in co-culture at a 1:1 ratio. Apoptosis was assessed by flow cytometry using Annexin V (RRID:AB\_1279046) staining, enabling cell line–specific quantification of apoptotic events.
 \\
 \\
 The differential labelling also permitted \gls{facs}, allowing separation of the co-cultured populations into their respective cell lines, after which \gls{rna} was extracted and underwent \gls{rnaseq}. For control purposes, monocultured cells were subjected to the same sorting procedures, using the same \gls{bd} \gls{facs}Aria Fusion system. In total, 6 samples were sorted, resulting in 8 sequenced samples (1 sample from each monoculture, and 2 samples from each co-culture, corresponding to both cell lines).
+\\
+\\
+All experimental procedures were performed following 48 hours of culture. To control for transcriptional changes potentially introduced by the culture conditions themselves, four additional monoculture control samples were included. These samples were processed immediately following cell preparation, without undergoing the 48 hours culture period, and were subsequently subjected to the same FACS and RNA-seq workflow. Although generated as technical controls for the original study design, these samples were not included in the downstream analyses presented in this chapter (but were included during pre-processing steps).
 
 \subsection{Dataset Pre-Processing and Alignment}
 
@@ -53,7 +51,7 @@ For validation purposes, reads were visually inspected through \gls{igv}\cite{ro
 
 \subsection{Read Count Data Pre-processing}
 
-Raw read counts were first filtered to remove lowly expressed genes (defined here as genes with $<$ 100 reads, in all samples summed together). Filtered read counts were then used to calculate library size scaling factors using the \gls{tmm}\cite{robinson_scaling_2010} through the \texttt{calcNormFactors} function from \gls{edger}\cite{robinson_edger_2010} (v3.36.0). These were subsequently normalised and log2-transformed using the \gls{voom}\cite{law_voom_2014} function from \gls{limma}\cite{ritchie_limma_2015} (v.3.50.3). 
+Raw read counts were first filtered to remove lowly expressed genes (defined here as genes with $<$ 1000 reads, in all samples summed together). Filtered read counts were then used to calculate library size scaling factors using the \gls{tmm}\cite{robinson_scaling_2010} through the \texttt{calcNormFactors} function from \gls{edger}\cite{robinson_edger_2010} (v3.36.0). These were subsequently normalised and log2-transformed using the \gls{voom}\cite{law_voom_2014} function from \gls{limma}\cite{ritchie_limma_2015} (v.3.50.3). 
 \\
 \\
 These different steps are explored in more depth in Chapter 3, but these same packages and references were the ones used throughout the entire thesis work.
@@ -84,18 +82,18 @@ The primary objective of this analysis was to identify genes activated during ce
 Flow cytometry analysis of the co-culture experiments revealed that apoptosis levels in LS174T cells were not significantly different from those observed in monoculture. In contrast, LoVo cells displayed significantly increased apoptosis under co-culture conditions, consistent with previous reports\cite{di_giacomo_human_2017}. This increase in apoptosis was abolished when the co-cultures were treated with emricasan, a pan-caspase inhibitor, further corroborating earlier findings\cite{di_giacomo_human_2017} and aligning with the canonical features of cell competition (see the aforementioned \gls{msc} thesis for the corresponding plots).
 \\
 \\
-Taken together, these results indicate that, in this experimental context, LS174T cells behave as winners, whereas LoVo cells act as losers. Consequently, following \gls{facs} and \gls{rna}, we performed a \gls{dgea} between LS174T cells isolated from co-culture with LS174T cells maintained in monoculture (Figure 8.1).
+Taken together, these results indicate that, in this experimental context, LS174T cells behave as winners, whereas LoVo cells act as losers. Consequently, following \gls{facs} and \gls{rnaseq}, we performed a \gls{dgea} between LS174T cells isolated from co-culture with LS174T cells maintained in monoculture (Figure 8.1).
 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.1"}
-	\caption[\Gls{dgea} between LS174T cells in co-culture with monoculture]{\textbf{\gls{dgea} between LS174T cells in co-culture with monoculture.} Volcano plot of differential expression (X-Axis – Log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic (Bayesian log-odds of differential expression)) in LS174T cells in co-culture compared to monoculture; genes as circles; potentially differentially expressed genes are coloured blue if upregulated (Log2FC$>$1.75 and adjusted p-value$<$0.05) in co-culture condition.}
+	\caption[\Gls{dgea} between LS174T cells in co-culture and monoculture]{\textbf{\gls{dgea} between LS174T cells in co-culture and monoculture.} Volcano plot of differential expression (X-Axis – log2 Fold-Change) and corresponding significance (Y-Axis – B-Statistic (Bayesian log-odds of differential expression)) in LS174T cells in co-culture compared to monoculture; genes as circles; potentially differentially expressed genes are coloured blue if upregulated (log2 FC$>$2 and B-statistic$>$0) in co-culture condition.}
 	\label{fig:cc_winvulcan}
 \end{figure}
 
 \noindent
-Among the genes classified as “potentially differentially expressed,” two located on the Y-chromosome, \textit{RPS4Y1} and \textit{DDX3Y}, stood out. This observation was intriguing, as Y-chromosome genes rarely play prominent roles in most cellular processes\cite{quintana-murci_human_2001}.
+Among the genes classified as “potentially differentially expressed” two located on the Y-chromosome, \textit{RPS4Y1} and \textit{DDX3Y}, stood out. This observation was intriguing, as Y-chromosome genes rarely play prominent roles in most cellular processes\cite{quintana-murci_human_2001}.
 \\
 \\
 Even more puzzling was the origin of the LS174T cell line. These cells were derived from a female patient and are described as having a 46,XX karyotype\footnote{Biological sex, of course, is not as simple as to be reduced to chromosomal composition alone. Individuals may present discordance between chromosomal, gonadal, and phenotypic sex. As an example, individuals with Swyer Syndrome present as female, despite their 46,YX karyotype\cite{bannour_swyer_2025}.}\cite{bairoch_cellosaurus_2018}.  Thus, the presence of Y-linked transcripts in a cell line expected to lack a Y-chromosome was unexpected.
@@ -110,7 +108,7 @@ However, even if such mechanisms explained the presence of these transcripts, th
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.2"}
-	\caption[Expression of potential \glspl{deg} in winner cells engaged in CC]{\textbf{Expression of potential \glspl{deg} in winner cells engaged in CC.} Dot plots of expression (Y-Axis – Log2 \gls{cpm}) in winner and loser cells, ordered by percentage of LS174T cells in the mix, as given by CYBERSORTx\cite{chen_profiling_2018} (X-Axis – LS174T percentage); samples as circles, coloured green if from a winner cell sample, or red if from a loser cell sample, with darker shades corresponding to monoculture. Acronyms stand for \gls{lmc}, \gls{lcc}, \gls{lsmc}, and \gls{lscc}.}
+	\caption[Expression of potential \glspl{deg} in winner cells engaged in CC]{\textbf{Expression of potential \glspl{deg} in winner cells engaged in CC.} Dot plots of expression (Y-Axis – log2 \gls{cpm}) in winner and loser cells, ordered by percentage of LS174T cells in the mix, as given by CYBERSORTx\cite{chen_profiling_2018} (X-Axis – LS174T ratio); samples as circles, coloured green if from a winner cell sample, or red if from a loser cell sample, with darker shades corresponding to monoculture. Acronyms stand for \gls{lmc}, \gls{lcc}, \gls{lsmc}, and \gls{lscc}.}
 	\label{fig:cc_expgraph1}
 \end{figure}
 
@@ -135,7 +133,7 @@ Based on this idea, we performed a variant-calling analysis and successfully ide
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.3"}
-	\caption[Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture]{\textbf{Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture.} Dot plots of expression (Y-Axis – t-statistic) in winner cells, ordered by \gls{af}, compared to reference genome (X-Axis – Allelic Frequency); genes as circles, coloured orange if distinguishing mutation originates from LoVo, or cyan if from LS174T. Two genes with exclusive mutations are highlighted on the plot.}
+	\caption[Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture]{\textbf{Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture.} Dot plots of differential expression (Y-Axis – t-statistic) in winner cells, ordered by \gls{af}, compared to reference genome (X-Axis – Allelic Frequency); genes as circles, coloured orange if distinguishing mutation originates from LoVo, or cyan if from LS174T. Two genes with exclusive mutations are highlighted on the plot.}
 	\label{fig:cc_afplot}
 \end{figure}
 \noindent
@@ -152,8 +150,8 @@ This inspection confirmed the expected pattern of contamination. For \textit{\gl
 \end{figure}
 
 \noindent
-Thus, while the increased read counts for \textit{\gls{wnt5a}} represented a false positive driven by contamination, the signal observed for \textit{\gls{sipa1l2}} reflected a genuine contribution from winner cells. Nevertheless, under the Log\gls{fc} thresholds used in this analysis, neither gene met the criteria to be classified as differentially expressed.
+Thus, while the increased read counts for \textit{\gls{wnt5a}} represented a false positive driven by contamination, the signal observed for \textit{\gls{sipa1l2}} reflected a genuine contribution from winner cells. Nevertheless, under the log\gls{fc} thresholds used in this analysis, neither gene met the criteria to be classified as differentially expressed.
 \\
 \\
-Overall, this variant-informed approach enabled a more reliable identification of genuinely upregulated genes. Among these was \textit{\gls{aqp3}}, whose upregulation was previously shown in my \gls{msc} thesis to be necessary for triggering cell death in the loser cells.
+Overall, this variant-informed approach enabled a more reliable identification of genuinely upregulated genes. Among these was \textit{\gls{aqp3}}, whose upregulation was previously shown in the corresponding \gls{msc} thesis to be necessary for triggering cell death in the loser cells.
 
