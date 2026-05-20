@@ -416,21 +416,25 @@ As abovementioned, we first compiled publicly available transcriptomic datasets 
 For each dataset, we compared transcript expression between \gls{sg} and the corresponding whole-cell or cytoplasmic fraction (here collectively referred to as \gls{wc}). \glspl{sg} isolated by \gls{dc} consistently contained longer transcripts on average (Figure 3.6A, Left; Khong \gls{etal} 2017\cite{khong_stress_2017} study shown as example), regardless of stress stimuli or cell type (Figure 3.6B). Gene expression profiles of \gls{dc}-purified \glspl{sg} also exhibited consistently high correlation with each other (Figure 3.6B).
 \\
 \\
-In contrast, \gls{pl}-based datasets showed no marked \gls{rna} length bias in \glspl{sg} (Figure 3.6A, Right; Somasekharan \gls{etal} 2020\cite{somasekharan_g3bp1-linked_2020} study shown as example) and exhibited minimal correlation between \gls{sg} gene expression profiles, even under the same stress stimulus (Figure 3.6B).
+In contrast, \gls{pl}-based datasets showed a weaker opposite \gls{rna} length bias in \glspl{sg} (Figure 3.6A, Right; Somasekharan \gls{etal} 2020\cite{somasekharan_g3bp1-linked_2020} study shown as example) and exhibited minimal correlation between \gls{sg} gene expression profiles, even under the same stress stimulus (Figure 3.6B).
 \\
 \\
 To examine functional enrichment, we performed \gls{gsea} in \glspl{sg} induced by oxidative stress in the \gls{dc} and \gls{pl} example datasets, compared with their respective \gls{wc} fractions (Figure~3.6A,B). In \gls{dc}-purified transcriptomes, gene set enrichment in \glspl{sg} was strongly confounded by transcript length (Fisher's $p < 1.5 \times 10^{-5}$, Odds Ratio $= 23.77$), with several enriched and depleted Hallmarks associated with long (e.g., mitotic spindle) and short (e.g., oxidative phosphorylation) transcripts, respectively (Figure~3.6C). In PL-purified transcriptomes, the observed enrichment of short transcripts in SGs (Figure~3.6A, right) was similarly reflected in Hallmark enrichment analysis (Figure~3.6C; Fisher's $p < 0.0001$, Odds Ratio $= 0.06$).
-\\
-\noindent
-
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/Figure1"}
-	\caption[SGs purified by different methods have distinct trancriptomes]{\textbf{SGs purified by different methods have distinct trancriptomes.} (A) Scatter plots of t-statistics between SGs and WCs (Y-Axis) versus length of gene’s representative \gls{rna} transcript in log10 \gls{nt} (X-Axis), for \gls{sg} purification by DC\cite{khong_stress_2017} (Left) and PL\cite{somasekharan_g3bp1-linked_2020} (Right); genes as circles, density contour lines in dark red, Spearman's correlation coefficient$\rho$ and associated test's p-value on top left corner. (B) Heatmap of Spearman's correlations between t-statistics of DGEA between SGs and WCs, from different studies, and \gls{rna} length in log10 \gls{nt} (label in red). Stress stimulus, cell type, and \gls{sg} purification method of each study are given below the heatmap. G3BP refers to \gls{g3bp1} alone or both \gls{g3bp1} and \gls{g3bp2}. \gls{mettl3} knockdown and knockout are marked with the same colour. (C) Scatter plot of \gls{gsea} \gls{nes} of Hallmarks between \glspl{sg} and \glspl{wc}, ranked by t-statistic, for \gls{sg} purification by DC\cite{khong_stress_2017} or PL\cite{somasekharan_g3bp1-linked_2020} (Y-Axis) versus genes ranked by number of \gls{nt} (X-Axis).}
+	\caption[SGs purified by different methods have distinct trancriptomes]{}
 	\label{fig:Figure1}
 \end{figure}
 
+\clearpage
+
+\begin{figure}[t]
+	\captionsetup{labelformat=adja-page}
+	\ContinuedFloat
+	\caption[]{\textbf{SGs purified by different methods have distinct trancriptomes.} (A) Scatter plots of t-statistics of differential expression between SGs and WCs (Y-Axis) versus length of gene’s representative \gls{rna} transcript in \gls{nt} (X-Axis, log scale), for \gls{sg} purification by DC\cite{khong_stress_2017} (Left) and PL\cite{somasekharan_g3bp1-linked_2020} (Right); genes as circles, density contour lines in dark red, Spearman's correlation coefficient$\rho$ and associated test's p-value on top left corner. (B) Heatmap of Spearman's correlations between t-statistics of DGEA between SGs and WCs, from different studies, and \gls{rna} length. Stress stimulus, cell type, transcriptome of origin, \gls{sg} purification method, and target molecule used for purification of each study are given below the heatmap. G3BP refers to \gls{g3bp1} alone or both \gls{g3bp1} and \gls{g3bp2}. \gls{mettl3} knockdown and knockout are marked with the same colour. (C) Scatter plot of \gls{gsea} \gls{nes} of Hallmarks between \glspl{sg} and \glspl{wc}, based on genes ranked by t-statistics of differential expression, for \gls{sg} purification by DC\cite{khong_stress_2017} or PL\cite{somasekharan_g3bp1-linked_2020} (SG NES - Y-Axis) versus genes ranked by length of representative transcript (RNA Length NES - X-Axis).}
+\end{figure}
 \noindent
 Notably, these datasets differ in cell lines and arsenite concentrations, factors previously suggested to influence \gls{sg} transcript composition. To evaluate whether these biological variables could explain the observed differences, we examined \glspl{wc} from the corresponding cell lines under oxidative stress. These samples showed a correlated transcriptomic stress response (Figure 3.7A-Left), indicating that cell line alone is unlikely to account for the differences observed in SG transcriptomes.
 \\

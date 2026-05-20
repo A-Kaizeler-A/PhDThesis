@@ -136,13 +136,13 @@
 \contentsline {section}{\numberline {10.1}Our View of Science}{164}{section.10.1}%
 \contentsline {subsection}{\numberline {10.1.1}Openness, Reproducibility, and the Importance of Critical Thinking}{164}{subsection.10.1.1}%
 \contentsline {subsection}{\numberline {10.1.2}Science is Collaborative}{168}{subsection.10.1.2}%
-\contentsline {subsubsection}{In-House Collaborations}{170}{section*.79}%
-\contentsline {subsubsection}{Vera Martins Lab}{170}{section*.80}%
-\contentsline {subsubsection}{Jesus Gil Lab}{171}{section*.81}%
-\contentsline {subsubsection}{Verena Wagner Lab}{171}{section*.82}%
-\contentsline {subsubsection}{Kathi Zarnack Lab}{171}{section*.83}%
-\contentsline {subsubsection}{Gonçalo Bernardes Lab}{171}{section*.84}%
-\contentsline {subsubsection}{Ana Sebastião Lab}{171}{section*.85}%
+\contentsline {subsubsection}{In-House Collaborations}{170}{section*.80}%
+\contentsline {subsubsection}{Vera Martins Lab}{170}{section*.81}%
+\contentsline {subsubsection}{Jesus Gil Lab}{171}{section*.82}%
+\contentsline {subsubsection}{Verena Wagner Lab}{171}{section*.83}%
+\contentsline {subsubsection}{Kathi Zarnack Lab}{171}{section*.84}%
+\contentsline {subsubsection}{Gonçalo Bernardes Lab}{171}{section*.85}%
+\contentsline {subsubsection}{Ana Sebastião Lab}{171}{section*.86}%
 \contentsline {section}{\numberline {10.2}Summary and Discussion}{172}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}The SG Transcriptome: Navigating a Field Prone to Confirmation Bias}{172}{subsection.10.2.1}%
 \contentsline {subsection}{\numberline {10.2.2}Addressing Dataset Quality and the Centrifugation Artefact}{173}{subsection.10.2.2}%
