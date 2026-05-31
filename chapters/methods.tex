@@ -105,7 +105,7 @@ Several speculative explanations could be considered. One possibility would be s
 However, even if such mechanisms explained the presence of these transcripts, they would not necessarily clarify why these genes would appear to be involved in cell competition. An additional point of interest is that the LoVo cell line originates from a male patient\cite{bairoch_cellosaurus_2018}. With these observations in mind, we examined the expression of several of these potential \glspl{deg} in greater detail (Figure 8.2).
 
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.2"}
 	\caption[Expression of potential \glspl{deg} in winner cells engaged in CC]{\textbf{Expression of potential \glspl{deg} in winner cells engaged in CC.} Dot plots of expression (Y-Axis – log2 \gls{cpm}) in winner and loser cells, ordered by percentage of LS174T cells in the mix, as given by CYBERSORTx\cite{chen_profiling_2018} (X-Axis – LS174T ratio); samples as circles, coloured green if from a winner cell sample, or red if from a loser cell sample, with darker shades corresponding to monoculture. Acronyms stand for \gls{lmc}, \gls{lcc}, \gls{lsmc}, and \gls{lscc}.}
@@ -130,7 +130,7 @@ Both cell lines used in this study are colorectal cancer lines. More specificall
 \\
 Based on this idea, we performed a variant-calling analysis and successfully identified several variants that could differentiate reads originating from each cell line. Although the elevated mutational burden initially motivated this approach, naturally occurring \glspl{snp} can also serve as informative markers for distinguishing between the two cell lines (Figure 8.3).
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.3"}
 	\caption[Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture]{\textbf{Cell line exclusive mutations allow for distinguishing read origin in winner cells in co-culture.} Dot plots of differential expression (Y-Axis – t-statistic) in winner cells, ordered by \gls{af}, compared to reference genome (X-Axis – Allelic Frequency); genes as circles, coloured orange if distinguishing mutation originates from LoVo, or cyan if from LS174T. Two genes with exclusive mutations are highlighted on the plot.}
@@ -142,7 +142,7 @@ As a validation of this approach, we visually inspected sequencing reads using t
 \\
 This inspection confirmed the expected pattern of contamination. For \textit{\gls{wnt5a}}, most reads in the winner-cell co-culture sample carried the loser-cell variant, indicating that these reads likely originated from contaminating loser cells. In contrast, for \textit{\gls{sipa1l2}}, although a minority of reads displayed the loser-cell variant, the majority carried the winner-cell mutation (Figure 8.4). 
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig3.4"}
 	\caption[Mutations in \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}} allow for distinguishing read origin in winner cells in co-culture]{\textbf{Mutations in \textit{\gls{wnt5a}} and \textit{\gls{sipa1l2}} allow for distinguishing read origin in winner cells in co-culture.} Screenshots in \gls{igv} from cell line specific mutations in \textit{\gls{wnt5a}} (Top) and in \textit{\gls{sipa1l2}} (Bottom). The specific mutation of interest in each case is presented in the center of each track. Rows are identified, in order, as \gls{lmc} in red, and as \gls{lsmc} and \gls{lscc} in green.}

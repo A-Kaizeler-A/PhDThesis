@@ -1469,19 +1469,19 @@ Costa V, Angelini C, De~Feis I, Ciccodicola A.
 \newblock Journal of Biomedicine \& Biotechnology. 2010;2010:853916.
 \newblock doi:{10.1155/2010/853916}.
 
-\bibitem{robinson_scaling_2010}
-Robinson MD, Oshlack A.
-\newblock A scaling normalization method for differential expression analysis
-  of {RNA}-seq data.
-\newblock Genome Biology. 2010;11(3):R25.
-\newblock doi:{10.1186/gb-2010-11-3-r25}.
-
 \bibitem{robinson_edger_2010}
 Robinson MD, McCarthy DJ, Smyth GK.
 \newblock {edgeR} : a {Bioconductor} package for differential expression
   analysis of digital gene expression data.
 \newblock Bioinformatics. 2010;26(1):139--140.
 \newblock doi:{10.1093/bioinformatics/btp616}.
+
+\bibitem{robinson_scaling_2010}
+Robinson MD, Oshlack A.
+\newblock A scaling normalization method for differential expression analysis
+  of {RNA}-seq data.
+\newblock Genome Biology. 2010;11(3):R25.
+\newblock doi:{10.1186/gb-2010-11-3-r25}.
 
 \bibitem{law_voom_2014}
 Law CW, Chen Y, Shi W, Smyth GK.
@@ -1600,53 +1600,12 @@ Hubstenberger A, Courel M, Bénard M, Souquere S, Ernoult-Lange M, Chouaib R,
 \newblock Molecular Cell. 2017;68(1):144--157.e5.
 \newblock doi:{10.1016/j.molcel.2017.09.003}.
 
-\bibitem{sun_chac1_2024}
-Sun J, Ren H, Wang J, Xiao X, Zhu L, Wang Y, et~al.
-\newblock {CHAC1}: a master regulator of oxidative stress and ferroptosis in
-  human diseases and cancers.
-\newblock Frontiers in Cell and Developmental Biology. 2024;12:1458716.
-\newblock doi:{10.3389/fcell.2024.1458716}.
-
-\bibitem{garaeva_mitochondrial_2016}
-Garaeva AA, Kovaleva IE, Chumakov PM, Evstafieva AG.
-\newblock Mitochondrial dysfunction induces {SESN2} gene expression through
-  {Activating} {Transcription} {Factor} 4.
-\newblock Cell Cycle (Georgetown, Tex). 2016;15(1):64--71.
-\newblock doi:{10.1080/15384101.2015.1120929}.
-
-\bibitem{krall_asparagine_2021}
-Krall AS, Mullen PJ, Surjono F, Momcilovic M, Schmid EW, Halbrook CJ, et~al.
-\newblock Asparagine couples mitochondrial respiration to {ATF4} activity and
-  tumor growth.
-\newblock Cell Metabolism. 2021;33(5):1013--1026.e6.
-\newblock doi:{10.1016/j.cmet.2021.02.001}.
-
-\bibitem{sano_er_2013}
-Sano R, Reed JC.
-\newblock {ER} stress-induced cell death mechanisms.
-\newblock Biochimica Et Biophysica Acta. 2013;1833(12):3460--3470.
-\newblock doi:{10.1016/j.bbamcr.2013.06.028}.
-
-\bibitem{murtagh_wards_2014}
-Murtagh F, Legendre P.
-\newblock Ward’s {Hierarchical} {Agglomerative} {Clustering} {Method}:
-  {Which} {Algorithms} {Implement} {Ward}’s {Criterion}?
-\newblock Journal of Classification. 2014;31(3):274--295.
-\newblock doi:{10.1007/s00357-014-9161-z}.
-
 \bibitem{millar_new_2023}
 Millar SR, Huang JQ, Schreiber KJ, Tsai YC, Won J, Zhang J, et~al.
 \newblock A {New} {Phase} of {Networking}: {The} {Molecular} {Composition} and
   {Regulatory} {Dynamics} of {Mammalian} {Stress} {Granules}.
 \newblock Chemical Reviews. 2023;123(14):9036--9064.
 \newblock doi:{10.1021/acs.chemrev.2c00608}.
-
-\bibitem{langmead_ultrafast_2009}
-Langmead B, Trapnell C, Pop M, Salzberg SL.
-\newblock Ultrafast and memory-efficient alignment of short {DNA} sequences to
-  the human genome.
-\newblock Genome Biology. 2009;10(3):R25.
-\newblock doi:{10.1186/gb-2009-10-3-r25}.
 
 \bibitem{ascensao-ferreira_betas_2024}
 Ascensão-Ferreira M, Martins-Silva R, Saraiva-Agostinho N, Barbosa-Morais NL.
@@ -1726,13 +1685,6 @@ Yang W, Soares J, Greninger P, Edelman EJ, Lightfoot H, Forbes S, et~al.
   therapeutic biomarker discovery in cancer cells.
 \newblock Nucleic Acids Research. 2012;41(D1):D955--D961.
 \newblock doi:{10.1093/nar/gks1111}.
-
-\bibitem{tang_gepia_2017}
-Tang Z, Li C, Kang B, Gao G, Li C, Zhang Z.
-\newblock {GEPIA}: a web server for cancer and normal gene expression profiling
-  and interactive analyses.
-\newblock Nucleic Acids Research. 2017;45(W1):W98--W102.
-\newblock doi:{10.1093/nar/gkx247}.
 
 \bibitem{zou_regularization_2005}
 Zou H, Hastie T.
@@ -1837,6 +1789,12 @@ Anderson P, Kedersha N.
 \newblock Trends in Biochemical Sciences. 2008;33(3):141--150.
 \newblock doi:{10.1016/j.tibs.2007.12.003}.
 
+\bibitem{iwakawa2022life}
+Iwakawa Ho, Tomari Y.
+\newblock Life of RISC: Formation, action, and degradation of RNA-induced
+  silencing complex.
+\newblock Molecular cell. 2022;82(1):30--43.
+
 \bibitem{huang_kras_2021}
 Huang L, Guo Z, Wang F, Fu L.
 \newblock {KRAS} mutation: from undruggable to druggable in cancer.
@@ -1886,6 +1844,24 @@ Shimoni Y.
 \newblock PLOS Computational Biology. 2018;14(2):e1006026.
 \newblock doi:{10.1371/journal.pcbi.1006026}.
 
+\bibitem{creemers2006coactivation}
+Creemers EE, Sutherland LB, Oh J, Barbosa AC, Olson EN.
+\newblock Coactivation of MEF2 by the SAP domain proteins myocardin and MASTR.
+\newblock Molecular cell. 2006;23(1):83--96.
+
+\bibitem{pon2015mef2}
+Pon JR, Marra MA.
+\newblock MEF2 transcription factors: developmental regulators and emerging
+  cancer genes.
+\newblock Oncotarget. 2015;7(3):2297.
+
+\bibitem{nishida_role_2025}
+Nishida A, Andoh A.
+\newblock The {Role} of {Inflammation} in {Cancer}: {Mechanisms} of {Tumor}
+  {Initiation}, {Progression}, and {Metastasis}.
+\newblock Cells. 2025;14(7):488.
+\newblock doi:{10.3390/cells14070488}.
+
 \bibitem{datta_tumor_2020}
 Datta N, Chakraborty S, Basu M, Ghosh MK.
 \newblock Tumor {Suppressors} {Having} {Oncogenic} {Functions}: {The} {Double}
@@ -1899,20 +1875,6 @@ Datta N, Chakraborty S, Basu M, Ghosh MK.
   171--199.
 \newblock Available from:
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0065230X20300464}.
-
-\bibitem{vogler_bcl2_2025}
-Vogler M, Braun Y, Smith VM, Westhoff MA, Pereira RS, Pieper NM, et~al.
-\newblock The {BCL2} family: from apoptosis mechanisms to new advances in
-  targeted therapy.
-\newblock Signal Transduction and Targeted Therapy. 2025;10(1):91.
-\newblock doi:{10.1038/s41392-025-02176-0}.
-
-\bibitem{nishida_role_2025}
-Nishida A, Andoh A.
-\newblock The {Role} of {Inflammation} in {Cancer}: {Mechanisms} of {Tumor}
-  {Initiation}, {Progression}, and {Metastasis}.
-\newblock Cells. 2025;14(7):488.
-\newblock doi:{10.3390/cells14070488}.
 
 \bibitem{amen_stress_2021}
 Amen T, Kaganovich D.
@@ -2106,11 +2068,25 @@ Buchbender A, Mutter H, Sutandy FXR, Körtel N, Hänel H, Busch A, et~al.
 \newblock Methods. 2020;178:33--48.
 \newblock doi:{10.1016/j.ymeth.2019.10.003}.
 
+\bibitem{langmead_ultrafast_2009}
+Langmead B, Trapnell C, Pop M, Salzberg SL.
+\newblock Ultrafast and memory-efficient alignment of short {DNA} sequences to
+  the human genome.
+\newblock Genome Biology. 2009;10(3):R25.
+\newblock doi:{10.1186/gb-2009-10-3-r25}.
+
 \bibitem{oliveira_limited_2025}
 Oliveira BSP, Paiva RA, Pinto CC, Paiva RV, Pereira MXG, Ramos CV, et~al..
   Limited bone marrow chimerism impairs cell competition in the thymus and
   causes leukemia; 2025.
 \newblock Available from:
   \url{http://biorxiv.org/lookup/doi/10.64898/2025.12.16.694652}.
+
+\bibitem{wagner2026spliceosome}
+Wagner V, Bousset L, Ascens{\~a}o-Ferreira M, Sun B, Barragan~Avila JE,
+  Kaizeler A, et~al.
+\newblock Spliceosome induction is a druggable dependency of RAS-driven
+  senescence and cancer.
+\newblock Nature Communications. 2026;.
 
 \end{thebibliography}

@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99e (TeX Live 2026)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: PhD Thesis.aux
 The style file: plos2015.bst
-Reallocated field_info (elt_size=4) to 15472 items from 5000.
+Reallocated field_info (elt_size=4) to 15370 items from 5000.
 Database file #1: refs.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -14,52 +14,52 @@ Warning--there's a month but no year in tcga_research_network_cancer_nodate
 Warning--there's a month but no year in thermo_fisher_dna_nodate
 Warning--empty author in noauthor_nomenclature_1985
 `journal' is a missing field, not a string, for entry svedberg_ultracentrifuge_1940
-while executing---line 1875 of file plos2015.bst
+while executing---line 3749 of file plos2015.bst
 Warning--empty journal in svedberg_ultracentrifuge_1940
 Warning--empty year in smyth_linear_nodate
 Warning--empty author in noauthor_human_nodate
 Warning--there's a month but no year in noauthor_human_nodate
 Warning--empty author in noauthor_sparc-p53_2020
 Warning--there's a month but no year in bd_biosciences_bd_nodate
-You've used 308 entries,
+You've used 305 entries,
             3058 wiz_defined-function locations,
-            2709 strings with 112003 characters,
-and the built_in function-call counts, 815931 in all, are:
-= -- 101211
-> -- 5593
+            2682 strings with 110634 characters,
+and the built_in function-call counts, 806269 in all, are:
+= -- 99982
+> -- 5517
 < -- 7
-+ -- 3444
-- -- 1397
-* -- 74507
-:= -- 89105
-add.period$ -- 1481
-call.type$ -- 308
++ -- 3388
+- -- 1378
+* -- 73632
+:= -- 88061
+add.period$ -- 1462
+call.type$ -- 305
 change.case$ -- 6
 chr.to.int$ -- 6
-cite$ -- 318
-duplicate$ -- 51815
-empty$ -- 79849
-format.name$ -- 1677
-if$ -- 187819
+cite$ -- 315
+duplicate$ -- 51136
+empty$ -- 78927
+format.name$ -- 1655
+if$ -- 185581
 int.to.chr$ -- 0
-int.to.str$ -- 308
-missing$ -- 3208
-newline$ -- 1809
-num.names$ -- 305
-pop$ -- 4440
+int.to.str$ -- 305
+missing$ -- 3169
+newline$ -- 1787
+num.names$ -- 302
+pop$ -- 4397
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5331
+skip$ -- 5266
 stack$ -- 0
-substring$ -- 186331
-swap$ -- 8033
+substring$ -- 184219
+swap$ -- 7935
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 10
-while$ -- 3373
-width$ -- 311
-write$ -- 3923
+while$ -- 3332
+width$ -- 308
+write$ -- 3875
 (There was 1 error message)
