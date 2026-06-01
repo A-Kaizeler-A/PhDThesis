@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.8)  1 JUN 2026 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.8)  1 JUN 2026 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1936,14 +1936,14 @@ Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 326.
 s/logo/ulisboa-only.pdf>]
 File: images/logo/ulisboa-only.pdf Graphic file (type pdf)
 <use images/logo/ulisboa-only.pdf>
-Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 363.
+Package pdftex.def Info: images/logo/ulisboa-only.pdf  used on input line 364.
 (pdftex.def)             Requested size: 110.25443pt x 185.0736pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.404 \end{titlepage}
+l.406 \end{titlepage}
                       [1]
 
 Package marginnote Warning: Consecutive odd pages found.
@@ -1955,13 +1955,13 @@ Package marginnote Warning: Consecutive odd pages found.
 (marginnote)                changing the page numbering on page 1.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 404.
+e 406.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 \end{titlepage}
+l.421 \end{titlepage}
                       [1]
 
 Package marginnote Warning: Consecutive odd pages found.
@@ -1973,7 +1973,7 @@ Package marginnote Warning: Consecutive odd pages found.
 (marginnote)                changing the page numbering on page 1.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 419.
+e 421.
 (./PhD Thesis.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
@@ -2127,177 +2127,177 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ])
 (./chapters/acknowledgements.tex [11])
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--432
+Underfull \hbox (badness 10000) in paragraph at lines 6--434
 
  []
 
@@ -2456,79 +2456,79 @@ e 29.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 32--42
+<images/Paper Images/TESE_Figu1.png, id=1614, 542.025pt x 536.331pt>
+File: images/Paper Images/TESE_Figu1.png Graphic file (type png)
+<use images/Paper Images/TESE_Figu1.png>
+Package pdftex.def Info: images/Paper Images/TESE_Figu1.png  used on input line
+ 38.
+(pdftex.def)             Requested size: 441.01773pt x 436.398pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--42
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Overfull \hbox (1.31937pt too wide) in paragraph at lines 32--42
+ [3]
+Overfull \hbox (1.31937pt too wide) in paragraph at lines 42--54
 [][]\OT1/cmr/m/n/12 SGs[] can also as-semble through [][]eIF2$\OML/cmm/m/it/12 
 $[]\OT1/cmr/m/n/12 -phosphorylation in-de-pend-ent mech-an-isms, arising
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
  []
 
 
-Underfull \vbox (badness 1173) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
- [3]
-<images/Paper Images/TESE_Figu1.png, id=1659, 542.025pt x 536.331pt>
-File: images/Paper Images/TESE_Figu1.png Graphic file (type png)
-<use images/Paper Images/TESE_Figu1.png>
-Package pdftex.def Info: images/Paper Images/TESE_Figu1.png  used on input line
- 45.
-(pdftex.def)             Requested size: 441.01773pt x 436.398pt.
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 50--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./images/Paper Images/TESE_Figu1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+ [4 <./images/Paper Images/TESE_Figu1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--79
 
  []
 
@@ -2536,153 +2536,149 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--81
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--115
 
  []
 
-[8]
+[7] [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 122--132
+Underfull \hbox (badness 10000) in paragraph at lines 120--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--132
+Underfull \hbox (badness 10000) in paragraph at lines 120--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--132
+Underfull \hbox (badness 10000) in paragraph at lines 120--130
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 135--152
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--152
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--152
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--152
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
 
  []
 
 
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
- [13]
-<images/Paper Images/TESE_Figu2.png, id=2283, 542.025pt x 406.1574pt>
+ [12]
+<images/Paper Images/TESE_Figu2.png, id=2270, 542.025pt x 406.1574pt>
 File: images/Paper Images/TESE_Figu2.png Graphic file (type png)
 <use images/Paper Images/TESE_Figu2.png>
 Package pdftex.def Info: images/Paper Images/TESE_Figu2.png  used on input line
- 158.
+ 156.
 (pdftex.def)             Requested size: 441.01773pt x 330.47928pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [14]
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--185
+Underfull \hbox (badness 10000) in paragraph at lines 160--183
 
  []
 
@@ -2690,52 +2686,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--185
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 190--200
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--200
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--200
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--225
+Underfull \hbox (badness 10000) in paragraph at lines 201--223
 
  []
 
@@ -2746,32 +2742,32 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Underfull \hbox (badness 10000) in paragraph at lines 228--247
+Underfull \hbox (badness 10000) in paragraph at lines 226--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--247
+Underfull \hbox (badness 10000) in paragraph at lines 226--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--247
+Underfull \hbox (badness 10000) in paragraph at lines 226--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--247
+Underfull \hbox (badness 10000) in paragraph at lines 226--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--247
+Underfull \hbox (badness 10000) in paragraph at lines 226--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--247
+Underfull \hbox (badness 10000) in paragraph at lines 226--245
 
  []
 
@@ -2779,38 +2775,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--247
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [20]
-Underfull \hbox (badness 10000) in paragraph at lines 250--269
+Underfull \hbox (badness 10000) in paragraph at lines 248--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--269
+Underfull \hbox (badness 10000) in paragraph at lines 248--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--269
+Underfull \hbox (badness 10000) in paragraph at lines 248--267
 
  []
 
 
-Overfull \hbox (1.28069pt too wide) in paragraph at lines 250--269
+Overfull \hbox (1.28069pt too wide) in paragraph at lines 248--267
 \OT1/cmr/m/n/12 Among [][]PRR[] fam-il-ies, [][]RLR[] sig-nalling is par-tic-u-
 larly de-pend-ent on mi-to-chon-dria, largely
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--269
+Underfull \hbox (badness 10000) in paragraph at lines 248--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--269
+Underfull \hbox (badness 10000) in paragraph at lines 248--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--269
+Underfull \hbox (badness 10000) in paragraph at lines 248--267
 
  []
 
@@ -2821,23 +2817,23 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-<images/Paper Images/TESE_Figu3.png, id=2681, 1878.26718pt x 2725.93407pt>
+<images/Paper Images/TESE_Figu3.png, id=2675, 1878.26718pt x 2725.93407pt>
 File: images/Paper Images/TESE_Figu3.png Graphic file (type png)
 <use images/Paper Images/TESE_Figu3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Figu3.png  used on input line
- 273.
+ 271.
 (pdftex.def)             Requested size: 441.01773pt x 640.05388pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
 [24 <./images/Paper Images/TESE_Figu3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 290--297
+Underfull \hbox (badness 10000) in paragraph at lines 288--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--297
+Underfull \hbox (badness 10000) in paragraph at lines 288--295
 
  []
 
@@ -2847,72 +2843,39 @@ Underfull \vbox (badness 4479) has occurred while \output is active []
  [25
 
 ]
-<images/Paper Images/Fig1.4.png, id=2804, 542.025pt x 265.428pt>
+<images/Paper Images/Fig1.4.png, id=2798, 542.025pt x 265.428pt>
 File: images/Paper Images/Fig1.4.png Graphic file (type png)
 <use images/Paper Images/Fig1.4.png>
-Package pdftex.def Info: images/Paper Images/Fig1.4.png  used on input line 300
+Package pdftex.def Info: images/Paper Images/Fig1.4.png  used on input line 298
 .
 (pdftex.def)             Requested size: 441.01773pt x 215.97156pt.
-Package marginnote Info: Margin note 72.1 is on absolute page 74 on input line 
-325.
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-[]\OT1/cmr/m/n/8 For Nuno:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/cmr/m/n/8 Acho im-
- []
-
-
-Underfull \hbox (badness 5548) in paragraph at lines 325--325
-\OT1/cmr/m/n/8 port-ant dizer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/cmr/m/n/8 coisas boas
- []
-
-
-Underfull \hbox (badness 3088) in paragraph at lines 325--325
-\OT1/cmr/m/n/8 da SE e da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/cmr/m/n/8 cor-reto (e
- []
-
-Package marginnote Info: xpos seems to be 71.13188pt on input line 325.
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--329
+Underfull \hbox (badness 10000) in paragraph at lines 308--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--329
+Underfull \hbox (badness 10000) in paragraph at lines 308--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--329
+Underfull \hbox (badness 10000) in paragraph at lines 308--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--329
+Underfull \hbox (badness 10000) in paragraph at lines 308--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--329
+Underfull \hbox (badness 10000) in paragraph at lines 308--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--329
+Underfull \hbox (badness 10000) in paragraph at lines 308--327
 
  []
 
@@ -2923,76 +2886,32 @@ Underfull \vbox (badness 1331) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-Package marginnote Info: Margin note 74.1 is on absolute page 75 on input line 
-347.
-Package marginnote Info: xpos seems to be 254.30676pt on input line 347.
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
-[]\OT1/cmr/m/n/8 For Nuno:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 Fica mais
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 claro as-sim?
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 Ba-sica-mente
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 quero dizer
- []
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 mais mo-lecu-
- []
-
-
-Underfull \hbox (badness 5756) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 las de RNA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
-\OT1/cmr/m/n/8 do que de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
@@ -3037,86 +2956,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [32]
-Package marginnote Info: Margin note 79.1 is on absolute page 79 on input line 
-32.
-Package marginnote Info: xpos seems to be 163.10329pt on input line 32.
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]\OT1/cmr/m/n/8 For Nuno:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 Achas que
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 fica mais
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 claro aqui a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 im-port^ancia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 de saber se
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 progn^^Sostico?
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 H^^Sa out-ras
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 m^^Setricas para
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 agress-ive-ness,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 mas sin-cera-
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 goal prin-cipal
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 32--32
-\OT1/cmr/m/n/8 para mim ^^Se
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
+Underfull \hbox (badness 10000) in paragraph at lines 38--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
+Underfull \hbox (badness 10000) in paragraph at lines 38--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
+Underfull \hbox (badness 10000) in paragraph at lines 38--48
 
  []
 
@@ -3383,274 +3233,273 @@ Underfull \hbox (badness 7981) in paragraph at lines 152--152
  []
 
 Package marginnote Info: xpos seems to be 341.99297pt on input line 152.
+<images/Paper Images/TESE_Fig4.1.png, id=3318, 541.368pt x 511.803pt>
+File: images/Paper Images/TESE_Fig4.1.png Graphic file (type png)
+<use images/Paper Images/TESE_Fig4.1.png>
+Package pdftex.def Info: images/Paper Images/TESE_Fig4.1.png  used on input lin
+e 161.
+(pdftex.def)             Requested size: 441.01773pt x 416.94786pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--159
+Underfull \hbox (badness 10000) in paragraph at lines 149--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--159
+Underfull \hbox (badness 10000) in paragraph at lines 149--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--159
+Underfull \hbox (badness 10000) in paragraph at lines 149--164
 
  []
 
 [41]
-<images/Paper Images/TESE_Fig4.1.png, id=3336, 541.368pt x 511.803pt>
-File: images/Paper Images/TESE_Fig4.1.png Graphic file (type png)
-<use images/Paper Images/TESE_Fig4.1.png>
-Package pdftex.def Info: images/Paper Images/TESE_Fig4.1.png  used on input lin
-e 162.
-(pdftex.def)             Requested size: 441.01773pt x 416.94786pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+Underfull \hbox (badness 10000) in paragraph at lines 165--170
 
  []
 
 [43 <./images/Paper Images/TESE_Fig4.1.png>] [44]
 Package marginnote Info: Margin note 91.1 is on absolute page 91 on input line 
-193.
-Package marginnote Info: xpos seems to be 226.99297pt on input line 193.
+192.
+Package marginnote Info: xpos seems to be 226.99297pt on input line 192.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 193--193
+Underfull \hbox (badness 5189) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 Aqui dis-seste
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 193--193
+Underfull \hbox (badness 1881) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 que tinha de
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 193--193
+Underfull \hbox (badness 2065) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 cifico. Para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 evitar mal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 mais simples
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 de tech-nical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 bias (e nao
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 193--193
+Underfull \hbox (badness 3148) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 de bio-lo-gico),
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 193--193
+Underfull \hbox (badness 4899) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 dando o ex-
  []
 
 Package marginnote Info: Margin note 91.2 is on absolute page 92 on input line 
-204.
+203.
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 \OT1/cmr/m/n/8 Changed the
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 204--204
+Underfull \hbox (badness 1400) in paragraph at lines 203--203
 \OT1/cmr/m/n/8 image to lin-
  []
 
-Package marginnote Info: xpos seems to be 145.7436pt on input line 204.
+Package marginnote Info: xpos seems to be 145.7436pt on input line 203.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--205
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--205
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 [45]
-<images/Paper Images/TESE_Fig4.2.png, id=3413, 541.0614pt x 177.3024pt>
+<images/Paper Images/TESE_Fig4.2.png, id=3408, 541.0614pt x 177.3024pt>
 File: images/Paper Images/TESE_Fig4.2.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.2.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.2.png  used on input lin
-e 208.
+e 207.
 (pdftex.def)             Requested size: 441.01773pt x 144.52585pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+Underfull \hbox (badness 10000) in paragraph at lines 214--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--235
+Underfull \hbox (badness 10000) in paragraph at lines 223--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--235
+Underfull \hbox (badness 10000) in paragraph at lines 223--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--235
+Underfull \hbox (badness 10000) in paragraph at lines 223--234
 
  []
 
 [46 <./images/Paper Images/TESE_Fig4.2.png>]
 Package marginnote Info: Margin note 93.1 is on absolute page 93 on input line 
-239.
-Package marginnote Info: xpos seems to be 499.53378pt on input line 239.
+238.
+Package marginnote Info: xpos seems to be 499.53378pt on input line 238.
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \OT1/cmr/m/n/8 Ad-ded this
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 239--239
+Underfull \hbox (badness 1082) in paragraph at lines 238--238
 \OT1/cmr/m/n/8 sec-tion as an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \OT1/cmr/m/n/8 ex-plan-a-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 \OT1/cmr/m/n/8 of why fil-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 239--239
+Underfull \hbox (badness 1342) in paragraph at lines 238--238
 \OT1/cmr/m/n/8 ter-ing is also
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 239--239
+Underfull \hbox (badness 1852) in paragraph at lines 238--238
 \OT1/cmr/m/n/8 im-port-ant for
  []
 
 Package marginnote Info: Margin note 93.2 is on absolute page 94 on input line 
-242.
+241.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 Com as in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 clus~ao da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 TMM com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 o para-grafo
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 242--242
+Underfull \hbox (badness 4108) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 an-terior, tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 de mudar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 este para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 \OT1/cmr/m/n/8 ficar menos
  []
 
-Package marginnote Info: xpos seems to be 71.13188pt on input line 242.
+Package marginnote Info: xpos seems to be 71.13188pt on input line 241.
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--243
+Underfull \hbox (badness 10000) in paragraph at lines 238--242
 
  []
 
 [47]
-<images/Paper Images/TESE_Fig4.3.png, id=3468, 540.5796pt x 503.9628pt>
+<images/Paper Images/TESE_Fig4.3.png, id=3463, 540.5796pt x 503.9628pt>
 File: images/Paper Images/TESE_Fig4.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.3.png  used on input lin
-e 246.
+e 245.
 (pdftex.def)             Requested size: 441.01773pt x 411.15283pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48]
-Underfull \hbox (badness 10000) in paragraph at lines 253--269
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--269
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--269
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--269
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--269
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
 
  []
 
@@ -3661,44 +3510,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50]
-<images/Paper Images/TESE_Fig4.4.png, id=3538, 549.033pt x 565.02pt>
+<images/Paper Images/TESE_Fig4.4.png, id=3533, 549.033pt x 565.02pt>
 File: images/Paper Images/TESE_Fig4.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.4.png  used on input lin
-e 272.
+e 271.
 (pdftex.def)             Requested size: 441.01773pt x 453.853pt.
 
 [51 <./images/Paper Images/TESE_Fig4.4.png>]
 Package marginnote Info: Margin note 98.1 is on absolute page 99 on input line 
-296.
-Package marginnote Info: xpos seems to be 85.35826pt on input line 296.
+295.
+Package marginnote Info: xpos seems to be 85.35826pt on input line 295.
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \OT1/cmr/m/n/8 Ten-tei ex-pli-
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 296--296
+Underfull \hbox (badness 1701) in paragraph at lines 295--295
 \OT1/cmr/m/n/8 car mel-hor o
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 296--296
+Underfull \hbox (badness 1867) in paragraph at lines 295--295
 \OT1/cmr/m/n/8 mod-elo lin-ear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--297
+Underfull \hbox (badness 10000) in paragraph at lines 288--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--297
+Underfull \hbox (badness 10000) in paragraph at lines 288--296
 
  []
 
@@ -3706,103 +3555,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--297
 
 ]
 Package marginnote Info: Margin note 99.1 is on absolute page 100 on input line
- 312.
+ 311.
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--312
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 \OT1/cmr/m/n/8 mesmo com
  []
 
-Package marginnote Info: xpos seems to be 237.81071pt on input line 312.
+Package marginnote Info: xpos seems to be 237.81071pt on input line 311.
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--313
+Underfull \hbox (badness 10000) in paragraph at lines 299--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--313
+Underfull \hbox (badness 10000) in paragraph at lines 299--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--312
 
  []
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 316--333
+Underfull \hbox (badness 10000) in paragraph at lines 315--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--333
+Underfull \hbox (badness 10000) in paragraph at lines 315--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--333
+Underfull \hbox (badness 10000) in paragraph at lines 315--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--333
+Underfull \hbox (badness 10000) in paragraph at lines 315--332
 
  []
 
 [54]
 Package marginnote Info: Margin note 101.1 is on absolute page 101 on input lin
-e 336.
-Package marginnote Info: xpos seems to be 234.57318pt on input line 336.
+e 335.
+Package marginnote Info: xpos seems to be 234.57318pt on input line 335.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \OT1/cmr/m/n/8 Achas que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 \OT1/cmr/m/n/8 nesta frase,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--352
+Underfull \hbox (badness 10000) in paragraph at lines 335--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--352
+Underfull \hbox (badness 10000) in paragraph at lines 335--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--352
+Underfull \hbox (badness 10000) in paragraph at lines 335--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--352
+Underfull \hbox (badness 10000) in paragraph at lines 335--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--352
+Underfull \hbox (badness 10000) in paragraph at lines 335--351
 
  []
 
 [55]
-<images/Paper Images/TESE_Fig4.5.png, id=3700, 542.244pt x 423.984pt>
+<images/Paper Images/TESE_Fig4.5.png, id=3695, 542.244pt x 423.984pt>
 File: images/Paper Images/TESE_Fig4.5.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.5.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.5.png  used on input lin
-e 355.
+e 354.
 (pdftex.def)             Requested size: 441.01773pt x 344.84842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3810,162 +3659,162 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [56]
 \tablewidth=\skip121
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/8 Heat-shock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \OT1/cmr/m/n/8 and Hip-
  []
 
 
-Overfull \hbox (2.25551pt too wide) in paragraph at lines 382--382
+Overfull \hbox (2.25551pt too wide) in paragraph at lines 381--381
 []|\OT1/cmr/m/n/8 HEK293T| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 []|\OT1/cmr/m/n/8 Somasekharan
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 386--386
+Underfull \hbox (badness 2173) in paragraph at lines 385--385
 []|\OT1/cmr/m/n/8 Oxidative and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
 []|\OT1/cmr/m/n/8 PABPC1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
 \OT1/cmr/m/n/8 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
 []|\OT1/cmr/m/n/8 Wild-Type,
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 386--386
+Underfull \hbox (badness 1661) in paragraph at lines 385--385
 \OT1/cmr/m/n/8 G3BP-GFP and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\OT1/cmr/m/n/8 DDX3X
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \OT1/cmr/m/n/8 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\OT1/cmr/m/n/8 APEX2-DDX3X
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \OT1/cmr/m/n/8 and APEX2-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 []|\OT1/cmr/m/n/8 DC and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \OT1/cmr/m/n/8 eCLIP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 []|\OT1/cmr/m/n/8 SH-SY-
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 396--396
+Underfull \hbox (badness 1215) in paragraph at lines 395--395
 []|\OT1/cmr/m/n/8 T-Cell Ac-tiv-a-
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 398--398
+Underfull \hbox (badness 2173) in paragraph at lines 397--397
 []|\OT1/cmr/m/n/8 Oxidative and
  []
 
 
-Overfull \hbox (2.25551pt too wide) in paragraph at lines 398--398
+Overfull \hbox (2.25551pt too wide) in paragraph at lines 397--397
 []|\OT1/cmr/m/n/8 HEK293T
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 398--398
+Underfull \hbox (badness 5548) in paragraph at lines 397--397
 \OT1/cmr/m/n/8 and U2-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []|\OT1/cmr/m/n/8 ARTR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 []|\OT1/cmr/m/n/8 Oxidative,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 \OT1/cmr/m/n/8 Hyper-os-motic,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 \OT1/cmr/m/n/8 Heat-shock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []|\OT1/cmr/m/n/8 Wild-Type and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/8 Di Timoteo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/8 Wild-Type,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \OT1/cmr/m/n/8 METTL3 KD,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\OT1/cmr/m/n/8 Rajachandran
  []
 
 
-Overfull \hbox (2.49162pt too wide) in paragraph at lines 408--408
+Overfull \hbox (2.49162pt too wide) in paragraph at lines 407--407
 []|\OT1/cmr/m/n/8 PHOTON| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\OT1/cmr/m/n/8 Wild-Type and
  []
 
 
-Overfull \hbox (2.26927pt too wide) in paragraph at lines 408--409
+Overfull \hbox (2.26927pt too wide) in paragraph at lines 407--408
 []|\OT1/cmr/m/n/8 PRJNA1152621| 
  []
 
@@ -3973,36 +3822,36 @@ Overfull \hbox (2.26927pt too wide) in paragraph at lines 408--409
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57 <./images/Paper Images/TESE_Fig4.5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 415--423
+Underfull \hbox (badness 10000) in paragraph at lines 414--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--423
+Underfull \hbox (badness 10000) in paragraph at lines 414--422
 
  []
 
 [58]
-<images/Paper Images/Figure1.png, id=3784, 540.0978pt x 780.516pt>
+<images/Paper Images/Figure1.png, id=3778, 540.0978pt x 780.516pt>
 File: images/Paper Images/Figure1.png Graphic file (type png)
 <use images/Paper Images/Figure1.png>
 Package pdftex.def Info: images/Paper Images/Figure1.png  used on input line 42
-6.
+5.
 (pdftex.def)             Requested size: 441.01773pt x 637.32376pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
 [60 <./images/Paper Images/Figure1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 438--443
+Underfull \hbox (badness 10000) in paragraph at lines 437--442
 
  []
 
-<images/Paper Images/SupFigure1_comp.png, id=3844, 542.901pt x 505.014pt>
+<images/Paper Images/SupFigure1_comp.png, id=3839, 542.901pt x 505.014pt>
 File: images/Paper Images/SupFigure1_comp.png Graphic file (type png)
 <use images/Paper Images/SupFigure1_comp.png>
 Package pdftex.def Info: images/Paper Images/SupFigure1_comp.png  used on input
- line 446.
+ line 445.
 (pdftex.def)             Requested size: 441.01773pt x 410.25351pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4010,51 +3859,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [61
 
 ]
-<images/Paper Images/TESE_Fig4.8.png, id=3893, 537.207pt x 346.896pt>
+<images/Paper Images/TESE_Fig4.8.png, id=3888, 537.207pt x 346.896pt>
 File: images/Paper Images/TESE_Fig4.8.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.8.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.8.png  used on input lin
-e 463.
+e 462.
 (pdftex.def)             Requested size: 441.01773pt x 284.79002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--466
+Underfull \hbox (badness 10000) in paragraph at lines 452--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--466
+Underfull \hbox (badness 10000) in paragraph at lines 452--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--466
+Underfull \hbox (badness 10000) in paragraph at lines 452--465
 
  []
 
 [62 <./images/Paper Images/SupFigure1_comp.png>]
-<images/Paper Images/TESE_Fig4.9.png, id=3926, 537.207pt x 649.4664pt>
+<images/Paper Images/TESE_Fig4.9.png, id=3921, 537.207pt x 649.4664pt>
 File: images/Paper Images/TESE_Fig4.9.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.9.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.9.png  used on input lin
-e 481.
+e 480.
 (pdftex.def)             Requested size: 441.01773pt x 533.19023pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--484
+Underfull \hbox (badness 10000) in paragraph at lines 466--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--484
+Underfull \hbox (badness 10000) in paragraph at lines 466--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--484
+Underfull \hbox (badness 10000) in paragraph at lines 466--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--484
+Underfull \hbox (badness 10000) in paragraph at lines 466--483
 
  []
 
@@ -4066,48 +3915,48 @@ Overfull \vbox (30.80722pt too high) has occurred while \output is active []
 
 
 [65 <./images/Paper Images/TESE_Fig4.9.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 490--495
+Underfull \hbox (badness 10000) in paragraph at lines 489--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--495
+Underfull \hbox (badness 10000) in paragraph at lines 489--494
 
  []
 
-<images/Paper Images/Figure3.png, id=4021, 540.5796pt x 697.1646pt>
+<images/Paper Images/Figure3.png, id=4016, 540.5796pt x 697.1646pt>
 File: images/Paper Images/Figure3.png Graphic file (type png)
 <use images/Paper Images/Figure3.png>
 Package pdftex.def Info: images/Paper Images/Figure3.png  used on input line 49
-8.
+7.
 (pdftex.def)             Requested size: 441.01773pt x 568.77454pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
 [67 <./images/Paper Images/Figure3.png>]
-<images/Paper Images/Sup3.png, id=4136, 521.001pt x 355.437pt>
+<images/Paper Images/Sup3.png, id=4131, 521.001pt x 355.437pt>
 File: images/Paper Images/Sup3.png Graphic file (type png)
 <use images/Paper Images/Sup3.png>
-Package pdftex.def Info: images/Paper Images/Sup3.png  used on input line 527.
+Package pdftex.def Info: images/Paper Images/Sup3.png  used on input line 526.
 (pdftex.def)             Requested size: 441.01773pt x 300.88629pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--530
+Underfull \hbox (badness 10000) in paragraph at lines 510--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--530
+Underfull \hbox (badness 10000) in paragraph at lines 510--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--530
+Underfull \hbox (badness 10000) in paragraph at lines 510--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--530
+Underfull \hbox (badness 10000) in paragraph at lines 510--529
 
  []
 
@@ -4121,94 +3970,93 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69]
 Package marginnote Info: Margin note 116.1 is on absolute page 116 on input lin
-e 535.
+e 534.
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 \OT1/cmr/m/n/8 grafi-cos e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 \OT1/cmr/m/n/8 con-clu-soes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 \OT1/cmr/m/n/8 de re-scre-ver
  []
 
-Package marginnote Info: xpos seems to be 71.13188pt on input line 535.
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--548
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--548
-
- []
-
-[70 <./images/Paper Images/Sup3.png>]
-<images/Paper Images/Figure4_2.png, id=4193, 539.1342pt x 780.516pt>
+Package marginnote Info: xpos seems to be 71.13188pt on input line 534.
+<images/Paper Images/Figure4_2.png, id=4165, 539.1342pt x 780.516pt>
 File: images/Paper Images/Figure4_2.png Graphic file (type png)
 <use images/Paper Images/Figure4_2.png>
 Package pdftex.def Info: images/Paper Images/Figure4_2.png  used on input line 
-551.
+538.
 (pdftex.def)             Requested size: 441.01773pt x 638.479pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [71]
-[72 <./images/Paper Images/Figure4_2.png>]
-Overfull \hbox (8.56004pt too wide) in paragraph at lines 586--586
+[70 <./images/Paper Images/Sup3.png>] [71 <./images/Paper Images/Figure4_2.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 570--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--584
+
+ []
+
+[72
+
+]
+Overfull \hbox (8.56004pt too wide) in paragraph at lines 585--585
 []\OT1/cmr/bx/n/14.4 Differential Cent-ri-fu-ga-tion Yields Sim-ilar Tran-scrip
 -tomes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--602
+Underfull \hbox (badness 10000) in paragraph at lines 587--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--602
+Underfull \hbox (badness 10000) in paragraph at lines 587--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--602
+Underfull \hbox (badness 10000) in paragraph at lines 587--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--602
+Underfull \hbox (badness 10000) in paragraph at lines 587--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--602
+Underfull \hbox (badness 10000) in paragraph at lines 587--601
 
  []
 
-[73
-
-]
-<images/Paper Images/Figure5.png, id=4329, 542.5068pt x 407.6028pt>
+[73]
+<images/Paper Images/Figure5.png, id=4325, 542.5068pt x 407.6028pt>
 File: images/Paper Images/Figure5.png Graphic file (type png)
 <use images/Paper Images/Figure5.png>
 Package pdftex.def Info: images/Paper Images/Figure5.png  used on input line 60
-5.
+4.
 (pdftex.def)             Requested size: 441.01773pt x 331.3506pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
-Underfull \hbox (badness 10000) in paragraph at lines 610--615
+Underfull \hbox (badness 10000) in paragraph at lines 609--614
 
  []
 
@@ -4216,43 +4064,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--615
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
  [75 <./images/Paper Images/Figure5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 618--629
+Underfull \hbox (badness 10000) in paragraph at lines 617--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--629
+Underfull \hbox (badness 10000) in paragraph at lines 617--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--629
+Underfull \hbox (badness 10000) in paragraph at lines 617--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--629
+Underfull \hbox (badness 10000) in paragraph at lines 617--628
 
  []
 
 [76]
-<images/Paper Images/TESE_Fig4.14.png, id=4481, 839.38594pt x 1137.4997pt>
+<images/Paper Images/TESE_Fig4.14.png, id=4476, 839.38594pt x 1137.4997pt>
 File: images/Paper Images/TESE_Fig4.14.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.14.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.14.png  used on input li
-ne 632.
+ne 631.
 (pdftex.def)             Requested size: 441.01773pt x 597.64757pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77]
 [78 <./images/Paper Images/TESE_Fig4.14.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 646--652
+Underfull \hbox (badness 10000) in paragraph at lines 645--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--652
+Underfull \hbox (badness 10000) in paragraph at lines 645--651
 
  []
 
@@ -4262,27 +4110,27 @@ Underfull \vbox (badness 2698) has occurred while \output is active []
  [79
 
 ]
-<images/Paper Images/TESE_Fig4.15.png, id=4622, 542.025pt x 480.8364pt>
+<images/Paper Images/TESE_Fig4.15.png, id=4617, 542.025pt x 480.8364pt>
 File: images/Paper Images/TESE_Fig4.15.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.15.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.15.png  used on input li
-ne 656.
+ne 655.
 (pdftex.def)             Requested size: 441.01773pt x 391.24356pt.
 
 [80 <./images/Paper Images/TESE_Fig4.15.png>]
-<images/Paper Images/TESE_Fig4.16.png, id=4697, 542.025pt x 542.5068pt>
+<images/Paper Images/TESE_Fig4.16.png, id=4692, 542.025pt x 542.5068pt>
 File: images/Paper Images/TESE_Fig4.16.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.16.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.16.png  used on input li
-ne 676.
+ne 675.
 (pdftex.def)             Requested size: 441.01773pt x 441.4231pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--679
+Underfull \hbox (badness 10000) in paragraph at lines 667--678
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--679
+Underfull \hbox (badness 10000) in paragraph at lines 667--678
 
  []
 
@@ -4290,59 +4138,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--679
 
 ]
 Package marginnote Info: Margin note 128.1 is on absolute page 128 on input lin
-e 681.
+e 680.
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
 []\OT1/cmr/m/n/8 For Nuno:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
 \OT1/cmr/m/n/8 A partir
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
 \OT1/cmr/m/n/8 da-qui tam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
 \OT1/cmr/m/n/8 bem mudou
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--681
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
 \OT1/cmr/m/n/8 me o que
  []
 
-Package marginnote Info: xpos seems to be 71.13188pt on input line 681.
+Package marginnote Info: xpos seems to be 71.13188pt on input line 680.
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--694
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 680--694
+Underfull \hbox (badness 10000) in paragraph at lines 679--693
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--694
+Underfull \hbox (badness 10000) in paragraph at lines 679--693
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--694
+Underfull \hbox (badness 10000) in paragraph at lines 679--693
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--693
 
  []
 
 [82 <./images/Paper Images/TESE_Fig4.16.png>]
-<images/Paper Images/TESE_Fig4.17.png, id=4734, 849.1725pt x 1221.81468pt>
+<images/Paper Images/TESE_Fig4.17.png, id=4729, 849.1725pt x 1221.81468pt>
 File: images/Paper Images/TESE_Fig4.17.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.17.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.17.png  used on input li
-ne 697.
+ne 696.
 (pdftex.def)             Requested size: 441.01773pt x 634.54564pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4450,7 +4298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
-<images/Paper Images/RBFOX2.png, id=4887, 592.395pt x 453.33pt>
+<images/Paper Images/RBFOX2.png, id=4882, 592.395pt x 453.33pt>
 File: images/Paper Images/RBFOX2.png Graphic file (type png)
 <use images/Paper Images/RBFOX2.png>
 Package pdftex.def Info: images/Paper Images/RBFOX2.png  used on input line 96.
@@ -4494,7 +4342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--105
  []
 
 [91 <./images/Paper Images/RBFOX2.png>]
-<images/Paper Images/Figure9.png, id=4974, 543.4704pt x 662.475pt>
+<images/Paper Images/Figure9.png, id=4969, 543.4704pt x 662.475pt>
 File: images/Paper Images/Figure9.png Graphic file (type png)
 <use images/Paper Images/Figure9.png>
 Package pdftex.def Info: images/Paper Images/Figure9.png  used on input line 10
@@ -4559,7 +4407,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [94
 
 ]
-<images/Paper Images/TESE_Fig5.3.png, id=5046, 542.025pt x 510.708pt>
+<images/Paper Images/TESE_Fig5.3.png, id=5041, 542.025pt x 510.708pt>
 File: images/Paper Images/TESE_Fig5.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig5.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig5.3.png  used on input lin
@@ -4597,7 +4445,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--74
  []
 
 [100]
-<images/Paper Images/VoyagerFig1.png, id=5172, 439.8834pt x 542.025pt>
+<images/Paper Images/VoyagerFig1.png, id=5167, 439.8834pt x 542.025pt>
 File: images/Paper Images/VoyagerFig1.png Graphic file (type png)
 <use images/Paper Images/VoyagerFig1.png>
 Package pdftex.def Info: images/Paper Images/VoyagerFig1.png  used on input lin
@@ -4623,7 +4471,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
-<images/Paper Images/VoyagerFig2.png, id=5198, 539.1342pt x 780.0342pt>
+<images/Paper Images/VoyagerFig2.png, id=5193, 539.1342pt x 780.0342pt>
 File: images/Paper Images/VoyagerFig2.png Graphic file (type png)
 <use images/Paper Images/VoyagerFig2.png>
 Package pdftex.def Info: images/Paper Images/VoyagerFig2.png  used on input lin
@@ -4656,13 +4504,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--136
 [106
 
 ]
-<images/Paper Images/TESE_Fig7.3.png, id=5259, 542.5068pt x 226.9278pt>
+<images/Paper Images/TESE_Fig7.3.png, id=5254, 542.5068pt x 226.9278pt>
 File: images/Paper Images/TESE_Fig7.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.3.png  used on input lin
 e 140.
 (pdftex.def)             Requested size: 441.01773pt x 184.47533pt.
-<images/Paper Images/TESE_Fig7.4.png, id=5282, 227.4096pt x 198.9834pt>
+<images/Paper Images/TESE_Fig7.4.png, id=5277, 227.4096pt x 198.9834pt>
 File: images/Paper Images/TESE_Fig7.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.4.png  used on input lin
@@ -4675,7 +4523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
 [107 <./images/Paper Images/TESE_Fig7.3.png>] [108 <./images/Paper Images/TESE_
 Fig7.4.png>]
-<images/Paper Images/TESE_Fig7.5.png, id=5317, 541.0614pt x 242.3454pt>
+<images/Paper Images/TESE_Fig7.5.png, id=5312, 541.0614pt x 242.3454pt>
 File: images/Paper Images/TESE_Fig7.5.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.5.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.5.png  used on input lin
@@ -4732,7 +4580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--81
  []
 
 [113]
-<images/Paper Images/Figure10_2.png, id=5555, 540.0978pt x 289.08pt>
+<images/Paper Images/Figure10_2.png, id=5550, 540.0978pt x 289.08pt>
 File: images/Paper Images/Figure10_2.png Graphic file (type png)
 <use images/Paper Images/Figure10_2.png>
 Package pdftex.def Info: images/Paper Images/Figure10_2.png  used on input line
@@ -4742,7 +4590,7 @@ Package pdftex.def Info: images/Paper Images/Figure10_2.png  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
-<images/Paper Images/Figure11.png, id=5609, 542.025pt x 737.592pt>
+<images/Paper Images/Figure11.png, id=5604, 542.025pt x 737.592pt>
 File: images/Paper Images/Figure11.png Graphic file (type png)
 <use images/Paper Images/Figure11.png>
 Package pdftex.def Info: images/Paper Images/Figure11.png  used on input line 9
@@ -4777,7 +4625,7 @@ Underfull \vbox (badness 1331) has occurred while \output is active []
  [117
 
 ]
-<images/Paper Images/TESE_Fig8.3.png, id=5714, 542.025pt x 216.81pt>
+<images/Paper Images/TESE_Fig8.3.png, id=5709, 542.025pt x 216.81pt>
 File: images/Paper Images/TESE_Fig8.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig8.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig8.3.png  used on input lin
@@ -4789,7 +4637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--134
  []
 
 [118 <./images/Paper Images/TESE_Fig8.3.png>]
-<images/Paper Images/Sup10.png, id=5809, 533.8344pt x 779.5524pt>
+<images/Paper Images/Sup10.png, id=5804, 533.8344pt x 779.5524pt>
 File: images/Paper Images/Sup10.png Graphic file (type png)
 <use images/Paper Images/Sup10.png>
 Package pdftex.def Info: images/Paper Images/Sup10.png  used on input line 137.
@@ -4804,7 +4652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--155
 
  []
 
-<images/Paper Images/Sup11_2.png, id=5856, 542.025pt x 775.698pt>
+<images/Paper Images/Sup11_2.png, id=5851, 542.025pt x 775.698pt>
 File: images/Paper Images/Sup11_2.png Graphic file (type png)
 <use images/Paper Images/Sup11_2.png>
 Package pdftex.def Info: images/Paper Images/Sup11_2.png  used on input line 15
@@ -4821,7 +4669,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--179
 
  []
 
-<images/Paper Images/TESE_Fig8.6.png, id=5907, 542.025pt x 476.5002pt>
+<images/Paper Images/TESE_Fig8.6.png, id=5902, 542.025pt x 476.5002pt>
 File: images/Paper Images/TESE_Fig8.6.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig8.6.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig8.6.png  used on input lin
@@ -4840,7 +4688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
 
-<images/Paper Images/TESE_Fig9.1.png, id=6013, 541.5432pt x 302.5704pt>
+<images/Paper Images/TESE_Fig9.1.png, id=6008, 541.5432pt x 302.5704pt>
 File: images/Paper Images/TESE_Fig9.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig9.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig9.1.png  used on input lin
@@ -4929,7 +4777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--79
  []
 
 [129]
-<images/Paper Images/OGIF_G3.png, id=6159, 539.616pt x 565.1514pt>
+<images/Paper Images/OGIF_G3.png, id=6154, 539.616pt x 565.1514pt>
 File: images/Paper Images/OGIF_G3.png Graphic file (type png)
 <use images/Paper Images/OGIF_G3.png>
 Package pdftex.def Info: images/Paper Images/OGIF_G3.png  used on input line 82
@@ -4949,7 +4797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--94
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [130 <./images/Paper Images/OGIF_G3.png>]
-<images/Paper Images/TESE_Fig9.4.png, id=6193, 539.616pt x 565.1514pt>
+<images/Paper Images/TESE_Fig9.4.png, id=6188, 539.616pt x 565.1514pt>
 File: images/Paper Images/TESE_Fig9.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig9.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig9.4.png  used on input lin
@@ -5012,7 +4860,7 @@ Underfull \hbox (badness 2865) in paragraph at lines 105--105
 \OT1/cmr/m/n/8 da G3BP1 ^^Se
  []
 
-<images/Paper Images/ImagingSG_V2.png, id=6240, 540.0978pt x 606.5862pt>
+<images/Paper Images/ImagingSG_V2.png, id=6235, 540.0978pt x 606.5862pt>
 File: images/Paper Images/ImagingSG_V2.png Graphic file (type png)
 <use images/Paper Images/ImagingSG_V2.png>
 Package pdftex.def Info: images/Paper Images/ImagingSG_V2.png  used on input li
@@ -5104,7 +4952,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--86
  []
 
 [139]
-<images/Paper Images/TESE_Fig3.1.png, id=6362, 505.89pt x 433.62pt>
+<images/Paper Images/TESE_Fig3.1.png, id=6357, 505.89pt x 433.62pt>
 File: images/Paper Images/TESE_Fig3.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.1.png  used on input lin
@@ -5126,7 +4974,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--106
  []
 
 [140 <./images/Paper Images/TESE_Fig3.1.png (PNG copy)>]
-<images/Paper Images/TESE_Fig3.2.png, id=6380, 867.24pt x 433.62pt>
+<images/Paper Images/TESE_Fig3.2.png, id=6375, 867.24pt x 433.62pt>
 File: images/Paper Images/TESE_Fig3.2.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.2.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.2.png  used on input lin
@@ -5155,7 +5003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--132
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [141]
-<images/Paper Images/TESE_Fig3.3.png, id=6411, 542.025pt x 364.197pt>
+<images/Paper Images/TESE_Fig3.3.png, id=6406, 542.025pt x 364.197pt>
 File: images/Paper Images/TESE_Fig3.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.3.png  used on input lin
@@ -5174,7 +5022,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--144
 Underfull \vbox (badness 2635) has occurred while \output is active []
 
  [142 <./images/Paper Images/TESE_Fig3.2.png (PNG copy)>]
-<images/Paper Images/TESE_Fig3.4.png, id=6425, 542.025pt x 541.149pt>
+<images/Paper Images/TESE_Fig3.4.png, id=6419, 542.025pt x 541.149pt>
 File: images/Paper Images/TESE_Fig3.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.4.png  used on input lin
@@ -5234,7 +5082,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [145
 
 ]
-<images/Paper Images/eCLIPSE_FILT.png, id=6492, 1011.78pt x 433.62pt>
+<images/Paper Images/eCLIPSE_FILT.png, id=6487, 1011.78pt x 433.62pt>
 File: images/Paper Images/eCLIPSE_FILT.png Graphic file (type png)
 <use images/Paper Images/eCLIPSE_FILT.png>
 Package pdftex.def Info: images/Paper Images/eCLIPSE_FILT.png  used on input li
@@ -5314,7 +5162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--168
  []
 
 [151]
-<images/Paper Images/CHARM_Home.png, id=6605, 1146.08176pt x 570.33075pt>
+<images/Paper Images/CHARM_Home.png, id=6600, 1146.08176pt x 570.33075pt>
 File: images/Paper Images/CHARM_Home.png Graphic file (type png)
 <use images/Paper Images/CHARM_Home.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Home.png  used on input line
@@ -5477,7 +5325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
 \OT1/cmr/m/n/8 op-tion, and
  []
 
-<images/Paper Images/CHARM_Expression1.png, id=6629, 1156.32pt x 570.933pt>
+<images/Paper Images/CHARM_Expression1.png, id=6624, 1156.32pt x 570.933pt>
 File: images/Paper Images/CHARM_Expression1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression1.png  used on inp
@@ -5487,7 +5335,7 @@ ut line 194.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [153]
-<images/Paper Images/CHARM_Expression1_2.png, id=6650, 858.8085pt x 364.9635pt>
+<images/Paper Images/CHARM_Expression1_2.png, id=6645, 858.8085pt x 364.9635pt>
 
 File: images/Paper Images/CHARM_Expression1_2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression1_2.png>
@@ -5498,7 +5346,7 @@ nput line 201.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Paper Images/CHARM_Expression2.png, id=6654, 1156.32pt x 581.7735pt>
+<images/Paper Images/CHARM_Expression2.png, id=6649, 1156.32pt x 581.7735pt>
 File: images/Paper Images/CHARM_Expression2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression2.png  used on inp
@@ -5508,7 +5356,7 @@ ut line 216.
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [154 <./images/Paper Images/CHARM_Expression1.png>]
-<images/Paper Images/CHARM_Expression3.png, id=6666, 1156.32pt x 572.73975pt>
+<images/Paper Images/CHARM_Expression3.png, id=6661, 1156.32pt x 572.73975pt>
 File: images/Paper Images/CHARM_Expression3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression3.png  used on inp
@@ -5519,7 +5367,7 @@ Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [155 <./images/Paper Images/CHARM_Expression1_2.png> <./images/Paper Images/CH
 ARM_Expression2.png>]
-<images/Paper Images/CHARM_Expression4.png, id=6675, 1156.32pt x 569.7285pt>
+<images/Paper Images/CHARM_Expression4.png, id=6670, 1156.32pt x 569.7285pt>
 File: images/Paper Images/CHARM_Expression4.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression4.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression4.png  used on inp
@@ -5529,7 +5377,7 @@ ut line 232.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [156 <./images/Paper Images/CHARM_Expression3.png>]
-<images/Paper Images/CHARM_Splicing1.png, id=6692, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Splicing1.png, id=6687, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Splicing1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing1.png  used on input
@@ -5541,13 +5389,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--249
  []
 
 [157 <./images/Paper Images/CHARM_Expression4.png>]
-<images/Paper Images/CHARM_Splicing1_2.png, id=6719, 869.649pt x 357.7365pt>
+<images/Paper Images/CHARM_Splicing1_2.png, id=6714, 869.649pt x 357.7365pt>
 File: images/Paper Images/CHARM_Splicing1_2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing1_2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing1_2.png  used on inp
 ut line 253.
 (pdftex.def)             Requested size: 441.01773pt x 181.41698pt.
-<images/Paper Images/CHARM_Splicing2.png, id=6722, 1156.32pt x 571.53525pt>
+<images/Paper Images/CHARM_Splicing2.png, id=6717, 1156.32pt x 571.53525pt>
 File: images/Paper Images/CHARM_Splicing2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing2.png  used on input
@@ -5555,14 +5403,14 @@ Package pdftex.def Info: images/Paper Images/CHARM_Splicing2.png  used on input
 (pdftex.def)             Requested size: 441.01773pt x 217.97925pt.
  [158 <./images/Paper Images/CHARM_Splicing1.png> <./images/Paper Images/CHARM_
 Splicing1_2.png>]
-<images/Paper Images/CHARM_Splicing3.png, id=6732, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Splicing3.png, id=6727, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Splicing3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing3.png  used on input
  line 269.
 (pdftex.def)             Requested size: 441.01773pt x 217.51985pt.
  [159 <./images/Paper Images/CHARM_Splicing2.png>]
-<images/Paper Images/CHARM_Binding1.png, id=6755, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Binding1.png, id=6750, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Binding1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding1.png  used on input 
@@ -5587,7 +5435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--292
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [161]
-<images/Paper Images/CHARM_Binding2.png, id=6791, 1156.32pt x 574.5465pt>
+<images/Paper Images/CHARM_Binding2.png, id=6786, 1156.32pt x 574.5465pt>
 File: images/Paper Images/CHARM_Binding2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding2.png  used on input 
@@ -5595,7 +5443,7 @@ line 297.
 (pdftex.def)             Requested size: 441.01773pt x 219.12772pt.
 
 [162 <./images/Paper Images/CHARM_Binding1.png>]
-<images/Paper Images/CHARM_Binding3.png, id=6822, 1156.32pt x 572.73975pt>
+<images/Paper Images/CHARM_Binding3.png, id=6817, 1156.32pt x 572.73975pt>
 File: images/Paper Images/CHARM_Binding3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding3.png  used on input 
@@ -5612,7 +5460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--316
  []
 
 [164 <./images/Paper Images/CHARM_Binding3.png>]
-<images/Paper Images/CHARM_Network.png, id=6850, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Network.png, id=6845, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Network.png Graphic file (type png)
 <use images/Paper Images/CHARM_Network.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Network.png  used on input l
@@ -5925,8 +5773,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--243
 Underfull \vbox (badness 1009) has occurred while \output is active []
 
  [180]
-Package marginnote Info: Margin note 227.1 is on absolute page 228 on input lin
+Package marginnote Info: Margin note 227.1 is on absolute page 227 on input lin
 e 247.
+Package marginnote Info: xpos seems to be 446.38525pt on input line 247.
 
 Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []\OT1/cmr/m/n/8 For Nuno:
@@ -5937,32 +5786,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--247
 \OT1/cmr/m/n/8 sec-tion de-
  []
 
-Package marginnote Info: xpos seems to be 432.15887pt on input line 247.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 246--478
+Underfull \hbox (badness 10000) in paragraph at lines 246--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--478
+Underfull \hbox (badness 10000) in paragraph at lines 246--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--478
+Underfull \hbox (badness 10000) in paragraph at lines 246--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--478
+Underfull \hbox (badness 10000) in paragraph at lines 246--480
 
  []
 
-[181]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [182]
-[183] (./PhD Thesis.bbl
+[181] [182] (./PhD Thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 11--17
 []$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1016 / j . bbagrm .
  []
@@ -6033,7 +5877,7 @@ Underfull \hbox (badness 2781) in paragraph at lines 91--97
 \OT1/cmr/m/n/10 ons S, Tis-dale S, Hick-man T, et al.
  []
 
-[184
+[183
 
 
 ]
@@ -6137,7 +5981,7 @@ Underfull \hbox (badness 2343) in paragraph at lines 209--215
 []\OT1/cmr/m/n/10 Somasekharan S, Zhang F, Sax-ena N,
  []
 
-[185]
+[184]
 Underfull \hbox (badness 1490) in paragraph at lines 233--239
 \OT1/cmr/m/n/10 D292.  []$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1093 / 
 nar /
@@ -6200,7 +6044,7 @@ Underfull \hbox (badness 1681) in paragraph at lines 312--318
 \OT1/cmr/m/n/10 ies are dis-tinct from heat stress gran-
  []
 
-[186]
+[185]
 Underfull \hbox (badness 2334) in paragraph at lines 345--351
 \OT1/cmr/m/n/10 Rizwan J, Xu JMS, Cheng T, et al.
  []
@@ -6318,7 +6162,7 @@ Underfull \hbox (badness 3657) in paragraph at lines 436--442
 \OT1/cmr/m/n/10 lated foci.  Journal of Cell Sci-ence.
  []
 
-[187]
+[186]
 Underfull \hbox (badness 3930) in paragraph at lines 452--460
 \OT1/cmr/m/n/10 ule Form-a-tion, and Me-di-ates Sur-vival
  []
@@ -6389,7 +6233,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 546--551
 \OT1/cmr/m/n/10 risch R, Parker R.  Dis-tinct stages in
  []
 
-[188]
+[187]
 Underfull \hbox (badness 1688) in paragraph at lines 561--567
 []\OT1/cmr/m/n/10 Storti RV, Scott MP, Rich A, Par-due
  []
@@ -6451,7 +6295,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 641--648
 \OT1/cmr/m/n/10 tia Pro-mote Phase Sep-ar-a-tion and Al-
  []
 
-[189]
+[188]
 Underfull \hbox (badness 1259) in paragraph at lines 682--689
 \OT1/cmr/m/n/10 2022;229:113094.  []$\OT1/cmtt/m/n/10 https : / / doi . org / 1
 0 .
@@ -6563,7 +6407,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 777--785
 
  []
 
-[190]
+[189]
 Underfull \hbox (badness 3690) in paragraph at lines 795--801
 []\OT1/cmr/m/n/10 Martins-Silva R, Ka-izeler A, Barbosa-
  []
@@ -6671,7 +6515,7 @@ Underfull \hbox (badness 2680) in paragraph at lines 895--901
 nar /
  []
 
-[191]
+[190]
 Underfull \hbox (badness 1490) in paragraph at lines 903--910
 \OT1/cmr/m/n/10 gopyrimidine (TOP) mRNA Trans-la-tion
  []
@@ -6815,7 +6659,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 1006--1013
 \OT1/cmr/m/n/10 Mediated Al-ter-na-tive Splicing Reg-u-lates
  []
 
-[192]
+[191]
 Underfull \hbox (badness 3965) in paragraph at lines 1015--1021
 \OT1/cmr/m/n/10 pro-spects.  Nature Re-views Ge-net-ics.
  []
@@ -6918,7 +6762,7 @@ Underfull \hbox (badness 2134) in paragraph at lines 1127--1132
 0 .
  []
 
-[193]
+[192]
 Underfull \hbox (badness 1281) in paragraph at lines 1171--1178
 []\OT1/cmr/m/n/10 L^^Sopez-Polo V, Maus M, Zachari-ouda-kis
  []
@@ -7011,7 +6855,7 @@ Underfull \hbox (badness 1490) in paragraph at lines 1252--1259
 []\OT1/cmr/m/n/10 Tal MC, Sa-sai M, Lee HK, Yordy B,
  []
 
-[194]
+[193]
 Underfull \hbox (badness 2680) in paragraph at lines 1261--1267
 \OT1/cmr/m/n/10 1350.  []$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1089 / 
 ars .
@@ -7093,7 +6937,7 @@ Underfull \hbox (badness 6428) in paragraph at lines 1354--1360
 \OT1/cmr/m/n/10 and Hu-man Ge-nome Pro-ject.  Sci-
  []
 
-[195]
+[194]
 Underfull \hbox (badness 4673) in paragraph at lines 1386--1391
 []\OT1/cmr/m/n/10 Bong D, Sohn J, Lee SJV.  Brief
  []
@@ -7166,7 +7010,7 @@ Underfull \hbox (badness 1728) in paragraph at lines 1493--1499
 \OT1/cmr/m/n/10 transcription-based se-quencing.  Nature
  []
 
-[196]
+[195]
 Underfull \hbox (badness 5417) in paragraph at lines 1501--1507
 \OT1/cmr/m/n/10 gran-ules se-quester Alzheimer's disease-
  []
@@ -7321,7 +7165,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1590--1595
 []$\OT1/cmtt/m/n/10 https : / / pubchem . ncbi . nlm . nih . gov /
  []
 
-[197]
+[196]
 Underfull \hbox (badness 1521) in paragraph at lines 1601--1607
 []\OT1/cmr/m/n/10 Balch J, Gu^^Seguen C.  Ef-fects of mo-
  []
@@ -7507,7 +7351,7 @@ Underfull \hbox (badness 1270) in paragraph at lines 1713--1718
 \OT1/cmr/m/n/10 the False Dis-cov-ery Rate: A Prac-tical
  []
 
-[198]
+[197]
 Underfull \hbox (badness 2671) in paragraph at lines 1720--1727
 \OT1/cmr/m/n/10 Mukher-jee S, Ebert BL, Gil-lette MA,
  []
@@ -7574,7 +7418,7 @@ Underfull \hbox (badness 6396) in paragraph at lines 1824--1830
 na .
  []
 
-[199]
+[198]
 Underfull \hbox (badness 10000) in paragraph at lines 1832--1837
 []\OT1/cmr/m/n/10 The EN-CODE Pro-ject Con-sor-
  []
@@ -7654,7 +7498,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1944--1950
 []$\OT1/cmtt/m/n/10 https : / / doi . org / 10 . 1083 / jcb .
  []
 
-[200]
+[199]
 Underfull \hbox (badness 1394) in paragraph at lines 1952--1959
 []\OT1/cmr/m/n/10 Leung AKL, Ca-labrese JM, Sharp PA.
  []
@@ -7745,7 +7589,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 2059--2066
 0 .
  []
 
-[201]
+[200]
 Underfull \hbox (badness 2717) in paragraph at lines 2068--2074
 []\OT1/cmr/m/n/10 Wang D, Xia D, DuBois RN.  The
  []
@@ -7855,7 +7699,7 @@ Underfull \hbox (badness 1043) in paragraph at lines 2174--2181
 \OT1/cmr/m/n/10 Pro-gres-sion, and Its Re-la-tion with Ox-
  []
 
-[202]
+[201]
 Underfull \hbox (badness 10000) in paragraph at lines 2198--2204
 []\OT1/cmr/m/n/10 Begeman A, Smolka JA, Shami A,
  []
@@ -7947,7 +7791,7 @@ Underfull \hbox (badness 2134) in paragraph at lines 2288--2294
 10 .
  []
 
-[203]
+[202]
 Underfull \hbox (badness 1789) in paragraph at lines 2303--2308
 []\OT1/cmr/m/n/10 Bairoch A.  The Cel-lo-saurus, a Cell-
  []
@@ -8038,7 +7882,7 @@ Underfull \hbox (badness 3612) in paragraph at lines 2362--2368
  .
  []
 
-) [204] (./PhD Thesis.aux)
+) [203] (./PhD Thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -8051,10 +7895,10 @@ Package rerunfilecheck Info: File `"PhD Thesis".out' has not changed.
 ### simple group (level 1) entered at line 92 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54223 strings out of 467525
- 1005849 string characters out of 5418983
- 1647546 words of memory out of 5000000
- 81147 multiletter control sequences out of 15000+600000
+ 54220 strings out of 467525
+ 1005817 string characters out of 5418983
+ 1647568 words of memory out of 5000000
+ 81145 multiletter control sequences out of 15000+600000
  646656 words of font info for 99 fonts, out of 8000000 for 9000
  1261 hyphenation exceptions out of 8191
  201i,13n,292p,3203b,2044s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -8087,10 +7931,10 @@ xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2026/texm
 f-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2026/texmf-
 dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2026/texmf-di
 st/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "PhD Thesis.pdf" (246 pages, 26623064 bytes).
+Output written on "PhD Thesis.pdf" (245 pages, 26621842 bytes).
 PDF statistics:
- 8210 PDF objects out of 8907 (max. 8388607)
- 7099 compressed objects within 71 object streams
- 1147 named destinations out of 1200 (max. 500000)
+ 8200 PDF objects out of 8907 (max. 8388607)
+ 7090 compressed objects within 71 object streams
+ 1146 named destinations out of 1200 (max. 500000)
  1476 words of extra memory for PDF output out of 10000 (max. 10000000)
 

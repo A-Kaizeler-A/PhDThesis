@@ -156,7 +156,6 @@ FastQC also identifies overrepresented sequences, which can correspond to sequen
 \\
 \\
 Alignment or read summarisation statistics provide an additional layer of quality assessment (Figure 3.1C). In general, a uniquely mapped read percentage above ~70\% is considered acceptable for \gls{rnaseq} experiments\cite{peter_fitzgerald_introduction_2024}. Lower mapping rates may indicate degraded \gls{rna}, contamination from another organism, or an excess of repetitive sequences such as \gls{rrna} resulting from incomplete ribosomal depletion. 
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/TESE_Fig4.1"}
@@ -533,20 +532,8 @@ Notably, this study did not include immunopurification of a core \gls{sg} protei
 \subsection{RNA Modifications Have a Limited (Direct) Effect on SG Transcript Enrichment}
 
 \comment{For Nuno: Como os meus graficos e conclusoes mudaram, tive de rescrever esta seccao.} Beyond \gls{rna} length and translation efficiency\cite{khong_stress_2017}, \gls{rna} modifications such as \gls{m6a} and \gls{ac4c} have also been associated with \gls{sg} enrichment in datasets obtained through \gls{dc}\cite{fu_m6a-binding_2020, ries_m6a_2023, kudrin_n4-acetylcytidine_2024, di_timoteo_m6a_2024}. To evaluate whether these modifications genuinely influence \gls{sg} transcript enrichment, we compared differential gene expression between \gls{sg} and \gls{wc} fractions in \gls{ac4c}- and \gls{m6a}-\gls{ko} cells relative to their \gls{wt} counterparts (Figure 3.12A).
-\\
-\\
-Using the residuals from a linear model predicting transcript sequestration within \glspl{sg} as a measure of modification-dependent effects (an interaction model, as described in 3.2.5)\footnote{It is worth noting that in the original studies, the reported effects of \gls{rna} modifications were likely driven in part by differences already present in \gls{wc} samples, arising from direct comparisons between different sample types. An example illustrating this analytical pitfall is shown in Section 3.2.6.}, we assessed whether the absence of each modification systematically shifted \gls{sg} enrichment. For \gls{m6a}, no discernible effect was observed (Figure 3.12B - Right). For \gls{ac4c}, however, a modest but detectable shift was present, suggesting that \gls{ac4c} may influence \gls{sg} transcript enrichment (Figure 3.12B - Left).
-\\
-\\
-Given this finding, we sought to determine what underlies the \gls{ac4c}-associated effect. 
-We first examined whether the number of \gls{ac4c} modifications per transcript could account 
-for it, as the original authors posit\cite{kudrin_n4-acetylcytidine_2024}, reasoning that 
-transcripts bearing more modifications would be most affected if the modification itself were 
-causative. As such, we compared these with the residuals (i.e., how much a sample changes 
-from what was expected from the dashed line in Figure 3.12A - Left). However, only a very weak correlation was observed between the number of \gls{ac4c} modifications and the magnitude of the enrichment shift (Figure 3.12C). We subsequently tested \gls{rna} length as an alternative explanatory 
-variable, and found that it substantially accounts for the observed differences (Figure 3.12D).
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{"images/Paper Images/Figure4_2"}
 	\caption[DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases]{}
@@ -581,6 +568,18 @@ variable, and found that it substantially accounts for the observed differences 
 		used\cite{di_timoteo_m6a_2024}}
 \end{figure}
 \noindent
+Using the residuals from a linear model predicting transcript sequestration within \glspl{sg} as a measure of modification-dependent effects (an interaction model, as described in 3.2.5)\footnote{It is worth noting that in the original studies, the reported effects of \gls{rna} modifications were likely driven in part by differences already present in \gls{wc} samples, arising from direct comparisons between different sample types. An example illustrating this analytical pitfall is shown in Section 3.2.6.}, we assessed whether the absence of each modification systematically shifted \gls{sg} enrichment. For \gls{m6a}, no discernible effect was observed (Figure 3.12B - Right). For \gls{ac4c}, however, a modest but detectable shift was present, suggesting that \gls{ac4c} may influence \gls{sg} transcript enrichment (Figure 3.12B - Left).
+\\
+\\
+Given this finding, we sought to determine what underlies the \gls{ac4c}-associated effect. 
+We first examined whether the number of \gls{ac4c} modifications per transcript could account 
+for it, as the original authors posit\cite{kudrin_n4-acetylcytidine_2024}, reasoning that 
+transcripts bearing more modifications would be most affected if the modification itself were 
+causative. As such, we compared these with the residuals (i.e., how much a sample changes 
+from what was expected from the dashed line in Figure 3.12A - Left). However, only a very weak correlation was observed between the number of \gls{ac4c} modifications and the magnitude of the enrichment shift (Figure 3.12C). We subsequently tested \gls{rna} length as an alternative explanatory 
+variable, and found that it substantially accounts for the observed differences (Figure 3.12D).
+\\
+\\
 These results present an unexpected finding. \gls{ac4c} appears to be associated with altered \gls{sg} enrichment, yet this effect does not appear to act through \gls{ac4c}-modified transcripts themselves, but rather through other transcripts. Why \gls{rna} length would emerge as a distinguishing variable between \gls{ac4c} \gls{ko} and \gls{wt} conditions, given that both underwent the same differential centrifugation pipeline, remains unclear. Nevertheless, the data suggest that the \gls{ac4c}-associated signal in \gls{sg} enrichment studies reflects a length-dependent bias rather than a direct effect of the modification on \gls{sg} sequestration.
 
 \subsection{Differential Centrifugation Yields Similar Transcriptomes for Stress Granules and other RNP Granules}
