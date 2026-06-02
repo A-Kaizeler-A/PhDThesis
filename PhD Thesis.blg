@@ -11,50 +11,50 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--empty author in noauthor_nomenclature_1985
 `journal' is a missing field, not a string, for entry svedberg_ultracentrifuge_1940
-while executing---line 1904 of file plos2015_improved.bst
+while executing---line 3807 of file plos2015_improved.bst
 Warning--empty journal in svedberg_ultracentrifuge_1940
 Warning--empty year in smyth_linear_nodate
 Warning--empty author in noauthor_human_nodate
 Warning--empty author in noauthor_sparc-p53_2020
 You've used 305 entries,
             3178 wiz_defined-function locations,
-            2699 strings with 110799 characters,
-and the built_in function-call counts, 809948 in all, are:
-= -- 100836
+            2699 strings with 110784 characters,
+and the built_in function-call counts, 810377 in all, are:
+= -- 100907
 > -- 5517
 < -- 7
 + -- 3388
 - -- 1378
-* -- 74155
-:= -- 88332
-add.period$ -- 1475
+* -- 74191
+:= -- 88374
+add.period$ -- 1476
 call.type$ -- 305
 change.case$ -- 6
 chr.to.int$ -- 6
 cite$ -- 310
-duplicate$ -- 51125
-empty$ -- 78923
+duplicate$ -- 51198
+empty$ -- 78957
 format.name$ -- 1655
-if$ -- 185297
+if$ -- 185400
 int.to.chr$ -- 0
 int.to.str$ -- 305
-missing$ -- 3179
+missing$ -- 3178
 newline$ -- 1800
 num.names$ -- 302
-pop$ -- 4403
+pop$ -- 4401
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5276
+skip$ -- 5277
 stack$ -- 0
-substring$ -- 185363
-swap$ -- 7917
+substring$ -- 185431
+swap$ -- 7918
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 4476
+while$ -- 4478
 width$ -- 308
 write$ -- 3893
 (There was 1 error message)

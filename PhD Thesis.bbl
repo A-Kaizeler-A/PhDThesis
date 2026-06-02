@@ -792,12 +792,11 @@ Koonin EV, Dolja VV, Krupovic M.
   \href{https://doi.org/10.1016/j.virol.2015.02.039}{\nolinkurl{https://doi.org/10.1016/j.virol.2015.02.039}}.
 
 \bibitem{martins-silva_exploring_2025}
-Martins-Silva R, Kaizeler A, Barbosa-Morais NL. Exploring molecular signatures
-  of senescence with {markeR}, an {R} toolkit for evaluating gene sets as
-  phenotypic markers.
-\newblock Bioinformatics. 2025.
-\newblock
-  \href{https://doi.org/10.64898/2025.12.05.692517}{\nolinkurl{https://doi.org/10.64898/2025.12.05.692517}}.
+Martins-Silva R, Kaizeler A, Barbosa-Morais NL.
+\newblock Exploring molecular signatures of senescence with {markeR}, an {R}
+  toolkit for evaluating gene sets as phenotypic markers.
+\newblock NAR Genomics \& Bioinformatics. 2025;
+  \href{https://doi.org/10.1093/nargab/lqag057}{\nolinkurl{https://doi.org/10.1093/nargab/lqag057}}.
 
 \bibitem{omer_g3bp1_2020}
 Omer A, Barrera MC, Moran JL, Lian XJ, Di~Marco S, Beausejour C, et~al.

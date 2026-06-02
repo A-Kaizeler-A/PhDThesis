@@ -3,27 +3,27 @@
 \babel@toc {british}{}\relax 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Different Mechanisms Leading to SG Assembly. }}{4}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Regulation of Alternative Exon Skipping by \glspl {rbp}.}}{15}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Mitochondria as central hubs in innate immune activation and inflammation}}{24}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces RNA-Seq as a snapshot of a transcriptome at a given time}}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Regulation of Alternative Exon Skipping by \glspl {rbp}.}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Mitochondria as central hubs in innate immune activation and inflammation}}{23}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces RNA-Seq as a snapshot of a transcriptome at a given time}}{25}{figure.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Different types of information provided by FastQC}}{43}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample Coverage and Complexity}}{46}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Filtering and normalisation}}{49}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces PCA as an Exploratory Tool}}{51}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces DGEA and GSEA}}{57}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces SGs purified by different methods have distinct trancriptomes}}{60}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces U2-OS and PC-3 cells have a similar stress response}}{62}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mimi-Seq Simulation Pipeline}}{63}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias}}{65}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Length bias in DC-isolated SGs is compatible with inherent RNA condensation}}{67}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Stress granules presence contribution to variance in RNP granules}}{70}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases}}{71}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Samples isolated through DC are highly correlated}}{75}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 1)}}{78}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 2)}}{80}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Meta-analysis of SG transcriptomes}}{82}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Different types of information provided by FastQC}}{42}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sample Coverage and Complexity}}{45}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Filtering and normalisation}}{48}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces PCA as an Exploratory Tool}}{50}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces DGEA and GSEA}}{56}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SGs purified by different methods have distinct trancriptomes}}{59}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces U2-OS and PC-3 cells have a similar stress response}}{61}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mimi-Seq Simulation Pipeline}}{62}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Transcriptomes of DC-isolated SGs show no evidence for RNA fragmentation-associated sampling bias}}{64}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Length bias in DC-isolated SGs is compatible with inherent RNA condensation}}{66}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Stress granules presence contribution to variance in RNP granules}}{69}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces DC-purified SG-enriched transcripts with RNA modifications are compatible with centrifugation biases}}{70}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Samples isolated through DC are highly correlated}}{74}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 1)}}{77}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Method-specific corrections for SGs transcriptomes reveal distinct outcomes (Part 2)}}{79}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Meta-analysis of SG transcriptomes}}{81}{figure.caption.34}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Consensus RNA Enrichment Across SG Transcriptomes}}{84}{figure.caption.35}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces RNA binding map of RBFOX2 in HepG2 and K562 cells exposed to shRNA against RBFOX2}}{91}{figure.caption.37}%
@@ -36,7 +36,7 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Mitochondrial encoded transcripts are anti-correlated in WC and SG transcriptomes}}{108}{figure.caption.46}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Mitochondrial encoded transcripts are downregulated in SG assembly and in senescence inhibition}}{109}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Overall survival analysis based on gene expression of SG-related proteins}}{115}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Overall Survival Analysis Based on the Expression of Genes Encoding SG-Related Proteins}}{115}{figure.caption.48}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces KRAS mutation and associated drug sensitivities and resistances}}{116}{figure.caption.49}%
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Development and Validation of the SG-Score}}{118}{figure.caption.51}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces SG score across GDC-TCGA datasets}}{120}{figure.caption.52}%

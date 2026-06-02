@@ -22,38 +22,38 @@
 \contentsline {subsection}{\numberline {1.2.3}RBPs and Splicing}{14}{subsection.1.2.3}%
 \contentsline {section}{\numberline {1.3}Mitochondria}{17}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}What is a Mitochondrion?}{17}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}The Mitochondrial Genome}{18}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Functions of the Mitochondrion}{20}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.2}The Mitochondrial Genome}{17}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Functions of the Mitochondrion}{19}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}The Mitochondrion and Inflammation}{21}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Transcriptomics}{25}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}What is Transcriptomics?}{25}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}A Brief Introduction to RNA-Sequencing}{27}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Why Transcriptomics?}{28}{subsection.1.4.3}%
-\contentsline {chapter}{\numberline {2}Objectives}{31}{chapter.2}%
-\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{31}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Aims}{32}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Thesis Outline}{33}{section.2.3}%
-\contentsline {chapter}{\numberline {3}The SG Transcriptome}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Materials and Methods}{37}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Dataset Procurement and List}{37}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Correlations}{37}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Sampling Bias Simulations (Mimi-Seq)}{38}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Centrifugation Simulation (Spin-Sim)}{39}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}\textit {In Silico} Resources}{41}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Standard Bioinformatics Analytical Pipeline}{41}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Quality Control: Dataset Pre-Processing}{41}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Quality Control: Coverage and Complexity}{44}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Processing Steps: Filtering and Normalisation}{46}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Exploratory Analysis: PCA}{50}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Differential Expression Analysis – Linear Modelling}{52}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Differential Expression Analysis – Volcano Plots and GSEA}{55}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Results and Discussion}{57}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Different SG Purification Techniques Yield Different SG Transcriptomes}{57}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Sampling Bias Does Not Explain the RNA Length Bias in DC-derived SGs}{62}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Simulation of the Centrifugation Process Yields RNA Length Bias Compatible with that Observed in DC-isolated SGs}{66}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}RNA Modifications Have a Limited (Direct) Effect on SG Transcript Enrichment}{70}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Differential Centrifugation Yields Similar Transcriptomes for Stress Granules and other RNP Granules}{73}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Revisiting Stress Granule Transcriptomes Reveals Mitochondrial RNA Enrichment Despite Methodological Bias}{76}{subsection.3.3.6}%
+\contentsline {section}{\numberline {1.4}Transcriptomics}{24}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}What is Transcriptomics?}{24}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}A Brief Introduction to RNA-Sequencing}{26}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Why Transcriptomics?}{27}{subsection.1.4.3}%
+\contentsline {chapter}{\numberline {2}Objectives}{30}{chapter.2}%
+\contentsline {section}{\numberline {2.1}SGs as Novel Targets in Cancer}{30}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Aims}{31}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Thesis Outline}{32}{section.2.3}%
+\contentsline {chapter}{\numberline {3}The SG Transcriptome}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Materials and Methods}{36}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Dataset Procurement and List}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Correlations}{36}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Sampling Bias Simulations (Mimi-Seq)}{37}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Centrifugation Simulation (Spin-Sim)}{38}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}\textit {In Silico} Resources}{40}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Standard Bioinformatics Analytical Pipeline}{40}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Quality Control: Dataset Pre-Processing}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Quality Control: Coverage and Complexity}{43}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Processing Steps: Filtering and Normalisation}{45}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Exploratory Analysis: PCA}{49}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Differential Expression Analysis – Linear Modelling}{51}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Differential Expression Analysis – Volcano Plots and GSEA}{54}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Results and Discussion}{56}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Different SG Purification Techniques Yield Different SG Transcriptomes}{56}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Sampling Bias Does Not Explain the RNA Length Bias in DC-derived SGs}{61}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Simulation of the Centrifugation Process Yields RNA Length Bias Compatible with that Observed in DC-isolated SGs}{65}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}RNA Modifications Have a Limited (Direct) Effect on SG Transcript Enrichment}{69}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Differential Centrifugation Yields Similar Transcriptomes for Stress Granules and other RNP Granules}{72}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Revisiting Stress Granule Transcriptomes Reveals Mitochondrial RNA Enrichment Despite Methodological Bias}{75}{subsection.3.3.6}%
 \contentsline {chapter}{\numberline {4}The SG ``Indirect" Proteome}{86}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Materials and Methods}{87}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Datasets}{87}{subsection.4.1.1}%
