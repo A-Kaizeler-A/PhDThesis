@@ -11,7 +11,7 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--empty author in noauthor_nomenclature_1985
 `journal' is a missing field, not a string, for entry svedberg_ultracentrifuge_1940
-while executing---line 3807 of file plos2015_improved.bst
+while executing---line 1904 of file plos2015_improved.bst
 Warning--empty journal in svedberg_ultracentrifuge_1940
 Warning--empty year in smyth_linear_nodate
 Warning--empty author in noauthor_human_nodate
