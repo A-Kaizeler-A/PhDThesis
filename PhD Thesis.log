@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.30)  9 JUN 2026 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.30)  17 JUN 2026 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3519,7 +3519,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
 [66 <./images/Paper Images/FIgure3.png>]
-<images/Paper Images/Sup3.png, id=4130, 521.001pt x 355.437pt>
+<images/Paper Images/Sup3.png, id=4132, 521.001pt x 355.437pt>
 File: images/Paper Images/Sup3.png Graphic file (type png)
 <use images/Paper Images/Sup3.png>
 Package pdftex.def Info: images/Paper Images/Sup3.png  used on input line 525.
@@ -3544,16 +3544,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 509--528
 
  []
 
-
-Underfull \vbox (badness 1077) has occurred while \output is active []
-
- [67
+[67
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68]
-<images/Paper Images/Figure4_2.png, id=4165, 539.1342pt x 780.9978pt>
+<images/Paper Images/Figure4_2.png, id=4168, 539.1342pt x 780.9978pt>
 File: images/Paper Images/Figure4_2.png Graphic file (type png)
 <use images/Paper Images/Figure4_2.png>
 Package pdftex.def Info: images/Paper Images/Figure4_2.png  used on input line 
@@ -3608,7 +3605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 586--600
  []
 
 [72]
-<images/Paper Images/Figure5.png, id=4324, 542.5068pt x 407.6028pt>
+<images/Paper Images/Figure5.png, id=4327, 542.5068pt x 407.6028pt>
 File: images/Paper Images/Figure5.png Graphic file (type png)
 <use images/Paper Images/Figure5.png>
 Package pdftex.def Info: images/Paper Images/Figure5.png  used on input line 60
@@ -3646,7 +3643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--627
  []
 
 [75]
-<images/Paper Images/TESE_Fig4.14.png, id=4476, 839.38594pt x 1137.4997pt>
+<images/Paper Images/TESE_Fig4.14.png, id=4479, 839.38594pt x 1137.4997pt>
 File: images/Paper Images/TESE_Fig4.14.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.14.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.14.png  used on input li
@@ -3672,7 +3669,7 @@ Underfull \vbox (badness 2698) has occurred while \output is active []
  [78
 
 ]
-<images/Paper Images/TESE_Fig4.15.png, id=4616, 542.025pt x 480.8364pt>
+<images/Paper Images/TESE_Fig4.15.png, id=4619, 542.025pt x 480.8364pt>
 File: images/Paper Images/TESE_Fig4.15.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.15.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.15.png  used on input li
@@ -3680,7 +3677,7 @@ ne 654.
 (pdftex.def)             Requested size: 441.01773pt x 391.24356pt.
 
 [79 <./images/Paper Images/TESE_Fig4.15.png>]
-<images/Paper Images/TESE_Fig4.16.png, id=4692, 542.025pt x 541.0614pt>
+<images/Paper Images/TESE_Fig4.16.png, id=4695, 542.025pt x 541.0614pt>
 File: images/Paper Images/TESE_Fig4.16.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.16.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.16.png  used on input li
@@ -3722,7 +3719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 678--692
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82]
-<images/Paper Images/TESE_Fig4.17.png, id=4734, 849.1725pt x 1221.81468pt>
+<images/Paper Images/TESE_Fig4.17.png, id=4737, 849.1725pt x 1221.81468pt>
 File: images/Paper Images/TESE_Fig4.17.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig4.17.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig4.17.png  used on input li
@@ -3831,7 +3828,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
-<images/Paper Images/RBFOX2.png, id=4887, 542.025pt x 416.2752pt>
+<images/Paper Images/RBFOX2.png, id=4890, 542.025pt x 416.2752pt>
 File: images/Paper Images/RBFOX2.png Graphic file (type png)
 <use images/Paper Images/RBFOX2.png>
 Package pdftex.def Info: images/Paper Images/RBFOX2.png  used on input line 96.
@@ -3846,7 +3843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--105
  []
 
 [91 <./images/Paper Images/RBFOX2.png>]
-<images/Paper Images/Figure9.png, id=4972, 543.4704pt x 662.475pt>
+<images/Paper Images/Figure9.png, id=4975, 543.4704pt x 662.475pt>
 File: images/Paper Images/Figure9.png Graphic file (type png)
 <use images/Paper Images/Figure9.png>
 Package pdftex.def Info: images/Paper Images/Figure9.png  used on input line 10
@@ -3882,7 +3879,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [94
 
 ]
-<images/Paper Images/TESE_Fig5.3.png, id=5044, 542.025pt x 510.708pt>
+<images/Paper Images/TESE_Fig5.3.png, id=5047, 542.025pt x 510.708pt>
 File: images/Paper Images/TESE_Fig5.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig5.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig5.3.png  used on input lin
@@ -3920,7 +3917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--74
  []
 
 [100]
-<images/Paper Images/VoyagerFig1.png, id=5170, 439.8834pt x 542.025pt>
+<images/Paper Images/VoyagerFig1.png, id=5173, 439.8834pt x 542.025pt>
 File: images/Paper Images/VoyagerFig1.png Graphic file (type png)
 <use images/Paper Images/VoyagerFig1.png>
 Package pdftex.def Info: images/Paper Images/VoyagerFig1.png  used on input lin
@@ -3946,7 +3943,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
-<images/Paper Images/VoyagerFig2.png, id=5196, 539.1342pt x 780.0342pt>
+<images/Paper Images/VoyagerFig2.png, id=5199, 539.1342pt x 780.0342pt>
 File: images/Paper Images/VoyagerFig2.png Graphic file (type png)
 <use images/Paper Images/VoyagerFig2.png>
 Package pdftex.def Info: images/Paper Images/VoyagerFig2.png  used on input lin
@@ -3979,13 +3976,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--136
 [106
 
 ]
-<images/Paper Images/TESE_Fig7.3.png, id=5257, 539.616pt x 224.037pt>
+<images/Paper Images/TESE_Fig7.3.png, id=5260, 539.616pt x 224.037pt>
 File: images/Paper Images/TESE_Fig7.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.3.png  used on input lin
 e 140.
 (pdftex.def)             Requested size: 441.01773pt x 183.10643pt.
-<images/Paper Images/TESE_Fig7.4.png, id=5280, 578.16pt x 505.89pt>
+<images/Paper Images/TESE_Fig7.4.png, id=5283, 578.16pt x 505.89pt>
 File: images/Paper Images/TESE_Fig7.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.4.png  used on input lin
@@ -3998,7 +3995,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
 [107 <./images/Paper Images/TESE_Fig7.3.png>] [108 <./images/Paper Images/TESE_
 Fig7.4.png (PNG copy)>]
-<images/Paper Images/TESE_Fig7.5.png, id=5314, 540.5796pt x 243.7908pt>
+<images/Paper Images/TESE_Fig7.5.png, id=5317, 540.5796pt x 243.7908pt>
 File: images/Paper Images/TESE_Fig7.5.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig7.5.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig7.5.png  used on input lin
@@ -4055,7 +4052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--81
  []
 
 [113]
-<images/Paper Images/Figure10_2.png, id=5551, 540.0978pt x 289.08pt>
+<images/Paper Images/Figure10_2.png, id=5554, 540.0978pt x 289.08pt>
 File: images/Paper Images/Figure10_2.png Graphic file (type png)
 <use images/Paper Images/Figure10_2.png>
 Package pdftex.def Info: images/Paper Images/Figure10_2.png  used on input line
@@ -4065,7 +4062,7 @@ Package pdftex.def Info: images/Paper Images/Figure10_2.png  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
-<images/Paper Images/Figure11.png, id=5607, 542.025pt x 737.592pt>
+<images/Paper Images/Figure11.png, id=5610, 542.025pt x 737.592pt>
 File: images/Paper Images/Figure11.png Graphic file (type png)
 <use images/Paper Images/Figure11.png>
 Package pdftex.def Info: images/Paper Images/Figure11.png  used on input line 9
@@ -4086,7 +4083,7 @@ Underfull \vbox (badness 1331) has occurred while \output is active []
  [117
 
 ]
-<images/Paper Images/TESE_Fig8.3.png, id=5712, 542.025pt x 216.81pt>
+<images/Paper Images/TESE_Fig8.3.png, id=5715, 542.025pt x 216.81pt>
 File: images/Paper Images/TESE_Fig8.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig8.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig8.3.png  used on input lin
@@ -4098,7 +4095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--134
  []
 
 [118 <./images/Paper Images/TESE_Fig8.3.png>]
-<images/Paper Images/Sup10.png, id=5807, 533.8344pt x 779.5524pt>
+<images/Paper Images/Sup10.png, id=5809, 533.8344pt x 779.5524pt>
 File: images/Paper Images/Sup10.png Graphic file (type png)
 <use images/Paper Images/Sup10.png>
 Package pdftex.def Info: images/Paper Images/Sup10.png  used on input line 137.
@@ -4113,7 +4110,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--155
 
  []
 
-<images/Paper Images/Sup11_2.png, id=5854, 542.025pt x 780.516pt>
+<images/Paper Images/Sup11_2.png, id=5856, 542.025pt x 780.516pt>
 File: images/Paper Images/Sup11_2.png Graphic file (type png)
 <use images/Paper Images/Sup11_2.png>
 Package pdftex.def Info: images/Paper Images/Sup11_2.png  used on input line 15
@@ -4130,7 +4127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--179
 
  []
 
-<images/Paper Images/TESE_Fig8.6.png, id=5901, 542.025pt x 476.5002pt>
+<images/Paper Images/TESE_Fig8.6.png, id=5903, 542.025pt x 476.5002pt>
 File: images/Paper Images/TESE_Fig8.6.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig8.6.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig8.6.png  used on input lin
@@ -4149,7 +4146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
 
-<images/Paper Images/TESE_Fig9.1.png, id=5989, 541.5432pt x 302.5704pt>
+<images/Paper Images/TESE_Fig9.1.png, id=5991, 541.5432pt x 302.5704pt>
 File: images/Paper Images/TESE_Fig9.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig9.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig9.1.png  used on input lin
@@ -4238,7 +4235,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--79
  []
 
 [129]
-<images/Paper Images/OGIF_G3.png, id=6135, 539.616pt x 565.1514pt>
+<images/Paper Images/OGIF_G3.png, id=6137, 539.616pt x 565.1514pt>
 File: images/Paper Images/OGIF_G3.png Graphic file (type png)
 <use images/Paper Images/OGIF_G3.png>
 Package pdftex.def Info: images/Paper Images/OGIF_G3.png  used on input line 82
@@ -4258,7 +4255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--94
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [130 <./images/Paper Images/OGIF_G3.png>]
-<images/Paper Images/TESE_Fig9.4.png, id=6169, 539.616pt x 565.1514pt>
+<images/Paper Images/TESE_Fig9.4.png, id=6171, 539.616pt x 565.1514pt>
 File: images/Paper Images/TESE_Fig9.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig9.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig9.4.png  used on input lin
@@ -4268,7 +4265,7 @@ e 97.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [131]
-<images/Paper Images/ImagingSG_V2.png, id=6216, 540.0978pt x 606.5862pt>
+<images/Paper Images/ImagingSG_V2.png, id=6218, 540.0978pt x 606.5862pt>
 File: images/Paper Images/ImagingSG_V2.png Graphic file (type png)
 <use images/Paper Images/ImagingSG_V2.png>
 Package pdftex.def Info: images/Paper Images/ImagingSG_V2.png  used on input li
@@ -4360,7 +4357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--86
  []
 
 [139]
-<images/Paper Images/TESE_Fig3.1.png, id=6338, 505.89pt x 433.62pt>
+<images/Paper Images/TESE_Fig3.1.png, id=6340, 505.89pt x 433.62pt>
 File: images/Paper Images/TESE_Fig3.1.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.1.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.1.png  used on input lin
@@ -4382,7 +4379,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--106
  []
 
 [140 <./images/Paper Images/TESE_Fig3.1.png (PNG copy)>]
-<images/Paper Images/TESE_Fig3.2.png, id=6356, 867.24pt x 433.62pt>
+<images/Paper Images/TESE_Fig3.2.png, id=6358, 867.24pt x 433.62pt>
 File: images/Paper Images/TESE_Fig3.2.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.2.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.2.png  used on input lin
@@ -4411,7 +4408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--132
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [141]
-<images/Paper Images/TESE_Fig3.3.png, id=6387, 542.025pt x 364.197pt>
+<images/Paper Images/TESE_Fig3.3.png, id=6389, 542.025pt x 364.197pt>
 File: images/Paper Images/TESE_Fig3.3.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.3.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.3.png  used on input lin
@@ -4430,7 +4427,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--144
 Underfull \vbox (badness 2635) has occurred while \output is active []
 
  [142 <./images/Paper Images/TESE_Fig3.2.png (PNG copy)>]
-<images/Paper Images/TESE_Fig3.4.png, id=6400, 542.025pt x 541.149pt>
+<images/Paper Images/TESE_Fig3.4.png, id=6402, 542.025pt x 541.149pt>
 File: images/Paper Images/TESE_Fig3.4.png Graphic file (type png)
 <use images/Paper Images/TESE_Fig3.4.png>
 Package pdftex.def Info: images/Paper Images/TESE_Fig3.4.png  used on input lin
@@ -4490,7 +4487,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [145
 
 ]
-<images/Paper Images/eCLIPSE_FILT.png, id=6468, 1011.78pt x 433.62pt>
+<images/Paper Images/eCLIPSE_FILT.png, id=6470, 1011.78pt x 433.62pt>
 File: images/Paper Images/eCLIPSE_FILT.png Graphic file (type png)
 <use images/Paper Images/eCLIPSE_FILT.png>
 Package pdftex.def Info: images/Paper Images/eCLIPSE_FILT.png  used on input li
@@ -4570,13 +4567,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--168
  []
 
 [151]
-<images/Paper Images/CHARM_Home.png, id=6581, 1146.08176pt x 570.33075pt>
+<images/Paper Images/CHARM_Home.png, id=6583, 1146.08176pt x 570.33075pt>
 File: images/Paper Images/CHARM_Home.png Graphic file (type png)
 <use images/Paper Images/CHARM_Home.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Home.png  used on input line
  171.
 (pdftex.def)             Requested size: 441.01773pt x 219.46053pt.
-<images/Paper Images/CHARM_Expression1.png, id=6600, 1156.32pt x 570.933pt>
+<images/Paper Images/CHARM_Expression1.png, id=6602, 1156.32pt x 570.933pt>
 File: images/Paper Images/CHARM_Expression1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression1.png  used on inp
@@ -4601,7 +4598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--195
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [153]
-<images/Paper Images/CHARM_Expression1_2.png, id=6626, 858.8085pt x 364.9635pt>
+<images/Paper Images/CHARM_Expression1_2.png, id=6628, 858.8085pt x 364.9635pt>
 
 File: images/Paper Images/CHARM_Expression1_2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression1_2.png>
@@ -4612,7 +4609,7 @@ nput line 199.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Paper Images/CHARM_Expression2.png, id=6630, 1156.32pt x 581.7735pt>
+<images/Paper Images/CHARM_Expression2.png, id=6632, 1156.32pt x 581.7735pt>
 File: images/Paper Images/CHARM_Expression2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression2.png  used on inp
@@ -4622,7 +4619,7 @@ ut line 214.
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [154 <./images/Paper Images/CHARM_Expression1.PNG>]
-<images/Paper Images/CHARM_Expression3.png, id=6641, 1156.32pt x 572.73975pt>
+<images/Paper Images/CHARM_Expression3.png, id=6643, 1156.32pt x 572.73975pt>
 File: images/Paper Images/CHARM_Expression3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression3.png  used on inp
@@ -4633,7 +4630,7 @@ Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [155 <./images/Paper Images/CHARM_Expression1_2.PNG> <./images/Paper Images/CH
 ARM_Expression2.PNG>]
-<images/Paper Images/CHARM_Expression4.png, id=6651, 1156.32pt x 569.7285pt>
+<images/Paper Images/CHARM_Expression4.png, id=6653, 1156.32pt x 569.7285pt>
 File: images/Paper Images/CHARM_Expression4.png Graphic file (type png)
 <use images/Paper Images/CHARM_Expression4.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Expression4.png  used on inp
@@ -4643,7 +4640,7 @@ ut line 230.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [156 <./images/Paper Images/CHARM_Expression3.PNG>]
-<images/Paper Images/CHARM_Splicing1.png, id=6668, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Splicing1.png, id=6670, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Splicing1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing1.png  used on input
@@ -4655,13 +4652,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--247
  []
 
 [157 <./images/Paper Images/CHARM_Expression4.PNG>]
-<images/Paper Images/CHARM_Splicing1_2.png, id=6695, 869.649pt x 357.7365pt>
+<images/Paper Images/CHARM_Splicing1_2.png, id=6697, 869.649pt x 357.7365pt>
 File: images/Paper Images/CHARM_Splicing1_2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing1_2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing1_2.png  used on inp
 ut line 251.
 (pdftex.def)             Requested size: 441.01773pt x 181.41698pt.
-<images/Paper Images/CHARM_Splicing2.png, id=6698, 1156.32pt x 571.53525pt>
+<images/Paper Images/CHARM_Splicing2.png, id=6700, 1156.32pt x 571.53525pt>
 File: images/Paper Images/CHARM_Splicing2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing2.png  used on input
@@ -4669,14 +4666,14 @@ Package pdftex.def Info: images/Paper Images/CHARM_Splicing2.png  used on input
 (pdftex.def)             Requested size: 441.01773pt x 217.97925pt.
  [158 <./images/Paper Images/CHARM_Splicing1.PNG> <./images/Paper Images/CHARM_
 Splicing1_2.PNG>]
-<images/Paper Images/CHARM_Splicing3.png, id=6708, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Splicing3.png, id=6710, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Splicing3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Splicing3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Splicing3.png  used on input
  line 267.
 (pdftex.def)             Requested size: 441.01773pt x 217.51985pt.
  [159 <./images/Paper Images/CHARM_Splicing2.PNG>]
-<images/Paper Images/CHARM_Binding1.png, id=6731, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Binding1.png, id=6733, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Binding1.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding1.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding1.png  used on input 
@@ -4701,7 +4698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--290
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [161]
-<images/Paper Images/CHARM_Binding2.png, id=6767, 1156.32pt x 574.5465pt>
+<images/Paper Images/CHARM_Binding2.png, id=6769, 1156.32pt x 574.5465pt>
 File: images/Paper Images/CHARM_Binding2.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding2.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding2.png  used on input 
@@ -4709,7 +4706,7 @@ line 295.
 (pdftex.def)             Requested size: 441.01773pt x 219.12772pt.
 
 [162 <./images/Paper Images/CHARM_Binding1.PNG>]
-<images/Paper Images/CHARM_Binding3.png, id=6797, 1156.32pt x 572.73975pt>
+<images/Paper Images/CHARM_Binding3.png, id=6799, 1156.32pt x 572.73975pt>
 File: images/Paper Images/CHARM_Binding3.png Graphic file (type png)
 <use images/Paper Images/CHARM_Binding3.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Binding3.png  used on input 
@@ -4726,7 +4723,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--314
  []
 
 [164 <./images/Paper Images/CHARM_Binding3.PNG>]
-<images/Paper Images/CHARM_Network.png, id=6826, 1156.32pt x 570.33075pt>
+<images/Paper Images/CHARM_Network.png, id=6828, 1156.32pt x 570.33075pt>
 File: images/Paper Images/CHARM_Network.png Graphic file (type png)
 <use images/Paper Images/CHARM_Network.png>
 Package pdftex.def Info: images/Paper Images/CHARM_Network.png  used on input l
@@ -7083,7 +7080,16 @@ Underfull \hbox (badness 3612) in paragraph at lines 2361--2367
  .
  []
 
-) [203] (./PhD Thesis.aux)
+) [203]
+
+Package glossaries Warning: entry `or' indexing changed since previous run (or 
+no previous run) on input line 493.
+
+
+Package glossaries Warning: Rerun required to get \printnoidxglossary up to dat
+e on input line 493.
+
+(./PhD Thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -7096,43 +7102,47 @@ Package rerunfilecheck Info: File `"PhD Thesis".out' has not changed.
 ### simple group (level 1) entered at line 92 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54196 strings out of 467525
- 1001406 string characters out of 5423209
- 1648354 words of memory out of 5000000
- 81120 multiletter control sequences out of 15000+600000
+ 54229 strings out of 467525
+ 1001848 string characters out of 5423209
+ 1648278 words of memory out of 5000000
+ 81152 multiletter control sequences out of 15000+600000
  646656 words of font info for 99 fonts, out of 8000000 for 9000
  1262 hyphenation exceptions out of 8191
  201i,13n,292p,3203b,2044s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
-:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/
-2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2026/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2026/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/te
-xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
-pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/t
-exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/20
-26/texmf-dist/fonts/type1/public/cbfonts/grmi1000.pfb><c:/texlive/2026/texmf-di
-st/fonts/type1/public/cbfonts/grmn1000.pfb><c:/texlive/2026/texmf-dist/fonts/ty
-pe1/public/cbfonts/grmn1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/
-cbfonts/grmn1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cbfonts/grx
-n1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb>
-<c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texliv
-e/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "PhD Thesis.pdf" (245 pages, 28687195 bytes).
+
+pdfTeX warning (dest): name{glo:or} has been referenced but does not exist, rep
+laced by a fixed one
+
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2026/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2026/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive
+/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:
+/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/
+2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2026/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2026/texmf-dist/fo
+nts/type1/public/cbfonts/grmi1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/p
+ublic/cbfonts/grmn1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cbfon
+ts/grmn1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cbfonts/grmn1200
+.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cbfonts/grxn1200.pfb><c:/te
+xlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2026
+/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2026/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb>
+Output written on "PhD Thesis.pdf" (245 pages, 28687606 bytes).
 PDF statistics:
- 8181 PDF objects out of 8907 (max. 8388607)
- 7084 compressed objects within 71 object streams
- 1146 named destinations out of 1200 (max. 500000)
+ 8184 PDF objects out of 8907 (max. 8388607)
+ 7086 compressed objects within 71 object streams
+ 1147 named destinations out of 1200 (max. 500000)
  1476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
